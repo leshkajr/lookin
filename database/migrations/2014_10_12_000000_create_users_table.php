@@ -19,6 +19,18 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->unsignedInteger('age')->nullable();
+            $table->string('lastName')->nullable();
+            $table->string('profilePhoto',256)->nullable();
+            $table->string('numberPhone')->nullable()->unique();
+            $table->string('address')->nullable();
+            $table->string('facebookAccLink')->nullable();
+            $table->string('instagramAccLink')->nullable();
+            $table->string('languageView')->default("en");
+            $table->string('currencyView')->default("USD");
+            $table->boolean('isHost')->default(false);
+            $table->string('nickname')->nullable();
+            $table->text('description')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
