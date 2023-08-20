@@ -17,9 +17,9 @@ return new class extends Migration
             $table->id();
             $table->string("title",64);
             $table->string("description",512);
-            $table->unsignedInteger("hostId");
-            $table->unsignedInteger("categoryId");
-            $table->unsignedInteger("typeId");
+            $table->foreignId("hostId")->constrained("users");
+            $table->foreignId("categoryId")->constrained("category_listings");
+            $table->foreignId("typeId")->constrained("type_listings");
             $table->unsignedFloat("rating")->nullable();
             $table->unsignedInteger("countReviews")->default(0);
             $table->unsignedInteger("countRooms")->nullable();
@@ -36,9 +36,9 @@ return new class extends Migration
             $table->boolean("isPublic")->default(false);
             $table->boolean("isAlone")->nullable();
             $table->boolean("isAnimals")->nullable();
-            $table->unsignedInteger("countryId")->nullable();
-            $table->unsignedInteger("cityId")->nullable();
-            $table->unsignedInteger("addressId")->nullable();
+            $table->foreignId("countryId")->nullable()->constrained("countries");
+            $table->foreignId("cityId")->nullable()->constrained("cities");
+            $table->foreignId("addressId")->nullable()->constrained("addresses");
             $table->timestamps();
         });
     }
