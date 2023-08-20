@@ -15,7 +15,8 @@ return new class extends Migration
     {
         Schema::create('reviews', function (Blueprint $table) {
             $table->id();
-            $table->unsignedInteger("userId");
+            $table->foreignId('userId')->constrained('users');
+            $table->foreignId('listingId')->constrained('listings');
             $table->string("reviewText",256);
             $table->unsignedFloat("overallRating");
             $table->unsignedFloat("cleanlinessRating");
