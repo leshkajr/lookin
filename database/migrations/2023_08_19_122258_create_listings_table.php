@@ -25,6 +25,7 @@ return new class extends Migration
             $table->unsignedInteger("countRooms")->nullable();
             $table->unsignedInteger("countBathrooms")->nullable();
             $table->unsignedInteger("countLikes")->default(0);
+            $table->unsignedFloat("priceForNight")->nullable();
             $table->unsignedFloat("priceCleaning")->nullable();
             $table->unsignedInteger("discountWeek")->nullable();
             $table->unsignedInteger("discountMonth")->nullable();
