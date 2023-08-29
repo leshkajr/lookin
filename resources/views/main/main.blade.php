@@ -1,539 +1,887 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Look`in - search</title>
-</head>
-<body style="margin: 0">
-
-<div style="width: 1728px; height: 3250px; position: relative; background: #E2E5F4">
-    <div style="width: 350px; height: 467px; left: 1286px; top: 2533px; position: absolute">
-        <div style="width: 350px; height: 347.58px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 347.58px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x348" />
-            <div style="width: 31.96px; height: 26.85px; left: 289.13px; top: 28.71px; position: absolute">
-                <div style="width: 31.96px; height: 26.85px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.97px; left: 2.46px; top: 2.44px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 332.01px; height: 91.61px; left: 11px; top: 375.39px; position: absolute">
-            <div style="width: 332.01px; height: 91.61px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 877px; top: 2532px; position: absolute">
-        <div style="width: 350px; height: 346.11px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 346.11px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x346" />
-            <div style="width: 31.96px; height: 26.74px; left: 290.65px; top: 27.09px; position: absolute">
-                <div style="width: 31.96px; height: 26.74px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.88px; left: 2.46px; top: 2.43px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 332.01px; height: 91.22px; left: 13px; top: 375.78px; position: absolute">
-            <div style="width: 332.01px; height: 91.22px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 470px; top: 2532px; position: absolute">
-        <div style="width: 350px; height: 346.84px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 346.84px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x347" />
-            <div style="width: 31.96px; height: 26.80px; left: 289.13px; top: 28.65px; position: absolute">
-                <div style="width: 31.96px; height: 26.80px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.92px; left: 2.46px; top: 2.44px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 332.01px; height: 91.42px; left: 11px; top: 375.58px; position: absolute">
-            <div style="width: 332.01px; height: 91.42px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 65px; top: 2532px; position: absolute">
-        <div style="width: 350px; height: 347.58px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 347.58px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x348" />
-            <div style="width: 31.96px; height: 26.85px; left: 290.65px; top: 27.20px; position: absolute">
-                <div style="width: 31.96px; height: 26.85px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.97px; left: 2.46px; top: 2.44px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 332.01px; height: 91.61px; left: 14px; top: 375.39px; position: absolute">
-            <div style="width: 332.01px; height: 91.61px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="height: 467px; left: 1286px; top: 2015px; position: absolute">
-        <div style="width: 350px; height: 337.65px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 337.65px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x338" />
-            <div style="width: 31.96px; height: 26.09px; left: 289.13px; top: 27.89px; position: absolute">
-                <div style="width: 31.96px; height: 26.09px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.34px; left: 2.46px; top: 2.37px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 91.09px; left: 16px; top: 375.91px; position: absolute">
-            <div style="width: 334px; height: 91.09px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                        </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 877px; top: 2011px; position: absolute">
-        <div style="width: 350px; height: 346.44px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 346.44px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x346" />
-            <div style="width: 31.96px; height: 26.76px; left: 290.65px; top: 27.11px; position: absolute">
-                <div style="width: 31.96px; height: 26.76px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.90px; left: 2.46px; top: 2.43px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 91.86px; left: 11px; top: 375.14px; position: absolute">
-            <div style="width: 334px; height: 91.86px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="height: 467px; left: 470px; top: 2011px; position: absolute">
-        <div style="width: 350px; height: 347.17px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 347.17px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x347" />
-            <div style="width: 31.96px; height: 26.82px; left: 289.13px; top: 28.68px; position: absolute">
-                <div style="width: 31.96px; height: 26.82px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.95px; left: 2.46px; top: 2.44px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 92.05px; left: 10px; top: 374.95px; position: absolute">
-            <div style="width: 334px; height: 92.05px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 65px; top: 2011px; position: absolute">
-        <div style="width: 350px; height: 347.91px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 347.91px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x348" />
-            <div style="width: 31.96px; height: 26.88px; left: 290.65px; top: 27.23px; position: absolute">
-                <div style="width: 31.96px; height: 26.88px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.99px; left: 2.46px; top: 2.44px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 92.25px; left: 11px; top: 374.75px; position: absolute">
-            <div style="width: 334px; height: 92.25px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="height: 467px; left: 1286px; top: 1489px; position: absolute">
-        <div style="width: 350px; height: 347.77px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 347.77px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x348" />
-            <div style="width: 31.96px; height: 26.87px; left: 289.13px; top: 28.73px; position: absolute">
-                <div style="width: 31.96px; height: 26.87px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.98px; left: 2.46px; top: 2.44px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 92.41px; left: 16px; top: 374.59px; position: absolute">
-            <div style="width: 334px; height: 92.41px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 877px; top: 1490px; position: absolute">
-        <div style="width: 350px; height: 346.29px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 346.29px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x346" />
-            <div style="width: 31.96px; height: 26.75px; left: 290.65px; top: 27.10px; position: absolute">
-                <div style="width: 31.96px; height: 26.75px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.89px; left: 2.46px; top: 2.43px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 92.01px; left: 11px; top: 374.99px; position: absolute">
-            <div style="width: 334px; height: 92.01px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="height: 467px; left: 470px; top: 1490px; position: absolute">
-        <div style="width: 350px; height: 347.03px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 347.03px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x347" />
-            <div style="width: 31.96px; height: 26.81px; left: 289.13px; top: 28.67px; position: absolute">
-                <div style="width: 31.96px; height: 26.81px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.94px; left: 2.46px; top: 2.44px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 92.21px; left: 10px; top: 374.79px; position: absolute">
-            <div style="width: 334px; height: 92.21px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 65px; top: 1490px; position: absolute">
-        <div style="width: 350px; height: 347.77px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 347.77px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x348" />
-            <div style="width: 31.96px; height: 26.87px; left: 290.65px; top: 27.22px; position: absolute">
-                <div style="width: 31.96px; height: 26.87px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 21.98px; left: 2.46px; top: 2.44px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 92.41px; left: 11px; top: 374.59px; position: absolute">
-            <div style="width: 334px; height: 92.41px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="height: 467px; left: 1286px; top: 971px; position: absolute">
-        <div style="width: 350px; height: 353.79px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 353.79px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x354" />
-            <div style="width: 31.96px; height: 27.33px; left: 289.13px; top: 29.23px; position: absolute">
-                <div style="width: 31.96px; height: 27.33px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 22.36px; left: 2.46px; top: 2.48px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 94.01px; left: 16px; top: 372.99px; position: absolute">
-            <div style="width: 334px; height: 94.01px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 877px; top: 969px; position: absolute">
-        <div style="width: 350px; height: 351.51px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 351.51px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x352" />
-            <div style="width: 31.96px; height: 27.16px; left: 290.65px; top: 27.51px; position: absolute">
-                <div style="width: 31.96px; height: 27.16px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 22.22px; left: 2.46px; top: 2.47px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 93.40px; left: 13.22px; top: 373.60px; position: absolute">
-            <div style="width: 334px; height: 93.40px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                        </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 470px; top: 969px; position: absolute">
-        <div style="width: 350px; height: 352.26px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 352.26px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x352" />
-            <div style="width: 31.96px; height: 27.21px; left: 289.13px; top: 29.10px; position: absolute">
-                <div style="width: 31.96px; height: 27.21px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 22.27px; left: 2.46px; top: 2.47px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 93.60px; left: 10px; top: 373.40px; position: absolute">
-            <div style="width: 334px; height: 93.60px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 65px; top: 969px; position: absolute">
-        <div style="width: 350px; height: 353.02px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 353.02px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x353" />
-            <div style="width: 31.96px; height: 27.27px; left: 290.65px; top: 27.63px; position: absolute">
-                <div style="width: 31.96px; height: 27.27px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 22.31px; left: 2.46px; top: 2.48px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 93.80px; left: 11px; top: 373.20px; position: absolute">
-            <div style="width: 334px; height: 93.80px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="height: 467px; left: 1286px; top: 450px; position: absolute">
-        <div style="width: 333px; height: 93.20px; left: 17px; top: 373.80px; position: absolute">
-            <div style="width: 333px; height: 93.20px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-        <div style="width: 348.95px; height: 350.75px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 348.95px; height: 350.75px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/349x351" />
-            <div style="width: 31.86px; height: 27.10px; left: 288.27px; top: 28.98px; position: absolute">
-                <div style="width: 31.86px; height: 27.10px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 26.96px; height: 22.17px; left: 2.45px; top: 2.46px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 877px; top: 448px; position: absolute">
-        <div style="width: 350px; height: 350px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 350px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x350" />
-            <div style="width: 31.96px; height: 27.04px; left: 290.65px; top: 27.39px; position: absolute">
-                <div style="width: 31.96px; height: 27.04px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 22.12px; left: 2.46px; top: 2.46px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 93px; left: 11px; top: 374px; position: absolute">
-            <div style="width: 334px; height: 93px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 470px; top: 448px; position: absolute">
-        <img style="width: 350px; height: 350px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x350" />
-        <div style="width: 31.96px; height: 27.04px; left: 289.13px; top: 28.91px; position: absolute">
-            <div style="width: 31.96px; height: 27.04px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-            <div style="width: 27.04px; height: 22.12px; left: 2.46px; top: 2.46px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-        </div>
-        <div style="width: 334px; height: 93px; left: 11px; top: 374px; position: absolute">
-            <div style="width: 334px; height: 93px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 350px; height: 467px; left: 65px; top: 448px; position: absolute">
-        <div style="width: 350px; height: 352.26px; left: 0px; top: 0px; position: absolute">
-            <img style="width: 350px; height: 352.26px; left: 0px; top: 0px; position: absolute; box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.40); border-radius: 15px; border: 3.50px #E2E5F4 solid" src="https://via.placeholder.com/350x352" />
-            <div style="width: 31.96px; height: 27.21px; left: 290.65px; top: 27.57px; position: absolute">
-                <div style="width: 31.96px; height: 27.21px; left: 0px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.80)"></div>
-                <div style="width: 27.04px; height: 22.27px; left: 2.46px; top: 2.47px; position: absolute; opacity: 0.50; background: rgba(0, 0, 0, 0.70)"></div>
-            </div>
-        </div>
-        <div style="width: 334px; height: 93.60px; left: 11px; top: 373.40px; position: absolute">
-            <div style="width: 334px; height: 93.60px; left: 0px; top: 0px; position: absolute"><span style="color: #6B6B6B; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">Bernati, Латвія                                         </span><span style="color: #6B6B6B; font-size: 13px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">5,0<br/></span><span style="color: #9A9999; font-size: 12px; font-family: Inder; font-weight: 400; line-height: 20px; word-wrap: break-word">на пляжі<br/>11—16 вер.<br/></span><span style="color: #636060; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word">$150</span><span style="color: #9A9999; font-size: 15px; font-family: Inder; font-weight: 400; line-height: 30px; word-wrap: break-word"> за ніч</span></div>
-        </div>
-    </div>
-    <div style="width: 1728px; height: 233px; left: 0px; top: 150px; position: absolute; background: #E2E5F4"></div>
-    <div style="width: 1728px; height: 48px; left: 0px; top: 1071px; position: absolute; background: #E2E5F4; box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.25); border: 0.15px solid"></div>
-    <div style="width: 1655px; height: 28px; left: 73px; top: 1085px; position: absolute; color: #8B8B8B; font-size: 15px; font-family: Inter; font-weight: 500; word-wrap: break-word">© 2023 Look’in. Inc.              Конфіденційність            Умови                                                                                                                                                                                                    Українська (UA)             $ USD              Підтримка</div>
-    <div style="width: 4322px; height: 180px; left: 0px; top: 1px; position: absolute">
-        <div style="width: 4322px; height: 128px; left: 0px; top: 52px; position: absolute">
-            <div style="width: 1728px; height: 125px; left: 0px; top: 3px; position: absolute; background: linear-gradient(90deg, rgba(255, 222.70, 174.25, 0.01) 0%, rgba(180.62, 255, 227.60, 0.01) 100%); border: 0.50px solid"></div>
-            <div style="width: 4320px; height: 125px; left: 2px; top: 0px; position: absolute; background: linear-gradient(90deg, #FFDFAE 0%, #B5FFE4 28%, #FFDFAE 53%, #B5FFE4 76%, #FFDFAE 100%); box-shadow: 80px 80px 80px; filter: blur(80px)"></div>
-        </div>
-        <div style="width: 1728px; height: 150px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.30)"></div>
-    </div>
-    <div style="width: 256.19px; height: 59.92px; left: 120px; top: 37px; position: absolute">
-        <div style="width: 35.38px; height: 59.05px; left: 0px; top: 0.15px; position: absolute; background: linear-gradient(162deg, #CECECE 0%, rgba(255, 255, 255, 0.85) 100%); border: 1.05px #A7A7A7 solid"></div>
-        <div style="width: 26.53px; height: 40.85px; left: 134.87px; top: 18.21px; position: absolute; background: linear-gradient(162deg, #CECECE 0%, rgba(255, 255, 255, 0.85) 100%); border: 1.05px #A7A7A7 solid"></div>
-        <div style="width: 19.05px; height: 22.20px; left: 165.84px; top: 0.06px; position: absolute; background: linear-gradient(162deg, #CECECE 0%, rgba(255, 255, 255, 0.85) 100%); border: 1.05px #A7A7A7 solid"></div>
-        <div style="width: 8.67px; height: 12.29px; left: 63.11px; top: 32.49px; position: absolute; background: linear-gradient(162deg, #CECECE 0%, rgba(255, 255, 255, 0.85) 100%); border: 1.05px #A7A7A7 solid"></div>
-        <div style="width: 15.36px; height: 59.08px; left: 195.42px; top: 0px; position: absolute; background: linear-gradient(162deg, #CECECE 0%, rgba(255, 255, 255, 0.85) 100%); border: 1.05px #A7A7A7 solid"></div>
-        <div style="width: 36.43px; height: 41.72px; left: 219.76px; top: 17.36px; position: absolute; background: linear-gradient(162deg, #CECECE 0%, rgba(255, 255, 255, 0.85) 100%); border: 1.05px #A7A7A7 solid"></div>
-        <div style="width: 35.38px; height: 59.04px; left: 99.45px; top: 0.15px; position: absolute; background: linear-gradient(162deg, #CECECE 0%, rgba(255, 255, 255, 0.85) 100%); border: 1.05px #A7A7A7 solid"></div>
-        <div style="width: 42.98px; height: 42.56px; left: 69.57px; top: 17.36px; position: absolute; background: linear-gradient(162deg, #CECECE 0%, rgba(255, 255, 255, 0.85) 100%); border: 1.05px #A7A7A7 solid"></div>
-        <div style="width: 42.98px; height: 42.56px; left: 22.70px; top: 17.36px; position: absolute; background: linear-gradient(162deg, #CECECE 0%, rgba(255, 255, 255, 0.85) 100%); border: 1.05px #A7A7A7 solid"></div>
-    </div>
-    <div style="width: 304px; height: 24px; left: 1160px; top: 66px; position: absolute; text-align: center; color: #8B8B8B; font-size: 17.50px; font-family: Inter; font-weight: 500; word-wrap: break-word">Пропоную помешкання</div>
-    <div style="width: 27px; height: 27px; left: 1447px; top: 63px; position: absolute">
-        <div style="width: 27px; height: 27px; left: 0px; top: 0px; position: absolute; border-radius: 9999px; border: 0.75px #8B8B8B solid"></div>
-        <div style="width: 6.45px; height: 26.18px; left: 7.05px; top: 0.41px; position: absolute; border: 0.50px #8B8B8B solid"></div>
-        <div style="width: 5.73px; height: 25.36px; left: 19.64px; top: 0.82px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; border: 0.50px #8B8B8B solid"></div>
-        <div style="width: 25.36px; height: 0px; left: 0.82px; top: 13.91px; position: absolute; border: 0.50px #8B8B8B solid"></div>
-    </div>
-    <div style="width: 1420px; height: 139px; left: 40px; top: 208px; position: absolute">
-        <div style="width: 80px; height: 120px; left: 25px; top: 25px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 3px; top: 96px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 800; word-wrap: break-word">На пляжі</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, white 0%, rgba(243.31, 245.26, 255, 0) 100%); box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.25) inset; border-radius: 15px"></div>
-            <div style="width: 35px; height: 37.16px; left: 22px; top: 22px; position: absolute">
-                <div style="width: 34.94px; height: 8.44px; left: 0.01px; top: 18.95px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 34.95px; height: 8.35px; left: 0.12px; top: 28.80px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 9.44px; height: 9.43px; left: 13.21px; top: 6.40px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 2.93px; height: 2.91px; left: 10.24px; top: 3.39px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 3.74px; height: 1.68px; left: 7.17px; top: 10.17px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 3.63px; height: 1.57px; left: 25.03px; top: 10.21px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 2.95px; height: 2.89px; left: 22.76px; top: 3.31px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 1.69px; height: 3.74px; left: 17.01px; top: 0.19px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-            </div>
-        </div>
-        <div style="width: 80px; height: 123px; left: 169px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 4px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">В лісі</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 47px; height: 43.50px; left: 17px; top: 18px; position: absolute">
-                <div style="width: 4.34px; height: 5.46px; left: 14.83px; top: 37.33px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 4.34px; height: 5.46px; left: 27.84px; top: 37.33px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 6.68px; height: 6.68px; left: 33.83px; top: 4.35px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 1.05px; height: 2.53px; left: 36.68px; top: 0.18px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 2.30px; height: 2.20px; left: 31.62px; top: 2.07px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 2.08px; height: 2.13px; left: 40.64px; top: 11.07px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 2.62px; height: 1.05px; left: 42.16px; top: 7.12px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 2.18px; height: 2.25px; left: 40.57px; top: 2.02px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 12.09px; height: 7.64px; left: 23.97px; top: 8.52px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 14.12px; height: 10.38px; left: 32.69px; top: 27.48px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 3.28px; height: 2.91px; left: 22.94px; top: 20.54px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 8.62px; height: 8.02px; left: 33.87px; top: 20.54px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 2.09px; height: 1.05px; left: 24.03px; top: 20.57px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 4.33px; height: 5.16px; left: 22.94px; top: 15.07px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 5.48px; height: 6.46px; left: 32.66px; top: 15.16px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 5.38px; height: 6.43px; left: 27.32px; top: 36.88px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 9.74px; height: 2.05px; left: 25.08px; top: 20.52px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 13.04px; height: 2.71px; left: 25.02px; top: 27.41px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 7.51px; height: 1.76px; left: 26.09px; top: 15.08px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 5.48px; height: 6.63px; left: 8.77px; top: 14.99px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 5.48px; height: 6.46px; left: 19.64px; top: 15.16px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 12.09px; height: 7.64px; left: 11.04px; top: 8.51px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 8.74px; height: 8.01px; left: 4.55px; top: 20.55px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 8.74px; height: 8.01px; left: 20.86px; top: 20.55px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 15.17px; height: 10.37px; left: 18.71px; top: 27.48px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 15.28px; height: 10.45px; left: 0.21px; top: 27.41px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 5.38px; height: 6.50px; left: 14.30px; top: 36.81px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 9.73px; height: 2.05px; left: 12.03px; top: 20.52px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 16.49px; height: 2.68px; left: 8.73px; top: 27.44px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                <div style="width: 7.52px; height: 1.76px; left: 13.20px; top: 15.08px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-            </div>
-        </div>
-        <div style="width: 80px; height: 123px; left: 313px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 3px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">В горах</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 45px; height: 32.40px; left: 18px; top: 24px; position: absolute">
-                <div style="width: 20.68px; height: 22.14px; left: 0.31px; top: 9.94px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 32.74px; height: 28.85px; left: 11.96px; top: 3.23px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 10.67px; height: 4.90px; left: 22.40px; top: 11.79px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 5.86px; height: 3.95px; left: 13.22px; top: 13.52px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 11.48px; height: 7.71px; left: 4.18px; top: 0.31px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 3.87px; height: 1.36px; left: 31.16px; top: 1.86px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 3.83px; height: 1.44px; left: 34.14px; top: 1.74px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 3.91px; height: 1.40px; left: 35.96px; top: 5.15px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 3.85px; height: 1.44px; left: 38.90px; top: 5.04px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-            </div>
-        </div>
-        <div style="width: 80px; height: 123px; left: 457px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 5px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">На озері</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 35px; height: 42.77px; left: 23px; top: 18px; position: absolute; flex-direction: column; justify-content: center; align-items: center; gap: 1.84px; display: inline-flex">
-                <div style="width: 23.56px; height: 22.72px; background: #7D7D80"></div>
-                <div style="width: 34.94px; height: 8.43px; background: #7D7D80"></div>
-                <div style="width: 34.94px; height: 8.35px; background: #7D7D80"></div>
-            </div>
-        </div>
-        <div style="width: 80px; height: 123px; left: 601px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 5px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">На фермі</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 45px; height: 40.74px; padding-top: 0.16px; padding-bottom: 0.14px; padding-left: 0.23px; padding-right: 0.16px; left: 18px; top: 19px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-                <div style="width: 44.61px; height: 40.44px; position: relative">
-                    <div style="width: 5.28px; height: 6.52px; left: 30.74px; top: 7.77px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 1.95px; height: 1.19px; left: 35.76px; top: 21.61px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 2.13px; height: 1.61px; left: 6.83px; top: 25.45px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 2.13px; height: 1.71px; left: 35.51px; top: 29.69px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 1.08px; height: 0.26px; left: 36.56px; top: 35.31px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 0.97px; height: 0.26px; left: 36.75px; top: 39.56px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.09px; height: 5.31px; left: 4.19px; top: 35.14px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.24px; height: 5.29px; left: 37.04px; top: 35.13px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.09px; height: 5.31px; left: 4.19px; top: 30.88px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.24px; height: 5.29px; left: 37.04px; top: 30.88px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.32px; height: 5.28px; left: 4.02px; top: 26.63px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.07px; height: 5.28px; left: 37.04px; top: 26.64px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.32px; height: 5.28px; left: 4.02px; top: 22.38px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 2.99px; height: 5.27px; left: 37.12px; top: 22.38px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.32px; height: 5.28px; left: 4.02px; top: 18.12px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.14px; height: 5.37px; left: 6.32px; top: 18.03px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 5.28px; height: 5.28px; left: 34.99px; top: 18.11px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 42.67px; height: 13.85px; left: 0.93px; top: 5.29px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 6.50px; height: 6.50px; left: 19.03px; top: 9.41px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.08px; height: 5.28px; left: 6.39px; top: 35.14px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.15px; height: 5.28px; left: 35px; top: 35.14px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 8.60px; height: 5.36px; left: 6.24px; top: 30.80px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 15.89px; height: 5.29px; left: 22.29px; top: 30.88px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 3.14px; height: 5.36px; left: 6.32px; top: 26.55px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 15.89px; height: 5.27px; left: 22.29px; top: 26.64px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 4.27px; height: 1.02px; left: 22.27px; top: 26.64px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 31.91px; height: 5.36px; left: 6.32px; top: 22.29px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 9.56px; height: 14.88px; left: 13.72px; top: 25.54px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 44.61px; height: 1.03px; left: -0px; top: 39.39px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
-                    <div style="width: 9.53px; height: 9.53px; left: 2.07px; top: -0px; position: absolute; background: #7D7D80; border: 0.15px #7D7D80 solid"></div>
+@extends('layouts.master')
+    @section('title', 'Search for new experiences')
+    @section('header')
+    <header class="main-header">
+        <div class="top-header container-fluid m-0">
+            <div class="row">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <img class="logo" src="{{ URL::asset('images/lookin-logo-0.5x.png')}}"/>
+                </div>
+                <div class="col-md d-flex justify-content-center align-items-center">
+                    <div class="search-buttons row rounded-3">
+                        <button class="col button-where text-center">Somewhere</button>
+                        <div class="col" style="flex: 0">
+                            <div style="height: 100%; background-color: #cccccc; width: 1px;"></div>
+                        </div>
+                        <button class="col button-when text-center">Whenever</button>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-row gap-3 justify-content-center align-items-center">
+                        <button class="header-offer">Offer an apartment</button>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 27 27" fill="none">
+                                <circle cx="13.5" cy="13.5" r="12.75" stroke="#8B8B8B" stroke-width="1.5"/>
+                                <path d="M13.4996 0.40918C4.49956 8.70009 5.31774 18.5619 13.4996 26.591" stroke="#8B8B8B"/>
+                                <path d="M13.9094 0.818359C21.9049 8.85018 21.1781 18.4038 13.9094 26.182"
+                                      stroke="#8B8B8B"/>
+                                <line x1="0.818359" y1="13.4092" x2="26.182" y2="13.4092" stroke="#8B8B8B"/>
+                            </svg>
+                        </button>
+                        <div class="corner-menu rounded-4" onclick="openMenu()">
+                            <div class="rounded-4 p-1 gap-3">
+                                <button style="padding-top: 3px;">
+                                    <svg width="28" height="14" viewBox="0 0 28 14" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.99219 1L25.9922 1" stroke="#8B8B8B" stroke-width="2"
+                                              stroke-linecap="round"/>
+                                        <path d="M1.99219 7H25.9922" stroke="#8B8B8B" stroke-width="2"
+                                              stroke-linecap="round"/>
+                                        <path d="M1.99219 13H25.9922" stroke="#8B8B8B" stroke-width="2"
+                                              stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <button>
+                                    <svg width="27" height="27" viewBox="0 0 31 31" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="15.5" cy="15.5" r="14.25" stroke="#9A9999" stroke-width="1.5"/>
+                                        <circle cx="15.5" cy="10" r="5" fill="#8B8B8B"/>
+                                        <path
+                                            d="M13.9636 13.8437L8.60519 20.2738C8.26559 20.6813 8.30329 21.2831 8.69109 21.645L9.35914 22.2685C12.817 25.4959 18.183 25.4959 21.6409 22.2685L22.3089 21.645C22.6967 21.2831 22.7344 20.6813 22.3948 20.2738L17.0364 13.8437C16.2369 12.8842 14.7631 12.8842 13.9636 13.8437Z"
+                                            fill="#8B8B8B" stroke="#8B8B8B"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <ul class="header-menu flex-column justify-content-center align-items-left" id="header-menu">
+                            <li class="header-menu-main-item">Notification</li>
+                            <li class="header-menu-main-item">Travels</li>
+                            <li class="header-menu-main-item">Favorites</li>
+                            <hr class="header-menu-hr-item">
+                            <li class="header-menu-secondary-item">Offer your placement<br>
+                                on the Look ' in
+                            </li>
+                            <li class="header-menu-secondary-item">Account</li>
+                            <hr class="header-menu-hr-item">
+                            <li class="header-menu-secondary-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" style="margin:-2px 2px 0 3px;" width="13"
+                                     height="13" fill="currentColor" class="bi bi-info-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                </svg>
+                                Help center
+                            </li>
+                            <li class="header-menu-secondary-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" style="margin:-2px 2px 0 0;" width="16" height="16"
+                                     fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                          d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                                    <path fill-rule="evenodd"
+                                          d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                                </svg>
+                                Log out
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div style="width: 82px; height: 123px; left: 889px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 7px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">Футуризм</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 37px; height: 37.29px; left: 23px; top: 22px; position: absolute">
-                <div style="width: 36.97px; height: 37.32px; left: 0.02px; top: 0.08px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 10.78px; height: 10.78px; left: 8.11px; top: 18.02px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 8.95px; height: 8.96px; left: 18.41px; top: 9.57px; position: absolute; background: #7D7D80"></div>
+
+        <div class="header-categories">
+            <div class="scroll-container d-flex flex-row align-items-center justify-content-center">
+                <button class="scroll-button scroll-button-left" onclick="scrollContentLeft()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="currentColor"
+                         class="bi bi-arrow-left-circle"
+                         viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                    </svg>
+                </button>
+                <div class="content nav-scroller__items ">
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+
+                    <div
+                        class="nav-scroller__item item-category-active d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 47 44" fill="none">
+                                <g clip-path="url(#clip0_231_219)">
+                                    <path d="M15.6043 38.1102H19.1678V37.335H14.8291V42.7989H15.6043V38.1102Z"
+                                          fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path d="M28.6199 38.1977H32.1834V37.335H27.8447V42.7989H28.6199V38.1977Z"
+                                          fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M37.2097 11.0281C36.5495 11.0355 35.9019 10.847 35.3488 10.4863C34.7958 10.1256 34.3621 9.60911 34.1026 9.00199C33.8431 8.39486 33.7695 7.7244 33.891 7.07543C34.0126 6.42646 34.3238 5.82812 34.7854 5.35604C35.247 4.88395 35.8382 4.55933 36.4843 4.42325C37.1303 4.28716 37.8023 4.3457 38.4151 4.59148C39.0279 4.83726 39.554 5.25923 39.927 5.80404C40.3 6.34884 40.5031 6.99204 40.5105 7.65225C40.5188 8.09156 40.4397 8.52809 40.2777 8.93651C40.1156 9.34493 39.874 9.71708 39.5668 10.0312C39.2596 10.3454 38.8931 10.5953 38.4884 10.7664C38.0837 10.9376 37.649 11.0266 37.2097 11.0281ZM37.2097 5.47665C36.6357 5.4863 36.0879 5.71863 35.682 6.12456C35.276 6.53049 35.0438 7.07827 35.0341 7.65225C35.0429 8.23359 35.2727 8.78975 35.6768 9.20777C36.0809 9.62579 36.629 9.87431 37.2097 9.90284C37.7945 9.88971 38.3502 9.6456 38.7556 9.22387C39.1609 8.80214 39.3828 8.2371 39.3727 7.65225C39.3778 7.36622 39.3254 7.08206 39.2186 6.81665C39.1118 6.55124 38.9529 6.30995 38.7512 6.10708C38.5495 5.90421 38.3091 5.7439 38.0444 5.63561C37.7796 5.52732 37.4957 5.47326 37.2097 5.47665Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M37.2097 2.70095C37.0733 2.69213 36.9448 2.63397 36.8482 2.53733C36.7516 2.4407 36.6934 2.31221 36.6846 2.17583V0.700411C36.6846 0.561136 36.7399 0.427587 36.8384 0.329104C36.9369 0.230622 37.0705 0.175293 37.2097 0.175293C37.349 0.175293 37.4826 0.230622 37.581 0.329104C37.6795 0.427587 37.7348 0.561136 37.7348 0.700411V2.12581C37.7384 2.2709 37.6858 2.41176 37.5879 2.51894C37.49 2.62612 37.3545 2.69132 37.2097 2.70095Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M33.2966 4.26339C33.2288 4.26245 33.1622 4.24623 33.1016 4.21592C33.0409 4.18561 32.9879 4.14201 32.9465 4.08836L31.8212 3.05056C31.7592 3.0053 31.7088 2.94603 31.674 2.87759C31.6392 2.80916 31.6211 2.73347 31.6211 2.6567C31.6211 2.57994 31.6392 2.50425 31.674 2.43581C31.7088 2.36737 31.7592 2.30811 31.8212 2.26285C31.9838 2.00028 32.3339 2.00028 32.5964 2.26285L33.7217 3.31316C33.9843 3.4757 33.9843 3.82579 33.7217 4.08836C33.6715 4.15112 33.6061 4.20011 33.5317 4.23072C33.4574 4.26134 33.3765 4.27256 33.2966 4.26339Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M42.1611 13.2037C42.0933 13.2027 42.0266 13.1865 41.966 13.1562C41.9054 13.1259 41.8524 13.0823 41.811 13.0287L40.7607 11.9909C40.68 11.8754 40.6367 11.7379 40.6367 11.597C40.6367 11.4562 40.68 11.3187 40.7607 11.2032C40.8739 11.117 41.0123 11.0703 41.1545 11.0703C41.2968 11.0703 41.4352 11.117 41.5484 11.2032L42.5862 12.2535C42.6713 12.3647 42.7175 12.5009 42.7175 12.6411C42.7175 12.7812 42.6713 12.9174 42.5862 13.0287C42.4699 13.1359 42.3191 13.1979 42.1611 13.2037Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M44.2366 8.16462H42.7612C42.6863 8.17628 42.6098 8.1716 42.5369 8.15088C42.464 8.13017 42.3964 8.09391 42.3388 8.04461C42.2813 7.99532 42.235 7.93413 42.2034 7.86528C42.1717 7.79642 42.1553 7.72155 42.1553 7.64576C42.1553 7.56996 42.1717 7.49505 42.2034 7.4262C42.235 7.35735 42.2813 7.29616 42.3388 7.24686C42.3964 7.19756 42.464 7.16131 42.5369 7.1406C42.6098 7.11988 42.6863 7.1152 42.7612 7.12686H44.2366C44.373 7.13569 44.5015 7.19384 44.5981 7.29048C44.6947 7.38711 44.7529 7.51564 44.7617 7.65202C44.8493 7.90208 44.5492 8.16462 44.2366 8.16462Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M41.1112 4.26388C41.0434 4.26294 40.9767 4.24672 40.9161 4.21641C40.8555 4.1861 40.8025 4.1425 40.7611 4.08885C40.7015 4.04334 40.6532 3.98467 40.6199 3.91745C40.5866 3.85022 40.5693 3.77625 40.5693 3.70125C40.5693 3.62625 40.5866 3.55224 40.6199 3.48501C40.6532 3.41779 40.7015 3.35916 40.7611 3.31365L41.8114 2.17584C41.9158 2.07304 42.0568 2.01594 42.2034 2.01711C42.3499 2.01828 42.49 2.07764 42.5928 2.1821C42.6956 2.28656 42.7527 2.42754 42.7515 2.57409C42.7504 2.72064 42.691 2.86076 42.5866 2.96356L41.5488 4.08885C41.4613 4.2639 41.2862 4.26388 41.1112 4.26388Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M35.3842 16.1545H33.2211C33.0847 16.1457 32.9562 16.0875 32.8595 15.9909C32.7629 15.8942 32.7047 15.7657 32.6959 15.6293C32.705 15.4942 32.7636 15.3673 32.8605 15.2727C32.9574 15.1781 33.0858 15.1226 33.2211 15.1167H34.2588L30.0077 9.99035L25.669 15.1167H26.7068C26.8421 15.1226 26.9705 15.1781 27.0673 15.2727C27.1642 15.3673 27.2229 15.4942 27.232 15.6293C27.2231 15.7657 27.165 15.8942 27.0683 15.9909C26.9717 16.0875 26.8432 16.1457 26.7068 16.1545H24.5438C24.4334 16.1517 24.3261 16.118 24.2341 16.0571C24.1421 15.9962 24.069 15.9106 24.0234 15.8102C23.9777 15.7097 23.9613 15.5984 23.9759 15.4891C23.9905 15.3797 24.0357 15.2767 24.1061 15.1917L29.5701 8.69C29.6884 8.57833 29.845 8.51611 30.0077 8.51611C30.1704 8.51611 30.327 8.57833 30.4453 8.69L35.9093 15.1917C35.9886 15.2704 36.0401 15.3728 36.0559 15.4834C36.0717 15.594 36.051 15.7067 35.9968 15.8044C35.938 15.9145 35.8493 16.0058 35.7409 16.0678C35.6325 16.1297 35.5089 16.1598 35.3842 16.1545Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M46.3248 37.8477H33.2964C33.2215 37.8594 33.1449 37.8547 33.072 37.834C32.9991 37.8133 32.9316 37.777 32.874 37.7277C32.8164 37.6784 32.7702 37.6172 32.7385 37.5484C32.7069 37.4795 32.6904 37.4046 32.6904 37.3288C32.6904 37.253 32.7069 37.1781 32.7385 37.1093C32.7702 37.0404 32.8164 36.9793 32.874 36.93C32.9316 36.8807 32.9991 36.8444 33.072 36.8237C33.1449 36.803 33.2215 36.7983 33.2964 36.8099H45.012L37.2099 28.3827C37.1211 28.2773 37.0751 28.1424 37.0809 28.0048C37.0868 27.8671 37.1441 27.7366 37.2416 27.6392C37.339 27.5417 37.4695 27.4844 37.6072 27.4785C37.7448 27.4727 37.8797 27.5187 37.9851 27.6075L46.6624 36.8975C46.7407 36.9741 46.7917 37.0743 46.8075 37.1828C46.8233 37.2912 46.8031 37.4018 46.75 37.4976C46.7299 37.5958 46.6767 37.6842 46.5993 37.7479C46.522 37.8116 46.4251 37.8469 46.3248 37.8477Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M23.4936 23.4439C23.3351 23.4404 23.1835 23.378 23.0685 23.2688C23.0212 23.2119 22.9859 23.1461 22.9646 23.0752C22.9433 23.0044 22.9366 22.9299 22.9448 22.8564C22.9529 22.7828 22.9759 22.7117 23.0122 22.6472C23.0485 22.5827 23.0974 22.5262 23.156 22.4811L25.3191 20.6681C25.376 20.6208 25.4419 20.5855 25.5127 20.5642C25.5836 20.543 25.658 20.5362 25.7316 20.5444C25.8051 20.5526 25.8762 20.5755 25.9407 20.6118C26.0052 20.6481 26.0617 20.697 26.1068 20.7557C26.1953 20.8711 26.2355 21.0164 26.2192 21.1609C26.2029 21.3054 26.1312 21.438 26.0193 21.5309L23.8437 23.3814C23.7378 23.4423 23.614 23.4644 23.4936 23.4439Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M37.6473 28.5578C37.5785 28.5612 37.5097 28.5504 37.4452 28.526C37.3808 28.5017 37.322 28.4643 37.2727 28.4161C37.2234 28.368 37.1846 28.3102 37.1587 28.2464C37.1328 28.1825 37.1203 28.114 37.1221 28.0451C37.1256 27.8981 37.1798 27.7568 37.2755 27.6452C37.3712 27.5335 37.5025 27.4583 37.6473 27.4324L40.6856 27.1699L34.0838 21.5309C34.0256 21.4869 33.9769 21.4315 33.9407 21.3681C33.9045 21.3047 33.8817 21.2346 33.8735 21.1621C33.8653 21.0895 33.872 21.0161 33.8931 20.9463C33.9142 20.8764 33.9493 20.8115 33.9963 20.7557C34.0414 20.697 34.0979 20.6481 34.1624 20.6118C34.2269 20.5755 34.298 20.5526 34.3715 20.5444C34.4451 20.5362 34.5195 20.543 34.5904 20.5642C34.6613 20.5855 34.7271 20.6208 34.784 20.6681L42.286 27.1699C42.3767 27.24 42.4426 27.3372 42.4741 27.4475C42.5056 27.5577 42.501 27.6751 42.461 27.7825C42.3735 27.9576 42.1985 28.1326 42.0359 28.1326L37.6098 28.5578H37.6473Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.6691 21.6182H24.6313C24.5564 21.6299 24.4799 21.6252 24.407 21.6045C24.3341 21.5838 24.2665 21.5475 24.209 21.4982C24.1514 21.4489 24.1052 21.3877 24.0735 21.3189C24.0418 21.25 24.0254 21.1751 24.0254 21.0993C24.0254 21.0235 24.0418 20.9487 24.0735 20.8798C24.1052 20.811 24.1514 20.7498 24.209 20.7005C24.2665 20.6512 24.3341 20.6149 24.407 20.5942C24.4799 20.5735 24.5564 20.5688 24.6313 20.5805H25.6691C25.7929 20.5997 25.9057 20.6626 25.9872 20.7578C26.0686 20.8529 26.1134 20.9741 26.1134 21.0993C26.1134 21.2246 26.0686 21.3458 25.9872 21.4409C25.9057 21.5361 25.7929 21.599 25.6691 21.6182Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M23.4937 20.2302C23.4062 20.2302 23.2312 20.2302 23.1561 20.1426C23.0979 20.0987 23.0492 20.0433 23.013 19.9799C22.9768 19.9165 22.954 19.8464 22.9458 19.7738C22.9376 19.7013 22.9443 19.6279 22.9654 19.558C22.9865 19.4881 23.0216 19.4233 23.0686 19.3674L26.2694 15.2788C26.3645 15.166 26.4992 15.094 26.6458 15.0777C26.7924 15.0614 26.9397 15.1021 27.0572 15.1913C27.1158 15.2365 27.1647 15.2929 27.201 15.3574C27.2373 15.4219 27.2603 15.493 27.2684 15.5666C27.2766 15.6401 27.2699 15.7145 27.2486 15.7854C27.2273 15.8563 27.192 15.9221 27.1447 15.979L23.9313 20.0551C23.7563 20.1426 23.6688 20.2302 23.4937 20.2302Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M37.5596 21.6182H34.3463C34.2714 21.6299 34.1949 21.6252 34.1219 21.6045C34.049 21.5838 33.9815 21.5475 33.9239 21.4982C33.8663 21.4489 33.8201 21.3877 33.7885 21.3189C33.7568 21.25 33.7403 21.1751 33.7403 21.0993C33.7403 21.0235 33.7568 20.9486 33.7885 20.8798C33.8201 20.8109 33.8663 20.7498 33.9239 20.7005C33.9815 20.6512 34.049 20.6149 34.1219 20.5942C34.1949 20.5735 34.2714 20.5688 34.3463 20.5805H36.4218L32.7834 16.0667C32.7361 16.0098 32.7007 15.944 32.6795 15.8731C32.6582 15.8022 32.6514 15.7278 32.6596 15.6543C32.6678 15.5807 32.6907 15.5096 32.727 15.4451C32.7633 15.3806 32.8123 15.3241 32.8709 15.279C32.9864 15.1906 33.1316 15.1503 33.2761 15.1666C33.4206 15.183 33.5532 15.2546 33.6461 15.3665L37.9847 20.843C38.0631 20.9196 38.114 21.0199 38.1299 21.1283C38.1457 21.2367 38.1254 21.3474 38.0723 21.4432C37.9304 21.5656 37.7467 21.6283 37.5596 21.6182Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M32.1706 43.3114H27.832C27.6998 43.3001 27.5759 43.2424 27.4821 43.1486C27.3883 43.0548 27.3306 42.9309 27.3193 42.7987V37.3223C27.3386 37.1985 27.4015 37.0857 27.4967 37.0042C27.5918 36.9227 27.713 36.8779 27.8382 36.8779C27.9635 36.8779 28.0846 36.9227 28.1798 37.0042C28.2749 37.0857 28.3378 37.1985 28.3571 37.3223V42.3236H31.658V37.3223C31.6773 37.1985 31.7402 37.0857 31.8353 37.0042C31.9305 36.9227 32.0516 36.8779 32.1769 36.8779C32.3022 36.8779 32.4233 36.9227 32.5184 37.0042C32.6136 37.0857 32.6765 37.1985 32.6958 37.3223V42.7987C32.684 42.9329 32.6246 43.0584 32.5283 43.1524C32.4319 43.2465 32.305 43.3029 32.1706 43.3114Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M30.0955 22.5684C28.4797 22.5331 26.8866 22.1805 25.4068 21.5306C25.3399 21.5084 25.2788 21.4717 25.2279 21.423C25.1769 21.3743 25.1374 21.3149 25.1123 21.2491C25.0872 21.1832 25.077 21.1126 25.0825 21.0424C25.088 20.9722 25.1091 20.904 25.1442 20.8429C25.1679 20.7757 25.206 20.7144 25.2559 20.6635C25.3058 20.6125 25.3662 20.5732 25.433 20.5481C25.4997 20.5231 25.5712 20.513 25.6423 20.5186C25.7134 20.5241 25.7823 20.5452 25.8444 20.5804C27.1231 21.2216 28.5338 21.5555 29.9642 21.5555C31.3947 21.5555 32.8054 21.2216 34.0841 20.5804C34.2124 20.5278 34.3558 20.5257 34.4856 20.5744C34.6155 20.623 34.7221 20.719 34.7843 20.8429C34.8362 20.9694 34.8379 21.111 34.7891 21.2387C34.7403 21.3665 34.6447 21.4708 34.5217 21.5306C33.1396 22.1951 31.6289 22.5493 30.0955 22.5684Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M30.0082 30.1205C28.4606 30.112 26.9184 29.9402 25.4069 29.6078C25.2709 29.5596 25.1574 29.4631 25.088 29.3365C25.0186 29.21 24.9982 29.0624 25.0307 28.9218C25.0631 28.7812 25.1462 28.6574 25.264 28.5741C25.3818 28.4908 25.5261 28.4538 25.6695 28.47C29.5817 29.4337 33.7033 29.0686 37.3851 27.4322C37.5071 27.3961 37.6381 27.4055 37.7536 27.4587C37.8692 27.5119 37.9615 27.6052 38.0135 27.7213C38.0654 27.8375 38.0735 27.9685 38.0361 28.0901C37.9987 28.2117 37.9184 28.3156 37.8102 28.3825C35.3646 29.5157 32.7035 30.1085 30.0082 30.1205Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M29.9203 16.8421C28.7297 16.8242 27.5521 16.5913 26.4444 16.1544C26.3125 16.0988 26.2054 15.997 26.1433 15.8681C26.0811 15.7392 26.0681 15.592 26.1068 15.4542C26.1576 15.3215 26.2567 15.2129 26.3843 15.1503C26.5119 15.0877 26.6584 15.0757 26.7945 15.1167C28.7458 15.8921 30.9198 15.8921 32.8711 15.1167C32.9381 15.0893 33.0101 15.0764 33.0824 15.0789C33.1548 15.0814 33.2257 15.0992 33.2907 15.1311C33.3557 15.163 33.4131 15.2082 33.4593 15.2639C33.5055 15.3196 33.5394 15.3845 33.5588 15.4542C33.5862 15.5221 33.5991 15.5949 33.5967 15.6681C33.5943 15.7413 33.5767 15.8131 33.5449 15.879C33.5131 15.9449 33.4679 16.0035 33.4122 16.0509C33.3564 16.0984 33.2914 16.1336 33.2212 16.1544C32.1823 16.6158 31.057 16.8503 29.9203 16.8421Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.6536 21.6183H9.35279C9.23991 21.6209 9.12896 21.5887 9.03502 21.5261C8.94107 21.4634 8.86866 21.3734 8.82763 21.2683C8.77836 21.1714 8.76033 21.0617 8.77601 20.9543C8.79168 20.8468 8.8403 20.7468 8.91517 20.6681L13.2538 15.1917C13.3488 15.078 13.4848 15.0063 13.6323 14.9923C13.7797 14.9782 13.9268 15.0229 14.0415 15.1166C14.0998 15.1606 14.1485 15.216 14.1846 15.2794C14.2208 15.3428 14.2437 15.4129 14.2519 15.4854C14.26 15.558 14.2534 15.6314 14.2323 15.7012C14.2112 15.7711 14.1761 15.836 14.1291 15.8918L10.4781 20.4055H12.6536C12.7887 20.4146 12.9158 20.4732 13.0103 20.5701C13.1049 20.667 13.1604 20.7954 13.1663 20.9307C13.1663 21.3558 12.9162 21.6183 12.6536 21.6183Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M24.6315 21.6182H21.3306C21.2558 21.6299 21.1792 21.6252 21.1063 21.6045C21.0334 21.5838 20.9659 21.5475 20.9083 21.4982C20.8507 21.4489 20.8045 21.3877 20.7728 21.3189C20.7411 21.25 20.7247 21.1751 20.7247 21.0993C20.7247 21.0235 20.7411 20.9486 20.7728 20.8798C20.8045 20.8109 20.8507 20.7498 20.9083 20.7005C20.9659 20.6512 21.0334 20.6149 21.1063 20.5942C21.1792 20.5735 21.2558 20.5688 21.3306 20.5805H23.4062L19.7677 16.0667C19.7204 16.0098 19.6851 15.944 19.6638 15.8731C19.6426 15.8022 19.6358 15.7278 19.644 15.6543C19.6522 15.5807 19.6751 15.5096 19.7114 15.4451C19.7477 15.3806 19.7966 15.3241 19.8553 15.279C19.9707 15.1906 20.116 15.1503 20.2605 15.1666C20.405 15.183 20.5376 15.2546 20.6305 15.3665L24.9691 20.843C25.0474 20.9196 25.0984 21.0199 25.1142 21.1283C25.13 21.2367 25.1098 21.3474 25.0567 21.4432C24.9404 21.5504 24.7896 21.6125 24.6315 21.6182Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M22.4558 16.1542H20.2802C20.146 16.1425 20.0205 16.083 19.9265 15.9867C19.8324 15.8903 19.776 15.7634 19.7675 15.629C19.7763 15.496 19.8332 15.3707 19.9275 15.2764C20.0218 15.1821 20.1471 15.1252 20.2802 15.1164H21.3305L16.9918 9.99007L12.7407 15.1164H13.7785C13.9138 15.1223 14.0421 15.1778 14.139 15.2724C14.2359 15.367 14.2945 15.4939 14.3036 15.629C14.2948 15.7654 14.2366 15.8939 14.14 15.9906C14.0433 16.0872 13.9149 16.1454 13.7785 16.1542H11.6029C11.4936 16.1492 11.3879 16.1139 11.2977 16.0521C11.2075 15.9903 11.1362 15.9046 11.0921 15.8045C11.0479 15.7045 11.0325 15.5941 11.0477 15.4858C11.0628 15.3775 11.1078 15.2756 11.1778 15.1915L16.6417 8.68971C16.7612 8.57971 16.9169 8.5174 17.0793 8.51465C17.2379 8.51811 17.3894 8.58053 17.5044 8.68971L22.9809 15.1915C23.0603 15.2701 23.1117 15.3725 23.1275 15.4831C23.1433 15.5937 23.1226 15.7064 23.0684 15.8041C22.8059 16.0667 22.6308 16.1542 22.4558 16.1542Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M9.35231 28.5577L5.01365 28.1326C4.83861 28.1326 4.57603 27.9575 4.57603 27.7825C4.54158 27.6745 4.53981 27.5587 4.57096 27.4497C4.6021 27.3407 4.66479 27.2433 4.7511 27.1698L12.3906 20.6681C12.505 20.5769 12.651 20.5349 12.7963 20.5513C12.9417 20.5678 13.0746 20.6412 13.1658 20.7556C13.257 20.87 13.299 21.016 13.2826 21.1614C13.2662 21.3067 13.1927 21.4396 13.0783 21.5308L6.48904 27.1323L9.43984 27.3949C9.58904 27.4107 9.72652 27.4829 9.82416 27.5969C9.9218 27.7108 9.97218 27.8577 9.96496 28.0076C9.78991 28.3077 9.61488 28.5577 9.35231 28.5577Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M24.6316 28.5577C24.5628 28.5612 24.494 28.5504 24.4295 28.526C24.3651 28.5017 24.3064 28.4642 24.2571 28.4161C24.2078 28.368 24.1689 28.3102 24.143 28.2463C24.1171 28.1825 24.1047 28.114 24.1065 28.0451C24.1099 27.8981 24.1641 27.7568 24.2598 27.6451C24.3555 27.5335 24.4869 27.4583 24.6316 27.4324L27.6574 27.1698L21.0682 21.5308C20.9538 21.4396 20.8802 21.3067 20.8638 21.1614C20.8474 21.016 20.8894 20.87 20.9806 20.7556C21.0718 20.6412 21.2047 20.5678 21.3501 20.5513C21.4955 20.5349 21.6414 20.5769 21.7558 20.6681L29.3954 27.1698C29.4861 27.24 29.5519 27.3372 29.5834 27.4474C29.6149 27.5577 29.6104 27.6751 29.5704 27.7825C29.5324 27.8727 29.4725 27.9519 29.396 28.0131C29.3196 28.0742 29.2292 28.1153 29.1328 28.1326L24.6316 28.5577Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M33.2965 37.8477H19.1553C19.0315 37.8285 18.9187 37.7656 18.8372 37.6704C18.7557 37.5753 18.7109 37.4541 18.7109 37.3288C18.7109 37.2036 18.7557 37.0824 18.8372 36.9872C18.9187 36.8921 19.0315 36.8292 19.1553 36.8099H32.0462L24.2816 28.3827C24.1928 28.2773 24.1468 28.1424 24.1527 28.0048C24.1585 27.8671 24.2159 27.7366 24.3133 27.6392C24.4108 27.5417 24.5412 27.4844 24.6789 27.4785C24.8166 27.4727 24.9515 27.5187 25.0568 27.6075L33.7342 36.8975C33.8125 36.9741 33.8635 37.0743 33.8793 37.1828C33.8951 37.2912 33.8749 37.4018 33.8217 37.4976C33.7822 37.6039 33.7102 37.695 33.6159 37.7578C33.5216 37.8207 33.4098 37.8522 33.2965 37.8477Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M14.8161 37.8476H0.78736C0.674481 37.8502 0.563533 37.818 0.469588 37.7553C0.375642 37.6927 0.303232 37.6027 0.262204 37.4975C0.212931 37.4007 0.194902 37.291 0.210577 37.1835C0.226252 37.076 0.274869 36.976 0.349736 36.8973L8.93952 27.6074C8.98478 27.5454 9.04404 27.4949 9.11248 27.4602C9.18092 27.4254 9.25661 27.4072 9.33337 27.4072C9.41014 27.4072 9.48582 27.4254 9.55426 27.4602C9.6227 27.4949 9.68197 27.5454 9.72723 27.6074C9.78916 27.6513 9.83966 27.7094 9.87452 27.7768C9.90937 27.8443 9.92759 27.919 9.92759 27.995C9.92759 28.0709 9.90937 28.1457 9.87452 28.2131C9.83966 28.2805 9.78916 28.3387 9.72723 28.3826L2.03769 36.8098H14.8786C14.9535 36.7981 15.03 36.8028 15.1029 36.8236C15.1758 36.8443 15.2434 36.8805 15.301 36.9298C15.3585 36.9791 15.4048 37.0403 15.4365 37.1091C15.4681 37.178 15.4845 37.2529 15.4845 37.3287C15.4845 37.4045 15.4681 37.4794 15.4365 37.5482C15.4048 37.6171 15.3585 37.6782 15.301 37.7275C15.2434 37.7768 15.1758 37.8131 15.1029 37.8338C15.03 37.8546 14.9535 37.8592 14.8786 37.8476H14.8161Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M19.155 43.3113H14.8164C14.6833 43.3025 14.558 43.2457 14.4637 43.1514C14.3694 43.0571 14.3125 42.9317 14.3037 42.7987V37.3222C14.3125 37.1891 14.3694 37.0638 14.4637 36.9695C14.558 36.8752 14.6833 36.8184 14.8164 36.8096H19.155C19.2894 36.818 19.4163 36.8744 19.5127 36.9685C19.609 37.0626 19.6684 37.1881 19.6801 37.3222V42.7987C19.6684 42.9328 19.609 43.0583 19.5127 43.1524C19.4163 43.2465 19.2894 43.3028 19.155 43.3113ZM15.3415 42.186H18.6424V37.8474H15.3415V42.186Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M17.0418 22.5684C15.426 22.5331 13.8328 22.1805 12.3531 21.5306C12.2862 21.5084 12.2251 21.4717 12.1741 21.423C12.1232 21.3743 12.0837 21.3149 12.0586 21.2491C12.0335 21.1832 12.0233 21.1126 12.0288 21.0424C12.0343 20.9722 12.0554 20.904 12.0905 20.8429C12.1142 20.7757 12.1523 20.7144 12.2021 20.6635C12.252 20.6125 12.3125 20.5732 12.3793 20.5481C12.446 20.5231 12.5175 20.513 12.5886 20.5186C12.6596 20.5241 12.7286 20.5452 12.7907 20.5804C14.0694 21.2216 15.48 21.5555 16.9105 21.5555C18.341 21.5555 19.7517 21.2216 21.0304 20.5804C21.1569 20.5285 21.2984 20.5267 21.4262 20.5755C21.5539 20.6242 21.6583 20.7199 21.718 20.8429C21.7679 20.9683 21.77 21.1076 21.7239 21.2344C21.6778 21.3612 21.5867 21.4666 21.468 21.5306C20.0859 22.1951 18.5752 22.5493 17.0418 22.5684Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M17.0419 30.1206C14.2947 30.1145 11.577 29.5531 9.05224 28.4701C8.98536 28.448 8.92425 28.4112 8.87332 28.3625C8.82239 28.3138 8.78295 28.2544 8.75782 28.1886C8.73269 28.1227 8.72251 28.0521 8.72802 27.9819C8.73353 27.9117 8.75458 27.8435 8.78968 27.7824C8.81334 27.7152 8.85147 27.6539 8.90137 27.603C8.95126 27.5521 9.0117 27.5127 9.07845 27.4877C9.14521 27.4626 9.21667 27.4525 9.28775 27.4581C9.35883 27.4636 9.42781 27.4847 9.48986 27.5199C11.8538 28.5102 14.3913 29.0203 16.9544 29.0203C19.5174 29.0203 22.0549 28.5102 24.4188 27.5199C24.4825 27.4805 24.5539 27.4552 24.6281 27.4457C24.7023 27.4361 24.7777 27.4426 24.8492 27.4646C24.9208 27.4866 24.9868 27.5236 25.0429 27.5732C25.0989 27.6228 25.1437 27.6838 25.1743 27.7521C25.2049 27.8204 25.2205 27.8945 25.2201 27.9693C25.2197 28.0441 25.2033 28.118 25.172 28.186C25.1407 28.254 25.0953 28.3146 25.0387 28.3635C24.9821 28.4125 24.9157 28.4489 24.8439 28.4701C22.3739 29.5179 19.7246 30.0783 17.0419 30.1206Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M17.0424 16.8421C15.8517 16.8253 14.6739 16.5923 13.5665 16.1544C13.434 16.0989 13.3258 15.9977 13.2616 15.8693C13.1974 15.7408 13.1813 15.5935 13.2164 15.4542C13.272 15.3223 13.3738 15.2153 13.5027 15.1531C13.6316 15.091 13.7788 15.078 13.9166 15.1167C15.8679 15.8921 18.0419 15.8921 19.9932 15.1167C20.0602 15.0893 20.1322 15.0764 20.2046 15.0789C20.2769 15.0814 20.3479 15.0992 20.4128 15.1311C20.4778 15.163 20.5353 15.2082 20.5815 15.2639C20.6277 15.3196 20.6616 15.3845 20.6809 15.4542C20.7081 15.5229 20.7206 15.5966 20.7174 15.6704C20.7142 15.7442 20.6955 15.8165 20.6624 15.8826C20.6294 15.9487 20.5828 16.0071 20.5256 16.0539C20.4685 16.1007 20.4021 16.135 20.3308 16.1544C19.2912 16.5998 18.1734 16.8335 17.0424 16.8421Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_219">
+                                        <rect width="47" height="43.4991" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Forest</div>
+                    </div>
+
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+
+                    <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
+                        <a class="item-category d-flex align-items-center justify-content-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 38" fill="none">
+                                <g clip-path="url(#clip0_231_207)">
+                                    <path
+                                        d="M1.97433 23.3332C1.97433 22.7227 2.21683 22.1372 2.64851 21.7055C3.08019 21.2738 3.66567 21.0313 4.27616 21.0313C4.88664 21.0313 5.47213 21.2738 5.9038 21.7055C6.33548 22.1372 6.57798 22.7227 6.57798 23.3332C6.58254 23.4847 6.61973 23.6334 6.68701 23.7693C6.84732 24.7968 7.37655 25.7307 8.17565 26.3962C8.97474 27.0617 9.98895 27.4133 11.0285 27.3851C12.0681 27.3568 13.0618 26.9508 13.8236 26.2429C14.5854 25.535 15.0631 24.5738 15.1675 23.5391C15.1733 23.4706 15.1733 23.4017 15.1675 23.3332C15.2097 22.75 15.4713 22.2044 15.8994 21.8062C16.3276 21.4079 16.8907 21.1866 17.4754 21.1866C18.0601 21.1866 18.6232 21.4079 19.0513 21.8062C19.4795 22.2044 19.741 22.75 19.7833 23.3332C19.782 23.4855 19.8195 23.6355 19.8923 23.7693C20.0526 24.7968 20.5818 25.7307 21.3809 26.3962C22.18 27.0617 23.1942 27.4133 24.2338 27.3851C25.2733 27.3568 26.267 26.9508 27.0288 26.2429C27.7906 25.535 28.2684 24.5738 28.3727 23.5391C28.3786 23.4706 28.3786 23.4017 28.3727 23.3332C28.3727 22.7227 28.6153 22.1372 29.0469 21.7055C29.4786 21.2738 30.0641 21.0313 30.6746 21.0313C31.2851 21.0313 31.8705 21.2738 32.3022 21.7055C32.7339 22.1372 32.9764 22.7227 32.9764 23.3332C32.9764 23.5934 33.0798 23.843 33.2638 24.0271C33.4479 24.2111 33.6974 24.3145 33.9577 24.3145C34.0876 24.3161 34.2165 24.2919 34.337 24.2433C34.4574 24.1947 34.567 24.1227 34.6594 24.0314C34.7518 23.9401 34.8252 23.8314 34.8753 23.7115C34.9254 23.5916 34.9512 23.4631 34.9511 23.3332C34.9797 22.2161 34.5699 21.1322 33.8094 20.3134C33.0489 19.4946 31.9982 19.0061 30.882 18.9522C29.7658 18.8984 28.6729 19.2836 27.8371 20.0254C27.0014 20.7672 26.4892 21.8066 26.4101 22.9213C26.4043 22.9898 26.4043 23.0587 26.4101 23.1272C26.3679 23.7104 26.1063 24.256 25.6782 24.6542C25.25 25.0524 24.6869 25.2738 24.1022 25.2738C23.5175 25.2738 22.9544 25.0524 22.5263 24.6542C22.0981 24.256 21.8366 23.7104 21.7943 23.1272C21.7956 22.9749 21.7581 22.8248 21.6853 22.6911C21.525 21.6636 20.9958 20.7297 20.1967 20.0642C19.3976 19.3986 18.3834 19.0471 17.3438 19.0753C16.3042 19.1035 15.3106 19.5096 14.5488 20.2174C13.787 20.9253 13.3092 21.8866 13.2048 22.9213C13.199 22.9898 13.199 23.0587 13.2048 23.1272C13.2048 23.7377 12.9623 24.3232 12.5307 24.7548C12.099 25.1865 11.5135 25.429 10.903 25.429C10.2925 25.429 9.70705 25.1865 9.27537 24.7548C8.8437 24.3232 8.60119 23.7377 8.60119 23.1272C8.59663 22.9757 8.55945 22.8269 8.49216 22.6911C8.30109 21.653 7.73286 20.7222 6.89679 20.0779C6.06073 19.4335 5.01591 19.1211 3.96338 19.2008C2.91085 19.2805 1.92496 19.7467 1.19544 20.5095C0.465926 21.2724 0.0443109 22.2781 0.0117188 23.3332C0.0117188 23.5934 0.115106 23.843 0.299138 24.0271C0.483169 24.2111 0.732765 24.3145 0.993024 24.3145H1.11418C1.354 24.2874 1.57504 24.1718 1.73412 23.9903C1.89321 23.8088 1.97887 23.5745 1.97433 23.3332Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M30.7839 28.7974C29.7186 28.7985 28.6918 29.1961 27.9035 29.9127C27.1152 30.6293 26.6218 31.6137 26.5195 32.6742C26.5135 32.7386 26.5135 32.8035 26.5195 32.868C26.5425 33.1851 26.4999 33.5036 26.3943 33.8035C26.2888 34.1035 26.1225 34.3784 25.9059 34.6113C25.6894 34.8441 25.4272 35.0298 25.1357 35.1567C24.8441 35.2837 24.5296 35.3492 24.2116 35.3492C23.8937 35.3492 23.5791 35.2837 23.2875 35.1567C22.996 35.0298 22.7338 34.8441 22.5173 34.6113C22.3007 34.3784 22.1345 34.1035 22.0289 33.8035C21.9234 33.5036 21.8807 33.1851 21.9037 32.868C21.905 32.7157 21.8675 32.5656 21.7947 32.4318C21.6332 31.4043 21.1027 30.4708 20.3026 29.8062C19.5025 29.1415 18.4876 28.7913 17.4478 28.821C16.4081 28.8507 15.4148 29.2583 14.6539 29.9676C13.8931 30.6768 13.4168 31.6391 13.3142 32.6742C13.3083 32.7386 13.3083 32.8035 13.3142 32.868C13.3142 33.4785 13.0717 34.064 12.64 34.4956C12.2084 34.9273 11.6229 35.1698 11.0124 35.1698C10.4019 35.1698 9.81642 34.9273 9.38475 34.4956C8.95307 34.064 8.71057 33.4785 8.71057 32.868C8.70601 32.7165 8.66882 32.5677 8.60154 32.4318C8.41046 31.3937 7.84223 30.463 7.00617 29.8186C6.1701 29.1743 5.12528 28.8619 4.07275 28.9416C3.02022 29.0213 2.03434 29.4874 1.30482 30.2503C0.575301 31.0132 0.153686 32.0189 0.121094 33.0739C0.121074 33.3353 0.224082 33.5862 0.407773 33.7721C0.591464 33.9581 0.841032 34.0642 1.1024 34.0674H1.22356C1.46449 34.0404 1.68691 33.9253 1.84797 33.7441C2.00903 33.5629 2.09733 33.3285 2.09583 33.0861C2.09583 32.4756 2.33833 31.8901 2.77001 31.4584C3.20169 31.0267 3.78717 30.7842 4.39766 30.7842C5.00814 30.7842 5.59363 31.0267 6.0253 31.4584C6.45698 31.8901 6.69949 32.4756 6.69949 33.0861C6.70417 33.2414 6.74131 33.3941 6.80852 33.5343C6.97 34.5619 7.50047 35.4954 8.30059 36.16C9.10071 36.8247 10.1156 37.1749 11.1554 37.1452C12.1951 37.1155 13.1884 36.7079 13.9492 35.9986C14.7101 35.2894 15.1864 34.3271 15.289 33.292C15.2954 33.2235 15.2954 33.1546 15.289 33.0861C15.3312 32.5029 15.5928 31.9573 16.0209 31.559C16.4491 31.1608 17.0121 30.9394 17.5968 30.9394C18.1816 30.9394 18.7447 31.1608 19.1728 31.559C19.601 31.9573 19.8625 32.5029 19.9047 33.0861C19.9035 33.2422 19.941 33.3962 20.0138 33.5343C20.1753 34.5619 20.7057 35.4954 21.5058 36.16C22.306 36.8247 23.3209 37.1749 24.3607 37.1452C25.4004 37.1155 26.3937 36.7079 27.1545 35.9986C27.9154 35.2894 28.3917 34.3271 28.4942 33.292C28.5009 33.2235 28.5009 33.1545 28.4942 33.0861C28.4942 32.4756 28.7368 31.8901 29.1684 31.4584C29.6001 31.0267 30.1856 30.7842 30.7961 30.7842C31.4066 30.7842 31.992 31.0267 32.4237 31.4584C32.8554 31.8901 33.0979 32.4756 33.0979 33.0861C33.0979 33.3474 33.2009 33.5983 33.3846 33.7843C33.5683 33.9702 33.8178 34.0763 34.0792 34.0795C34.3427 34.0795 34.5954 33.9748 34.7817 33.7885C34.968 33.6022 35.0726 33.3495 35.0726 33.0861C35.0694 31.9496 34.6166 30.8606 33.813 30.057C33.0094 29.2534 31.9204 28.8006 30.7839 28.7974Z"
+                                        fill="#7D7D80"/>
+                                    <path
+                                        d="M21.3104 14.3926C20.6623 15.0625 19.83 15.5251 18.9189 15.7219C18.0078 15.9188 17.0588 15.8411 16.1919 15.4985C15.325 15.156 14.5791 14.5641 14.0486 13.7976C13.5181 13.0312 13.2268 12.1246 13.2116 11.1926C13.1963 10.2606 13.4578 9.34504 13.9629 8.56165C14.468 7.77826 15.1941 7.16226 16.0494 6.79155C16.9046 6.42085 17.8506 6.31209 18.7677 6.47903C19.6847 6.64597 20.5317 7.08111 21.2014 7.72942C21.6503 8.15726 22.0097 8.67015 22.2586 9.2382C22.5074 9.80625 22.6408 10.4181 22.6509 11.0382C22.6611 11.6583 22.5478 12.2742 22.3177 12.8501C22.0875 13.426 21.7451 13.9503 21.3104 14.3926ZM15.7497 8.86822C15.1857 9.44923 14.8703 10.2271 14.8703 11.0368C14.8703 11.8465 15.1857 12.6243 15.7497 13.2053C16.3398 13.7766 17.1251 14.1019 17.9463 14.1154C18.7675 14.1289 19.5631 13.8296 20.1716 13.278C20.7397 12.6761 21.048 11.8747 21.0298 11.0472C21.0117 10.2197 20.6686 9.43261 20.0747 8.8561C19.7911 8.57081 19.4537 8.34465 19.0821 8.19068C18.7104 8.03671 18.312 7.958 17.9097 7.95912C17.5074 7.96025 17.1093 8.04117 16.7386 8.19722C16.3678 8.35327 16.0317 8.58135 15.7497 8.86822Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M12.9627 6.10604C12.8196 6.22967 12.6368 6.29767 12.4478 6.29767C12.2587 6.29767 12.0759 6.22967 11.9329 6.10604L10.4549 4.64011C10.3167 4.50356 10.2385 4.31772 10.2373 4.12347C10.2362 3.92921 10.3122 3.74247 10.4488 3.60431C10.5854 3.46615 10.7712 3.38787 10.9655 3.38673C11.1597 3.3856 11.3465 3.46169 11.4846 3.59825L12.9627 5.06414C13.0921 5.20679 13.1637 5.39252 13.1637 5.58511C13.1637 5.77771 13.0921 5.9634 12.9627 6.10604Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M10.6492 11.5695C10.5798 11.6338 10.4973 11.6822 10.4074 11.7115C10.3174 11.7408 10.2222 11.7502 10.1283 11.7392L7.95972 11.8361C7.52358 11.9209 7.18437 11.5817 7.17225 11.0607C7.16014 10.5398 7.43877 10.2854 7.95972 10.2733L10.1162 10.1885C10.5523 10.0915 10.9036 10.4428 10.9036 10.9638C10.916 11.078 10.8991 11.1936 10.8546 11.2995C10.8101 11.4055 10.7395 11.4984 10.6492 11.5695Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M28.3609 11.6061C28.2924 11.6718 28.21 11.7211 28.1198 11.7505C28.0296 11.7799 27.934 11.7885 27.84 11.7757H25.8168C25.6193 11.7491 25.4357 11.6591 25.2938 11.5193C25.1518 11.3795 25.059 11.1974 25.0293 11.0004C25.054 10.8021 25.1433 10.6176 25.2835 10.4752C25.4236 10.3329 25.6068 10.2407 25.8047 10.2129H27.8884C28.0854 10.2426 28.2676 10.3354 28.4074 10.4774C28.5472 10.6194 28.6372 10.8029 28.6638 11.0004C28.6389 11.2321 28.5314 11.4472 28.3609 11.6061Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M25.4416 4.50676L23.9757 6.02112C23.8343 6.14186 23.6525 6.20486 23.4667 6.19755C23.281 6.19023 23.1048 6.11315 22.9733 5.98167C22.8418 5.85019 22.7647 5.67397 22.7574 5.48817C22.7501 5.30238 22.8131 5.12066 22.9338 4.97926L24.3997 3.50123C24.5458 3.37899 24.7302 3.31201 24.9207 3.31201C25.1111 3.31201 25.2955 3.37899 25.4416 3.50123C25.7929 3.59815 25.7929 4.15542 25.4416 4.50676Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                    <path
+                                        d="M18.4267 3.74351C18.3594 3.81134 18.2775 3.86294 18.1872 3.89443C18.097 3.92591 18.0007 3.93644 17.9058 3.92523C17.4696 4.01003 17.1183 3.65872 17.1183 3.14989L17.0214 0.98131C16.9366 0.545173 17.2879 0.193848 17.8089 0.193848C18.3298 0.193848 18.5842 0.448242 18.5842 0.969183L18.6812 3.13776C18.766 3.40429 18.5963 3.59813 18.4267 3.74351Z"
+                                        fill="#7D7D80" stroke="#7D7D80" stroke-width="0.3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_231_207">
+                                        <rect width="35" height="37.1565" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div>Beach</div>
+                    </div>
+                </div>
+                <button class="scroll-button scroll-button-right" onclick="scrollContentRight()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="currentColor"
+                         class="bi bi-arrow-right-circle"
+                         viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
+                </button>
+                <button class="header-filters d-flex flex-row gap-3 px-3 py-1 align-items-center justify-content-center">
+                    <div style="margin-bottom: 4px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                             class="bi bi-sliders" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z"/>
+                        </svg>
+                    </div>
+                    <div>Filters</div>
+                </button>
             </div>
         </div>
-        <div style="width: 80px; height: 123px; left: 745px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 5px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">В місті</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 53px; height: 38.14px; left: 15px; top: 22px; position: absolute">
-                <div style="width: 53px; height: 38.13px; left: -0px; top: -0px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.41px; height: 3.79px; left: 15.31px; top: 5.19px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.42px; height: 3.79px; left: 21.64px; top: 5.19px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.42px; height: 3.78px; left: 21.64px; top: 10.11px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.42px; height: 3.78px; left: 21.64px; top: 18.83px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.42px; height: 3.78px; left: 21.64px; top: 27.47px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.41px; height: 3.78px; left: 15.31px; top: 27.47px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.41px; height: 3.78px; left: 32.91px; top: 20.95px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.41px; height: 3.78px; left: 38.45px; top: 27.06px; position: absolute; background: #7D7D80"></div>
+    </header>
+    @stop
+    @section('content')
+    <main>
+        <div class="d-flex flex-wrap align-items-center justify-content-left listings">
+            <div class="listing-block">
+                <img class="listing-img"
+                     src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-807997252988813015/original/24968789-974c-46c7-abd5-357796bb11d5.jpeg?im_w=1200"/>
+                <div class="listing-like">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 33 28" fill="none">
+                            <path
+                                d="M16.641 27.7833C15.4432 26.6033 14.2689 25.453 13.1025 24.2962C9.77867 20.9963 6.4449 17.707 3.14466 14.3844C2.0032 13.2376 1.1414 11.886 0.808948 10.2886C0.351651 8.09243 0.920953 6.08125 2.17941 4.26639C4.62356 0.740473 9.21579 -0.408468 13.2366 1.46501C14.5093 2.05748 15.6158 2.87735 16.631 3.89565C16.7487 3.78407 16.8579 3.6838 16.9656 3.57999C18.5672 2.06172 20.4271 1.05401 22.6343 0.684686C27.3999 -0.121056 32.0371 3.35613 32.5636 8.10514C32.8183 10.408 31.9765 12.3076 30.509 13.984C29.7242 14.8809 28.841 15.6923 27.9942 16.534C24.294 20.2075 20.5918 23.8815 16.8878 27.5559C16.8136 27.6266 16.7344 27.6972 16.641 27.7833ZM16.6788 24.6105C16.7965 24.4693 16.8793 24.3513 16.9798 24.2518C20.6178 20.6484 24.2562 17.0453 27.895 13.4424C28.6659 12.6709 29.3118 11.7863 29.8098 10.8197C30.1123 10.2427 30.337 9.63824 30.3328 8.97091C30.3049 4.92384 26.302 1.94873 22.3818 3.08779C20.4056 3.6612 18.7876 4.82003 17.3651 6.26556C17.119 6.51484 16.8935 6.7846 16.6353 7.0706C16.4426 6.85875 16.2786 6.67514 16.1131 6.49366C14.9001 5.14382 13.3996 4.07728 11.7199 3.37096C8.42248 1.98899 4.74983 3.467 3.40648 6.71681C3.03765 7.6087 2.82077 8.54085 2.98985 9.50689C3.24596 10.9673 4.06567 12.1331 5.09441 13.1557C8.84268 16.8833 12.6 20.6025 16.3663 24.3132C16.4455 24.3986 16.5332 24.4749 16.6788 24.6105Z"
+                                fill="white" fill-opacity="0.8"/>
+                            <path class="fill" opacity="0.5"
+                                  d="M16.6765 25.3093C16.5357 25.1706 16.4463 25.0925 16.3646 25.0094C12.6569 21.2043 8.95026 17.3992 5.24483 13.594C4.22965 12.5479 3.42074 11.3543 3.168 9.8609C3.00115 8.87253 3.21517 7.91884 3.57914 7.00633C4.90479 3.68286 8.52903 2.16923 11.783 3.58315C13.4406 4.30579 14.9213 5.39698 16.1182 6.77802C16.2816 6.9637 16.4435 7.15083 16.6336 7.3683C16.8884 7.07569 17.1109 6.7997 17.3538 6.54466C18.7576 5.06716 20.3543 3.88154 22.3044 3.29343C26.1764 2.12805 30.1231 5.17192 30.1506 9.31253C30.1548 9.99529 29.933 10.613 29.6345 11.204C29.1434 12.1918 28.5068 13.0959 27.7471 13.8845C24.1562 17.5716 20.5657 21.258 16.9757 24.9437C16.8743 25.0441 16.7927 25.1648 16.6765 25.3093Z"
+                                  fill="black" fill-opacity="0.7"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="m-2 mt-3">
+                    <div class="row">
+                        <div class="col listing-localization">Bernati, Latvia</div>
+                        <div class="col text-end">
+                            <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                 viewBox="0 0 13 13" fill="none">
+                                <path
+                                    d="M6.5 0.43103L8.21927 4.59138L12.6819 4.95146L9.28184 7.88278L10.3206 12.2657L6.5 9.91697L2.6794 12.2657L3.71816 7.88278L0.318133 4.95146L4.78073 4.59138L6.5 0.43103Z"
+                                    fill="#636060"/>
+                            </svg>
+                            <span style="margin-left: 5px;">5,0</span>
+                        </div>
+                    </div>
+                    <div class="listing-category">Beach</div>
+                    <div class="listing-date">11-16 sept.</div>
+                    <div class="listing-price-block"><span class="listing-price">100$</span> for night</div>
+                </div>
             </div>
-        </div>
-        <div style="width: 80px; height: 123px; left: 1033px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 5px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">В готелі</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 50px; height: 34.86px; left: 15px; top: 24px; position: absolute">
-                <div style="width: 50px; height: 34.87px; left: -0px; top: 0.05px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.93px; height: 4.93px; left: 19.69px; top: 5.03px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.93px; height: 4.93px; left: 25.54px; top: 5.04px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.93px; height: 4.94px; left: 19.69px; top: 11.40px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.93px; height: 4.94px; left: 25.54px; top: 11.40px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.93px; height: 4.92px; left: 3.45px; top: 11.40px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.98px; height: 4.92px; left: 9.36px; top: 11.40px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.93px; height: 4.98px; left: 3.45px; top: 17.76px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.98px; height: 4.93px; left: 9.36px; top: 17.76px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.93px; height: 4.93px; left: 35.71px; top: 17.76px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 4.93px; height: 4.93px; left: 41.61px; top: 17.76px; position: absolute; background: #7D7D80"></div>
-                <div style="width: 13.84px; height: 4.26px; left: 18.10px; top: 19.17px; position: absolute; text-align: center; color: #7D7D80; font-size: 3.50px; font-family: Inter; font-weight: 900; letter-spacing: 0.13px; word-wrap: break-word">HOTEL</div>
+
+            <div class="listing-block">
+                <img class="listing-img"
+                     src="https://a0.muscache.com/im/pictures/8ce68d61-709d-4897-9b80-c691e7db2bd8.jpg?im_w=720"/>
+                <div class="m-2 mt-3">
+                    <div class="row">
+                        <div class="col listing-localization">Bernati, Latvia</div>
+                        <div class="col text-end">
+                            <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                 viewBox="0 0 13 13" fill="none">
+                                <path
+                                    d="M6.5 0.43103L8.21927 4.59138L12.6819 4.95146L9.28184 7.88278L10.3206 12.2657L6.5 9.91697L2.6794 12.2657L3.71816 7.88278L0.318133 4.95146L4.78073 4.59138L6.5 0.43103Z"
+                                    fill="#636060"/>
+                            </svg>
+                            <span style="margin-left: 5px;">5,0</span>
+                        </div>
+                    </div>
+                    <div class="listing-category">Beach</div>
+                    <div class="listing-date">11-16 sept.</div>
+                    <div class="listing-price-block"><span class="listing-price">100$</span> for night</div>
+                </div>
             </div>
-        </div>
-        <div style="width: 82px; height: 123px; left: 1177px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 7px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">Кемпінг</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 37px; height: 38.28px; left: 21px; top: 20px; position: absolute; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
-                <div style="width: 37px; height: 38.33px; background: #8B8B8B"></div>
+
+            <div class="listing-block">
+                <img class="listing-img"
+                     src="https://a0.muscache.com/im/pictures/miso/Hosting-782583043344736922/original/5a43c686-6c35-44c7-8504-177aa003191e.jpeg?im_w=720"/>
+                <div class="m-2 mt-3">
+                    <div class="row">
+                        <div class="col listing-localization">Bernati, Latvia</div>
+                        <div class="col text-end">
+                            <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                 viewBox="0 0 13 13" fill="none">
+                                <path
+                                    d="M6.5 0.43103L8.21927 4.59138L12.6819 4.95146L9.28184 7.88278L10.3206 12.2657L6.5 9.91697L2.6794 12.2657L3.71816 7.88278L0.318133 4.95146L4.78073 4.59138L6.5 0.43103Z"
+                                    fill="#636060"/>
+                            </svg>
+                            <span style="margin-left: 5px;">5,0</span>
+                        </div>
+                    </div>
+                    <div class="listing-category">Beach</div>
+                    <div class="listing-date">11-16 sept.</div>
+                    <div class="listing-price-block"><span class="listing-price">100$</span> for night</div>
+                </div>
             </div>
-        </div>
-        <div style="width: 80px; height: 123px; left: 1321px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 5px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">На колесах</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 47px; height: 31.81px; left: 18px; top: 26px; position: absolute">
-                <div style="width: 2.25px; height: 2.20px; left: 25.70px; top: 15.91px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 2.33px; height: 2.21px; left: 10.52px; top: 24.53px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 7.50px; height: 8.55px; left: 11.17px; top: 5.73px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 6.47px; height: 8.62px; left: 5.73px; top: 5.66px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 19.35px; height: 1.04px; left: 0.50px; top: 17.55px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 8.63px; height: 16.14px; left: 22.99px; top: 8.92px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 34.52px; height: 24.77px; left: 0.29px; top: 0.29px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 19.51px; height: 1.04px; left: 15.30px; top: 24.02px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 9.67px; height: 9.62px; left: 6.85px; top: 20.88px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 3.19px; height: 1.04px; left: 0.43px; top: 20.83px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 4.48px; height: 1.05px; left: 30.41px; top: 17.54px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 12.94px; height: 4.32px; left: 33.77px; top: 20.74px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 37.70px; height: 1.04px; left: 1.42px; top: 30.49px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 1.04px; height: 5.35px; left: 42.35px; top: 23.99px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
-                <div style="width: 6.63px; height: 1.05px; left: 28.29px; top: 5.72px; position: absolute; background: #7D7D80; border: 0.25px #7D7D80 solid"></div>
+
+            <div class="listing-block">
+                <img class="listing-img"
+                     src="https://a0.muscache.com/im/pictures/dfa46b83-bb39-4ce8-87e8-1b6370c62540.jpg?im_w=720"/>
+                <div class="m-2 mt-3">
+                    <div class="row">
+                        <div class="col listing-localization">Bernati, Latvia</div>
+                        <div class="col text-end">
+                            <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                 viewBox="0 0 13 13" fill="none">
+                                <path
+                                    d="M6.5 0.43103L8.21927 4.59138L12.6819 4.95146L9.28184 7.88278L10.3206 12.2657L6.5 9.91697L2.6794 12.2657L3.71816 7.88278L0.318133 4.95146L4.78073 4.59138L6.5 0.43103Z"
+                                    fill="#636060"/>
+                            </svg>
+                            <span style="margin-left: 5px;">5,0</span>
+                        </div>
+                    </div>
+                    <div class="listing-category">Beach</div>
+                    <div class="listing-date">11-16 sept.</div>
+                    <div class="listing-price-block"><span class="listing-price">100$</span> for night</div>
+                </div>
             </div>
-        </div>
-        <div style="width: 83px; height: 123px; left: 1465px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 8px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">На яхті</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 30px; height: 39.06px; left: 26px; top: 21px; position: absolute; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
-                <div style="width: 30.01px; height: 39.04px; background: #7D7D80"></div>
+
+            <div class="listing-block">
+                <img class="listing-img"
+                     src="https://a0.muscache.com/im/pictures/miso/Hosting-554211241906940281/original/6b0519fe-aa71-4f65-90e1-2ee245e18770.jpeg?im_w=720"/>
+                <div class="m-2 mt-3">
+                    <div class="row">
+                        <div class="col listing-localization">Bernati, Latvia</div>
+                        <div class="col text-end">
+                            <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                 viewBox="0 0 13 13" fill="none">
+                                <path
+                                    d="M6.5 0.43103L8.21927 4.59138L12.6819 4.95146L9.28184 7.88278L10.3206 12.2657L6.5 9.91697L2.6794 12.2657L3.71816 7.88278L0.318133 4.95146L4.78073 4.59138L6.5 0.43103Z"
+                                    fill="#636060"/>
+                            </svg>
+                            <span style="margin-left: 5px;">5,0</span>
+                        </div>
+                    </div>
+                    <div class="listing-category">Beach</div>
+                    <div class="listing-date">11-16 sept.</div>
+                    <div class="listing-price-block"><span class="listing-price">100$</span> for night</div>
+                </div>
             </div>
-        </div>
-        <div style="width: 94px; height: 123px; left: 1888px; top: 22px; position: absolute">
-            <div style="width: 94px; height: 24px; left: 0px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">Біля аеропорту</div>
-            <div style="width: 80px; height: 80px; left: 9px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 32.59px; height: 37.02px; left: 33px; top: 22px; position: absolute; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
-                <div style="width: 32.58px; height: 37.02px; background: #7D7D80"></div>
+
+            <div class="listing-block">
+                <img class="listing-img"
+                     src="https://a0.muscache.com/im/pictures/miso/Hosting-554211241906940281/original/6b0519fe-aa71-4f65-90e1-2ee245e18770.jpeg?im_w=720"/>
+                <div class="m-2 mt-3">
+                    <div class="row">
+                        <div class="col listing-localization">Bernati, Latvia</div>
+                        <div class="col text-end">
+                            <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                 viewBox="0 0 13 13" fill="none">
+                                <path
+                                    d="M6.5 0.43103L8.21927 4.59138L12.6819 4.95146L9.28184 7.88278L10.3206 12.2657L6.5 9.91697L2.6794 12.2657L3.71816 7.88278L0.318133 4.95146L4.78073 4.59138L6.5 0.43103Z"
+                                    fill="#636060"/>
+                            </svg>
+                            <span style="margin-left: 5px;">5,0</span>
+                        </div>
+                    </div>
+                    <div class="listing-category">Beach</div>
+                    <div class="listing-date">11-16 sept.</div>
+                    <div class="listing-price-block"><span class="listing-price">100$</span> for night</div>
+                </div>
             </div>
-        </div>
-        <div style="width: 110px; height: 123px; left: 1738px; top: 22px; position: absolute">
-            <div style="width: 110px; height: 24px; left: 0px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">Біля інсталокацій</div>
-            <div style="width: 80px; height: 80px; left: 15px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-            <div style="width: 36px; height: 30.89px; left: 38px; top: 26px; position: absolute">
-                <div style="width: 35.62px; height: 30.53px; left: 0.20px; top: 0.19px; position: absolute; background: #7D7D80; border: 0.15px #E3E5EA solid"></div>
-                <div style="width: 17.07px; height: 17.07px; left: 14.38px; top: 9.40px; position: absolute; background: #7D7D80; border: 0.15px #E3E5EA solid"></div>
-                <div style="width: 9.11px; height: 9.11px; left: 18.36px; top: 13.33px; position: absolute; background: #7D7D80; border: 0.15px #E3E5EA solid"></div>
-                <div style="width: 8.41px; height: 5.98px; left: 3.73px; top: 8.32px; position: absolute; background: #7D7D80; border: 0.15px #E3E5EA solid"></div>
+
+            <div class="listing-block">
+                <img class="listing-img"
+                     src="https://a0.muscache.com/im/pictures/miso/Hosting-554211241906940281/original/6b0519fe-aa71-4f65-90e1-2ee245e18770.jpeg?im_w=720"/>
+                <div class="m-2 mt-3">
+                    <div class="row">
+                        <div class="col listing-localization">Bernati, Latvia</div>
+                        <div class="col text-end">
+                            <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                 viewBox="0 0 13 13" fill="none">
+                                <path
+                                    d="M6.5 0.43103L8.21927 4.59138L12.6819 4.95146L9.28184 7.88278L10.3206 12.2657L6.5 9.91697L2.6794 12.2657L3.71816 7.88278L0.318133 4.95146L4.78073 4.59138L6.5 0.43103Z"
+                                    fill="#636060"/>
+                            </svg>
+                            <span style="margin-left: 5px;">5,0</span>
+                        </div>
+                    </div>
+                    <div class="listing-category">Beach</div>
+                    <div class="listing-date">11-16 sept.</div>
+                    <div class="listing-price-block"><span class="listing-price">100$</span> for night</div>
+                </div>
             </div>
-        </div>
-        <div style="height: 123px; left: 1609px; top: 22px; position: absolute">
-            <div style="width: 75px; height: 24px; left: 4px; top: 99px; position: absolute; text-align: center; color: #8B8B8B; font-size: 12px; font-family: Inter; font-weight: 600; word-wrap: break-word">З історією</div>
-            <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute">
-                <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 2px #E2E5F4 solid"></div>
-                <div style="width: 45px; height: 44.16px; left: 18px; top: 17px; position: absolute">
-                    <div style="width: 45.01px; height: 44.11px; left: 0.04px; top: 0px; position: absolute; background: #7D7D80"></div>
-                    <div style="width: 4.18px; height: 4.18px; left: 18.06px; top: 23.52px; position: absolute; background: #7D7D80"></div>
-                    <div style="width: 4.17px; height: 4.18px; left: 23.63px; top: 23.52px; position: absolute; background: #7D7D80"></div>
-                    <div style="width: 4.18px; height: 4.22px; left: 5.02px; top: 33.35px; position: absolute; background: #7D7D80"></div>
-                    <div style="width: 4.17px; height: 4.22px; left: 10.59px; top: 33.35px; position: absolute; background: #7D7D80"></div>
-                    <div style="width: 4.17px; height: 4.22px; left: 30.87px; top: 33.35px; position: absolute; background: #7D7D80"></div>
-                    <div style="width: 4.17px; height: 4.22px; left: 36.44px; top: 33.35px; position: absolute; background: #7D7D80"></div>
+
+            <div class="listing-block">
+                <img class="listing-img"
+                     src="https://a0.muscache.com/im/pictures/miso/Hosting-554211241906940281/original/6b0519fe-aa71-4f65-90e1-2ee245e18770.jpeg?im_w=720"/>
+                <div class="m-2 mt-3">
+                    <div class="row">
+                        <div class="col listing-localization">Bernati, Latvia</div>
+                        <div class="col text-end">
+                            <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                 viewBox="0 0 13 13" fill="none">
+                                <path
+                                    d="M6.5 0.43103L8.21927 4.59138L12.6819 4.95146L9.28184 7.88278L10.3206 12.2657L6.5 9.91697L2.6794 12.2657L3.71816 7.88278L0.318133 4.95146L4.78073 4.59138L6.5 0.43103Z"
+                                    fill="#636060"/>
+                            </svg>
+                            <span style="margin-left: 5px;">5,0</span>
+                        </div>
+                    </div>
+                    <div class="listing-category">Beach</div>
+                    <div class="listing-date">11-16 sept.</div>
+                    <div class="listing-price-block"><span class="listing-price">100$</span> for night</div>
                 </div>
             </div>
         </div>
-    </div>
-    <div style="width: 131px; height: 36px; left: 1491px; top: 246px; position: absolute">
-        <div style="width: 131px; height: 36px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px"></div>
-        <div style="width: 84px; height: 24px; left: 42px; top: 8px; position: absolute; text-align: center; color: #8B8B8B; font-size: 15px; font-family: Inter; font-weight: 500; word-wrap: break-word">Фільтри</div>
-        <div style="width: 18.97px; height: 0px; left: 16.51px; top: 14.50px; position: absolute; border: 0.50px #8B8B8B solid"></div>
-        <div style="width: 18.97px; height: 0px; left: 36.97px; top: 22px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border: 0.50px #8B8B8B solid"></div>
-    </div>
-    <div style="width: 113px; height: 36px; left: 1501px; top: 59px; position: absolute">
-        <div style="width: 113px; height: 36px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px"></div>
-        <div style="width: 25px; height: 12px; left: 15.99px; top: 12px; position: absolute">
-            <div style="width: 25px; height: 0px; left: 0px; top: 0px; position: absolute; border: 1px #8B8B8B solid"></div>
-            <div style="width: 25px; height: 0px; left: 0px; top: 6px; position: absolute; border: 1px #8B8B8B solid"></div>
-            <div style="width: 25px; height: 0px; left: 0px; top: 12px; position: absolute; border: 1px #8B8B8B solid"></div>
-        </div>
-        <div style="width: 27px; height: 27px; left: 71px; top: 5px; position: absolute">
-            <div style="width: 27px; height: 27px; left: 0px; top: 0px; position: absolute; border-radius: 9999px; border: 0.75px #9A9999 solid"></div>
-            <div style="width: 10px; height: 10px; left: 8.50px; top: 3px; position: absolute; background: #8B8B8B; border-radius: 9999px"></div>
-            <div style="width: 15px; height: 16px; left: 6px; top: 10px; position: absolute; background: #8B8B8B; border: 0.50px #8B8B8B solid"></div>
-        </div>
-    </div>
-    <div style="width: 165px; height: 41.22px; left: 765px; top: 953px; position: absolute">
-        <div style="width: 165px; height: 41.22px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17); border-radius: 15px"></div>
-        <div style="width: 128.70px; height: 24px; left: 5.83px; top: 10px; position: absolute; text-align: center; color: #6B6B6B; font-size: 15px; font-family: DM Mono; font-weight: 500; word-wrap: break-word">Показати мапу</div>
-        <div style="width: 17.53px; height: 13.83px; left: 135.22px; top: 13px; position: absolute">
-            <div style="width: 5.16px; height: 10.83px; left: 0px; top: 3px; position: absolute; background: #6B6B6B"></div>
-            <div style="width: 5.16px; height: 10.83px; left: 12.38px; top: 0px; position: absolute; background: #6B6B6B"></div>
-            <div style="width: 5.16px; height: 13.83px; left: 6.19px; top: 0px; position: absolute; background: #6B6B6B"></div>
-        </div>
-    </div>
-    <div style="width: 575px; height: 36.24px; left: 554px; top: 59px; position: absolute">
-        <div style="width: 575px; height: 36.24px; left: 0px; top: 0px; position: absolute; background: #E2E5F4; box-shadow: 3px 3px 17px rgba(0, 0, 0, 0.17); border-radius: 15px; border: 0.50px white solid"></div>
-        <div style="width: 2px; height: 35.23px; left: 295px; top: 1.01px; position: absolute; background: rgba(217, 217, 217, 0.03); box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.25) inset; border-radius: 0.50px"></div>
-        <div style="width: 282px; height: 24.16px; left: 6px; top: 7.05px; position: absolute; text-align: center; color: #8B8B8B; font-size: 17.50px; font-family: Inter; font-weight: 500; word-wrap: break-word">Шукаю помешкання</div>
-        <div style="width: 279px; height: 24.16px; left: 296px; top: 7.05px; position: absolute; text-align: center; color: #8B8B8B; font-size: 17.50px; font-family: Inter; font-weight: 500; word-wrap: break-word">Шукаю враження</div>
-    </div>
-</div>
-
-</body>
-</html>
+    </main>
+@stop
