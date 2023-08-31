@@ -679,7 +679,7 @@
                     </svg>
                 </button>
                 <button class="header-filters d-flex flex-row gap-3 px-3 py-1 align-items-center justify-content-center">
-                    <div style="margin-bottom: 4px;">
+                    <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                              class="bi bi-sliders" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -884,4 +884,52 @@
             </div>
         </div>
     </main>
+@stop
+
+@section('footer')
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex flex-row gap-4">
+                        <div>© 2023 Look`in. Inc.</div>
+                        <div><a href="">Privacy Policy</a></div>
+                        <div><a href="">Terms</a></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="d-flex flex-row float-end gap-4 footer-right-side">
+                        <div class="text-end">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#languageModal">
+                                English (EN)
+                            </button>
+                        </div>
+                        <div class="text-end"><a href="">$ USD</a></div>
+                        <div class="text-end"><a href="">Support</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+@stop
+
+@section('dialogs_windows')
+<div class="dialogs_windows">
+    <div class="modal fade" id="languageModal" tabindex="-1" aria-labelledby="languageModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="languageModalLabel">Choose language</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+{{--                <div class="modal-footer">--}}
+{{--                </div>--}}
+            </div>
+        </div>
+    </div>
+</div>
 @stop
