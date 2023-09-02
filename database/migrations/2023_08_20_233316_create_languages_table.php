@@ -17,6 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string("languageCode",5);
             $table->string("languageName",20);
+            $table->string("countryCode",5);
+            $table->string("countryName",20);
             $table->timestamps();
         });
     }

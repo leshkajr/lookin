@@ -9,16 +9,16 @@
                 </div>
                 <div class="col-md d-flex justify-content-center align-items-center">
                     <div class="search-buttons row rounded-3">
-                        <button class="col button-where text-center">Somewhere</button>
+                        <button class="col button-where text-center">@lang("main.somewhere")</button>
                         <div class="col" style="flex: 0">
                             <div style="height: 100%; background-color: #cccccc; width: 1px;"></div>
                         </div>
-                        <button class="col button-when text-center">Whenever</button>
+                        <button class="col button-when text-center">@lang("main.whenever")</button>
                     </div>
                 </div>
                 <div class="col d-flex justify-content-center align-items-center">
                     <div class="d-flex flex-row gap-3 justify-content-center align-items-center">
-                        <button class="header-offer">Offer an apartment</button>
+                        <button class="header-offer">@lang("main.offer_an_apartment")</button>
                         <button>
                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 27 27" fill="none">
                                 <circle cx="13.5" cy="13.5" r="12.75" stroke="#8B8B8B" stroke-width="1.5"/>
@@ -54,14 +54,14 @@
                             </div>
                         </div>
                         <ul class="header-menu flex-column justify-content-center align-items-left" id="header-menu">
-                            <li class="header-menu-main-item">Notification</li>
-                            <li class="header-menu-main-item">Travels</li>
-                            <li class="header-menu-main-item">Favorites</li>
+                            <li class="header-menu-main-item">@lang("main.notification")</li>
+                            <li class="header-menu-main-item">@lang("main.travels")</li>
+                            <li class="header-menu-main-item">@lang("main.favorites")</li>
                             <hr class="header-menu-hr-item">
-                            <li class="header-menu-secondary-item">Offer your placement<br>
-                                on the Look ' in
+                            <li class="header-menu-secondary-item">@lang("main.offer_your_listing")<br>
+                                @lang("main.on_the_lookin")
                             </li>
-                            <li class="header-menu-secondary-item">Account</li>
+                            <li class="header-menu-secondary-item">@lang("main.account")</li>
                             <hr class="header-menu-hr-item">
                             <li class="header-menu-secondary-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="margin:-2px 2px 0 3px;" width="13"
@@ -71,7 +71,7 @@
                                     <path
                                         d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
                                 </svg>
-                                Help center
+                                @lang("main.help_center")
                             </li>
                             <li class="header-menu-secondary-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="margin:-2px 2px 0 0;" width="16" height="16"
@@ -81,7 +81,7 @@
                                     <path fill-rule="evenodd"
                                           d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
                                 </svg>
-                                Log out
+                                @lang("main.log_out")
                             </li>
                         </ul>
                     </div>
@@ -686,7 +686,7 @@
                                   d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z"/>
                         </svg>
                     </div>
-                    <div>Filters</div>
+                    <div>@lang("main.filters")</div>
                 </button>
             </div>
         </div>
@@ -893,8 +893,8 @@
                 <div class="col">
                     <div class="d-flex flex-row gap-4">
                         <div>© 2023 Look`in. Inc.</div>
-                        <div><a href="">Privacy Policy</a></div>
-                        <div><a href="">Terms</a></div>
+                        <div><a href="">@lang("main.privacy_policy")</a></div>
+                        <div><a href="">@lang("main.terms")</a></div>
                     </div>
                 </div>
 
@@ -902,11 +902,15 @@
                     <div class="d-flex flex-row float-end gap-4 footer-right-side">
                         <div class="text-end">
                             <button type="button" data-bs-toggle="modal" data-bs-target="#languageModal">
-                                English (EN)
+                                @foreach($languages as $language)
+                                    @if(App::getLocale() === $language->languageCode)
+                                        {{ $language->languageName }} ({{ strtoupper($language->languageCode) }})
+                                    @endif
+                                @endforeach
                             </button>
                         </div>
                         <div class="text-end"><a href="">$ USD</a></div>
-                        <div class="text-end"><a href="">Support</a></div>
+                        <div class="text-end"><a href="">@lang("main.support")</a></div>
                     </div>
                 </div>
             </div>
@@ -920,11 +924,37 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="languageModalLabel">Choose language</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close p-3" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-
+                <div class="modal-body p-4 d-flex flex-column gap-3">
+                    <h1 class="modal-title fs-5" id="languageModalLabel">@lang("main.selected_language")</h1>
+                    <div class="d-flex flex-row  gap-4 mb-4">
+                        @foreach ($languages as $language)
+                            @if( App::getLocale() === $language->languageCode)
+                                <div class="modal-language">
+                                    <a href="locale/{{ $language->languageCode }}">
+                                        <div class="d-flex flex-column">
+                                            <div style="color:var(--text-color-dark); font-size:15px;">{{ $language->languageName }}</div>
+                                            <div style="font-size:13px;">{{ $language->countryName }}</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <h1 class="modal-title fs-5" id="languageModalLabel">@lang("main.choose_language")</h1>
+                    <div class="d-flex flex-row  gap-4">
+                        @foreach ($languages as $language)
+                            <div class="modal-language">
+                                <a href="locale/{{ $language->languageCode }}">
+                                    <div class="d-flex flex-column">
+                                        <div style="color:var(--text-color-dark); font-size:15px;">{{ $language->languageName }}</div>
+                                        <div style="font-size:13px;">{{ $language->countryName }}</div>
+                                    </div>
+                                </a>
+                            </div>
+                        @endforeach
+                    </div>
                 </div>
 {{--                <div class="modal-footer">--}}
 {{--                </div>--}}

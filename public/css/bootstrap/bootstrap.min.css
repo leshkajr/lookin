@@ -6302,7 +6302,6 @@ fieldset:disabled .btn {
     align-items: center;
     justify-content: space-between;
     padding: var(--bs-modal-header-padding);
-    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
     border-top-left-radius: var(--bs-modal-inner-border-radius);
     border-top-right-radius: var(--bs-modal-inner-border-radius)
 }
@@ -6347,7 +6346,7 @@ fieldset:disabled .btn {
     }
 
     .modal-dialog {
-        max-width: var(--bs-modal-width);
+        max-width: 70%;
         margin-right: auto;
         margin-left: auto
     }

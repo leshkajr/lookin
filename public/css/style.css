@@ -8,6 +8,10 @@
 
     --background-color: #E2E5F4;
     --background-color--1: #d8dbe9;
+    --background-color--2: #e0e3f4;
+
+    --border-bottom: #bbbdca;
+
 
     --text-size-sm: 0.85rem;
 }
@@ -103,7 +107,7 @@ a{
 
 .button-when{
     padding: 0.75% 0;
-    padding-top: 1.80%;
+    padding-top: 1.5%;
     font-family: Inter;
     font-weight: 500;
     transition: 0.5s ease;
@@ -117,7 +121,7 @@ a{
 
 .button-where{
     padding: 0.75% 0;
-    padding-top: 1.80%;
+    padding-top: 1.5%;
     font-family: Inter;
     font-weight: 500;
 
@@ -471,6 +475,41 @@ a{
 .footer-right-side>div>button{
     color: var(--text-color-dark);
     font-weight: 500;
+}  .modal-header, .modal-body{
+    background-color: var(--background-color);
+}
+
+
+.modal{
+    font-family: "Inter";
+}
+.modal-title{
+    font-weight: 500;
+    color:var(--text-color-dark);
+}
+.modal-header{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    border-bottom: 2px solid var(--border-bottom);
+}
+.modal-body{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.modal-language{
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.40), -4px -4px 20px 0px #FFF;
+    border-radius: 15px;
+
+    padding: 0;
+
+    transition: 0.3s ease;
+}
+.modal-language:hover{
+    background-color: var(--background-color--2);
+}
+.modal-language>a>div{
+    padding: 12px 40px 12px 15px;
 }
 
 
