@@ -527,7 +527,7 @@ a{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.modal-language{
+.modal-dialog-window{
     box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.40), -4px -4px 20px 0px #FFF;
     border-radius: 15px;
 
@@ -535,10 +535,10 @@ a{
 
     transition: 0.3s ease;
 }
-.modal-language:hover{
+.modal-dialog-window:hover{
     background-color: var(--background-color--2);
 }
-.modal-language>a>div{
+.modal-dialog-window>a>div{
     padding: 12px 40px 12px 15px;
 }
 .auth-languages-block{
