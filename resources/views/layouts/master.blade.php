@@ -1,4 +1,4 @@
-<html onclick="closeMenu()">
+<html onclick="closeMenu('header-menu')">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
