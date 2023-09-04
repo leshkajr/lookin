@@ -1,6 +1,6 @@
-﻿async function openMenu(){
+﻿async function openMenu(strId){
     await sleep(1);
-    const menu = document.getElementById('header-menu');
+    const menu = document.getElementById(strId);
     if(menu.style.display == "none")
         menu.style.display = "flex";
     else
@@ -8,8 +8,8 @@
 
         console.log("open/close");
 }
-async function closeMenu(){
-    const menu = document.getElementById('header-menu');
+async function closeMenu(strId){
+    const menu = document.getElementById(strId);
     if(menu.style.display == "flex"){
         await sleep(1);
         menu.style.display = "none";
@@ -17,6 +17,7 @@ async function closeMenu(){
     menu.style.display = "none";
     console.log("close");
 }
+
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));

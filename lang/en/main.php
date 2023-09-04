@@ -12,6 +12,7 @@ return [
     "help_center" => "Help center",
     "log_out" => "Log out",
     "filters" => "Filters",
+    "showmap" => "Show map",
     "privacy_policy" => "Privacy Policy",
     "terms" => "Terms",
     "support" => "Support",
