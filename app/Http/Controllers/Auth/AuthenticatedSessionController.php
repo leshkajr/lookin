@@ -18,6 +18,7 @@ class AuthenticatedSessionController extends Controller
      */
     public function create(): View
     {
+        Language::fillValues();
         $languages = Language::all();
 
         return view('auth.login',['languages'=>$languages]);

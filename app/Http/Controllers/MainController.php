@@ -17,4 +17,8 @@ class MainController extends Controller
 
         return view('main.main',['languages'=>$languages, 'currencies'=>$currencies]);
     }
+    public function likes()
+    {
+        return view('profile.likes');
+    }
 }
