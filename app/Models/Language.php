@@ -12,24 +12,25 @@ class Language extends Model
     protected $guarded = [];
 
     static function fillValues(){
-        $languages = array(
-             array(
-                'languageCode' => 'en',
-                'languageName' => 'English',
-                'countryCode' => 'us',
-                'countryName' => 'United States',
-            ),
-            array(
-                'languageCode' => 'ua',
-                'languageName' => 'Українська',
-                'countryCode' => 'ua',
-                'countryName' => 'Україна',
-            )
-        );
+        if(count(self::all()) === 0){
+            $languages = array(
+                array(
+                    'languageCode' => 'en',
+                    'languageName' => 'English',
+                    'countryCode' => 'us',
+                    'countryName' => 'United States',
+                ),
+                array(
+                    'languageCode' => 'ua',
+                    'languageName' => 'Українська',
+                    'countryCode' => 'ua',
+                    'countryName' => 'Україна',
+                )
+            );
 
-        foreach($languages as $language){
-            Language::create($language);
+            foreach($languages as $language){
+                self::create($language);
+            }
         }
-
     }
 }

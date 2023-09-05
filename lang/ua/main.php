@@ -3,6 +3,8 @@ return [
     "somewhere" => "Будь-куди",
     "whenever" => "Будь-коли",
     "offer_an_apartment" => "Запропонувати помешкання",
+    "login" => "Увійти",
+    "register" => "Зареєструватися",
     "notification" => "Повідомлення",
     "travels" => "Подорожі",
     "favorites" => "Улюблені",
@@ -17,6 +19,8 @@ return [
     "terms" => "Умови",
     "support" => "Підтримка",
     "choose_language" => "Оберіть мову",
+    "choose_currency" => "Оберіть валюту",
     "selected_language" => "Вибрана мова",
+    "selected_currency" => "Вибрана валюта",
 ];
 ?>

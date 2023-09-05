@@ -3,6 +3,8 @@ return [
     "somewhere" => "Somewhere",
     "whenever" => "Whenever",
     "offer_an_apartment" => "Offer an apartment",
+    "login" => " Log In",
+    "register" => "Register",
     "notification" => "Notification",
     "travels" => "Travels",
     "favorites" => "Favorites",
@@ -17,6 +19,8 @@ return [
     "terms" => "Terms",
     "support" => "Support",
     "choose_language" => "Choose language",
+    "choose_currency" => "Choose currency",
     "selected_language" => "Selected language",
+    "selected_currency" => "Selected currency",
 ];
 ?>

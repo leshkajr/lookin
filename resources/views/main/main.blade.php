@@ -234,7 +234,15 @@
                                 @endforeach
                             </button>
                         </div>
-                        <div class="text-end"><a href="">$ USD</a></div>
+                        <div class="text-end">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#currencyModal">
+                                @foreach($currencies as $currency)
+                                    @if($currency->currencyCode === "USD")
+                                        {{ $currency->currencyToken }} {{ strtoupper($currency->currencyCode) }}
+                                    @endif
+                                @endforeach
+                            </button>
+                        </div>
                         <div class="text-end"><a href="">@lang("main.support")</a></div>
                     </div>
                 </div>
