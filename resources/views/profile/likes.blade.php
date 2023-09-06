@@ -160,7 +160,7 @@
                     </ul>
                 </div>
                 <div class="footer-likes">
-                    <h5>Airbnb</h5>
+                    <h5>lookin</h5>
                     <ul>
                         <li><a href="#">Пресс-центр</a></li>
                         <li><a href="#">Новые функции</a></li>
@@ -173,7 +173,7 @@
         </div>
         <hr style="color: #1a1d20">
         <div style="text-align: center">
-            <p class="p-likes">&copy; 2023 Airbnb, Inc.</p>
+            <p class="p-likes">&copy; 2023 lookin, Inc.</p>
             <p class="p-likes">Конфиденциальность | Условия | Карта сайта | Реквизиты компании</p>
         </div>
     </footer>
