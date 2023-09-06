@@ -19,6 +19,11 @@ class MainController extends Controller
     }
     public function likes()
     {
-        return view('profile.likes');
+        Language::fillValues();
+        $languages = Language::all();
+
+        Currency::fillValues();
+        $currencies = Currency::all();
+        return view('profile.likes',['languages'=>$languages, 'currencies'=>$currencies]);
     }
 }

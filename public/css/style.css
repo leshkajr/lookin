@@ -498,6 +498,7 @@ a{
     position: fixed;
     left: 0;
     bottom: 0;
+
     width: 100%;
     color: var(--text-color);
 
@@ -609,4 +610,19 @@ a{
     filter: blur(50px);
     animation: animate-gradient 30s linear infinite;
 }
+ul{
+    list-style: none;
+}
+.row-likes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-likes{
+    width: 25%;
+    padding: 0;
+}
+.p-likes{
 
+    display: inline-block;
+    margin-right: 10px;
+}

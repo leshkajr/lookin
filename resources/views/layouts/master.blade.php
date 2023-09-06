@@ -5,6 +5,7 @@
     <title>Look`in - @yield('title')</title>
     <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet"/>
     <link href="{{ URL::asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet"/>
+
 </head>
 <body onresize="changeSizes()" onload="changeSizes()">
 
