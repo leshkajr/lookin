@@ -201,6 +201,7 @@
 @stop
 
 @section('footer')
+    @include('layouts.showmap')
     @include('layouts.footer')
 @stop
 

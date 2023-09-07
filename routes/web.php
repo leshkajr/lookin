@@ -32,5 +32,5 @@ Route::middleware('auth')->group(function () {
 // Localization
 
 Route::get('locale/{lange}',[LocalizationController::class,'setLang']);
-Route::get('/likes',[MainController::class,'likes'])->name('profiles.likes');
+Route::get('/favorite',[MainController::class,'favorite'])->name('profile.favorite');
 require __DIR__.'/auth.php';

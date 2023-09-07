@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <h2 style="text-align: center">избраное</h2>
+    <div class="text-favorite">@lang('favorite.favorite')</div>
     <main>
         <div class="d-flex flex-wrap align-items-center justify-content-left listings">
             <div class="listing-block">
@@ -135,8 +135,8 @@
 @stop
 
 @section('footer')
-    <footer >
-        <div class="container">
+    <footer>
+        <div class="footer-container">
             <div class="row-likes">
                 <div class="footer-likes">
                     <h5>Поддержка</h5>
@@ -170,11 +170,11 @@
                 </div>
             </div>
         </div>
-        <hr style="color: #1a1d20">
-        <div style="text-align: center">
-            <p class="p-likes">&copy; 2023 lookin, Inc.</p>
-            <p class="p-likes">Конфиденциальность | Условия | Карта сайта | Реквизиты компании</p>
-        </div>
+{{--        <hr style="color: #1a1d20">--}}
+{{--        <div style="text-align: center; marg">--}}
+{{--            <p class="p-likes">&copy; 2023 lookin, Inc.</p>--}}
+{{--            <p class="p-likes">Конфиденциальность | Условия | Карта сайта | Реквизиты компании</p>--}}
+{{--        </div>--}}
     </footer>
    @include('layouts.footer')
 @stop
