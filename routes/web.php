@@ -17,7 +17,7 @@ use \App\Http\Controllers\MainController;
 */
 
 Route::get('/', [MainController::class, 'index'])->name('main');
-Route::get('/search', [MainController::class, 'index'])->name('main');
+Route::get('/search', [MainController::class, 'index'])->name('main.search');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

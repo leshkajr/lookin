@@ -58,34 +58,31 @@ a{
 }
 
 
+/*.header-animated::before{*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: -110px;*/
+/*    left: -2px;*/
+
+/*    background: rgba(255, 255, 255, 0.8);*/
+/*    background-size: 400%;*/
+
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    z-index: -1;*/
+/*    filter: blur(20px);*/
+/*}*/
 .header-animated::before{
     content: '';
     position: absolute;
-    top: -110px;
-    left: -2px;
-
-    background: rgba(255, 255, 255, 0.8);
-    background-size: 400%;
-
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    filter: blur(20px);
-}
-.header-animated:after{
-    content: '';
-    position: absolute;
-    top: -100px;
+    /*top: -100px;*/
     left: -2px;
 
     background: linear-gradient(110deg, #ffd596 0%, #a9ffdf 25%, #ffd596 50%, #a9ffdf 75%, #ffd596 100%);
     background-size: 400%;
 
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-
     width: 100%;
-    height: 100%;
+    height: 100px;
     z-index: -2;
     filter: blur(40px);
     animation: animate-gradient 30s linear infinite;
