@@ -135,7 +135,7 @@
 @stop
 
 @section('footer')
-    <footer class="footer">
+    <footer >
         <div class="container">
             <div class="row-likes">
                 <div class="footer-likes">
@@ -176,7 +176,7 @@
             <p class="p-likes">Конфиденциальность | Условия | Карта сайта | Реквизиты компании</p>
         </div>
     </footer>
-
+   @include('layouts.footer')
 @stop
 
 @section('dialogs_windows')
