@@ -19,6 +19,9 @@ use \App\Http\Controllers\MainController;
 Route::get('/', [MainController::class, 'index'])->name('main');
 Route::get('/search', [MainController::class, 'index'])->name('main.search');
 
+Route::get('/country', [MainController::class, 'start'])->name('main.country');
+Route::get('/country/{countryName?}', [MainController::class, 'start'])->name('main.country');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

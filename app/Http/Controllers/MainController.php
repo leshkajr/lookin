@@ -18,4 +18,13 @@ class MainController extends Controller
         return view('main.main',['languages'=>$languages, 'currencies'=>$currencies]);
     }
 
+    public function start($countryName = null) {
+        Language::fillValues();
+        $languages = Language::all();
+
+        Currency::fillValues();
+        $currencies = Currency::all();
+
+        return view('main.start',['languages'=>$languages, 'currencies'=>$currencies]);
+    }
 }
