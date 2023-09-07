@@ -27,10 +27,12 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+    Route::get('/favorite',[ProfileController::class,'favorite'])->name('profile.favorite');
 });
 
 // Localization
 
 Route::get('locale/{lange}',[LocalizationController::class,'setLang']);
-Route::get('/favorite',[MainController::class,'favorite'])->name('profile.favorite');
+
 require __DIR__.'/auth.php';

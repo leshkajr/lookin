@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProfileUpdateRequest;
+use App\Models\Currency;
+use App\Models\Language;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -56,5 +58,15 @@ class ProfileController extends Controller
         $request->session()->regenerateToken();
 
         return Redirect::to('/');
+    }
+
+    public function favorite()
+    {
+        Language::fillValues();
+        $languages = Language::all();
+
+        Currency::fillValues();
+        $currencies = Currency::all();
+        return view('profile.favorite',['languages'=>$languages, 'currencies'=>$currencies]);
     }
 }

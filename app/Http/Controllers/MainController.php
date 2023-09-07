@@ -17,13 +17,5 @@ class MainController extends Controller
 
         return view('main.main',['languages'=>$languages, 'currencies'=>$currencies]);
     }
-    public function favorite()
-    {
-        Language::fillValues();
-        $languages = Language::all();
 
-        Currency::fillValues();
-        $currencies = Currency::all();
-        return view('profile.favorite',['languages'=>$languages, 'currencies'=>$currencies]);
-    }
 }
