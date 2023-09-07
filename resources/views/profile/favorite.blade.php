@@ -135,8 +135,8 @@
 @stop
 
 @section('footer')
-   @include('layouts.footer-app')
-   @include('layouts.footer')
+    @include('layouts.footer-upper')
+    @include('layouts.footer')
 @stop
 
 @section('dialogs_windows')
