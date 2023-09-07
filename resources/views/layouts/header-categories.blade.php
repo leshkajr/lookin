@@ -1,11 +1,8 @@
 <div class="header-categories">
     <div class="scroll-container d-flex flex-row align-items-center justify-content-center">
         <button class="scroll-button scroll-button-left" onclick="scrollContentLeft()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="currentColor"
-                 class="bi bi-arrow-left-circle"
-                 viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
             </svg>
         </button>
         <div class="content nav-scroller__items ">

@@ -55,8 +55,7 @@
                         <li class="header-menu-main-item">@lang("main.travels")</li>
                         <li class="header-menu-main-item">@lang("main.favorites")</li>
                         <hr class="header-menu-hr-item">
-                        <li class="header-menu-secondary-item">@lang("main.offer_your_listing")<br>
-                            @lang("main.on_the_lookin")
+                        <li class="header-menu-secondary-item">@lang("main.offer_your_listing")
                         </li>
                         <li class="header-menu-secondary-item">@lang("main.account")</li>
                         <hr class="header-menu-hr-item">
@@ -102,14 +101,13 @@
                     </ul>
                 @else
                     <ul class="header-menu flex-column justify-content-center align-items-left"
-                        style="margin-top: 260px" id="header-menu">
+                        style="margin-top: 250px" id="header-menu">
                         <li class="header-menu-main-item"><a href="{{ route("login") }}"><b>@lang("main.login")</b></a>
                         </li>
                         <li class="header-menu-main-item"><a href="{{ route("register") }}">@lang("main.register")</a>
                         </li>
                         <hr class="header-menu-hr-item">
                         <li class="header-menu-secondary-item">@lang("main.offer_your_listing")
-                            @lang("main.on_the_lookin")
                         </li>
                         <li class="header-menu-secondary-item">
                             @lang("main.help_center")

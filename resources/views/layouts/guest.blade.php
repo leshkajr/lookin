@@ -32,4 +32,5 @@
     </body>
 
     <script src="{{ URL::asset('js/openMenu.js')}}"></script>
+    <script src="{{ URL::asset('js/showPassword.js')}}"></script>
 </html>
