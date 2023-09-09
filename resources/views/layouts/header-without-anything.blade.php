@@ -7,8 +7,12 @@
         <div class="col-md"></div>
         <div class="col">
             <div class="d-flex justify-content-end align-items-center h-100 me-5">
-                <button class="button-languages">
-                    Українська (UA)
+                <button class="button-languages" type="button" data-bs-toggle="modal" data-bs-target="#languageModal">
+                    @foreach($languages as $language)
+                        @if(App::getLocale() === $language->languageCode)
+                            {{ $language->languageName }} ({{ strtoupper($language->languageCode) }})
+                        @endif
+                    @endforeach
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 27 27" fill="none"
                     style="margin: -3px 0 0 5px;">
                         <circle cx="13.5" cy="13.5" r="12.75" stroke="currentColor" stroke-width="1.5"/>

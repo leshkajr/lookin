@@ -10,5 +10,8 @@ return [
     "the_best_place" => "The best place for recreation in ",
     "guests_agree" => "Guests agree: these properties are highly rated for location, cleanliness, and more ",
     "for_night" => " for night",
+    "add_date" => "Add a date",
+    "accommodation_any_type" => "Accommodation for any type",
+    "find_a_accommodation" => "Find the type of accommodation that suits you",
 ];
 ?>

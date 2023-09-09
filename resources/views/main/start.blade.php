@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Look`in - ') {{-- добавить придумать --}}
+@section('title', 'Ukraine') {{-- добавить придумать --}}
 @section('header')
     <header class="main-header">
         @include('layouts.header-without-anything')
@@ -30,7 +30,7 @@
                                 <div class="col" style="width: 49%">
                                     <div class="start-table-label">
                                         <div>@lang('start.arrival')</div>
-                                        <x-clear-input required value="Додайте дату" class="start-table-input"/>
+                                        <x-clear-input required value="{{ Lang::get('start.add_date') }}" class="start-table-input"/>
                                     </div>
                                 </div>
                                 <div class="col" style="width: 2%">
@@ -39,7 +39,7 @@
                                 <div class="col" style="width: 49%">
                                     <div class="start-table-label">
                                         <div>@lang('start.departure')</div>
-                                        <x-clear-input required value="Додайте дату" class="start-table-input"/>
+                                        <x-clear-input required value="{{ Lang::get('start.add_date') }}" class="start-table-input"/>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@
                 <div style="font-weight: 300; font-size: 15px; margin-top: 5px;">@lang('start.guests_agree')</div>
                 <div class="d-flex flex-row gap-5 start-listings" style="margin-top: 1.5%;">
                     <div class="start-listing">
-                        <img class="start-listing-img" src="{{ asset('images/start-large-photos/photo1.jpg') }}"/>
+                        <div class="start-listing-img"><img src="{{ asset('images/start-large-photos/photo1.jpg') }}"/></div>
                         <div class="d-flex flex-row mt-4 start-listing-header">
                             <div class="start-listing-header-title">Заміський будинок у місті Slavske</div>
                             <div class="d-flex flex-row justify-content-end flex-nowrap" style="width: 100%;">
@@ -93,7 +93,7 @@
                         <div class="start-listing-price mt-2"><b>$121</b> @lang("start.for_night")</div>
                     </div>
                     <div class="start-listing">
-                        <img class="start-listing-img" src="{{ asset('images/start-large-photos/photo3.jpg') }}"/>
+                        <div class="start-listing-img"><img src="{{ asset('images/start-large-photos/photo3.jpg') }}"/></div>
                         <div class="d-flex flex-row mt-4 start-listing-header">
                             <div class="start-listing-header-title">Будинок у місті Vysloboky</div>
                             <div class="d-flex flex-row justify-content-end flex-nowrap" style="width: 100%;">
@@ -119,7 +119,7 @@
                         <div class="start-listing-price mt-2"><b>$101</b> @lang("start.for_night")</div>
                     </div>
                     <div class="start-listing">
-                        <img class="start-listing-img" src="{{ asset('images/start-large-photos/photo4.jpg') }}"/>
+                        <div class="start-listing-img"><img src="{{ asset('images/start-large-photos/photo4.jpg') }}"/></div>
                         <div class="d-flex flex-row mt-4 start-listing-header">
                             <div class="start-listing-header-title">Заміський будинок у місті Luzhky</div>
                             <div class="d-flex flex-row justify-content-end flex-nowrap gap-1" style="width: 100%;">
@@ -146,6 +146,30 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="d-flex flex-column" style="margin-top: 4%">
+                <div style="font-weight: 500; font-size: 25px;">@lang('start.accommodation_any_type')</div>
+                <div style="font-weight: 300; font-size: 15px; margin-top: 5px;">@lang('start.find_a_accommodation')</div>
+                <div class="d-flex flex-row gap-5 start-listings" style="margin-top: 1.5%;">
+                    @foreach($types_listings as $type)
+                    <div class="start-listing">
+                        <div class="start-listing-img"><img src="{{ asset('images/types-listings-photos/'. $type->nameType .'.jpg') }}"/></div>
+                        <div class="d-flex flex-row mt-4 start-listing-header">
+                            <div class="start-listing-header-title">@lang('listing_type.'.$type->nameType)</div>
+                        </div>
+                        <div class="start-listing-description mt-2">
+                            @lang('listing_type.'.$type->descriptionType)
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+
         </div>
     </main>
+@endsection
+
+@section('dialogs_windows')
+    @include('layouts.dialog-window-language')
 @endsection

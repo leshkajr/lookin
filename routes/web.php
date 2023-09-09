@@ -3,7 +3,8 @@
 use App\Http\Controllers\LocalizationController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
-use \App\Http\Controllers\MainController;
+use App\Http\Controllers\MainController;
+use App\Http\Controllers\SetupController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,9 @@ use \App\Http\Controllers\MainController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/setup', [SetupController::class, 'index'])->name('setup');
+
 
 Route::get('/', [MainController::class, 'index'])->name('main');
 Route::get('/search', [MainController::class, 'index'])->name('main.search');
