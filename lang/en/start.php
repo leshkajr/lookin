@@ -7,5 +7,8 @@ return [
     "arrival" => "Arrival",
     "departure" => "Departure",
     "search" => "Search",
+    "the_best_place" => "The best place for recreation in ",
+    "guests_agree" => "Guests agree: these properties are highly rated for location, cleanliness, and more ",
+    "for_night" => " for night",
 ];
 ?>
