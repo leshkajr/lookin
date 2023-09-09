@@ -16,7 +16,8 @@ return new class extends Migration
         Schema::create('type_listings', function (Blueprint $table) {
             $table->id();
             $table->string("nameType",32);
-            $table->string("iconPath",256);
+            $table->string("descriptionType",650);
+            $table->string("iconSvg",650);
             $table->timestamps();
         });
     }
