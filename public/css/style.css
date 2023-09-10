@@ -687,7 +687,7 @@ a{
     width: 100%;
     height: 22rem;
 }
-.start-listing-img>img{
+.start-listing-img>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -696,7 +696,7 @@ a{
 
     border-radius: 15px;
     border: 7px solid var(--background-color);
-    box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.40), -8px -7px 25px 4px #FFF;
+    box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.40), -5px -5px 25px 4px #FFF;
 }
 .start-listing-header{
     font-size: 16px;
@@ -716,6 +716,18 @@ a{
     font-size: 16px;
 }
 
+.start-amenities-block{
+    width: 19%;
+    padding: 1% 2% 0.9% 2%;
+
+    border-radius: 15px;
+    border: 4px solid #D6D9EB;
+    background: var(--background-color);
+    box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.40), -8px -7px 25px 4px #FFF;
+}
+.start-amenities-text{
+    font-weight: 400;
+}
 .auth-languages-block{
     position: absolute;
     bottom: 2%;
