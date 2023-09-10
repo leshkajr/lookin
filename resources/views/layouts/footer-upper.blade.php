@@ -2,33 +2,41 @@
     <div class="footer-container">
         <div class="row-likes">
             <div class="footer-likes">
-                <h5>Поддержка</h5>
+                <h5>Підтримка</h5>
                 <ul>
-                    <li><a href="#">Центр помощи</a></li>
+                    <li><a href="#">Довідковий Центр</a></li>
+                    <li><a href="#">Допомога з питань безпеки</a></li>
                     <li><a href="#">AirCover</a></li>
-                    <li><a href="#">Борьба с дискриминацией</a></li>
-                    <li><a href="#">Помощь людям с инвалидностью</a></li>
-                    <li><a href="#">Сообщить о проблеме в районе</a></li>
+                    <li><a href="#">Допомога людям з інвалідністю</a></li>
+                    <li><a href="#">Варіанти скасування бронювань</a></li>
                 </ul>
             </div>
             <div class="footer-likes">
-                <h5>Прием гостей</h5>
+                <h5>Спільнота</h5>
                 <ul>
-                    <li><a href="#">Сдайте жилье на Airbnb</a></li>
-                    <li><a href="#">AirCover для хозяев</a></li>
-                    <li><a href="#">Материалы для хозяев</a></li>
-                    <li><a href="#">Форум сообщества</a></li>
-                    <li><a href="#">Ответственный прием гостей</a></li>
+                    <li><a href="#">Look'in:житло для потерпілих</a></li>
+                    <li><a href="#">Бородьба за дискримінацією</a></li>
+
                 </ul>
             </div>
             <div class="footer-likes">
-                <h5>lookin</h5>
+                <h5>Прийом гостей</h5>
                 <ul>
-                    <li><a href="#">Пресс-центр</a></li>
-                    <li><a href="#">Новые функции</a></li>
-                    <li><a href="#">Карьера в Airbnb</a></li>
-                    <li><a href="#">Для инвесторов</a></li>
+                    <li><a href="#">AirCover для господарів</a></li>
+                    <li><a href="#">Ресурси щодо прийому гостей</a></li>
+                    <li><a href="#">Відвідати форум спільноти</a></li>
+                    <li><a href="#">Відповідальний прийом гостей</a></li>
                     <li><a href="#">Прием гостей на Airbnb.org</a></li>
+                </ul>
+            </div>
+            <div class="footer-likes">
+                <h5>Look'in</h5>
+                <ul>
+                    <li><a href="#">Новини</a></li>
+                    <li><a href="#">Докладніше про нові функції</a></li>
+                    <li><a href="#">Лист від наших захисників</a></li>
+                    <li><a href="#">Вакансії </a></li>
+                    <li><a href="#">Інвестори</a></li>
                 </ul>
             </div>
         </div>
