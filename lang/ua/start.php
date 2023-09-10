@@ -14,5 +14,6 @@ return [
     "accommodation_any_type" => "Помешкання для відпочинку для будь-якого типу",
     "find_a_accommodation" => "Знайдіть помешкання, тип якого підходить саме вам.",
     "accommodation_amenities" => "Помешкання з різними зручностями",
+    "other_great_vacation_accommodations" => " інші чудові помешкання для відпочинку",
 ];
 ?>

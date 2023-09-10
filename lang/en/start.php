@@ -14,5 +14,6 @@ return [
     "accommodation_any_type" => "Accommodation for any type",
     "find_a_accommodation" => "Find the type of accommodation that suits you",
     "accommodation_amenities" => "Accommodation with various amenities",
+    "other_great_vacation_accommodations" => " other great vacation accommodations",
 ];
 ?>
