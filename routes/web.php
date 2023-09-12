@@ -41,5 +41,6 @@ Route::middleware('auth')->group(function () {
 // Localization
 
 Route::get('locale/{lange}',[LocalizationController::class,'setLang']);
+Route::get('/account',[MainController::class,'account'])->name('profile.account');
 
 require __DIR__.'/auth.php';
