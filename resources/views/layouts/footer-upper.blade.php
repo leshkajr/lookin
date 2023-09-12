@@ -2,41 +2,41 @@
     <div class="footer-container">
         <div class="row-likes">
             <div class="footer-likes">
-                <h5>Підтримка</h5>
+                <div class="footer-upper">@lang('footer-upper.Support')</div>
                 <ul>
-                    <li><a href="#">Довідковий Центр</a></li>
-                    <li><a href="#">Допомога з питань безпеки</a></li>
+                    <li><a href="#">@lang('footer-upper.Reference Center')</a></li>
+                    <li><a href="#">@lang('footer-upper.Security assistance')</a></li>
                     <li><a href="#">AirCover</a></li>
-                    <li><a href="#">Допомога людям з інвалідністю</a></li>
-                    <li><a href="#">Варіанти скасування бронювань</a></li>
+                    <li><a href="#">@lang('footer-upper.Assistance to people with disabilities')</a></li>
+                    <li><a href="#">@lang('footer-upper.Options for canceling reservations')</a></li>
                 </ul>
             </div>
             <div class="footer-likes">
-                <h5>Спільнота</h5>
+                <div class="footer-upper">@lang('footer-upper.Community')</div>
                 <ul>
-                    <li><a href="#">Look'in:житло для потерпілих</a></li>
-                    <li><a href="#">Бородьба за дискримінацією</a></li>
+                    <li><a href="#">Look'in : @lang('footer-upper.housing for victims')</a></li>
+                    <li><a href="#">@lang('footer-upper.The fight against discrimination')</a></li>
 
                 </ul>
             </div>
             <div class="footer-likes">
-                <h5>Прийом гостей</h5>
+                <div class="footer-upper">@lang('footer-upper.Reception of guests')</div>
                 <ul>
-                    <li><a href="#">AirCover для господарів</a></li>
-                    <li><a href="#">Ресурси щодо прийому гостей</a></li>
-                    <li><a href="#">Відвідати форум спільноти</a></li>
-                    <li><a href="#">Відповідальний прийом гостей</a></li>
-                    <li><a href="#">Прием гостей на Airbnb.org</a></li>
+                    <li><a href="#">@lang('footer-upper.AirCover for hosts')</a></li>
+                    <li><a href="#">@lang('footer-upper.Resources for welcoming guests')</a></li>
+                    <li><a href="#">@lang('footer-upper.Visit the community forum')</a></li>
+                    <li><a href="#">@lang('footer-upper.Responsible reception of guests')</a></li>
+                    <li><a href="#">@lang('footer-upper.Hosting guests on Airbnb.org')</a></li>
                 </ul>
             </div>
             <div class="footer-likes">
-                <h5>Look'in</h5>
+                <div class="footer-upper">Look'in</div>
                 <ul>
-                    <li><a href="#">Новини</a></li>
-                    <li><a href="#">Докладніше про нові функції</a></li>
-                    <li><a href="#">Лист від наших захисників</a></li>
-                    <li><a href="#">Вакансії </a></li>
-                    <li><a href="#">Інвестори</a></li>
+                    <li><a href="#">@lang('footer-upper.News')</a></li>
+                    <li><a href="#">@lang('footer-upper.Learn more about new features')</a></li>
+                    <li><a href="#">@lang('footer-upper.A letter from our defenders')</a></li>
+                    <li><a href="#">@lang('footer-upper.Vacancies') </a></li>
+                    <li><a href="#">@lang('footer-upper.Investors')</a></li>
                 </ul>
             </div>
         </div>
