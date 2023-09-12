@@ -22,5 +22,13 @@ return [
     "choose_currency" => "Choose currency",
     "selected_language" => "Selected language",
     "selected_currency" => "Selected currency",
+    "price_range" => "Price range",
+    "prices_before_payment" => "Prices per night before payment of fees and taxes",
+    "minimum" => "Minimum",
+    "maximum" => "Maximum",
+    "rooms_and_sleeping_places" => "Rooms and sleeping places",
+    "rooms" => "Rooms",
+    "bathrooms" => "Bathrooms",
+    "beds" => "Beds",
 ];
 ?>

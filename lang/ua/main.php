@@ -22,5 +22,13 @@ return [
     "choose_currency" => "Оберіть валюту",
     "selected_language" => "Вибрана мова",
     "selected_currency" => "Вибрана валюта",
+    "price_range" => "Діапазон цін",
+    "prices_before_payment" => "Ціни за ніч до сплати зборів і податків",
+    "minimum" => "Мінімум",
+    "maximum" => "Максімум",
+    "rooms_and_sleeping_places" => "Кімнати та спальні місця",
+    "rooms" => "Спальні",
+    "bathrooms" => "Ванні кімнати",
+    "beds" => "Ліжка",
 ];
 ?>

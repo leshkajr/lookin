@@ -209,5 +209,6 @@
 <div class="dialogs_windows">
     @include('layouts.dialog-window-language')
     @include('layouts.dialog-window-currency')
+    @include('layouts.dialog-window-filters')
 </div>
 @stop
