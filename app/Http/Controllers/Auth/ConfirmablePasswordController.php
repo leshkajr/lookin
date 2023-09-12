@@ -19,7 +19,6 @@ class ConfirmablePasswordController extends Controller
     public function show(): View
     {
         $languages = Language::all();
-
         return view('auth.confirm-password',['languages'=>$languages]);
     }
 

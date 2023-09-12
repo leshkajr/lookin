@@ -20,7 +20,7 @@
                         @endif
                     @endforeach
                 </div>
-                <h1 class="modal-title fs-5" id="languageModalLabel">@lang("main.choose_currency")</h1>
+                <h1 class="modal-title fs-5" id="currencyModalLabel">@lang("main.choose_currency")</h1>
                 <div class="d-flex flex-row  gap-4">
                     @foreach ($currencies as $currency)
                         <div class="modal-dialog-window">

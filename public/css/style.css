@@ -5,6 +5,7 @@
     --text-color-blue: #9da1ab;
     --text-color-hover: #5b5b5b;
     --text-color-light: #9A9999;
+    --text-color-light-light: #bebdbd;
     --text-color-dark: #636060;
 
     --background-color-darker: #8589a9;
@@ -16,7 +17,7 @@
 
     --button-background-color: #0FB8CF;
 
-    --border-bottom: #bbbdca;
+    --border-bottom: #cdcfdc;
 
     --hr:#bbbdca;
 
@@ -406,7 +407,7 @@ a{
 } */
 
 .scroll-button-left{
-
+    margin-top: -15px;
     margin-left: 25px;
 }
 /* .scroll-button-left::after{
@@ -414,6 +415,7 @@ a{
 } */
 
 .scroll-button-right{
+    margin-top: -15px;
     margin-left: 15px;
     margin-right: 25px;
 }
@@ -422,16 +424,19 @@ a{
 } */
 
 .header-filters{
+    margin-top: -15px;
+
     border-radius: 15px;
     background: var(--background-color);
     box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, 0.17), -6px -4px 15px 2px rgba(255, 255, 255, 0.90);
 
+    padding: 0.4% 0;
 }
-
-.listings{
+main{
     padding: 0 5% 3% 5%;
-    gap: 4rem;
-
+}
+.listings{
+    gap: 3rem;
 }
 .listing-block{
     font-family: Inter;
@@ -599,10 +604,12 @@ a{
     font-family: "Inter";
 }
 .modal-title{
-    font-weight: 500;
-    color:var(--text-color-dark);
+    font-weight: 600;
+    color:var(--text-color);
 }
 .modal-header{
+    color: var(--text-color);
+
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 
@@ -626,8 +633,46 @@ a{
 .modal-dialog-window>a>div{
     padding: 12px 40px 12px 15px;
 }
+.modal-dialog-window-header{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: -20px;
+}
+.modal-dialog-window-under_header{
+    font-size: 16px;
+    font-weight:300;
+}
+.filters-input{
+    display: block;
+    width: 100%;
+    padding: 1rem 1rem;
 
+    height: calc(3.5rem + calc(var(--bs-border-width) * 2));
+    min-height: calc(3.5rem + calc(var(--bs-border-width) * 2));
+    line-height: 1.25;
 
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--background-color);
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 15px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25), -4px -4px 15px 0px rgba(255, 255, 255, 0.85), 2px 2px 4px 0px rgba(255, 255, 255, 0.85) inset;
+}
+.filters-input:focus-visible{
+    outline:0;
+}
+.filters-blocks{
+    border-radius: 12px;
+    background: #E2E5F4;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25), -4px -4px 10px 0px rgba(255, 255, 255, 0.75), 1px 1px 3px 0px rgba(255, 255, 255, 0.80) inset;
+}
 .text-welcome_your_guests{
     font-weight: 500;
     z-index: 3;
@@ -687,7 +732,7 @@ a{
     width: 100%;
     height: 22rem;
 }
-.start-listing-img>img{
+.start-listing-img>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -696,7 +741,7 @@ a{
 
     border-radius: 15px;
     border: 7px solid var(--background-color);
-    box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.40), -8px -7px 25px 4px #FFF;
+    box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.40), -5px -5px 25px 4px #FFF;
 }
 .start-listing-header{
     font-size: 16px;
@@ -716,6 +761,18 @@ a{
     font-size: 16px;
 }
 
+.start-amenities-block{
+    width: 19%;
+    padding: 1% 2% 0.8% 2%;
+
+    border-radius: 15px;
+    border: 4px solid #D6D9EB;
+    background: var(--background-color);
+    box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.40), -8px -7px 25px 4px #FFF;
+}
+.start-amenities-text{
+    font-weight: 400;
+}
 .auth-languages-block{
     position: absolute;
     bottom: 2%;

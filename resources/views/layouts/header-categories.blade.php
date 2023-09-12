@@ -587,7 +587,7 @@
                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
             </svg>
         </button>
-        <button class="header-filters d-flex flex-row gap-3 px-3 py-1 align-items-center justify-content-center">
+        <button class="header-filters d-flex flex-row gap-3 px-3 align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#filtersModal">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                      class="bi bi-sliders" viewBox="0 0 16 16">
