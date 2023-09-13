@@ -30,5 +30,10 @@ return [
     "rooms" => "Rooms",
     "bathrooms" => "Bathrooms",
     "beds" => "Beds",
+    "any" => "Any",
+    "property_type" => "Property type",
+    "host_language" => "Host language",
+    "amenities" => "Amenities",
+    "show" => "Show",
 ];
 ?>
