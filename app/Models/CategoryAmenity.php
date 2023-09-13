@@ -10,4 +10,21 @@ class CategoryAmenity extends Model
     use HasFactory;
 
     protected $guarded = [];
+
+
+    static function fillValues()
+    {
+        if (count(self::all()) === 0) {
+            $categoriesAmenities = array(
+                array(
+                    'nameCategoryAmenity' => 'beach',
+                ),
+
+            );
+
+            foreach ($categoriesAmenities as $category) {
+                self::create($category);
+            }
+        }
+    }
 }

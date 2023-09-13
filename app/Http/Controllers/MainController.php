@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CategoryListing;
 use App\Models\Currency;
 use App\Models\Language;
 use App\Models\TypeListing;
@@ -12,8 +13,12 @@ class MainController extends Controller
     public function index(){
         $languages = Language::all();
         $currencies = Currency::all();
+        $categoriesListing = CategoryListing::all();
+        $types_listings = TypeListing::all();
 
-        return view('main.main',['languages'=>$languages, 'currencies'=>$currencies]);
+        return view('main.main',
+            ['languages'=>$languages, 'currencies'=>$currencies, 'categoriesListing'=>$categoriesListing,
+            'types_listings' => $types_listings]);
     }
 
     public function start($countryName = null) {
