@@ -27,4 +27,11 @@ class MainController extends Controller
         $types_listings = TypeListing::all();
         return view('main.start',['languages'=>$languages, 'currencies'=>$currencies, 'types_listings' => $types_listings]);
     }
+  public function account()
+  {
+      $languages = Language::all();
+      $currencies = Currency::all();
+
+      return view('profile.account',['languages'=>$languages, 'currencies'=>$currencies]);
+  }
 }
