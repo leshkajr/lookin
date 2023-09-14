@@ -1043,7 +1043,7 @@ ul{
 }
 .div-account{
 
-    margin-left: 12%;
+    margin-left: 11%;
     margin-right: 10%;
     margin-top: 2%;
     display: flex;
@@ -1073,4 +1073,11 @@ ul{
     margin-right: 10%;
     margin-top: 2%;
     text-align: center;
+}
+.text{
+margin-left: 6%;
+font-size: 12px;
+
+
+
 }
