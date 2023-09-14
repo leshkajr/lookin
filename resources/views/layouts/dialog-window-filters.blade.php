@@ -74,6 +74,18 @@
                      background-color: var(--text-color-light-light); margin-left: -5.8%; "></div>
 
                     <div class="modal-dialog-window-header">@lang('main.amenities')</div>
+                    <div class="d-flex flex-row filters-property_type-blocks">
+                        @foreach($types_listings as $type)
+                            <div>
+
+                            </div>
+                            <button class="d-flex flex-column justify-content-center align-items-center">
+                                <img class="mb-2" src="{{ asset('images/types-listings-svg/'.$type->nameType.'.svg') }}"/>
+                                <div>@lang('listing_type.'.$type->nameType)</div>
+                            </button>
+                        @endforeach
+                    </div>
+
                 </div>
             </div>
             <div class="modal-footer">

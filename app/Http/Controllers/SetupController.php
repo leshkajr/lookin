@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Amenity;
+use App\Models\CategoryAmenity;
 use App\Models\CategoryListing;
 use App\Models\Currency;
 use App\Models\Language;
@@ -16,6 +18,8 @@ class SetupController extends Controller
         Language::fillValues();
         TypeListing::fillValues();
         CategoryListing::fillValues();
+        CategoryAmenity::fillValues();
+        Amenity::fillValues();
 
         return redirect()->route('main');
     }

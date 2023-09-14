@@ -17,9 +17,17 @@ class CategoryAmenity extends Model
         if (count(self::all()) === 0) {
             $categoriesAmenities = array(
                 array(
-                    'nameCategoryAmenity' => 'beach',
+                    'nameCategoryAmenity' => 'essentials',
                 ),
-
+                array(
+                    'nameCategoryAmenity' => 'features',
+                ),
+                array(
+                    'nameCategoryAmenity' => 'location',
+                ),
+                array(
+                    'nameCategoryAmenity' => 'safety',
+                ),
             );
 
             foreach ($categoriesAmenities as $category) {
