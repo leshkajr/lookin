@@ -168,7 +168,7 @@
 
             <div class="d-flex flex-column" style="margin:3% 0">
                 <div style="font-weight: 500; font-size: 25px;">@lang('start.accommodation_amenities')</div>
-                <div class="d-flex flex-fow gap-3 mt-3" style="display: flex">
+                <div class="d-flex flex-fow mt-3" style="display: flex; gap: 2.5rem">
                     <div class="start-amenities-block">
                         <div class="mb-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
