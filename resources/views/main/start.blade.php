@@ -2,7 +2,7 @@
 @section('title', 'Ukraine') {{-- добавить придумать --}}
 @section('header')
     <header class="main-header">
-        @include('layouts.header-without-center_menu-and-offer')
+        @include('layouts.header-2')
     </header>
 @endsection
 

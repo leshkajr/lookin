@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Amenity;
+use App\Models\CategoryAmenity;
 use App\Models\CategoryListing;
 use App\Models\Currency;
 use App\Models\Language;
@@ -17,10 +18,11 @@ class MainController extends Controller
         $categoriesListing = CategoryListing::all();
         $types_listings = TypeListing::all();
         $amenities = Amenity::all();
-
+        $categoriesAmenities = CategoryAmenity::all();
+//        dd($amenities->where('categoryAmenityId','1'));
         return view('main.main',
             ['languages'=>$languages, 'currencies'=>$currencies, 'categoriesListing'=>$categoriesListing,
-            'types_listings' => $types_listings,'amenities' => $amenities]);
+            'types_listings' => $types_listings,'amenities' => $amenities, 'categoriesAmenities'=>$categoriesAmenities]);
     }
 
     public function start($countryName = null) {

@@ -1,33 +1,33 @@
-<div class="top-header header-animated container-fluid m-0">
+<div class="top-header header-animated container-fluid m-0" style="padding: 1% 0;">
     <div class="row">
         <div class="col d-flex justify-content-center align-items-center">
-            <a href="{{ route('main') }}"><img class="logo" src="{{ URL::asset('images/lookin-logo-0.5x.png')}}"/></a>
+            <a href="{{ route('main') }}"><img class="logo" src="{{ URL::asset('images/lookin-logo-0.5x.png')}}"
+                                               style="transform: scale(0.7)"/></a>
         </div>
-        <div class="col-md d-flex justify-content-center align-items-center">
-            <div class="search-buttons row rounded-3">
-                <button class="col button-where text-center">@lang("main.somewhere")</button>
-                <div class="col" style="flex: 0">
-                    <div style="height: 100%; background-color: #cccccc; width: 1px;"></div>
-                </div>
-                <button class="col button-when text-center">@lang("main.whenever")</button>
-            </div>
-        </div>
-        <div class="col d-flex justify-content-center align-items-center">
-            <div class="d-flex flex-row gap-3 justify-content-center align-items-center">
-                <button class="header-offer">@lang("main.offer_an_apartment")</button>
-                <button class="language-globe">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 27 27" fill="none">
-                        <circle cx="13.5" cy="13.5" r="12.75" stroke="#8B8B8B" stroke-width="1.5"/>
-                        <path d="M13.4996 0.40918C4.49956 8.70009 5.31774 18.5619 13.4996 26.591" stroke="#8B8B8B"/>
+        <div class="col-md"></div>
+        <div class="col">
+            <div class="d-flex justify-content-end align-items-center h-100 me-5">
+                <button class="button-languages" type="button" data-bs-toggle="modal" data-bs-target="#languageModal">
+                    @foreach($languages as $language)
+                        @if(App::getLocale() === $language->languageCode)
+                            {{ $language->languageName }} ({{ strtoupper($language->languageCode) }})
+                        @endif
+                    @endforeach
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 27 27" fill="none"
+                    style="margin: -3px 0 0 5px;">
+                        <circle cx="13.5" cy="13.5" r="12.75" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M13.4996 0.40918C4.49956 8.70009 5.31774 18.5619 13.4996 26.591" stroke="currentColor"/>
                         <path d="M13.9094 0.818359C21.9049 8.85018 21.1781 18.4038 13.9094 26.182"
-                              stroke="#8B8B8B"/>
-                        <line x1="0.818359" y1="13.4092" x2="26.182" y2="13.4092" stroke="#8B8B8B"/>
+                              stroke="currentColor"/>
+                        <line x1="0.818359" y1="13.4092" x2="26.182" y2="13.4092" stroke="currentColor"/>
                     </svg>
                 </button>
-                <div class="corner-menu rounded-4" onclick="openMenu('header-menu')">
-                    <div class="rounded-4 p-1 gap-3">
-                        <button style="padding-top: 3px;">
-                            <svg width="28" height="14" viewBox="0 0 28 14" fill="none"
+
+
+                <div class="corner-menu rounded-4 ms-3" onclick="openMenu('header-menu')">
+                    <div class="rounded-4 gap-3" style="padding: 4px 3px 4px 3px;">
+                        <button style="padding-top: 4px;">
+                            <svg width="24" height="12" viewBox="0 0 28 14" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.99219 1L25.9922 1" stroke="#8B8B8B" stroke-width="2"
                                       stroke-linecap="round"/>
@@ -38,7 +38,7 @@
                             </svg>
                         </button>
                         <button>
-                            <svg width="27" height="27" viewBox="0 0 31 31" fill="none"
+                            <svg width="25" height="25" viewBox="0 0 31 31" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="15.5" cy="15.5" r="14.25" stroke="#9A9999" stroke-width="1.5"/>
                                 <circle cx="15.5" cy="10" r="5" fill="#8B8B8B"/>
