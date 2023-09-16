@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string("nameAmenity");
             $table->foreignId("categoryAmenityId")->constrained("category_amenities");
+            $table->string("iconPath")->nullable();
             $table->timestamps();
         });
     }
