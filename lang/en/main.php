@@ -35,5 +35,7 @@ return [
     "host_language" => "Host language",
     "amenities" => "Amenities",
     "show" => "Show",
+    "show_more" => "Show more",
+    "show_less" => "Show less",
 ];
 ?>

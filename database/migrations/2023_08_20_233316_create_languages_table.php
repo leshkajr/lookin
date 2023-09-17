@@ -15,10 +15,11 @@ return new class extends Migration
     {
         Schema::create('languages', function (Blueprint $table) {
             $table->id();
-            $table->string("languageCode",5);
-            $table->string("languageName",20);
-            $table->string("countryCode",5);
-            $table->string("countryName",20);
+            $table->string("languageCode",5)->nullable();
+            $table->string("languageName",25);
+            $table->string("languageNameOnEnglish",25);
+            $table->string("countryCode",5)->nullable();
+            $table->string("countryName",25);
             $table->timestamps();
         });
     }

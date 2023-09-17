@@ -13,9 +13,8 @@ use Illuminate\Http\Request;
 class SetupController extends Controller
 {
     public function index(){
-
-        Currency::fillValues();
         Language::fillValues();
+        Currency::fillValues();
         TypeListing::fillValues();
         CategoryListing::fillValues();
         CategoryAmenity::fillValues();

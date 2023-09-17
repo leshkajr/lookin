@@ -13,6 +13,8 @@ use Illuminate\Http\Request;
 class MainController extends Controller
 {
     public function index(){
+
+
         $languages = Language::all();
         $currencies = Currency::all();
         $categoriesListing = CategoryListing::all();

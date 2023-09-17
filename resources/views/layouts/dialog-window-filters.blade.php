@@ -74,24 +74,31 @@
                      background-color: var(--text-color-light-light); margin-left: -5.8%; "></div>
 
                     <div class="modal-dialog-window-header">@lang('main.amenities')</div>
-                    <div class="d-flex flex-column filters-amenities-blocks">
-                        @foreach($categoriesAmenities as $categoryAmenity)
-                            <div style="margin: 5px 5px 5px 0;">
-                                <div class="filters-amenity-category-text">@lang('amenities_categories.'.$categoryAmenity->nameCategoryAmenity)</div>
-                                <div class="d-flex flex-row flex-wrap filters-amenity-blocks w-100">
-                                    @foreach($amenities->where('categoryAmenityId',$categoryAmenity->id) as $amenity)
-                                        <button class="d-flex flex-row justify-content-left align-items-center">
-                                            <input type="checkbox" />
-                                            <div class="ms-2">
-                                                @lang('amenities.'.$amenity->nameAmenity)
+                    <div>
+                        <div class="d-flex flex-column filters-checkboxes-blocks">
+                            @foreach($categoriesAmenities as $categoryAmenity)
+                                <div style="margin: 5px 5px 5px 0;">
+                                    <div class="filters-checkboxes-header-text">@lang('amenities_categories.'.$categoryAmenity->nameCategoryAmenity)</div>
+                                    <div class="d-flex flex-row flex-wrap filters-checkbox-blocks w-100">
+                                        @foreach($amenities->where('categoryAmenityId',$categoryAmenity->id) as $amenity)
+                                            <div class="d-flex flex-row justify-content-left align-items-center">
+                                                <label class="container-checkbox">@lang('amenities.'.$amenity->nameAmenity)
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
                                             </div>
-                                        </button>
 
-                                    @endforeach
+                                        @endforeach
+                                    </div>
                                 </div>
-                            </div>
-                        @endforeach
+                            @endforeach
+                        </div>
+                        <div class="filters-checkboxes-after-button">
+                            <button onclick="showMore(this)">@lang('main.show_more')</button>
+                            <button onclick="showLess(this)" style="display: none;">@lang('main.show_less')</button>
+                        </div>
                     </div>
+
 
                 </div>
             </div>
