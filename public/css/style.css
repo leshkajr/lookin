@@ -505,6 +505,7 @@ main{
     position: absolute;
     margin-top: -18.5%;
     margin-left: 16%;
+
 }
 /*@media (max-width: 2000px) {*/
 /*    .listing-img{*/
@@ -571,6 +572,7 @@ main{
 /*}*/
 .listing-like>button>svg>path.fill{
     transition: 0.3s ease;
+
 }
 .listing-like:hover>button>svg>path.fill{
     opacity: 1;
