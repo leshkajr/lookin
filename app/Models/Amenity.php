@@ -23,6 +23,7 @@ class Amenity extends Model
                 array(
                     'nameAmenity' => 'wifi',
                     'categoryAmenityId' => $categoryEssentialsId,
+                    'iconPath' => 'images/amenities-svg/wifi.svg',
                 ),
                 array(
                     'nameAmenity' => 'washer',
@@ -31,6 +32,7 @@ class Amenity extends Model
                 array(
                     'nameAmenity' => 'air_conditioning',
                     'categoryAmenityId' => $categoryEssentialsId,
+                    'iconPath' => 'images/amenities-svg/snowflake.svg',
                 ),
                 array(
                     'nameAmenity' => 'dedicated_workspace',
@@ -43,6 +45,7 @@ class Amenity extends Model
                 array(
                     'nameAmenity' => 'kitchen',
                     'categoryAmenityId' => $categoryEssentialsId,
+                    'iconPath' => 'images/amenities-svg/kitchen.svg',
                 ),
                 array(
                     'nameAmenity' => 'dryer',
@@ -55,6 +58,7 @@ class Amenity extends Model
                 array(
                     'nameAmenity' => 'tv',
                     'categoryAmenityId' => $categoryEssentialsId,
+                    'iconPath' => 'images/amenities-svg/tv.svg',
                 ),
                 array(
                     'nameAmenity' => 'iron',
@@ -66,6 +70,7 @@ class Amenity extends Model
                 array(
                     'nameAmenity' => 'pool',
                     'categoryAmenityId' => $categoryFeaturesId,
+                    'iconPath' => 'images/amenities-svg/swimming-pool.svg',
                 ),
                 array(
                     'nameAmenity' => 'free_parking',

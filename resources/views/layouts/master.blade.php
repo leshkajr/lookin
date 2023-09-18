@@ -23,4 +23,5 @@
     <script src="{{ URL::asset('js/scrollContent.js')}}"></script>
     <script src="{{ URL::asset('js/openMenu.js')}}"></script>
     <script src="{{ URL::asset('js/changeSizes.js')}}"></script>
+    <script src="{{ URL::asset('js/showCheckboxes.js')}}"></script>
 </html>
