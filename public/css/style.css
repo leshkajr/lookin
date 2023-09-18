@@ -1079,7 +1079,119 @@ ul{
 .text{
 margin-left: 6%;
 font-size: 12px;
+}
 
 
 
+
+.house_type_text{
+    text-align: center;
+    font-size: 36px;
+
+    font-style: normal;
+}
+.house_container{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% auto;
+}
+.house_block{
+    /* Rectangle 23 */
+
+    width: 30%;
+    margin: 1%;
+
+    background: #E2E5F4;
+    box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2), inset 2px 2px 3px rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+   float: left;
+}
+.button_house{
+    margin-left: 900px;
+    margin-top: 3%;
+    width: 280px;
+    height: 55px;
+    background: #0FB8CF;
+    box-shadow: -4px -4px 20px rgba(255, 255, 255, 0.75), 4px 4px 17px rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+}
+.image_type_house{
+    margin-top:20px;
+    margin-left: 20px;
+}
+.text_house{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    margin-left: 20px;
+    margin-top: 23px;
+    color: #8B8B8B;
+}
+.message-counter{
+
+    display: flex;
+  width: 80%;
+
+   margin: 0 auto;
+
+}
+.mess-block-left{
+    float: left;
+}
+.mess-block-right{
+    float: right;
+
+
+
+}
+.messages-block{
+    /* пом1 */
+
+    /* Rectangle 23 */
+    width: 630px;
+    background: #E2E5F4;
+    border: 7px solid #E2E5F4;
+    box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 17px 2px rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+    margin: 2%;
+
+
+}
+.message-text{
+    /* Розмістіть свій будинок, готель або інше помешкання на Look’ in та заробляйте. */
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 1%;
+    color: #8B8B8B;
+
+
+}
+.message-block-right{
+    background: #E2E5F4;
+    border: 7px solid #E2E5F4;
+    box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 17px 2px rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+     margin-left: 100px;
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+
+}
+.message-text-left{
+    font-size: 24px;
+    font-weight: bold;
+     margin-left: 5%;
+}
+.message-text-right{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 37%;
 }

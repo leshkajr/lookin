@@ -37,4 +37,24 @@ class MainController extends Controller
         return view('profile.account',['languages'=>$languages, 'currencies'=>$currencies,
         'categoriesListing'=>$categoriesListing,]);
     }
+    public function message()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+
+        $categoriesListing = CategoryListing::all();
+
+        return view('profile.message',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,]);
+    }
+    public function house_type()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+
+        $categoriesListing = CategoryListing::all();
+
+        return view('profile.house_type',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,]);
+    }
 }
