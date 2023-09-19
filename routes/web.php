@@ -36,11 +36,13 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     Route::get('/favorite',[ProfileController::class,'favorite'])->name('profile.favorite');
+    Route::get('/account',[MainController::class,'account'])->name('profile.account');
+    Route::get('/message',[MainController::class,'message'])->name('profile.message');
+    Route::get('/house_type',[MainController::class,'house_type'])->name('profile.house_type');
 });
 
 // Localization
 
 Route::get('locale/{lange}',[LocalizationController::class,'setLang']);
-Route::get('/account',[MainController::class,'account'])->name('profile.account');
 
 require __DIR__.'/auth.php';

@@ -10,7 +10,7 @@
                 <button class="button-languages" type="button" data-bs-toggle="modal" data-bs-target="#languageModal">
                     @foreach($languages as $language)
                         @if(App::getLocale() === $language->languageCode)
-                            {{ $language->languageName }} ({{ strtoupper($language->languageCode) }})
+                            {{ $language->languageNameNative }} ({{ strtoupper($language->languageCode) }})
                         @endif
                     @endforeach
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 27 27" fill="none"
@@ -24,10 +24,10 @@
                 </button>
 
 
-                <div class="corner-menu rounded-4 ms-3" onclick="openMenu('header-menu')">
-                    <div class="rounded-4 gap-3" style="padding: 4px 3px 4px 3px;">
-                        <button style="padding-top: 4px;">
-                            <svg width="24" height="12" viewBox="0 0 28 14" fill="none"
+                <div class="corner-menu rounded-4 ms-4" onclick="openMenu('header-menu')">
+                    <div class="rounded-4">
+                        <button style="padding-top: 3px;">
+                            <svg width="28" height="14" viewBox="0 0 28 14" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.99219 1L25.9922 1" stroke="#8B8B8B" stroke-width="2"
                                       stroke-linecap="round"/>
@@ -37,8 +37,8 @@
                                       stroke-linecap="round"/>
                             </svg>
                         </button>
-                        <button>
-                            <svg width="25" height="25" viewBox="0 0 31 31" fill="none"
+                        <button style="margin-left: 15px;">
+                            <svg width="27" height="27" viewBox="0 0 31 31" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="15.5" cy="15.5" r="14.25" stroke="#9A9999" stroke-width="1.5"/>
                                 <circle cx="15.5" cy="10" r="5" fill="#8B8B8B"/>
