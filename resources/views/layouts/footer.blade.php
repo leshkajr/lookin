@@ -15,9 +15,9 @@
                 <div class="d-flex flex-row float-end gap-4 footer-right-side">
                     <div class="text-end">
                         <button type="button" data-bs-toggle="modal" data-bs-target="#languageModal">
-                            @foreach($languages as $language)
+                            @foreach($languages->take(3) as $language)
                                 @if(App::getLocale() === $language->languageCode)
-                                    {{ $language->languageName }} ({{ strtoupper($language->languageCode) }})
+                                    {{ $language->languageNameNative }} ({{ strtoupper($language->languageCode) }})
                                 @endif
                             @endforeach
                         </button>

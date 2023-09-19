@@ -12,6 +12,6 @@ return [
     "history" => "З історією",
     "city" => "В місті",
     "futurism" => "Футуризм",
-    "insta-location" => "Біля інсталокації",
+    "insta-location" => "Інсталокація",
     "airport" => "Біля аеропорту",
 ];

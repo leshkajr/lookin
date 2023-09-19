@@ -1,9 +1,9 @@
 <div class="auth-languages-block d-flex flex-column">
     <div class="auth-language-block">
         <div class="auth-language">
-            @foreach($languages as $language)
+            @foreach($languages->take(2) as $language)
                 @if($language->languageCode === App::getLocale())
-                    {{ $language->countryName }}
+                    {{ $language->countryNameNative }}
                     ({{ strtoupper($language->languageCode) }})
                     <button onclick="openMenu('auth-languages')">
                         <svg style="display: inline-block; color:var(--text-color-dark)" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -15,7 +15,7 @@
         </div>
     </div>
     <ul class="auth-languages" id="auth-languages">
-        @foreach($languages as $language)
+        @foreach($languages->take(2) as $language)
             @if($language->languageCode !== App::getLocale())
                 <li><a href="locale/{{ $language->languageCode }}">
                         {{ $language->countryName }}

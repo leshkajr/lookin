@@ -10,4 +10,56 @@ class Country extends Model
     use HasFactory;
 
     protected $guarded = [];
+
+    static function fillValues(){
+        if(count(self::all()) === 0){
+            $countries = json_decode(file_get_contents("https://countriesnow.space/api/v0.1/countries"));
+
+            foreach ($countries->data as $country) {
+                if (!self::isExist(self::All(), $country->country)) {
+                    $create_country = array(
+                        'name' => $country->country,
+                        'iso2' => strtolower($country->iso2),
+                    );
+                    $id = self::create($create_country)->id;
+
+                    if($country->country !== "Ukraine"){
+                        for ($i = 0; $i < 40; $i++) {
+                            if(isset($country->cities[$i])){
+                                $create_city = array(
+                                    'name' => $country->cities[$i],
+                                    'countryId' => $id,
+                                );
+                                City::create($create_city);
+                            }
+                        }
+                    }
+                    else{
+                        for ($i = 0; $i < count($country->cities); $i++) {
+                            if(isset($country->cities[$i])){
+                                $create_city = array(
+                                    'name' => $country->cities[$i],
+                                    'countryId' => $id,
+                                );
+                                City::create($create_city);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    static function isExist($countries, $t_country){
+        foreach($countries as $country){
+            if($t_country === "Russia"){
+                // до коробля
+                return true;
+            }
+            if($country->name === $t_country){
+                return true;
+            }
+        }
+        return false;
+    }
 }

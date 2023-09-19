@@ -40,6 +40,7 @@ button{
     background: 0;
     color: var(--text-size-sm);
     border: 0;
+    padding-inline: 0;
 }
 .button{
     font-family: "Inter";
@@ -268,13 +269,14 @@ a{
 
 .corner-menu{
     font-size: var(--text-size-sm);
-    box-shadow: 3px 3px 17px rgba(0, 0, 0, 0.17), -6px -4px 15px rgba(255, 255, 255, 0.90);
+    box-shadow: 3px 3px 17px rgba(0, 0, 0, 0.17), -5px -5px 13px rgba(255, 255, 255, 1);
 
     transition: 0.5s ease;
     cursor: pointer;
 }
 .corner-menu>div{
     transition: 0.5s ease;
+    padding: 3px 10px;
 }
 .corner-menu:hover>div{
     background-color: var(--background-color-active-button);
@@ -685,7 +687,7 @@ main{
     transition: 0.3s ease;
 }
 .modal-dialog-window:hover{
-    background-color: var(--background-color--2);
+    background-color: var(--background-color--1);
 }
 .modal-dialog-window>a>div{
     padding: 12px 40px 12px 15px;
@@ -787,6 +789,8 @@ main{
     cursor: pointer;
     font-weight: 500;
     font-size: 17px;
+
+    margin-top: 5px;
 
     display: inline-block;
 }

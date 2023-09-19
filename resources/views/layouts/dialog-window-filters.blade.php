@@ -99,6 +99,33 @@
                         </div>
                     </div>
 
+                    <div style="width: 111.5%; height: 1px; margin-top: 10px; margin-bottom: 10px;
+                     background-color: var(--text-color-light-light); margin-left: -5.8%; "></div>
+
+                    <div class="modal-dialog-window-header">@lang('main.host_language')</div>
+                    <div class="mt-1">
+                        <div class="d-flex flex-column filters-checkboxes-blocks">
+                            <div class="d-flex flex-row flex-wrap filters-checkbox-blocks w-100">
+                                @foreach($languages as $language)
+                                    <div class="d-flex flex-row justify-content-left align-items-center">
+                                        <label class="container-checkbox">
+                                            @if(App::getLocale() !== "en")
+                                                @lang('languages.'.$language->languageNameOnEnglish)
+                                            @else
+                                                @lang($language->languageName)
+                                            @endif
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                        <div class="filters-checkboxes-after-button">
+                            <button onclick="showMore(this)">@lang('main.show_more')</button>
+                            <button onclick="showLess(this)" style="display: none;">@lang('main.show_less')</button>
+                        </div>
+                    </div>
 
                 </div>
             </div>

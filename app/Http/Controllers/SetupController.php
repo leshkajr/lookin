@@ -5,14 +5,15 @@ namespace App\Http\Controllers;
 use App\Models\Amenity;
 use App\Models\CategoryAmenity;
 use App\Models\CategoryListing;
+use App\Models\Country;
 use App\Models\Currency;
 use App\Models\Language;
 use App\Models\TypeListing;
-use Illuminate\Http\Request;
 
 class SetupController extends Controller
 {
     public function index(){
+        Country::fillValues();
         Language::fillValues();
         Currency::fillValues();
         TypeListing::fillValues();

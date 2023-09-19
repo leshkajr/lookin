@@ -17,9 +17,11 @@ return new class extends Migration
             $table->id();
             $table->string("languageCode",5)->nullable();
             $table->string("languageName",25);
+            $table->string("languageNameNative",25)->nullable();
             $table->string("languageNameOnEnglish",25);
             $table->string("countryCode",5)->nullable();
             $table->string("countryName",25);
+            $table->string("countryNameNative",25)->nullable();
             $table->timestamps();
         });
     }

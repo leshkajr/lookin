@@ -7,13 +7,13 @@
             <div class="modal-body p-4 d-flex flex-column gap-3">
                 <h1 class="modal-title fs-5" id="languageModalLabel">@lang("main.selected_language")</h1>
                 <div class="d-flex flex-row  gap-4 mb-4">
-                    @foreach ($languages as $language)
-                        @if( App::getLocale() === $language->languageCode)
+                    @foreach ($languages->take(2) as $language)
+                        @if(App::getLocale() === $language->languageCode)
                             <div class="modal-dialog-window">
                                 <a href="locale/{{ $language->languageCode }}">
                                     <div class="d-flex flex-column">
-                                        <div style="color:var(--text-color-dark); font-size:15px;">{{ $language->languageName }}</div>
-                                        <div style="font-size:13px;">{{ $language->countryName }}</div>
+                                        <div style="color:var(--text-color-dark); font-size:15px;">{{ $language->languageNameNative }}</div>
+                                        <div style="font-size:13px;">{{ $language->countryNameNative }}</div>
                                     </div>
                                 </a>
                             </div>
@@ -22,15 +22,17 @@
                 </div>
                 <h1 class="modal-title fs-5" id="languageModalLabel">@lang("main.choose_language")</h1>
                 <div class="d-flex flex-row  gap-4">
-                    @foreach ($languages as $language)
+                    @foreach ($languages->take(2) as $language)
+                        @if($language->languageCode !== null)
                         <div class="modal-dialog-window">
                             <a href="locale/{{ $language->languageCode }}">
                                 <div class="d-flex flex-column">
-                                    <div style="color:var(--text-color-dark); font-size:15px;">{{ $language->languageName }}</div>
-                                    <div style="font-size:13px;">{{ $language->countryName }}</div>
+                                    <div style="color:var(--text-color-dark); font-size:15px;">{{ $language->languageNameNative }}</div>
+                                    <div style="font-size:13px;">{{ $language->countryNameNative }}</div>
                                 </div>
                             </a>
                         </div>
+                        @endif
                     @endforeach
                 </div>
             </div>

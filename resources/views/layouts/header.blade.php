@@ -25,7 +25,7 @@
                     </svg>
                 </button>
                 <div class="corner-menu rounded-4" onclick="openMenu('header-menu')">
-                    <div class="rounded-4 p-1 gap-3">
+                    <div class="rounded-4">
                         <button style="padding-top: 3px;">
                             <svg width="28" height="14" viewBox="0 0 28 14" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@
                                       stroke-linecap="round"/>
                             </svg>
                         </button>
-                        <button>
+                        <button style="margin-left: 15px;">
                             <svg width="27" height="27" viewBox="0 0 31 31" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="15.5" cy="15.5" r="14.25" stroke="#9A9999" stroke-width="1.5"/>
