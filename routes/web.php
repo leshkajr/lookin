@@ -36,6 +36,12 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     Route::get('/favorite',[ProfileController::class,'favorite'])->name('profile.favorite');
+
+    Route::get('/account',[MainController::class,'account'])->name('profile.account');
+    Route::get('/house_type',[MainController::class,'house_type'])->name('profile.house_type');
+    Route::get('/house_type1',[MainController::class,'house_type1'])->name('profile.house_type1');
+    Route::get('/message',[MainController::class,'message'])->name('profile.message');
+
 });
 
 // Localization
