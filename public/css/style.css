@@ -1138,10 +1138,9 @@ ul{
     display: inline-block;
     margin-right: 10px;
 }
-.text-favorite{
-    margin-top: 5%;
-    margin-left: 6%;
-    margin-bottom: 1%;
+.text-header{
+    /*margin-left: 1%;*/
+    margin-bottom: 0.7%;
 
     font-size: 30px;
     font-weight: 600;
@@ -1251,36 +1250,28 @@ font-size: 12px;
     margin-top: 23px;
     color: #8B8B8B;
 }
-.message-counter{
+.message-container{
 
-    display: flex;
-  width: 100%;
+    width: 80%;
 
-   margin: 0 auto;
-
-}
-.mess-block-left{
-
-    margin-left: 15%;
-    margin-top: 4%;
-
+    margin: 6% auto 1% auto;
 }
 
 .messages-block{
     /* пом1 */
 
     /* Rectangle 23 */
-    width: 80%;
+    width: 100%;
     background: #E2E5F4;
     border: 7px solid #E2E5F4;
     box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 17px 2px rgba(0, 0, 0, 0.17);
     border-radius: 15px;
-    margin-top: 35px;
+    margin-bottom: 35px;
 
-
+    padding: 1.2% 2%;
 
 }
-.message-text{
+.message-text-header{
     /* Розмістіть свій будинок, готель або інше помешкання на Look’ in та заробляйте. */
 
 
@@ -1290,12 +1281,26 @@ font-size: 12px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    margin: 2%;
     color: #8B8B8B;
 
 
 }
 
+.message-text-description{
+    /* Розмістіть свій будинок, готель або інше помешкання на Look’ in та заробляйте. */
+
+    margin-top: 2%;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+
+
+}
 .message-text-left{
     font-size: 24px;
     font-weight: bold;
@@ -1345,21 +1350,6 @@ font-size: 12px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
-    margin: 2%;
-    color: #8B8B8B;
-
-
-}
-.message-text1{
-    /* Розмістіть свій будинок, готель або інше помешкання на Look’ in та заробляйте. */
-
-
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
     margin: 2%;
     color: #8B8B8B;

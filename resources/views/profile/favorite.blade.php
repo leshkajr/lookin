@@ -7,8 +7,9 @@
 @stop
 
 @section('content')
-    <div class="text-favorite">@lang('favorite.favorite')</div>
-    <main>
+    <main style="margin-top: 5%">
+        <div class="text-header">@lang('favorite.favorite')</div>
+
         <div class="d-flex flex-wrap align-items-center justify-content-left listings">
             <div class="listing-block">
                 <img class="listing-img"
