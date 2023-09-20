@@ -18,7 +18,7 @@
         @foreach($languages->take(2) as $language)
             @if($language->languageCode !== App::getLocale())
                 <li><a href="locale/{{ $language->languageCode }}">
-                        {{ $language->countryName }}
+                        {{ $language->countryNameNative }}
                         ({{ strtoupper($language->languageCode) }})
                     </a></li>
             @endif

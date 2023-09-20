@@ -1046,7 +1046,7 @@ main{
 .tm-header-animated{
     /*width: 100%;*/
     position: absolute;
-    top: -95%;
+    top: -85%;
     /*left: -2px;*/
 
     background: linear-gradient(110deg, #ffd596 0%, #a9ffdf 25%, #ffd596 50%, #a9ffdf 75%, #ffd596 99%);
@@ -1061,8 +1061,15 @@ main{
     filter: blur(50px);
     animation: animate-gradient 30s linear infinite;
 }
-
-
+#remember_me:checked{
+    background-color: var(--button-background-color);
+}
+.link-route{
+    transition: 0.3s ease;
+}
+.link-route:hover{
+    color: var(--button-background-color);
+}
 .password_eyes{
     display: flex;
     justify-content: flex-end;
