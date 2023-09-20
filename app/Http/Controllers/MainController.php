@@ -46,14 +46,14 @@ class MainController extends Controller
         return view('profile.account',['languages'=>$languages, 'currencies'=>$currencies,
         'categoriesListing'=>$categoriesListing,]);
     }
-    public function message()
+    public function notification()
     {
         $languages = Language::all();
         $currencies = Currency::all();
 
         $categoriesListing = CategoryListing::all();
 
-        return view('profile.message',['languages'=>$languages, 'currencies'=>$currencies,
+        return view('profile.notification',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,]);
     }
     public function house_type()
