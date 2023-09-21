@@ -22,6 +22,7 @@ Route::get('/setup', [SetupController::class, 'index'])->name('setup');
 
 Route::get('/', [MainController::class, 'index'])->name('main');
 Route::get('/search', [MainController::class, 'index'])->name('main.search');
+Route::get('/rooms', [MainController::class, 'rooms'])->name('main.rooms');
 
 Route::get('/country', [MainController::class, 'start'])->name('main.country');
 Route::get('/country/{countryName?}', [MainController::class, 'start'])->name('main.country');

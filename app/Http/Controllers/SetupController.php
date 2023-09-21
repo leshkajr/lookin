@@ -10,16 +10,14 @@ use App\Models\Country;
 use App\Models\Currency;
 use App\Models\Language;
 use App\Models\Listing;
+use App\Models\ObjectType;
+use App\Models\PhotosPath;
 use App\Models\SleepingPlace;
 use App\Models\TypeListing;
 
 class SetupController extends Controller
 {
     public function index(){
-        Address::addItem();
-        SleepingPlace::addItem();
-        Listing::addItem();
-
         Country::fillValues();
         Language::fillValues();
         Currency::fillValues();
@@ -27,6 +25,13 @@ class SetupController extends Controller
         CategoryListing::fillValues();
         CategoryAmenity::fillValues();
         Amenity::fillValues();
+        ObjectType::fillValues();
+
+
+        Address::addItem();
+        SleepingPlace::addItem();
+        Listing::addItem();
+        PhotosPath::addItem();
 
         return redirect()->route('main');
     }

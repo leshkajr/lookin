@@ -11,6 +11,7 @@ class Listing extends Model
 
     protected $guarded = [];
 
+
     static function addItem(){
         if(count(self::all()) === 0) {
 

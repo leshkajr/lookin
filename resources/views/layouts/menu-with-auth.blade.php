@@ -1,5 +1,5 @@
 <ul class="header-menu flex-column justify-content-center align-items-left" id="header-menu">
-    <li class="header-menu-main-item">@lang("main.notification")</li>
+    <li class="header-menu-main-item"><a href="{{ route('profile.notification') }}">@lang("main.notification")</a></li>
     <li class="header-menu-main-item">@lang("main.travels")</li>
     <li class="header-menu-main-item"><a href="{{ route('profile.favorite') }}">@lang("main.favorites")</a></li>
     <hr class="header-menu-hr-item">

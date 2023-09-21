@@ -48,8 +48,21 @@ button{
     background-color: var(--button-background-color);
     border-radius: 10px;
 
-    padding: 4px 16px;
-    /*border: 1px solid */
+    padding: 5px 20px;
+
+    transition: 0.3s ease;
+
+    /*box-shadow: 0 4px 7px -4px rgba(0, 0, 0, 0.6);*/
+    filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.5));
+}
+.button:hover{
+    transform: scale(1.03);
+}
+.button:active, .button:focus, .button:focus-visible{
+    /*border-radius: 10px;*/
+    /*background: #0FB8CF;*/
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    filter: none;
 }
 .button-wide{
     padding: 6px 30px;
@@ -127,6 +140,12 @@ a{
     background: var(--background-color-darker);
 }
 
+.underline{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 .main-header{
     height: auto;
     position: sticky;
@@ -152,7 +171,7 @@ a{
     background-size: 400%;
 
     width: 100%;
-    height: 120px;
+    height: 110px;
     z-index: -3;
     filter: blur(45px);
     animation: animate-gradient 30s linear infinite;
@@ -891,7 +910,7 @@ main{
 
 .text-welcome_your_guests>a{
     font-weight: 500;
-    color: black;
+    color: #282828;
 }
 .start-large-img{
     width: 75%;
@@ -1355,4 +1374,47 @@ font-size: 12px;
     color: #8B8B8B;
 
 
+}
+
+
+.listing-header-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.listing-header-under_title{
+    font-size: 16px;
+}
+.listing-photo{
+    height: 100%;
+    width: 100%;
+
+    border-radius: 25px;
+    border: 6px solid var(--background-color);
+    box-shadow: 7px 7px 17px 0px rgba(0, 0, 0, 0.17), -7px -7px 20px 0px rgba(255, 255, 255, 1);
+}
+.listing-photo-img{
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
+.listing-photo-img-sm{
+    height: 244px;
+}
+.listing-host-img{
+    width: 75px;
+    height: 75px;
+
+    border-radius: 100%;
+    border: 4px solid #E2E5F4;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25), -6px -4px 15px 2px rgba(255, 255, 255, 0.90);
+}
+
+.listing-host-img>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+
+    object-fit: cover;
 }

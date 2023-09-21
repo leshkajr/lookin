@@ -6,6 +6,7 @@
     <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet"/>
     <link href="{{ URL::asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet"/>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body onresize="changeSizes()" onload="changeSizes()">
 
@@ -24,4 +25,5 @@
     <script src="{{ URL::asset('js/openMenu.js')}}"></script>
     <script src="{{ URL::asset('js/changeSizes.js')}}"></script>
     <script src="{{ URL::asset('js/showCheckboxes.js')}}"></script>
+    <script src="{{ URL::asset('js/copyToClipboard.js')}}"></script>
 </html>
