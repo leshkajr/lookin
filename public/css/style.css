@@ -1226,20 +1226,25 @@ font-size: 12px;
 
 .house_type_text{
     text-align: center;
-    font-size: 36px;
-
+    font-size: 32px;
+margin-left: 14px;
     font-style: normal;
 }
 .house_container{
-    width: 1000px;
+
     display: flex;
     flex-wrap: wrap;
-    margin: 1% auto;
+
+
+    width: 80%;
+
+    margin-left: 20%;
+    margin-top: 7%;
 }
 .house_block{
     /* Rectangle 23 */
 
-    width: 30%;
+    width: 25%;
     margin: 1%;
 
     background: #E2E5F4;
@@ -1248,13 +1253,17 @@ font-size: 12px;
    float: left;
 }
 .button_house{
-    margin-left: 900px;
+    margin-left: 750px;
     margin-top: 3%;
-    width: 280px;
-    height: 55px;
+    width: 240px;
+    height: 60px;
     background: #0FB8CF;
     box-shadow: -4px -4px 20px rgba(255, 255, 255, 0.75), 4px 4px 17px rgba(0, 0, 0, 0.17);
     border-radius: 15px;
+    color: white;
+    font-size: 32px;
+
+    font-weight: 600;
 }
 .image_type_house{
     margin-top:20px;
@@ -1263,10 +1272,11 @@ font-size: 12px;
 .text_house{
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 36px;
     margin-left: 20px;
-    margin-top: 23px;
+    margin-top: 10px;
+    margin-right: 40px;
     color: #8B8B8B;
 }
 .message-container{
@@ -1343,6 +1353,7 @@ font-size: 12px;
 
     flex-wrap: wrap;
     margin: 1% auto;
+
 }
 
 .type_text{
@@ -1372,6 +1383,50 @@ font-size: 12px;
     line-height: 24px;
     margin: 2%;
     color: #8B8B8B;
+
+
+}
+.text_house_hed{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.img_categoris{
+    float: right;
+    margin-top: 20px;
+
+
+}
+.type_countainer{
+    width: 80%;
+
+   margin-left: 30%;
+    overflow: hidden;
+}
+.house_block1{
+    /* пом1 */
+
+    /* Rectangle 23 */
+    width: 80%;
+    height: 130px;
+
+    background: #E2E5F4;
+    border: 7px solid #E2E5F4;
+    box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 17px 2px rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+    margin-bottom: 35px;
+
+    padding: 1.2% 2%;
+
+}
+.house-type-container{
+
+    width: 80%;
+    margin-left: 280px;
+    margin-bottom: 10px;
 
 
 }

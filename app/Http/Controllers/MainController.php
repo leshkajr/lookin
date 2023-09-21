@@ -143,6 +143,7 @@ class MainController extends Controller
         $languages = Language::all();
         $currencies = Currency::all();
 
+
         $categoriesListing = CategoryListing::all();
 
         return view('profile.house_type',['languages'=>$languages, 'currencies'=>$currencies,
