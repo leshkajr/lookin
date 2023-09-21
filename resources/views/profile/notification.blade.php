@@ -7,7 +7,7 @@
 @stop
 @section('content')
 <main>
-    <div class="message-container d-flex flex-column">
+    <div class="type_countainer">
         <div class="text-header">Повідомлення</div>
         <div class="d-flex flex-column justify-content-center align-items-center">
             <div class="messages-block">
