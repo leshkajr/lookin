@@ -14,4 +14,5 @@ return [
     "futurism" => "Futurism",
     "insta-location" => "Insta-location",
     "airport" => "Near the airport",
+    "header"=>"Which of the following options best describes the home?",
 ];
