@@ -1473,3 +1473,36 @@ margin-left: 14px;
 
     object-fit: cover;
 }
+.calendar-container{
+    width: 260px;
+    margin-top: 20px;
+}
+.calendar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 7px;
+
+    gap: 2px;
+}
+.calendar .day {
+    width: 35px;
+    height: 35px;
+    /*border: 1px solid #ccc;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 100%;
+
+    transition: 0.3s ease;
+}
+.calendar .day:not(.selected):hover{
+    background-color: var(--background-color-dark-1);
+}
+.selected, .selected:hover {
+    background-color: var(--button-background-color);
+    color: white;
+}

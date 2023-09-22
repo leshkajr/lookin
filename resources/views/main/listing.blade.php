@@ -131,6 +131,92 @@
                         </div>
                     </div>
 
+                    <div style="width: 100%; height: 1px; margin-top: 20px; margin-bottom: 20px;
+                     background-color: var(--text-color-light-light);"></div>
+
+                    <div class="row w-100">
+                        <div class="col-1">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="mb-2" style="width: 40px;"
+                                     src="{{ asset('images/types-listings-svg/'.$listing['type']->nameType.'.svg') }}"/>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div style="font-weight: 600;">@lang('listing_type.'.$listing['type']->nameType)</div>
+                            <div style="font-weight: 400;">@lang('listing_type.'.$listing['type']->descriptionType)</div>
+                        </div>
+                    </div>
+
+                    <div style="width: 100%; height: 2px; margin-top: 20px; margin-bottom: 20px;
+                     background-color: var(--text-color-light-light);"></div>
+
+                    <div>
+                        <div style="font-weight: 400;">{{ $listing['description'] }}</div>
+                    </div>
+
+                    <div style="width: 100%; height: 2px; margin-top: 20px; margin-bottom: 10px;
+                     background-color: var(--text-color-light-light);"></div>
+
+
+                    <div class="d-flex flex-column filters-checkboxes-blocks" style="height: auto">
+                        @foreach($categoriesAmenities as $categoryAmenity)
+                            @php($isCategory = false)
+                            @foreach($listing['amenities'] as $amenity)
+                                @if($categoryAmenity->id === $amenity->categoryAmenityId)
+                                    @php($isCategory = true)
+                                    @break
+                                @endif
+                            @endforeach
+                            @if($isCategory === true)
+                            <div style="margin: 5px 5px 5px 0;">
+                                <div class="filters-checkboxes-header-text">@lang('amenities_categories.'.$categoryAmenity->nameCategoryAmenity)</div>
+                                <div class="d-flex flex-row flex-wrap filters-checkbox-blocks w-100">
+                                    @foreach($listing['amenities'] as $amenity)
+                                        @if($amenity->categoryAmenityId === $categoryAmenity->id)
+                                            <div class="d-flex flex-row justify-content-left align-items-center">
+                                                <label style="padding-left: 0;"
+                                                    class="container-checkbox">@lang('amenities.'.$amenity->nameAmenity)
+                                                </label>
+                                            </div>
+                                        @endif
+
+                                    @endforeach
+                                </div>
+                            </div>
+                            @endif
+                        @endforeach
+                    </div>
+
+                    <div style="width: 100%; height: 2px; margin-top: 20px; margin-bottom: 10px;
+                     background-color: var(--text-color-light-light);"></div>
+
+                    <div class="d-flex flex-row justify-content-start align-items-center"
+                         style="font-weight: 500;">
+                        <div>
+                            {{ $listing["country"]["name"] }}, {{ $listing["city"]["name"] }}
+                        </div>
+                        <div class="night" id="night" style="margin-left: 4px;">
+                            : 7 night
+                        </div>
+                    </div>
+
+                    <div class="calendar-container">
+                        <div class="d-flex flex-row justify-content-center align-items-center">
+                            <button id="prevMonth">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                </svg>
+                            </button>
+                            <div id="currentMonth" style="margin: 0 10px;">
+                            </div>
+                            <button id="nextMonth">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="calendar" id="calendar"></div>
+                    </div>
                 </div>
                 <div class="d-flex" style="width: 40%">
 

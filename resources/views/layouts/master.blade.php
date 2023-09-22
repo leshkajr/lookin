@@ -8,7 +8,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-<body onresize="changeSizes()" onload="changeSizes()">
+<body onresize="changeSizes()" onload="startCalendar('{{ __('listing.nights') }}'); changeSizes();">
 
     @yield('header')
 
@@ -26,4 +26,6 @@
     <script src="{{ URL::asset('js/changeSizes.js')}}"></script>
     <script src="{{ URL::asset('js/showCheckboxes.js')}}"></script>
     <script src="{{ URL::asset('js/copyToClipboard.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.24.0/"></script>
+    <script src="{{ URL::asset('js/calendar.js')}}"></script>
 </html>

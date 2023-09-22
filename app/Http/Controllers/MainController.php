@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\AmenitiesListings;
 use App\Models\Amenity;
 use App\Models\CategoryAmenity;
 use App\Models\CategoryListing;
@@ -98,11 +99,22 @@ class MainController extends Controller
             'type' => $typeListing,
         ];
 
-        // user
+        // host
         $listing += [
             'user' => User::find($listing_db->hostId),
         ];
-//        dd($typeListing);
+
+        // amenities
+        $amenitiesListing = AmenitiesListings::where('listingId', $listing_db->id)->get();
+        $amenities = array();
+        foreach ($amenitiesListing as $amenityListing){
+            array_push($amenities,Amenity::find($amenityListing->amenityId));
+        }
+        $listing += [
+            'amenities' => $amenities,
+        ];
+
+//        dd($listing);
 
         $languages = Language::all();
         $currencies = Currency::all();

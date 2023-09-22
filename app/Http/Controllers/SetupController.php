@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Address;
+use App\Models\AmenitiesListings;
 use App\Models\Amenity;
 use App\Models\CategoryAmenity;
 use App\Models\CategoryListing;
@@ -32,6 +33,7 @@ class SetupController extends Controller
         SleepingPlace::addItem();
         Listing::addItem();
         PhotosPath::addItem();
+        AmenitiesListings::addItem();
 
         return redirect()->route('main');
     }
