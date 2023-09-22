@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('listings', function (Blueprint $table) {
             $table->id();
             $table->string("title",64);
-            $table->string("description",512);
+            $table->string("description",1536);
             $table->foreignId("hostId")->constrained("users");
             $table->foreignId("categoryId")->constrained("category_listings");
             $table->foreignId("typeId")->constrained("type_listings");
