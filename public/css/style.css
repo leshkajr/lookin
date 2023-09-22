@@ -1473,3 +1473,36 @@ margin-left: 14px;
 
     object-fit: cover;
 }
+.location_container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 17%;
+    margin-top: 7%;
+}
+.block_adress{
+
+    width: 57%;
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+    height: 80px;
+    background: #E2E5F4;
+    box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2), inset 2px 2px 3px rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.select_location{
+    border: none;
+    background-color: transparent;
+    margin-left: 25%;
+    font-size: 16px;
+    margin-bottom: 4%;
+}
+.text_adress{
+    font-size: 22px;
+    margin-left: 7%;
+    font-weight: bold;
+}
