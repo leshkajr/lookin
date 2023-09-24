@@ -15,6 +15,7 @@ function createCalendar(year, month) {
     const getArrivalDate = new Date(parseInt(url.searchParams.get('arrivalDate')));
     const getDepartureDate = new Date(parseInt(url.searchParams.get('departureDate')));
 
+    console.log(getArrivalDate);
 
     let startDate;
     let endDate;
@@ -43,6 +44,11 @@ function createCalendar(year, month) {
         const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
         document.getElementById("night").textContent = ": " + diffDays + " " + night;
     }
+
+
+    document.getElementById("dateArrivalInput").value = new Date(getArrivalDate.setDate(getArrivalDate.getDate() + 1)).toISOString().substring(0,10);
+    document.getElementById("dateArrivalInput").ariaValueMin = today.toISOString().substring(0,10);
+    document.getElementById("dateDepartureInput").value = new Date(getDepartureDate.setDate(getDepartureDate.getDate() + 1)).toISOString().substring(0,10);
 
 
     currentMonth.textContent = monthNames[month];
@@ -138,4 +144,11 @@ document.getElementById('nextMonth').addEventListener('click', () => {
     console.log('nextMonth clicked');
     today.setMonth(today.getMonth() + 1);
     createCalendar(today.getFullYear(), today.getMonth());
+});
+
+
+document.getElementById("inp").addEventListener("change", function() {
+    let v = parseInt(this.value);
+    if (v < 1) this.value = 1;
+    if (v > 50) this.value = 50;
 });

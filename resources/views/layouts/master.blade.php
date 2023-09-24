@@ -28,4 +28,6 @@
     <script src="{{ URL::asset('js/copyToClipboard.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/date-fns@2.24.0/"></script>
     <script src="{{ URL::asset('js/calendar.js')}}"></script>
+
+    @yield('scripts')
 </html>

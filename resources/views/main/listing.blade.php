@@ -116,7 +116,7 @@
                 </div>
             </div>
 
-            <div class="d-flex flex-row align-items-center">
+            <div class="d-flex flex-row align-items-start">
                 <div class="d-flex flex-column" style="width: 60%; padding: 20px 20px 20px 0;">
                     <div class="d-flex flex-row align-items-end justify-content-start" style="width: 100%">
                         <div class="d-flex flex-row align-items-center"
@@ -217,14 +217,138 @@
                         </div>
                         <div class="calendar" id="calendar"></div>
                     </div>
-                </div>
-                <div class="d-flex" style="width: 40%">
 
+                    <div style="width: 100%; height: 2px; margin-top: 20px; margin-bottom: 10px;
+                     background-color: var(--text-color-light-light);"></div>
+
+                </div>
+                <div class="d-flex justify-content-center align-items-center"
+                     style="width: 40%; padding-left: 20px; padding-top: 25px;">
+                    <div class="listing-reservation-container">
+                        <div class="listing-reservation-price">$175 @lang('listing.night')</div>
+
+                        <div class="start-table-block mb-3">
+                            <div class="row">
+                                <div class="col" style="width: 49%">
+                                    <div class="start-table-label">
+                                        <div>@lang('start.arrival')</div>
+                                        <input id="dateArrivalInput" type="date"
+                                               min="2023-09-25" required />
+{{--                                        <x-clear-input required value="{{ Lang::get('start.add_date') }}" class="start-table-input"/>--}}
+                                    </div>
+                                </div>
+                                <div style="width: 1px">
+                                    <div style="height: 86%;margin-top:4px; background-color: var(--hr); width: 1px;"></div>
+                                </div>
+                                <div class="col" style="width: 49%">
+                                    <div class="start-table-label">
+                                        <div>@lang('start.departure')</div>
+                                        <input id="dateDepartureInput" type="date" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="width: 100%; background-color: var(--hr); height: 1px;"></div>
+                            <div class="start-table-label">
+                                <div>@lang('listing.guests')</div>
+                                <x-clear-input required value="1" class="start-table-input"
+                                type="number" id="inp" style="width: 10%" min="1" max="99"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <x-primary-button style="width: 100%; padding: 10px 0;">
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    @lang('listing.book_now')
+                                </div>
+                            </x-primary-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="d-flex flex-row align-items-center gap-3">
+                <svg style="margin-top: -2px;"
+                     xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 29 27" fill="none">
+                    <path d="M14.5 0L19.2387 7.97771L28.2903 10.0193L22.1674 16.9913L23.0229 26.2307L14.5 22.562L5.97711 26.2307L6.83258 16.9913L0.709681 10.0193L9.76128 7.97771L14.5 0Z" fill="#7D7D80"/>
+                </svg>
+                <div class="d-flex flex-row align-items-center gap-1"
+                     style="font-weight: 600;">
+                    <div>4,89</div>
+                    <div>.</div>
+                    <div>18 @lang('listing.reviews')</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row flex-wrap align-items-center">
+                <div class="d-flex flex-column align-items-start"
+                     style="width: 50%; padding: 5px 10px; margin-top: 10px;">
+                    <div class="d-flex flex-row" style="width: 100%;">
+                        <div style="width: 85px;">
+                            <div class="listing-review-img-container">
+                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/c5f89e86-3ce6-4fec-abd1-dd69f44a90fb.jpg?im_w=240" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="listing-review-name">Marek</div>
+                            <div class="listing-review-date">march 18</div>
+                        </div>
+                    </div>
+                    <div class="listing-review-text">Чудовий відпочинок у тихому місці посеред природи. Котедж добре обладнаний, чистий, а також є можливість</div>
+                </div>
+
+                <div class="d-flex flex-column align-items-start"
+                     style="width: 50%; padding: 5px 10px; margin-top: 10px;">
+                    <div class="d-flex flex-row" style="width: 100%;">
+                        <div style="width: 85px;">
+                            <div class="listing-review-img-container">
+                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/c5f89e86-3ce6-4fec-abd1-dd69f44a90fb.jpg?im_w=240" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="listing-review-name">Marek</div>
+                            <div class="listing-review-date">march 18</div>
+                        </div>
+                    </div>
+                    <div class="listing-review-text">Чудовий відпочинок у тихому місці посеред природи. Котедж добре обладнаний, чистий, а також є можливість</div>
+                </div>
+
+                <div class="d-flex flex-column align-items-start"
+                     style="width: 50%; padding: 5px 10px; margin-top: 10px;">
+                    <div class="d-flex flex-row" style="width: 100%;">
+                        <div style="width: 85px;">
+                            <div class="listing-review-img-container">
+                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/c5f89e86-3ce6-4fec-abd1-dd69f44a90fb.jpg?im_w=240" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="listing-review-name">Marek</div>
+                            <div class="listing-review-date">march 18</div>
+                        </div>
+                    </div>
+                    <div class="listing-review-text">Чудовий відпочинок у тихому місці посеред природи. Котедж добре обладнаний, чистий, а також є можливість</div>
+                </div>
+
+                <div class="d-flex flex-column align-items-start"
+                     style="width: 50%; padding: 5px 10px; margin-top: 10px;">
+                    <div class="d-flex flex-row" style="width: 100%;">
+                        <div style="width: 85px;">
+                            <div class="listing-review-img-container">
+                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/c5f89e86-3ce6-4fec-abd1-dd69f44a90fb.jpg?im_w=240" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="listing-review-name">Marek</div>
+                            <div class="listing-review-date">march 18</div>
+                        </div>
+                    </div>
+                    <div class="listing-review-text">Чудовий відпочинок у тихому місці посеред природи. Котедж добре обладнаний, чистий, а також є можливість</div>
                 </div>
             </div>
         </div>
 
     </main>
+
 @stop
 
 @section('footer')
@@ -237,4 +361,11 @@
         @include('layouts.dialog-window-currency')
         @include('layouts.dialog-window-filters')
     </div>
+
+@stop
+
+@section('scripts')
+    <script>
+        startCalendar('{{ __('listing.nights') }}');
+    </script>
 @stop

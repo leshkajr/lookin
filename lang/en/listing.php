@@ -11,5 +11,8 @@ return [
     'share_with_friends' => 'Now you can share this ad with your friends',
     'host' => ' hosted by ',
     'nights' => 'nights',
+    'night' => 'for night',
+    'book_now' => 'Book now',
+    'guests' => 'Guests',
 
 ];
