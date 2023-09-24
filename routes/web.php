@@ -44,6 +44,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/notification',[MainController::class,'notification'])->name('profile.notification');
     Route::get('/location',[MainController::class,'house_location'])->name('profile.house_location');
     Route::get('/information',[MainController::class,'house_information'])->name('profile.house_information');
+    Route::get('/personal_data',[MainController::class,'personal_data'])->name('personal_data');
 
 });
 
