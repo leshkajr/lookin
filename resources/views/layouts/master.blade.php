@@ -8,7 +8,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-<body onresize="changeSizes()" onload="startCalendar('{{ __('listing.nights') }}'); changeSizes();">
+<body onresize="changeSizes()" onload="changeSizes();">
 
     @yield('header')
 
