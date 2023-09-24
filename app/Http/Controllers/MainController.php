@@ -181,4 +181,14 @@ class MainController extends Controller
         return view('profile.house_location',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,]);
     }
+    public function house_information()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+
+        $categoriesListing = CategoryListing::all();
+
+        return view('profile.house_information',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,]);
+    }
 }
