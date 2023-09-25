@@ -50,6 +50,17 @@
                    <button class="button_right">Редагувати</button>
                </div>
            </div>
+           <div class="personal_block">
+               <div class="personal_text_header">Посвідчення особи державного зразка</div>
+
+               <div class="personal_div">
+                  <input type="file" style="all: unset">
+               </div>
+
+               <div class="div_button_right">
+                   <button class="button_right">Редагувати</button>
+               </div>
+           </div>
        </div>
     </main>
 
