@@ -175,6 +175,7 @@ class MainController extends Controller
     {
         $languages = Language::all();
         $currencies = Currency::all();
+        $Country=    Country::all();
 
         $categoriesListing = CategoryListing::all();
         $cities = new City();
@@ -182,7 +183,7 @@ class MainController extends Controller
             $cities = City::where('countryId',$_GET['countryId'])->get();
         }
         return view('profile.house_location',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing, 'cities'=>$cities]);
+            'categoriesListing'=>$categoriesListing, 'cities'=>$cities,'countries'=>$Country]);
     }
     public function house_information()
     {

@@ -29,6 +29,7 @@
 .location_container{
     margin-left: 17%;
     margin-top: 7%;
+    height: 80%;
 }
 .adres_bloks{
     width: 45%;
@@ -140,4 +141,10 @@
     margin-right: 19%;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+.input_adress{
+    all: unset;
+    font-size: 18px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }

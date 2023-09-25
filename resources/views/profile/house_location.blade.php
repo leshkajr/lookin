@@ -18,8 +18,9 @@
                          <select name="countryId" class="sel_location" type="submit"
                          onchange="document.getElementById('form_country').submit();">
                              <option>Виберіть</option>
-                             <option value="213">Україна</option>
-                             <option value="165">Польща</option>
+                            @foreach($countries as $value)
+                                <option value="{{$value->id}}">{{$value->name}}</option>
+                            @endforeach
                          </select>
                      </div>
                  </form>
@@ -37,22 +38,14 @@
 
              </div>
              <div class="select_adress">
-                 <div class="d-flex flex-column text_chouse">
-                     <div style="font-size: 15px;" >Поштовий індекс</div>
-                     <div style="font-size: 20px;margin-top: 5%">50008</div>
-                 </div>
-                 <select class="sel_location" style="margin-left: 68%"></select>
+                 <input type="text" class="input_adress" placeholder="Поштовий індекс">
              </div>
              <div class="select_adress">
-                 <div class="d-flex flex-column text_chouse">
-                     <div style="font-size: 15px;" >Адреса</div>
-                     <div style="font-size: 20px;margin-top: 5%">Героїв АТО 48</div>
-                 </div>
-                 <select class="sel_location"  style="margin-left: 66%"></select>
+                 <input type="number" class="input_adress" placeholder="Адреса">
              </div>
          </div>
 
-         <div class="container-button">
+         <div class="container-button" style="margin-right: 10%;margin-left: 1%">
              <button class="button button_house">@lang('main.next')</button>
          </div>
      </div>
