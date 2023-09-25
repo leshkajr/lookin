@@ -37,6 +37,6 @@ return [
     "show" => "Show",
     "show_more" => "Show more",
     "show_less" => "Show less",
-    "host_language" => "Host language",
+    "next" => "Next",
 ];
 ?>

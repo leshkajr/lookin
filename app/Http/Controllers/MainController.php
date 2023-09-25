@@ -166,10 +166,10 @@ class MainController extends Controller
         $languages = Language::all();
         $currencies = Currency::all();
 
-        $categoriesListing = CategoryListing::all();
+        $typesListing = TypeListing::all();
 
         return view('profile.house_type1',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,]);
+            'typesListing'=>$typesListing,]);
     }
     public function house_location()
     {
@@ -177,9 +177,12 @@ class MainController extends Controller
         $currencies = Currency::all();
 
         $categoriesListing = CategoryListing::all();
-
+        $cities = new City();
+        if(isset($_GET['countryId'])){
+            $cities = City::where('countryId',$_GET['countryId'])->get();
+        }
         return view('profile.house_location',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,]);
+            'categoriesListing'=>$categoriesListing, 'cities'=>$cities]);
     }
     public function house_information()
     {

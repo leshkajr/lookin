@@ -10,35 +10,51 @@
      <div class="location_container">
        <div class="text-header">Де розташоване ваше помешкання?</div>
          <div class="location-text-description">Вашу адресу буде повідомлено гостям лише після бронювання.</div>
-          <div class="select_adress">
-              <div class="d-flex flex-column text_chouse">
-                  <div style="font-size: 15px;" >Країна/регіон</div>
-                  <div style="font-size: 20px;margin-top: 5%">Україна</div>
-              </div>
-              <select class="sel_location" style="margin-left: 72%"></select>
-          </div>
-         <div class="select_adress">
-             <div class="d-flex flex-column text_chouse">
-                 <div style="font-size: 15px;" >Місто/село</div>
-                 <div style="font-size: 20px;margin-top: 5%">Київ</div>
+         <div>
+             <div class="select_adress">
+                 <form method="get" id="form_country">
+                     <div class="d-flex flex-column text_chouse" style="width: 100%;">
+                         <div style="font-size: 15px;" >Країна/регіон</div>
+                         <select name="countryId" class="sel_location" type="submit"
+                         onchange="document.getElementById('form_country').submit();">
+                             <option>Виберіть</option>
+                             <option value="213">Україна</option>
+                             <option value="165">Польща</option>
+                         </select>
+                     </div>
+                 </form>
              </div>
-             <select class="sel_location" style="margin-left: 75%"></select>
-         </div>
-         <div class="select_adress">
-             <div class="d-flex flex-column text_chouse">
-                 <div style="font-size: 15px;" >Поштовий індекс</div>
-                 <div style="font-size: 20px;margin-top: 5%">50008</div>
+             <div class="select_adress">
+                 <form method="get">
+                     <div class="d-flex flex-column text_chouse" style="width: 100%;">
+                         <div style="font-size: 15px;" >Місто/село</div>
+                         {{--                     <div style="font-size: 20px;margin-top: 5%">Київ</div>--}}
+                         <select class="sel_location">
+                             <option value="213" selected>Київ</option>
+                         </select>
+                     </div>
+                 </form>
+
              </div>
-             <select class="sel_location" style="margin-left: 68%"></select>
-         </div>
-         <div class="select_adress">
-             <div class="d-flex flex-column text_chouse">
-                 <div style="font-size: 15px;" >Адреса</div>
-                 <div style="font-size: 20px;margin-top: 5%">Героїв АТО 48</div>
+             <div class="select_adress">
+                 <div class="d-flex flex-column text_chouse">
+                     <div style="font-size: 15px;" >Поштовий індекс</div>
+                     <div style="font-size: 20px;margin-top: 5%">50008</div>
+                 </div>
+                 <select class="sel_location" style="margin-left: 68%"></select>
              </div>
-             <select class="sel_location"  style="margin-left: 66%"></select>
+             <div class="select_adress">
+                 <div class="d-flex flex-column text_chouse">
+                     <div style="font-size: 15px;" >Адреса</div>
+                     <div style="font-size: 20px;margin-top: 5%">Героїв АТО 48</div>
+                 </div>
+                 <select class="sel_location"  style="margin-left: 66%"></select>
+             </div>
          </div>
-         <button class="button_house" style="margin-top: 50px; margin-right: 150px">next</button>
+
+         <div class="container-button">
+             <button class="button button_house">@lang('main.next')</button>
+         </div>
      </div>
     </main>
 

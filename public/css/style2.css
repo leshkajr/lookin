@@ -2,22 +2,26 @@
     width: 50%;
     margin-top: 3%;
     padding-left: 3%;
+    padding-right: 3%;
     padding-top: 1%;
-    height: 80px;
     background: linear-gradient(180deg, #F8F8FA 0%, rgba(226, 229, 244, 0.37) 100%);
     box-shadow: 1.5px 1.5px 4px 2px rgba(0, 0, 0, 0.25) inset;
     border-radius: 15px; border: 1px solid;
     display: flex;
-    flex-direction: row;
+
 
 }
 .sel_location{
     border: none;
     background-color: transparent;
-    margin-left: 70%;
-    font-size: 24px;
-    margin-top: 3%;
+    font-size: 20px;
+    margin-top: 1%;
+    width: 110%;
 
+    color: var(--text-color);
+}
+.sel_location *{
+    font-size: 16px;
 }
 .text_chouse{
     margin-bottom: 10px;
