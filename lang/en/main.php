@@ -38,5 +38,13 @@ return [
     "show_more" => "Show more",
     "show_less" => "Show less",
     "next" => "Next",
+    'where' => 'Where',
+    'search_directions' => 'Search directions',
+    'arrival' => 'Arrival',
+    'departure' => 'Departure',
+    'add_date' => 'Add a date',
+    'who' => 'Who',
+    'add_guests' => 'Add guests',
+    'search' => 'Search',
 ];
 ?>

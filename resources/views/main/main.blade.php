@@ -210,5 +210,6 @@
     @include('layouts.dialog-window-language')
     @include('layouts.dialog-window-currency')
     @include('layouts.dialog-window-filters')
+    @include('layouts.dialog-window-search')
 </div>
 @stop
