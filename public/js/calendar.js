@@ -45,10 +45,11 @@ function createCalendar(year, month) {
         document.getElementById("night").textContent = ": " + diffDays + " " + night;
     }
 
-
-    document.getElementById("dateArrivalInput").value = new Date(getArrivalDate.setDate(getArrivalDate.getDate() + 1)).toISOString().substring(0,10);
-    document.getElementById("dateArrivalInput").ariaValueMin = today.toISOString().substring(0,10);
-    document.getElementById("dateDepartureInput").value = new Date(getDepartureDate.setDate(getDepartureDate.getDate() + 1)).toISOString().substring(0,10);
+    $tmp_date = new Date(new Date().setDate(getArrivalDate.getDate() + 1));
+    document.getElementById("dateArrivalInput").value = $tmp_date.toISOString().substring(0,10);
+    document.getElementById("dateArrivalInput").setAttribute("min", today.toISOString().substring(0,10));
+    $tmp_date = new Date(new Date().setDate(getDepartureDate.getDate() + 1));
+    document.getElementById("dateDepartureInput").value = $tmp_date.toISOString().substring(0,10);
 
 
     currentMonth.textContent = monthNames[month];
@@ -98,6 +99,11 @@ function createCalendar(year, month) {
 
         calendar.appendChild(dayDiv);
     }
+
+    if(!url.searchParams.has('guests')){
+        url.searchParams.append('guests', "1");
+        window.location.href = url;
+    }
 }
 
 function updateSelectedDates() {
@@ -146,9 +152,26 @@ document.getElementById('nextMonth').addEventListener('click', () => {
     createCalendar(today.getFullYear(), today.getMonth());
 });
 
+async function check(e) {
+    await sleep(1);
+    let v = parseInt(e.value);
+    if (v < 1) e.value = 1;
+    if (v > 9) e.value = 9;
+    if(isNaN(v)) e.value = 1;
+}
 
-document.getElementById("inp").addEventListener("change", function() {
-    let v = parseInt(this.value);
-    if (v < 1) this.value = 1;
-    if (v > 50) this.value = 50;
-});
+function number_counter(idInput,action){
+    let input = document.getElementById(idInput);
+        if(action === "plus"){
+            input.value = parseInt(input.value) + 1;
+        }
+        else if(action === "minus"){
+            input.value = parseInt(input.value) - 1;
+        }
+
+    check(input);
+
+    let url = new URL(window.location.href);
+    url.searchParams.set('guests', input.value);
+    window.location.href = url;
+}

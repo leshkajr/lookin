@@ -8,7 +8,8 @@
     --text-color-light-light: #bebdbd;
     --text-color-dark: #636060;
 
-    --background-color-darker: #8589a9;
+    --background-color-darker-2: #676b84;
+    --background-color-darker-1: #8589a9;
     --background-color-dark-2: #a5aac7;
     --background-color-dark-1: #c1c7dc;
     --background-color: #E2E5F4;
@@ -137,7 +138,7 @@ a{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--background-color-darker);
+    background: var(--background-color-darker-1);
 }
 
 .underline{
@@ -1104,7 +1105,7 @@ main{
     margin-top: -40px;
     margin-right: 15px;
     background-color: transparent;
-    color: var(--background-color-darker);
+    color: var(--background-color-darker-1);
     z-index: 2;
 }
 /*.eye_open:before{*/
@@ -1633,6 +1634,7 @@ input[type="date"]{
     cursor: pointer;
     border-radius: 5px;
 
+    margin-left: -7px;
 }
 
 input::-webkit-outer-spin-button,
@@ -1641,3 +1643,27 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
+.counter-container{
+    float:right;
+    margin-right: 4px;
+    margin-top: -25px;
+}
+
+.counter-container > button{
+    cursor: pointer;
+    color: var(--background-color-darker-1);
+    transition: 0.3s ease;
+}
+.counter-container > button:disabled{
+    cursor: inherit;
+    color: var(--background-color-dark-2);
+}
+
+.counter-container > button:not(:disabled):hover{
+    color: var(--background-color-darker-2);
+}
+
+.additional_information{
+    color: var(--text-color);
+    gap: 10px;
+}

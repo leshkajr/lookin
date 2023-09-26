@@ -114,7 +114,32 @@ class MainController extends Controller
             'amenities' => $amenities,
         ];
 
-//        dd($listing);
+        // count guests, nights and price
+        $guests = 0;
+        $arrivalDate = 0;
+        $departureDate = 0;
+        if(isset($_GET['guests'],$_GET['arrivalDate'],$_GET['departureDate'])){
+            $guests = $_GET['guests'];
+            $arrivalDate = $_GET['arrivalDate'];
+            $departureDate = $_GET['departureDate'];
+        }
+        $datediff = $departureDate - $arrivalDate;
+        $days = ($datediff / (60 * 60 * 24)) / 1000;
+        $priceForNight = $listing_db->priceForNight;
+        $priceAllNights = $priceForNight * $days * $guests;
+        $priceCleaning = $listing_db->priceCleaning;
+        $totalPrice = $priceAllNights + $priceCleaning;
+        $priceServiceLookin = round($totalPrice * 3 / 100);
+        $totalPrice = $priceAllNights + $priceCleaning + $priceServiceLookin;
+        $listing += [
+            'guests' => $guests,
+            'daysReservation' => $days,
+            'priceAllNights' => $priceAllNights,
+            'priceServiceLookin' => $priceServiceLookin,
+            'totalPrice' => $totalPrice,
+        ];
+
+
 
         $languages = Language::all();
         $currencies = Currency::all();
