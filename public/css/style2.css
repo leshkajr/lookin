@@ -148,3 +148,12 @@
     padding-top: 1%;
     padding-bottom: 1%;
 }
+.personal_divs{
+    background: linear-gradient(180deg, #E2E5F4 0%, rgba(226, 229, 244, 0.37) 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+    border: 1px solid;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 80%;
+}

@@ -230,4 +230,14 @@ class MainController extends Controller
         return view('profile.personal_data',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,]);
     }
+    public function personal_verification()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+        $verification=User::all();
+        $categoriesListing = CategoryListing::all();
+
+        return view('profile.personal_verification',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+    }
 }
