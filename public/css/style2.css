@@ -85,7 +85,8 @@
     box-shadow: 5px 5px 17px rgba(0, 0, 0, 0.15);
     border-radius: 15px;
     border: 7px #E2E5F4 solid;
-    margin-top: 2%;
+    margin-top: 5%;
+    padding: 1%;
     width: 100%;
 
 
@@ -102,24 +103,31 @@
     color: #6B6B6B;
     font-size: 20px;
     margin-left: 1%;
+    margin-top: 1%;
     font-weight: 300;
     word-wrap: break-word;
     width: 80%;
 }
 .personal_div{
     background: linear-gradient(180deg, #F8F8FA 0%, rgba(226, 229, 244, 0.37) 100%);
-    box-shadow: 1.5px 1.5px 4px 2px rgba(0, 0, 0, 0.25) inset;
+    /*box-shadow: 1.5px 1.5px 4px 2px rgba(136, 136, 136, 0.25) inset;*/
+    box-shadow: 1.5px 1.5px 4px 2px rgba(128, 128, 128, 0.25) inset;
+    /*box-shadow: 1.5px 1.5px 4px 2px rgba(169, 169, 169, 0.25) inset;*/
+    /*box-shadow: 1.5px 1.5px 4px 2px rgba(192, 192, 192, 0.25) inset;*/
+    /*box-shadow: 1.5px 1.5px 4px 2px rgba(211, 211, 211, 0.25) inset;*/
     border-radius: 15px;
     border: 1px solid;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 1%;
-    width: 80%;
+
+    width: 95%;
 }
 .input_text{
     border: none;
     outline: none;
     background: none;
     width: 100%;
+    font-weight: 350;
 }
 .div_button{
     display: flex;
@@ -130,16 +138,17 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 13px;
     font-size: 24px;
-    margin-right: 19%;
+    margin-right: 4%;
     margin-top: 1.5%;
     width: 218px;
     height: 60px;
     margin-bottom: 1%;
+    color: white;
 }
 .div_button_right{
     float: right;
-    margin-right: 19%;
-    margin-top: 1%;
+    margin-right: 4%;
+    margin-top: 2%;
     margin-bottom: 1%;
 }
 .input_adress{
@@ -153,7 +162,8 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.17);
     border-radius: 15px;
     border: 1px solid;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 1%;
-    width: 80%;
+
+    width: 95%;
 }

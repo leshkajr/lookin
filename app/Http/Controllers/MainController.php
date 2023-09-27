@@ -207,6 +207,7 @@ class MainController extends Controller
         if(isset($_GET['countryId'])){
             $cities = City::where('countryId',$_GET['countryId'])->get();
         }
+
         return view('profile.house_location',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing, 'cities'=>$cities,'countries'=>$Country]);
     }
