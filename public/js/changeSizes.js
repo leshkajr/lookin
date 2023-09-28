@@ -15,6 +15,8 @@
         listings[i].children[1].style.marginLeft = like_left;
     }
     console.log(listing_width);
+
+    scrollHeader('sticky-main-header');
 }
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));

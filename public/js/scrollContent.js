@@ -44,12 +44,35 @@
         await sleep(1);
       // }
   }
-    
+
   }
-  
+
+  function onScroll(scrollHeaderHeader){
+      scrollHeader(scrollHeaderHeader);
+      showListingHeaderInfo();
+  }
+
+    function scrollHeader(header){
+        if(document.getElementsByClassName(header).length !== 0){
+            if(window.scrollY > 25){
+                document.getElementsByClassName(header)[0].classList.add("sticky-main-header-border");
+            }
+            else{
+                document.getElementsByClassName(header)[0].classList.remove("sticky-main-header-border");
+            }
+        }
+    }
+
+    function showListingHeaderInfo(){
+        if(window.scrollY > 900){
+            document.getElementById("listing-header-info").style.display = 'block';
+        }
+        else{
+            document.getElementById("listing-header-info").style.display = 'none';
+        }
+    }
 
   function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
-  

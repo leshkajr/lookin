@@ -1,4 +1,4 @@
-<div class="m-fade show" tabindex="-1" id="dialog-window-search">
+<div class="m-fade" tabindex="-1" id="dialog-window-search">
     <div class="m-search d-flex flex-column justify-content-center align-items-center">
         @include('layouts.header-for-search')
         <div class="m-search-container">

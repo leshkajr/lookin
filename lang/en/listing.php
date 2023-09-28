@@ -24,5 +24,20 @@ return [
     'd_price_cleaning' => 'The owner charges a one-time payment to cover the cost of cleaning their home.',
     'd_price_service' => 'This helps develop our platform and offer various services, such as 24/7 support while traveling. Including VAT. Only 3%',
     'complain' => 'Complain about this ad',
+    'photos' => 'Photos',
+    'amenities' => 'Amenities',
+    'location' => 'Location',
+
+    'room' => 'room',
+    'rooms2-4' => 'rooms',
+    'rooms5' => 'rooms',
+    'bathroom' => 'bathroom',
+    'bathrooms' => 'bathrooms',
+    'single_bed' => 'single bed',
+    'single_beds' => 'single beds',
+    'double_bed' => 'double bed',
+    'double_beds' => 'double beds',
+    'mattress' => 'Mattress',
+    'mattresses' => 'Mattresses',
 
 ];

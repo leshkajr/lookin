@@ -3,11 +3,20 @@
 @section('header')
     <header class="main-header">
         @include('layouts.header-2')
+        <div class="listing-header-info" id="listing-header-info">
+            <div class="d-flex flex-row align-items-center p-4 gap-4" style="margin-left: 5.55%">
+                <div><a href="#photos">Photos</a></div>
+                <div><a href="#amenities">Amenities</a></div>
+                <div><a href="#reviews">Reviews</a></div>
+                <div><a href="#location">Location</a></div>
+            </div>
+        </div>
     </header>
 @stop
 @section('content')
     <main style="padding: 0 7% 3% 7%;">
-        <div class="listing-header d-flex flex-column">
+        <div class="listing-header d-flex flex-column"
+             id="photos">
             <div class="listing-header-title">{{ $listing['title'] }}</div>
             <div class="listing-header-under_title d-flex flex-row justify-content-left align-items-center"
             style="width: 100%;">
@@ -81,7 +90,7 @@
                 </div>
             </div>
 
-            <div class="listing-photos row" style="width: 100%; height: 500px; margin-top: 50px;">
+            <div class="listing-photos row" style="width: 100%; height: 500px; margin-top: 35px;">
                 <div class="col">
                     <div class="listing-photo">
                         <img class="listing-photo-img" src="{{ asset($listing['photos'][0]['path']) }}"/>
@@ -117,7 +126,7 @@
             </div>
 
             <div class="d-flex flex-row align-items-start">
-                <div class="d-flex flex-column" style="width: 60%; padding: 30px 20px 20px 0;">
+                <div class="d-flex flex-column" style="width: 60%; padding: 40px 20px 20px 0;">
                     <div class="d-flex flex-row align-items-end justify-content-start" style="width: 100%">
                         <div class="d-flex flex-row align-items-center"
                              style="font-size: 21px; font-weight: 600; width: 85%">
@@ -131,8 +140,65 @@
                         </div>
                     </div>
 
-                    <div style="width: 100%; height: 1px; margin-top: 20px; margin-bottom: 20px;
+                    <div class="d-flex flex-row align-items-center justify-content-start" style="width: 100%; margin-top:5px;">
+                        <div class="d-flex flex-row align-items-center gap-2"
+                             style="font-size: 16px; font-weight: 400; width: 85%">
+                            <div> {{ $listing['countRooms'] }}</div>
+                            @if($listing['countRooms'] === 1)
+                                <div>@lang('listing.room')</div>
+                            @elseif($listing['countRooms'] >= 2 && $listing['countRooms'] <= 4)
+                                <div>@lang('listing.rooms2-4')</div>
+                            @else
+                                <div>@lang('listing.rooms5')</div>
+                            @endif
+                            <svg xmlns="http://www.w3.org/2000/svg" width="3" height="3" viewBox="0 0 3 3" fill="none">
+                                <circle cx="1.5" cy="1.5" r="1.5" fill="#7D7D80"/>
+                            </svg>
+                            <div> {{ $listing['countBathrooms'] }}</div>
+                            @if($listing['countBathrooms'] === 1)
+                                <div>@lang('listing.bathroom')</div>
+                            @else
+                                <div>@lang('listing.bathrooms')</div>
+                            @endif
+                            @if($listing['countSingleBeds'] !== 0)
+                                <svg xmlns="http://www.w3.org/2000/svg" width="3" height="3" viewBox="0 0 3 3" fill="none">
+                                    <circle cx="1.5" cy="1.5" r="1.5" fill="#7D7D80"/>
+                                </svg>
+                                <div> {{ $listing['countSingleBeds'] }}</div>
+                                @if($listing['countSingleBeds'] === 1)
+                                    <div>@lang('listing.single_bed')</div>
+                                @else
+                                    <div>@lang('listing.single_beds')</div>
+                                @endif
+                            @endif
+                            @if($listing['countDoubleBeds'] !== 0)
+                                <svg xmlns="http://www.w3.org/2000/svg" width="3" height="3" viewBox="0 0 3 3" fill="none">
+                                    <circle cx="1.5" cy="1.5" r="1.5" fill="#7D7D80"/>
+                                </svg>
+                                <div> {{ $listing['countDoubleBeds'] }}</div>
+                                @if($listing['countDoubleBeds'] === 1)
+                                    <div>@lang('listing.double_bed')</div>
+                                @else
+                                    <div>@lang('listing.double_beds')</div>
+                                @endif
+                            @endif
+                            @if($listing['countMattresses'] !== 0)
+                                <svg xmlns="http://www.w3.org/2000/svg" width="3" height="3" viewBox="0 0 3 3" fill="none">
+                                    <circle cx="1.5" cy="1.5" r="1.5" fill="#7D7D80"/>
+                                </svg>
+                                <div> {{ $listing['countMattresses'] }}</div>
+                                @if($listing['countMattresses'] === 1)
+                                    <div>@lang('listing.mattress')</div>
+                                @else
+                                    <div>@lang('listing.mattresses')</div>
+                                @endif
+                            @endif
+                        </div>
+                    </div>
+
+                    <div style="width: 100%; height: 2px; margin-top: 20px; margin-bottom: 20px;
                      background-color: var(--text-color-light-light);"></div>
+
 
                     <div class="row w-100">
                         <div class="col-1">
@@ -151,15 +217,22 @@
                      background-color: var(--text-color-light-light);"></div>
 
                     <div>
-                        <div style="font-weight: 400;">{{ $listing['description'] }}</div>
+                        <div style="font-weight: 400;">
+                            @foreach(explode('.',$listing['description']) as $char)
+                                {{ $char }}.
+                                    <br>
+                                    <br>
+                            @endforeach
+                        </div>
                     </div>
 
-                    <div style="width: 100%; height: 2px; margin-top: 20px; margin-bottom: 10px;
+                    <div style="width: 100%; height: 2px; margin-bottom: 10px;
                      background-color: var(--text-color-light-light);"></div>
 
 
                     <div class="d-flex flex-column filters-checkboxes-blocks" style="height: auto">
-                        @foreach($categoriesAmenities as $categoryAmenity)
+                        <div style="margin-top:-150px; position: absolute;" id="amenities"></div>
+                    @foreach($categoriesAmenities as $categoryAmenity)
                             @php($isCategory = false)
                             @foreach($listing['amenities'] as $amenity)
                                 @if($categoryAmenity->id === $amenity->categoryAmenityId)
@@ -222,8 +295,8 @@
                      background-color: var(--text-color-light-light);"></div>
 
                 </div>
-                <div class="d-flex flex-column justify-content-center align-items-right"
-                     style="width: 40%; padding-left: 80px; padding-top: 35px;">
+                <div class="d-flex flex-column justify-content-center align-items-end"
+                     style="width: 40%; padding-top: 40px;">
                     <div class="listing-reservation-container">
                         <div class="listing-reservation-price">$175 @lang('listing.night')</div>
 
@@ -341,7 +414,7 @@
                     </div>
 
                     <div class="mt-3 d-flex flex-row gap-2 justify-content-center align-items-center"
-                    style="font-weight: 600; font-size: 15px;">
+                    style="width: 80%; font-weight: 600; font-size: 15px;">
                         <svg width="15" height="15" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <rect id="finish 1" width="17" height="17" fill="url(#pattern0)"/>
                             <defs>
@@ -359,7 +432,8 @@
             </div>
 
 
-            <div class="d-flex flex-row align-items-center gap-3">
+            <div class="d-flex flex-row align-items-center gap-3"
+                 id="reviews">
                 <svg style="margin-top: -2px;"
                      xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 29 27" fill="none">
                     <path d="M14.5 0L19.2387 7.97771L28.2903 10.0193L22.1674 16.9913L23.0229 26.2307L14.5 22.562L5.97711 26.2307L6.83258 16.9913L0.709681 10.0193L9.76128 7.97771L14.5 0Z" fill="#7D7D80"/>
@@ -437,7 +511,18 @@
                     <div class="listing-review-text">Чудовий відпочинок у тихому місці посеред природи. Котедж добре обладнаний, чистий, а також є можливість</div>
                 </div>
             </div>
+
+            <div style="width: 100%; height: 2px; margin-top: 20px; margin-bottom: 10px;
+                     background-color: var(--text-color-light-light);"></div>
+            <script>
+                createMap({{ $listing['coordinates']['lat'] }},{{ $listing['coordinates']['lon'] }},'listing-map');
+            </script>
+            <div class="listing-map-container">
+                <div class="listing-map-header-text">Де ви будете</div>
+                <div id="listing-map" class="listing-map"></div>
+            </div>
         </div>
+
 
     </main>
 

@@ -7,9 +7,16 @@
     <link href="{{ URL::asset('css/style2.css') }}" rel="stylesheet"/>
     <link href="{{ URL::asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet"/>
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
 </head>
-<body onresize="changeSizes()" onload="changeSizes();">
+<body onresize="changeSizes()" onload="changeSizes();" onscroll="onScroll('sticky-main-header');">
 
     @yield('header')
 
@@ -22,6 +29,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
             crossorigin="anonymous"></script>
+
     <script src="{{ URL::asset('js/scrollContent.js')}}"></script>
     <script src="{{ URL::asset('js/openMenu.js')}}"></script>
     <script src="{{ URL::asset('js/changeSizes.js')}}"></script>
@@ -32,6 +40,7 @@
     <script src="{{ URL::asset('js/counter.js')}}"></script>
     <script src="{{ URL::asset('js/dialogWindowSwal.js')}}"></script>
     <script src="{{ URL::asset('js/search.js')}}"></script>
+    <script src="{{ URL::asset('js/createMap.js')}}"></script>
 
     @yield('scripts')
 </html>

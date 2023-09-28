@@ -13,6 +13,7 @@ use App\Models\Language;
 use App\Models\LikesListing;
 use App\Models\Listing;
 use App\Models\PhotosPath;
+use App\Models\SleepingPlace;
 use App\Models\TypeListing;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -139,8 +140,26 @@ class MainController extends Controller
             'totalPrice' => $totalPrice,
         ];
 
+        // countBeds
 
+        $sleeping_place = SleepingPlace::find($listing_db->sleepingPlacesId);
+        $listing += [
+            'countSingleBeds' => $sleeping_place->countSingleBeds,
+            'countDoubleBeds' => $sleeping_place->countDoubleBeds,
+            'countMattresses' => $sleeping_place->countMattresses,
+        ];
 
+        // coordinates
+        $opts = array('http' =>
+            array(
+                'method'  => 'POST',
+                'header'  => 'Content-Type: application/x-www-form-urlencoded',
+            )
+        );
+        $context  = stream_context_create($opts);
+        $dataLocation = json_decode(file_get_contents("https://nominatim.openstreetmap.org/search?q=Ukrainska%202%20Kryvyi%20Rih%20Ukraine&format=json", false, $context));
+
+        dd($dataLocation);
         $languages = Language::all();
         $currencies = Currency::all();
         $categoriesListing = CategoryListing::all();

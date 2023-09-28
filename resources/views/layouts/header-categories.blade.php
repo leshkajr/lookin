@@ -9,7 +9,7 @@
             @foreach($categoriesListing as $category)
                 <div class="nav-scroller__item d-flex flex-column align-items-center justify-content-center">
                     <a class="item-category d-flex align-items-center justify-content-center" href="#">
-                        <img src="{{ asset($category->iconPath) }}" style="width: 40px;"/>
+                        <img src="{{ asset($category->iconPath) }}"/>
                     </a>
                     <div>@lang('categories.'.$category->nameCategoryListing)</div>
                 </div>
