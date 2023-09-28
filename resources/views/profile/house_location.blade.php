@@ -26,12 +26,14 @@
                  </form>
              </div>
              <div class="select_adress">
-                 <form method="get">
+                 <form method="get" id="form_citi">
                      <div class="d-flex flex-column text_chouse" style="width: 100%;">
                          <div style="font-size: 15px;" >Місто/село</div>
-                         {{--                     <div style="font-size: 20px;margin-top: 5%">Київ</div>--}}
-                         <select class="sel_location">
-                             <option value="213" selected>Київ</option>
+                         <select class="sel_location"  name="citi">
+                             <option>Виберіть</option>
+                            @foreach($cities as $citi)
+                            <option value="{{$citi->name}}">{{$citi->name}}</option>
+                            @endforeach
                          </select>
                      </div>
                  </form>
@@ -41,7 +43,7 @@
                  <input type="text" class="input_adress" placeholder="Поштовий індекс">
              </div>
              <div class="select_adress">
-                 <input type="number" class="input_adress" placeholder="Адреса">
+                 <input type="text" class="input_adress" placeholder="Адреса">
              </div>
          </div>
 
