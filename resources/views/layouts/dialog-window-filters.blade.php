@@ -12,7 +12,7 @@
                     <div class="modal-dialog-window-under_header mb-1">@lang('main.prices_before_payment')</div>
                     <div class="row">
                         <div class="form-floating" style="width: 45%;">
-                            <input type="text" class="filters-input form-control" id="Minimum" placeholder="{{ Lang::get('main.minimum') }}">
+                            <input type="text" class="input form-control" id="Minimum" placeholder="{{ Lang::get('main.minimum') }}">
                             <label for="Minimum" style="background: transparent">@lang('main.minimum')</label>
                         </div>
                         <div style="width: 10%;">
@@ -21,7 +21,7 @@
                             </div>
                         </div>
                         <div class="form-floating" style="width: 45%;">
-                            <input type="text" class="filters-input form-control" id="Maximum" placeholder="{{ Lang::get('main.maximum') }}">
+                            <input type="text" class="input form-control" id="Maximum" placeholder="{{ Lang::get('main.maximum') }}">
                             <label for="Maximum">@lang('main.maximum')</label>
                         </div>
                     </div>

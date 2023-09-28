@@ -31,6 +31,7 @@
     <script src="{{ URL::asset('js/calendar.js')}}"></script>
     <script src="{{ URL::asset('js/counter.js')}}"></script>
     <script src="{{ URL::asset('js/dialogWindowSwal.js')}}"></script>
+    <script src="{{ URL::asset('js/search.js')}}"></script>
 
     @yield('scripts')
 </html>

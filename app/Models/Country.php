@@ -14,6 +14,8 @@ class Country extends Model
     static function fillValues(){
         if(count(self::all()) === 0){
             $countries = json_decode(file_get_contents("https://countriesnow.space/api/v0.1/countries"));
+//            dd($countries->data[0]);
+
 
             foreach ($countries->data as $country) {
                 if (!self::isExist(self::All(), $country->country)) {
@@ -26,6 +28,20 @@ class Country extends Model
                     if($country->country !== "Ukraine"){
                         for ($i = 0; $i < 40; $i++) {
                             if(isset($country->cities[$i])){
+                                $city = $country->cities[$i];
+
+                                $postdata = http_build_query(array('city' => $city,));
+                                $opts = array('http' =>
+                                    array(
+                                        'method'  => 'POST',
+                                        'header'  => 'Content-Type: application/x-www-form-urlencoded',
+                                        'content' => $postdata
+                                    )
+                                );
+                                $context  = stream_context_create($opts);
+
+                                $object_city = json_decode(file_get_contents("https://countriesnow.space/api/v0.1/countries/population/cities", false, $context));
+                                dd($object_city);
                                 $create_city = array(
                                     'name' => $country->cities[$i],
                                     'countryId' => $id,

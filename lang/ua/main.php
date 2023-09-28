@@ -46,5 +46,9 @@ return [
     'who' => 'Хто',
     'add_guests' => 'Додайте гостей',
     'search' => 'Пошук',
+    'recent_searches' => 'Останні пошукові запити',
+    'search_by_region' => 'Пошук за регіонами',
+    'options_apartments' => 'Варіанти помешкань',
+    'entry_region' => 'Введіть назву регіона',
 ];
 ?>

@@ -46,5 +46,9 @@ return [
     'who' => 'Who',
     'add_guests' => 'Add guests',
     'search' => 'Search',
+    'recent_searches' => 'Recent searches',
+    'search_by_region' => 'Search by region',
+    'options_apartments' => 'Options apartments',
+    'entry_region' => 'Entry region',
 ];
 ?>

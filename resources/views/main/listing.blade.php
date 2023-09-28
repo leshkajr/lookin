@@ -81,13 +81,13 @@
                 </div>
             </div>
 
-            <div class="listing-photos row mt-4" style="width: 100%; height: 500px;">
+            <div class="listing-photos row" style="width: 100%; height: 500px; margin-top: 50px;">
                 <div class="col">
                     <div class="listing-photo">
                         <img class="listing-photo-img" src="{{ asset($listing['photos'][0]['path']) }}"/>
                     </div>
                 </div>
-                <div class="col" style="padding-left: 15px;">
+                <div class="col" style="padding-left: 20px;">
                     <div class="row">
                         <div class="col">
                             <div class="listing-photo listing-photo-img-sm">
@@ -117,7 +117,7 @@
             </div>
 
             <div class="d-flex flex-row align-items-start">
-                <div class="d-flex flex-column" style="width: 60%; padding: 20px 20px 20px 0;">
+                <div class="d-flex flex-column" style="width: 60%; padding: 30px 20px 20px 0;">
                     <div class="d-flex flex-row align-items-end justify-content-start" style="width: 100%">
                         <div class="d-flex flex-row align-items-center"
                              style="font-size: 21px; font-weight: 600; width: 85%">
@@ -222,15 +222,16 @@
                      background-color: var(--text-color-light-light);"></div>
 
                 </div>
-                <div class="d-flex flex-column justify-content-center align-items-center"
-                     style="width: 40%; padding-left: 20px; padding-top: 25px;">
+                <div class="d-flex flex-column justify-content-center align-items-right"
+                     style="width: 40%; padding-left: 80px; padding-top: 35px;">
                     <div class="listing-reservation-container">
                         <div class="listing-reservation-price">$175 @lang('listing.night')</div>
 
                         <div class="start-table-block mb-3">
                             <div class="row">
                                 <div class="col" style="width: 49%">
-                                    <div class="start-table-label">
+                                    <div class="start-table-label"
+                                    style="padding: 20px 25px;">
                                         <div>@lang('start.arrival')</div>
                                         <input id="dateArrivalInput" type="date" required />
 {{--                                        <x-clear-input required value="{{ Lang::get('start.add_date') }}" class="start-table-input"/>--}}
@@ -240,14 +241,16 @@
                                     <div style="height: 86%;margin-top:4px; background-color: var(--hr); width: 1px;"></div>
                                 </div>
                                 <div class="col" style="width: 49%">
-                                    <div class="start-table-label">
+                                    <div class="start-table-label"
+                                         style="padding: 20px 25px;">
                                         <div>@lang('start.departure')</div>
                                         <input id="dateDepartureInput" type="date" required />
                                     </div>
                                 </div>
                             </div>
                             <div style="width: 100%; background-color: var(--hr); height: 1px;"></div>
-                            <div class="start-table-label">
+                            <div class="start-table-label"
+                                 style="padding: 20px 25px;">
                                 <div>@lang('listing.guests')</div>
                                 <div class="d-flex flex-row gap-1" style="width: 50%">
                                     <x-clear-input required value="{{ $listing['guests'] }}" class="start-table-input"
@@ -284,8 +287,9 @@
 
                         </div>
                         <div>
-                            <x-primary-button style="width: 100%; padding: 10px 0;">
-                                <div class="d-flex justify-content-center align-items-center gap-2">
+                            <x-primary-button style="width: 100%; padding: 20px 0; margin-top: 10px;">
+                                <div class="d-flex justify-content-center align-items-center gap-2"
+                                style="font-size: 19px;">
                                     @lang('listing.book_now')
                                 </div>
                             </x-primary-button>
