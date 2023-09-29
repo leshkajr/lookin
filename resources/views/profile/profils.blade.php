@@ -11,7 +11,7 @@
             <div class="retangle_div1">
                <img class="photo_profils" src="{{ asset('images/start-large-photos/photo1.jpg') }}">
             </div>
-             <button class="button"style="margin-left: 8%" >додаты фото</button>
+             <button class="button" style="margin-left: 8%" >додаты фото</button>
         </div>
         <div class="d-flex flex-column" style="margin-left: 13%;padding-top: 2%;width: 70%">
             <div style="font-size: 24px;font-weight: 600">Ваш профіль</div>

@@ -18,6 +18,7 @@ use App\Models\TypeListing;
 use App\Models\User;
 use Illuminate\Http\Request;
 use DateTime;
+use MongoDB\Driver\Session;
 
 class MainController extends Controller
 {
