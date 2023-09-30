@@ -1,8 +1,9 @@
+
 .select_adress{
     width: 50%;
     margin-top: 3%;
     padding-left: 3%;
-    padding-right: 3%;
+    padding-right: 1%;
     padding-top: 1%;
     background: linear-gradient(180deg, #F8F8FA 0%, rgba(226, 229, 244, 0.37) 100%);
     box-shadow: 1.5px 1.5px 4px 2px rgba(0, 0, 0, 0.25) inset;
@@ -16,7 +17,7 @@
     background-color: transparent;
     font-size: 20px;
     margin-top: 1%;
-    width: 110%;
+    width: 100%;
 
     color: var(--text-color);
 }
@@ -62,54 +63,51 @@
 
 }
 .text_information{
-    color: #6B6B6B;
-    font-size: 24px;
-    margin-top: 2%;
+    color: var(--text-color);
+    font-size: 20px;
 }
 .counter_info{
 
-    width: 50%;
+    width: 70%;
     margin-top: 3%;
-    padding-left: 3%;
-    padding-top: 1%;
-    height: 80px;
+    padding: 0.3% 2%;
     background: linear-gradient(180deg, #F8F8FA 0%, rgba(226, 229, 244, 0.37) 100%);
     box-shadow: 1.5px 1.5px 4px 2px rgba(0, 0, 0, 0.25) inset;
     border-radius: 15px; border: 1px solid;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .personal_block{
     background: #E2E5F4;
-    box-shadow: 5px 5px 17px rgba(0, 0, 0, 0.15);
+    /*box-shadow: 5px 5px 17px rgba(0, 0, 0, 0.15);*/
+    box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 17px 2px rgba(0, 0, 0, 0.17);
+
     border-radius: 15px;
     border: 7px #E2E5F4 solid;
-    margin-top: 5%;
-    padding: 1%;
+    margin-bottom: 4%;
+    padding: 1% 4% 0 2%;
     width: 100%;
 
 
 }
 .personal_text_header{
     color: #8B8B8B;
-    font-size: 24px;
-    margin-left: 1%;
+    font-size: 22px;
     padding-top: 1%;
     font-weight: 600;
     word-wrap: break-word
 }
 .personal_text_description{
     color: #6B6B6B;
-    font-size: 20px;
-   
-    margin-top: 1%;
+    font-size: 18px;
+
     font-weight: 300;
     word-wrap: break-word;
-    width: 80%;
-    padding-left: 2%;
-    padding-bottom: 1%;
+    width: 100%;
     padding-top: 1%;
+    margin-bottom: 0.5%;
 }
 .personal_div{
     background: linear-gradient(180deg, #F8F8FA 0%, rgba(226, 229, 244, 0.37) 100%);
@@ -120,44 +118,41 @@
     /*box-shadow: 1.5px 1.5px 4px 2px rgba(211, 211, 211, 0.25) inset;*/
     border-radius: 15px;
     border: 1px ;
-    margin-top: 2%;
-    margin-left: 1%;
+    margin-top: 1%;
 
-    width: 95%;
+    width: 100%;
 }
 .input_text{
     border: none;
     outline: none;
     background: none;
     width: 100%;
-    font-weight: 350;
-    padding-top: 1%;
-    padding-left: 2%;
-    padding-bottom: 1%;
-    font-size: 24px;
+    font-weight: 300;
+    padding-top: 0.8%;
+    padding-left: 1.5%;
+    padding-bottom: 0.8%;
+    font-size: 18px;
 
+    overflow: hidden;
+}
+.input_text::placeholder {
+    color: var(--text-color-light);
+    opacity: 1; /* Firefox */
 }
 .div_button{
     display: flex;
     justify-content: space-between;
+    margin-top: 1.5%;
 }
 .button_right{
     background: #0FB8CF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 13px;
-    font-size: 24px;
-    margin-right: 4%;
-    margin-top: 1.5%;
-    width: 218px;
-    height: 60px;
-    margin-bottom: 1%;
-    color: white;
+    font-size: 21px;
+    padding: 8px 55px;
 }
 .div_button_right{
-    float: right;
-    margin-right: 4%;
-    margin-top: 2%;
-    margin-bottom: 1%;
+
 }
 .input_adress{
     all: unset;
@@ -171,12 +166,11 @@
     border-radius: 15px;
 
     margin-top: 2%;
-    margin-left: 1%;
 
-    width: 95%;
+    width: 100%;
 }
 .verification_container{
-    width: 60%;
+    width: 35%;
 
     margin: 0 auto;
 
@@ -186,11 +180,11 @@
     box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2), inset 2px 2px 3px rgba(255, 255, 255, 0.9);
     border-radius: 15px;
 
-    width: 50%;
+    width: 100%;
 
     margin: 0 auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .retangle_div {
     width: 120px;
@@ -227,7 +221,7 @@
 .informati{
     background: #E2E5F4;
     box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2), inset 2px 2px 3px rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
+    border-radius: 10px;
      width: 70%;
      margin:0 auto;
 }
@@ -247,17 +241,17 @@
 
 }
 .retangle_div1 {
-    width: 160px;
-    height: 160px;
-    background: #B8BEDB;
-    box-shadow: 1.5px 1.5px 3px rgba(255, 255, 255, 0.85) inset;
+    width: 180px;
+    height: 180px;
+    background: var(--background-color--2);
+    box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2);
     border-radius: 9999px;
     margin: 0 auto;
 
 
 }
 .photo_profils{
-    width: 160px;
-    height: 160px;
+    width: 170px;
+    height: 170px;
     border-radius: 9999px;
 }

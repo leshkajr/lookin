@@ -14,12 +14,14 @@
              <div class="select_adress">
                  <form method="get" id="form_country">
                      <div class="d-flex flex-column text_chouse" style="width: 100%;">
-                         <div style="font-size: 15px;" >Країна/регіон</div>
+                         <div style="font-size: 15px; color: var(--text-color-light)" >Країна/регіон</div>
                          <select name="countryId" class="sel_location" type="submit"
                          onchange="document.getElementById('form_country').submit();">
                              <option>Виберіть</option>
                             @foreach($countries as $value)
-                                <option value="{{$value->id}}">{{$value->name}}</option>
+
+                                <option value="{{$value->id}}"
+                                @if($value->id == $choose_country_id) selected @endif>{{$value->name}}</option>
                             @endforeach
                          </select>
                      </div>
@@ -28,12 +30,14 @@
              <div class="select_adress">
                  <form method="get" id="form_citi">
                      <div class="d-flex flex-column text_chouse" style="width: 100%;">
-                         <div style="font-size: 15px;" >Місто/село</div>
-                         <select class="sel_location"  name="citi">
+                         <div style="font-size: 15px; color: var(--text-color-light)" >Місто/село</div>
+                         <select class="sel_location" name="citi" @if($cities === null) disabled @endif>
                              <option>Виберіть</option>
-                            @foreach($cities as $citi)
-                            <option value="{{$citi->name}}">{{$citi->name}}</option>
-                            @endforeach
+                             @if($cities !== null)
+                                @foreach($cities as $citi)
+                                <option value="{{$citi->name}}">{{ $citi->name}}</option>
+                                @endforeach
+                             @endif
                          </select>
                      </div>
                  </form>

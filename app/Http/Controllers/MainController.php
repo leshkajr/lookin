@@ -257,16 +257,19 @@ class MainController extends Controller
     {
         $languages = Language::all();
         $currencies = Currency::all();
-        $Country=    Country::all();
+        $countries = Country::all();
 
         $categoriesListing = CategoryListing::all();
-        $cities = new City();
+        $cities = null;
+        $choose_country_id = null;
         if(isset($_GET['countryId'])){
             $cities = City::where('countryId',$_GET['countryId'])->get();
+            $choose_country_id = $_GET['countryId'];
         }
 
         return view('profile.house_location',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing, 'cities'=>$cities,'countries'=>$Country]);
+            'categoriesListing'=>$categoriesListing, 'cities'=>$cities,'countries'=>$countries,
+            'choose_country_id'=>$choose_country_id]);
     }
     public function house_information()
     {
