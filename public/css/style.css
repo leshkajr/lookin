@@ -1667,8 +1667,14 @@ input::-webkit-inner-spin-button {
 
     margin-bottom: 20px;
 }
+.listing-map-description-text{
+    font-size: 20px;
+    font-weight:500;
+
+    margin-top: 15px;
+}
 .listing-map {
-    height: 600px;
+    height: 500px;
     border-radius: 20px;
     z-index: 0;
     margin-bottom: 20px;

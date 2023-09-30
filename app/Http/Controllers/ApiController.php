@@ -78,4 +78,15 @@ class ApiController extends Controller
 //        $json = json_encode($location, JSON_THROW_ON_ERROR);
 //        return $json !== false ? $json : "not found";
     }
+
+    function getCityFromIp(){
+        if (isset($_POST['latitude']) && isset($_POST['longitude'])) {
+            $latitude = $_POST['latitude'];
+            $longitude = $_POST['longitude'];
+
+            return ['latitude' => $latitude,'longitude' => $longitude];
+        } else {
+            return "Не удалось получить координаты.";
+        }
+    }
 }
