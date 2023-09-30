@@ -46,6 +46,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/information',[MainController::class,'house_information'])->name('profile.house_information');
     Route::get('/personal_data',[MainController::class,'personal_data'])->name('personal_data');
     Route::get('/verification',[MainController::class,'personal_verification'])->name('personal_verification');
+    Route::get('/profils',[MainController::class,'profils'])->name('profile.profils');
+    Route::get('/amenities',[MainController::class,'house_amenities'])->name('house_amenities');
 
 });
 

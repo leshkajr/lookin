@@ -49,7 +49,7 @@
                           <div class="personal_text_header">Номер телефону</div>
                           <div class="personal_text_description">Додайте номер телефону, щоб підтверджені гості та представники Look'in могли з вами зв’язатися. Ви можете додати інші номери та вибрати їх призначення</div>
                           <div class="personal_divs">
-                              <input type="text" value="(+380) " class="input_text" style="font-size: 24px;padding-top: 0.5%;padding-left: 1%">
+                              <input type="text" placeholder="(+380)" class="input_text" style="font-size: 24px;padding-top: 0.5%;padding-left: 1%">
                           </div>
                           <div class="personal_text_description" style="margin-top: 1%">Ми надішлемо вам код для підтвердження номера телефону. Застосовуються стандартні тарифи вашого оператора за надсилання повідомлень і передачу даних.</div>
                           <div class="div_button_right">

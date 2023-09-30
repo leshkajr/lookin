@@ -159,9 +159,9 @@
 }
 .personal_divs{
     background: linear-gradient(180deg, #E2E5F4 0%, rgba(226, 229, 244, 0.37) 100%);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.17);
+    box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2), inset 2px 2px 3px rgba(255, 255, 255, 0.9);
     border-radius: 15px;
-    border: 1px solid;
+
     margin-top: 2%;
     margin-left: 1%;
 
@@ -237,4 +237,19 @@
     padding-bottom: 1%;
     margin: 0 auto;
 
+}
+.retangle_div1 {
+    width: 160px;
+    height: 160px;
+    background: #B8BEDB;
+    box-shadow: 1.5px 1.5px 3px rgba(255, 255, 255, 0.85) inset;
+    border-radius: 9999px;
+    margin: 0 auto;
+
+
+}
+.photo_profils{
+    width: 160px;
+    height: 160px;
+    border-radius: 9999px;
 }

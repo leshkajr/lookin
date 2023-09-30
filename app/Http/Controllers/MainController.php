@@ -19,6 +19,7 @@ use App\Models\TypeListing;
 use App\Models\User;
 use Illuminate\Http\Request;
 use DateTime;
+use MongoDB\Driver\Session;
 
 class MainController extends Controller
 {
@@ -295,6 +296,26 @@ class MainController extends Controller
         $categoriesListing = CategoryListing::all();
 
         return view('profile.personal_verification',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+    }
+    public function profils()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+        $verification=User::all();
+        $categoriesListing = CategoryListing::all();
+
+        return view('profile.profils',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+    }
+    public function house_amenities()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+        $verification=User::all();
+        $categoriesListing = CategoryListing::all();
+
+        return view('profile.house_amenities',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
     }
 }

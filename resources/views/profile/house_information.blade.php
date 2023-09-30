@@ -42,6 +42,7 @@
                 <button id="increment_bathrooms" style="font-size: 30px;padding-left: 10px">+</button>
             </div>
         </div>
+        <button class="button" style="width: 15%;margin-top: 5%;margin-left: 60%;height: 50px">@lang('main.next')</button>
     </div>
 </main>
 
