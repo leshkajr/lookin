@@ -49,10 +49,10 @@ class MainController extends Controller
         $data = json_decode($response, true);
         $user_ip = $data['ip'];
 
-        $ip_info_api_url = 'https://geo.ipify.org/api/v2/country?apiKey=at_OBHwQwBeag8e0WoEq9PcsTjE5BKu9&ipAddress='.$user_ip;
+        $ip_info_api_url = 'http://ip-api.com/json/'.$user_ip;
         $response = file_get_contents($ip_info_api_url);
         $data = json_decode($response, true);
-        $location = $data['location']['region']." city beautiful photo 1920 1080 main street";
+        $location = $data['city']." Wallpapers HD 1920 1080";
         $location = str_replace(" ","%20",$location);
         $dataImages = json_decode(file_get_contents("https://app.zenserp.com/api/v2/search?apikey=386dafc0-5eb1-11ee-8845-8d1e917a38e1&q=".$location."&tbm=isch"));
         dd($dataImages->image_results);

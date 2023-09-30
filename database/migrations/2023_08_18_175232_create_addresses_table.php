@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('secondLine'); // 89
             $table->string('index'); // 00-350
             $table->string('city'); // Kryvyi Rih
-            $table->string('lat');
-            $table->string('lon');
+            $table->string('lat')->nullable();
+            $table->string('lon')->nullable();
             $table->timestamps();
         });
     }
