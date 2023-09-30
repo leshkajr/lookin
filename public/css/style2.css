@@ -102,11 +102,14 @@
 .personal_text_description{
     color: #6B6B6B;
     font-size: 20px;
-    margin-left: 1%;
+   
     margin-top: 1%;
     font-weight: 300;
     word-wrap: break-word;
     width: 80%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 .personal_div{
     background: linear-gradient(180deg, #F8F8FA 0%, rgba(226, 229, 244, 0.37) 100%);
@@ -116,7 +119,7 @@
     /*box-shadow: 1.5px 1.5px 4px 2px rgba(192, 192, 192, 0.25) inset;*/
     /*box-shadow: 1.5px 1.5px 4px 2px rgba(211, 211, 211, 0.25) inset;*/
     border-radius: 15px;
-    border: 1px solid;
+    border: 1px ;
     margin-top: 2%;
     margin-left: 1%;
 
@@ -128,6 +131,11 @@
     background: none;
     width: 100%;
     font-weight: 350;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    font-size: 24px;
+
 }
 .div_button{
     display: flex;

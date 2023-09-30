@@ -19,10 +19,10 @@
                         <div class="personal_text_header">Ім’я згідно з документами</div>
                         <div class="personal_text_description">Це має бути ім’я, зазначене у вашому проїзному документі (посвідченні водія або паспорті).</div>
                         <div class="personal_div">
-                            <input type="text" placeholder="Ім'я" class="input_text" style="font-size: 24px;padding-top: 0.5%;padding-left: 1%">
+                            <input type="text" placeholder="Ім'я" class="input_text" >
                         </div>
                         <div class="personal_div">
-                            <input type="text" placeholder="Призвіще" class="input_text" style="font-size: 24px;padding-top: 0.5%;padding-left: 1%;">
+                            <input type="text" placeholder="Призвіще" class="input_text" >
                         </div>
                         <div class="div_button">
                             <button style="font-size: 20px;margin-top: 1.5%;margin-left: 1%;font-weight: 500" >Скасувати</button>
@@ -35,7 +35,7 @@
                           <div class="personal_text_header">Електронна адреса</div>
                           <div class="personal_text_description">Використовуйте адресу, до якої ви завжди матимете доступ.</div>
                           <div class="personal_div">
-                              <input type="email" placeholder="Ваша електронна адреса" class="input_text" style="font-size: 24px;padding-top: 0.5%;padding-left: 1%">
+                              <input type="email" placeholder="Ваша електронна адреса" class="input_text" >
                           </div>
                           <div class="div_button">
                               <button style="font-size: 20px;margin-top: 1.5%;margin-left: 1%" >Скасувати</button>
@@ -49,7 +49,7 @@
                           <div class="personal_text_header">Номер телефону</div>
                           <div class="personal_text_description">Додайте номер телефону, щоб підтверджені гості та представники Look'in могли з вами зв’язатися. Ви можете додати інші номери та вибрати їх призначення</div>
                           <div class="personal_divs">
-                              <input type="text" placeholder="(+380)" class="input_text" style="font-size: 24px;padding-top: 0.5%;padding-left: 1%">
+                              <input type="text" placeholder="(+380)" class="input_text" >
                           </div>
                           <div class="personal_text_description" style="margin-top: 1%">Ми надішлемо вам код для підтвердження номера телефону. Застосовуються стандартні тарифи вашого оператора за надсилання повідомлень і передачу даних.</div>
                           <div class="div_button_right">
@@ -91,19 +91,19 @@
                    <div class="personal_text_description">Використовуйте постійну адресу, на яку ви можете отримувати пошту.</div>
                    <div class="d-flex flex-column">
                      <div class="personal_divs">
-                         <input type="text" placeholder="Країна" class="input_text" style="margin-top: 1%;margin-bottom: 1%;margin-left: 1%">
+                         <input type="text" placeholder="Країна" class="input_text" >
                      </div>
                        <div class="personal_divs">
-                           <input type="text" placeholder="Місто" class="input_text" style="margin-top: 1%;margin-bottom: 1%;margin-left: 1%">
+                           <input type="text" placeholder="Місто" class="input_text" >
                        </div>
                        <div class="personal_divs">
-                           <input type="text" placeholder="Вулиця й номер будинку" class="input_text" style="margin-top: 1%;margin-bottom: 1%;margin-left: 1%">
+                           <input type="text" placeholder="Вулиця й номер будинку" class="input_text" >
                        </div>
                        <div class="personal_divs">
-                           <input type="text" placeholder="Індекс" class="input_text" style="margin-top: 1%;margin-bottom: 1%;margin-left: 1%">
+                           <input type="text" placeholder="Індекс" class="input_text" >
                        </div>
                        <div class="personal_divs">
-                           <input type="text" placeholder="Штат/ провінція / графство / область" class="input_text" style="margin-top: 1%;margin-bottom: 1%;margin-left: 1%">
+                           <input type="text" placeholder="Штат/ провінція / графство / область" class="input_text" >
                        </div>
                    </div>
                    <div class="div_button_right">
@@ -117,13 +117,13 @@
                    <div class="personal_text_description">Надійна контактна особа для оповіщення в невідкладній ситуації.</div>
                    <div class="d-flex flex-column">
                        <div class="personal_divs">
-                           <input type="number" placeholder="(+380)" class="input_text" style="margin-top: 1%;margin-bottom: 1%;margin-left: 1%">
+                           <input type="number" placeholder="(+380)" class="input_text" >
                        </div>
                        <div class="personal_divs">
-                           <input type="text" placeholder="Ім'я та Прізвище" class="input_text" style="margin-top: 1%;margin-bottom: 1%;margin-left: 1%">
+                           <input type="text" placeholder="Ім'я та Прізвище" class="input_text" >
                        </div>
                        <div class="personal_divs">
-                           <input type="email" placeholder="Електронна адреса" class="input_text" style="margin-top: 1%;margin-bottom: 1%;margin-left: 1%">
+                           <input type="email" placeholder="Електронна адреса" class="input_text" >
                        </div>
 
                    </div>
