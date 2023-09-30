@@ -1,6 +1,7 @@
 
 function createMap(lat, lon, id){
-    var map = L.map(id).setView([lat, lon], 13);
+    console.log("enter");
+    var map = L.map(id).setView([lat, lon], 15);
     console.log("create");
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,

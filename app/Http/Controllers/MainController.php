@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Address;
 use App\Models\AmenitiesListings;
 use App\Models\Amenity;
 use App\Models\CategoryAmenity;
@@ -42,6 +43,20 @@ class MainController extends Controller
         $currencies = Currency::all();
         $types_listings = TypeListing::all();
         $amenities = Amenity::all();
+
+        $ip_api_url = 'https://api.ipify.org?format=json';
+        $response = file_get_contents($ip_api_url);
+        $data = json_decode($response, true);
+        $user_ip = $data['ip'];
+
+        $ip_info_api_url = 'https://geo.ipify.org/api/v2/country?apiKey=at_OBHwQwBeag8e0WoEq9PcsTjE5BKu9&ipAddress='.$user_ip;
+        $response = file_get_contents($ip_info_api_url);
+        $data = json_decode($response, true);
+        $location = $data['location']['region']." city beautiful photo 1920 1080 main street";
+        $location = str_replace(" ","%20",$location);
+        $dataImages = json_decode(file_get_contents("https://app.zenserp.com/api/v2/search?apikey=386dafc0-5eb1-11ee-8845-8d1e917a38e1&q=".$location."&tbm=isch"));
+        dd($dataImages->image_results);
+
         return view('main.start',
             ['languages'=>$languages, 'currencies'=>$currencies, 'types_listings' => $types_listings,
                 'amenities' => $amenities]);
@@ -151,16 +166,38 @@ class MainController extends Controller
         ];
 
         // coordinates
-        $opts = array('http' =>
-            array(
-                'method'  => 'POST',
-                'header'  => 'Content-Type: application/x-www-form-urlencoded',
-            )
-        );
-        $context  = stream_context_create($opts);
-        $dataLocation = json_decode(file_get_contents("https://nominatim.openstreetmap.org/search?q=Ukrainska%202%20Kryvyi%20Rih%20Ukraine&format=json", false, $context));
+//        $dataLocation = json_decode(file_get_contents("https://nominatim.openstreetmap.org/search?q=Ukrainska%202%20Kryvyi%20Rih%20Ukraine&format=json", false, $context));
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, false);
+        $address = Address::find($listing_db->addressId);
+        $data = [
+            "q" => $address->firstLine." ".$address->index." ".$address->city,
+            "tbm" => "lcl",
+        ];
+        curl_setopt($ch, CURLOPT_URL, "https://app.zenserp.com/api/v2/search?" . http_build_query($data));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            "Content-Type: application/json",
+            "apikey: 386dafc0-5eb1-11ee-8845-8d1e917a38e1",
+        ));
 
-        dd($dataLocation);
+        $response = curl_exec($ch);
+        curl_close($ch);
+        $dataLocation = json_decode($response);
+
+        $listing += [
+            "address" => [
+                "firstLine" => $address->firstLine,
+                "secondLine" => $address->secondLine,
+                "index" => $address->index,
+                "city" => $address->city,
+            ],
+            "coordinates" => [
+                'lat' => $dataLocation->maps_results[0]->coordinates->latitude,
+                'lon' => $dataLocation->maps_results[0]->coordinates->longitude,
+            ],
+        ];
+
         $languages = Language::all();
         $currencies = Currency::all();
         $categoriesListing = CategoryListing::all();

@@ -385,3 +385,7 @@
 @section('dialogs_windows')
     @include('layouts.dialog-window-language')
 @endsection
+
+@section('scripts')
+    <script type="text/javascript" src="{{ URL::asset('js/createPhotoForStart.js') }}"></script>
+@stop

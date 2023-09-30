@@ -14,7 +14,7 @@
     </header>
 @stop
 @section('content')
-    <main style="padding: 0 7% 3% 7%;">
+    <main style="padding: 0 7% 5% 7%;">
         <div class="listing-header d-flex flex-column"
              id="photos">
             <div class="listing-header-title">{{ $listing['title'] }}</div>
@@ -514,12 +514,15 @@
 
             <div style="width: 100%; height: 2px; margin-top: 20px; margin-bottom: 10px;
                      background-color: var(--text-color-light-light);"></div>
-            <script>
-                createMap({{ $listing['coordinates']['lat'] }},{{ $listing['coordinates']['lon'] }},'listing-map');
-            </script>
             <div class="listing-map-container">
                 <div class="listing-map-header-text">Де ви будете</div>
                 <div id="listing-map" class="listing-map"></div>
+                <div class="listing-map-description-text d-flex flex-fow gap-2">
+                    <div>{{ $listing["address"]["firstLine"] }},</div>
+                    <div>{{ $listing["address"]["secondLine"] }}</div>
+                    <div>{{ $listing["address"]["index"] }}</div>
+                    <div>{{ $listing["address"]["city"] }}</div>
+                </div>
             </div>
         </div>
 
@@ -544,5 +547,10 @@
 @section('scripts')
     <script>
         startCalendar('{{ __('listing.nights') }}');
+    </script>
+
+    <script src="{{ URL::asset('js/createMap.js')}}"></script>
+    <script>
+        createMap({{ $listing['coordinates']['lat'] }},{{ $listing['coordinates']['lon'] }},'listing-map');
     </script>
 @stop
