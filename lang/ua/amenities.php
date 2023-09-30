@@ -10,7 +10,8 @@ return [
     "heating" => "Опалення",
     "tv" => "Телевізор",
     "iron" => "Праска",
-
+     "installations"=>"Біля інсталокацій",
+    "history"=>"З історією",
     "pool" => "Басейн",
     "free_parking" => "Безкоштовний паркінг",
     "crib" => "Дитяче ліжечко",
@@ -21,10 +22,11 @@ return [
     "gym" => "Тренажерний зал",
     "breakfast" => "Сніданок",
     "smoking_allowed" => "Дозволено курити",
-
+    "plate_parking" => "Платний паркінг",
     "beachfront" => "Вихід до пляжу",
     "waterfront" => "Набережна",
-
+    "On wheels"=>"На колесах",
     "smoke_alarm" => "Детектор диму",
     "carbon_monoxide_alarm" => "Детектор чадного газу",
+    "Camping"=>"Кемпінг"
 ];

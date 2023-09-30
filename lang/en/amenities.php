@@ -10,7 +10,8 @@ return [
     "heating" => "Heating",
     "tv" => "TV",
     "iron" => "Iron",
-
+    "installations"=>"Near installations",
+    "history"=>"With history",
     "pool" => "Pool",
     "free_parking" => "Free parking",
     "crib" => "Crib",
@@ -21,10 +22,11 @@ return [
     "gym" => "Gym",
     "breakfast" => "Breakfast",
     "smoking_allowed" => "Smoking allowed",
-
+    "plate_parking" => "Paid parking",
     "beachfront" => "Beachfront",
     "waterfront" => "Waterfront",
-
+     "On wheels"=>"On wheels",
     "smoke_alarm" => "Smoke alarm",
     "carbon_monoxide_alarm" => "Carbon monoxide alarm",
+    "Camping"=>"Camping"
 ];

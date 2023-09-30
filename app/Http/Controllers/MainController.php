@@ -271,4 +271,14 @@ class MainController extends Controller
         return view('profile.profils',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
     }
+    public function house_amenities()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+        $verification=User::all();
+        $categoriesListing = CategoryListing::all();
+
+        return view('profile.house_amenities',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+    }
 }
