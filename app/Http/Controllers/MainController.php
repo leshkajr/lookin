@@ -321,4 +321,6 @@ class MainController extends Controller
         return view('profile.house_amenities',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
     }
+
+
 }
