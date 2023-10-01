@@ -52,8 +52,8 @@ SKIraum: недалеко від схилів, центру міста, віль
                     'isPublic' => true,
                     'isAlone' => true,
                     'isAnimals' => false,
-                    'countryId' => 213,
-                    'cityId' => 4676,
+                    'countryId' => 216,
+                    'cityId' => 1664,
                     'addressId' => 1,
                 )
             );
