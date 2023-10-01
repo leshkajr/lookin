@@ -255,3 +255,31 @@
     height: 170px;
     border-radius: 9999px;
 }
+.button_profils{
+    background: #0FB8CF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    font-size: 24px;
+    padding: 8px 55px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+
+}
+.div_languages{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(226, 229, 244, 0) 100%);
+    box-shadow: 1.5px 1.5px 4px 1px rgba(0, 0, 0, 0.17) inset;
+    border-radius: 15px;
+    margin-top: 5%;
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 15px;
+
+
+}
+.languages_text{
+    text-align: center;
+    font-size: 15px;
+    color: var(--text-color);
+    font-weight: 400;
+}

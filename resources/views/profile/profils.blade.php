@@ -24,9 +24,9 @@
                     <div class="personal_divs" style="padding-left: 2%;padding-top: 1%;padding-bottom: 1%;">
                         <input type="text" placeholder="Де ви навчалися?" class="input_text">
                     </div>
-                    <div class="div_button_right">
-                        <button class="button_right">Редагувати</button>
-                    </div>
+                  <div class="d-flex justify-content-end">
+                      <button class="button button_profils">Зберегти</button>
+                  </div>
                 </form>
             </div>
             <div class="personal_block">
@@ -36,19 +36,24 @@
                     <div class="personal_divs" style="padding-left: 2%;padding-top: 1%;padding-bottom: 1%;">
                         <input type="text" placeholder="Ким ви працюєте?" class="input_text" style="font-size: 20px;font-weight: 200">
                     </div>
-                    <div class="div_button_right">
-                        <button class="button_right">Редагувати</button>
+                    <div class="d-flex justify-content-end">
+                        <button class="button button_profils">Зберегти</button>
                     </div>
                 </form>
             </div>
             <div class="personal_block">
                 <form>
                     <div class="personal_text_header">Мови, якими ви володієте</div>
-                    <div class="personal_divs" style="padding-left: 2%;padding-top: 1%;padding-bottom: 1%;">
-                        <input type="text" placeholder="Мови" class="input_text" style="font-size: 20px;font-weight: 200">
-                    </div>
-                    <div class="div_button_right">
-                        <button class="button_right">Редагувати</button>
+                       <div class="d-flex flex-row ">
+                           <div class="div_languages">
+                               <div class="languages_text">Українська</div>
+                           </div>
+                           <div class="div_languages" style="margin-left: 2%" >
+                               <div class="languages_text" >Англійська</div>
+                           </div>
+                       </div>
+                    <div class="d-flex justify-content-end">
+                        <button class="button button_profils">Зберегти</button>
                     </div>
                 </form>
             </div>
@@ -58,8 +63,8 @@
                     <div class="personal_divs" style="padding-left: 2%;padding-top: 1%;padding-bottom: 1%;">
                         <input type="text" placeholder="Показати десятиліття мого народження" class="input_text" style="font-size: 20px;font-weight: 200">
                     </div>
-                    <div class="div_button_right">
-                        <button class="button_right">Редагувати</button>
+                    <div class="d-flex justify-content-end">
+                        <button class="button button_profils">Зберегти</button>
                     </div>
                 </form>
             </div>
@@ -70,8 +75,8 @@
                     <div class="personal_divs" style="padding-left: 2%;padding-top: 1%;padding-bottom: 1%;">
                         <input type="text" placeholder="Чим ви захоплюєтесь?" class="input_text" style="font-size: 20px;font-weight: 200">
                     </div>
-                    <div class="div_button_right">
-                        <button class="button_right">Редагувати</button>
+                    <div class="d-flex justify-content-end">
+                        <button class="button button_profils">Зберегти</button>
                     </div>
                 </form>
             </div>
