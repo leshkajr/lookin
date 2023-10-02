@@ -1,9 +1,9 @@
-<div class="m-fade" tabindex="-1" id="dialog-window-search">
+<div class="m-fade show" tabindex="-1" id="dialog-window-search">
     <div class="m-search d-flex flex-column justify-content-center align-items-center">
         @include('layouts.header-for-search')
         <div class="m-search-container">
             <div class="m-search-header">
-                <div class="d-flex flex-row gap-5">
+                <div class="d-flex flex-row gap-5 w-100">
                     <div class="m-s-h-container active">
                         <div class="m-s-h-c-header">@lang('main.where')</div>
                         <div class="m-s-h-c-description">@lang('main.search_directions')</div>
