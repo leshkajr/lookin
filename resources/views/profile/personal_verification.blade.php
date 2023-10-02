@@ -29,7 +29,7 @@
             <div style="font-size: 18px;margin-left: 10%;font-weight: 600">Верифікація особистості</div>
             <div style="width: 80%;margin-left: 10%;font-size: 14px;margin-top: 3%">Перш ніж бронювати або приймати гостей на Look'in, необхідно виконати цей крок.</div>
             <div class="informati" style="margin-top: 3%">
-                <button style=" all: unset;margin-top: 2%;margin-bottom: 2%;margin-left: 30%;font-weight: 600">Верифікація</button>
+                <button style=" all: unset;margin-top: 2%;margin-bottom: 2%;margin-left: 35%;font-weight: 600">Верифікація</button>
             </div>
         </div>
         <div class="div_information" style="margin-top: 4%">

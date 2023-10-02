@@ -54,8 +54,9 @@
                            <input type="text" placeholder="(+380)" class="input_text" >
                        </div>
                        <div class="personal_text_description" style="margin-top: 1%">Ми надішлемо вам код для підтвердження номера телефону. Застосовуються стандартні тарифи вашого оператора за надсилання повідомлень і передачу даних.</div>
-                       <div class="div_button_right">
-                           <button class="button_right">Редагувати</button>
+                       <div class="div_button">
+                           <button style="font-size: 20px;margin-top: 1.5%;margin-left: 1%" >Скасувати</button>
+                           <button class="button button_right">Зберегти</button>
                        </div>
                    </form>
                </div>
@@ -117,8 +118,9 @@
                                <input type="text" placeholder="Штат/ провінція / графство / область" class="input_text" >
                            </div>
                        </div>
-                       <div class="div_button_right">
-                           <button class="button_right">Редагувати</button>
+                       <div class="div_button">
+                           <button style="font-size: 20px;margin-top: 1.5%;margin-left: 1%" >Скасувати</button>
+                           <button class="button button_right">Зберегти</button>
                        </div>
                    </form>
                </div>
@@ -138,8 +140,9 @@
                            </div>
 
                        </div>
-                       <div class="div_button_right">
-                           <button class="button_right">Редагувати</button>
+                       <div class="div_button">
+                           <button style="font-size: 20px;margin-top: 1.5%;margin-left: 1%" >Скасувати</button>
+                           <button class="button button_right">Зберегти</button>
                        </div>
                    </form>
                </div>

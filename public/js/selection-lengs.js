@@ -13,3 +13,17 @@ buttonLeng.addEventListener('click',function (){
 
     }
 });
+const languageItems = document.querySelectorAll('.counter_leng .div_counter li');
+const counter=document.getElementById('div_languages');
+ languageItems.forEach(item=>{
+     item.addEventListener('click',function (){
+         item.style.color="red";
+         console.log(item.textContent);
+         const selectedLanguage = document.createElement('div');
+         const text = document.createTextNode(item.textContent);
+         selectedLanguage.appendChild(text);
+
+         counter.appendChild(selectedLanguage);
+
+     });
+ });
