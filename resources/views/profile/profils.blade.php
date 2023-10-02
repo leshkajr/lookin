@@ -46,7 +46,7 @@
 
                     <div class="personal_text_header">@lang('profils.you speak')</div>
                        <div class="d-flex flex-row" id="div_languages">
-                           <div class="div_languages">
+                           <div class="div_languages" id="launges">
                                <div class="languages_text">Українська</div>
                            </div>
                            <div class="div_languages" style="margin-left: 2%" >
@@ -58,7 +58,7 @@
                        </div>
                 @include('layouts.selection-leng')
                 <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
-                    <button style="font-size: 20px;font-weight: 500" >Скасувати</button>
+                    <button style="font-size: 20px;font-weight: 500" id="clean" >Скасувати</button>
                     <button class="button button_right" id="button_lang" >Зберегти</button>
                 </div>
 

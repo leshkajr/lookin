@@ -15,15 +15,21 @@ buttonLeng.addEventListener('click',function (){
 });
 const languageItems = document.querySelectorAll('.counter_leng .div_counter li');
 const counter=document.getElementById('div_languages');
+const launges=document.getElementById('launges');
  languageItems.forEach(item=>{
      item.addEventListener('click',function (){
          item.style.color="red";
          console.log(item.textContent);
          const selectedLanguage = document.createElement('div');
+        selectedLanguage.classList.add('div_languages');
+        selectedLanguage.style.marginLeft="2%";
+        selectedLanguage.style.textAlign='center';
+        const namelanguage=document.createElement('div')
          const text = document.createTextNode(item.textContent);
          selectedLanguage.appendChild(text);
 
          counter.appendChild(selectedLanguage);
+
 
      });
  });
