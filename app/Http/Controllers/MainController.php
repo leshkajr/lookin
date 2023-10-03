@@ -317,9 +317,9 @@ class MainController extends Controller
         $currencies = Currency::all();
         $verification=User::all();
         $categoriesListing = CategoryListing::all();
-
+        $ameniti =Amenity::all();
         return view('profile.house_amenities',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification,'ameniti'=>$ameniti]);
     }
 
 

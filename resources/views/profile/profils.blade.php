@@ -45,14 +45,14 @@
             <div class="personal_block">
 
                     <div class="personal_text_header">@lang('profils.you speak')</div>
-                       <div class="d-flex flex-row" id="div_languages">
+                       <div class="d-flex flex-wrap grid-container" id="div_languages">
                            <div class="div_languages" id="launges">
                                <div class="languages_text">Українська</div>
                            </div>
-                           <div class="div_languages" style="margin-left: 2%" >
+                           <div class="div_languages">
                                <div class="languages_text" >Англійська</div>
                            </div>
-                           <div class="div_languages" style="margin-left: 2%" >
+                           <div class="div_languages">
                                <div class="languages_text" >Англійська</div>
                            </div>
                        </div>

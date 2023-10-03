@@ -22,7 +22,7 @@ const launges=document.getElementById('launges');
          console.log(item.textContent);
          const selectedLanguage = document.createElement('div');
         selectedLanguage.classList.add('div_languages');
-        selectedLanguage.style.marginLeft="2%";
+        //selectedLanguage.style.marginLeft="2%";
         selectedLanguage.style.textAlign='center';
         const namelanguage=document.createElement('div')
          const text = document.createTextNode(item.textContent);
