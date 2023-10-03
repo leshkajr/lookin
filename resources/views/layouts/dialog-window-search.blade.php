@@ -1,5 +1,6 @@
-<div class="m-fade show" tabindex="-1" id="dialog-window-search">
-    <div class="m-search d-flex flex-column justify-content-center align-items-center">
+<div class="m-fade" tabindex="-1" id="dialog-window-search">
+    <div class="m-search d-flex flex-column justify-content-center align-items-center"
+         onclick="closeSearch(event,'dialog-window-search');">
         @include('layouts.header-for-search')
         <div class="m-search-container">
             <div class="m-search-header">
@@ -92,7 +93,7 @@
                                    placeholder="{{ Lang::get('main.entry_region') }}"
                                     onkeyup="showLocation(this.value, 'Not found');"/>
 
-                            <div class="m-s-b-values">
+                            <div class="m-s-b-values" id="cities_countries_list">
                                 <div class="value d-flex flex-row align-items-center">
                                     <div class="icon-location">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">

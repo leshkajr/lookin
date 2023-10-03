@@ -16,7 +16,7 @@
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
             crossorigin=""></script>
 </head>
-<body onresize="changeSizes()" onload="changeSizes();" onscroll="onScroll('sticky-main-header');">
+<body onresize="changeSizes()" onload="changeSizes();" onscroll="onScroll('sticky-main-header','dialog-window-search');">
 
     @yield('header')
 

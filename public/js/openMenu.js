@@ -5,8 +5,6 @@
         menu.style.display = "flex";
     else
         menu.style.display = "none";
-
-        console.log("open/close");
 }
 async function closeMenu(strId){
     const menu = document.getElementById(strId);
@@ -15,7 +13,6 @@ async function closeMenu(strId){
         menu.style.display = "none";
     }
     menu.style.display = "none";
-    console.log("close");
 }
 
 

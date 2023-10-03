@@ -47,9 +47,10 @@
 
   }
 
-  function onScroll(scrollHeaderHeader){
+  function onScroll(scrollHeaderHeader,search_dialog_window_id){
       scrollHeader(scrollHeaderHeader);
       showListingHeaderInfo();
+      scrollOnSearch(search_dialog_window_id);
   }
 
     function scrollHeader(header){
@@ -64,11 +65,14 @@
     }
 
     function showListingHeaderInfo(){
-        if(window.scrollY > 900){
-            document.getElementById("listing-header-info").style.display = 'block';
-        }
-        else{
-            document.getElementById("listing-header-info").style.display = 'none';
+        if(document.getElementById("listing-header-info") !== null){
+
+            if(window.scrollY > 900){
+                document.getElementById("listing-header-info").style.display = 'block';
+            }
+            else{
+                document.getElementById("listing-header-info").style.display = 'none';
+            }
         }
     }
 
