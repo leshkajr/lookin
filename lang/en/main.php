@@ -50,5 +50,6 @@ return [
     'search_by_region' => 'Search by region',
     'options_apartments' => 'Options apartments',
     'entry_region' => 'Entry region',
+    'back'=>'back',
 ];
 ?>

@@ -50,5 +50,6 @@ return [
     'search_by_region' => 'Пошук за регіонами',
     'options_apartments' => 'Варіанти помешкань',
     'entry_region' => 'Введіть назву регіона',
+    'back'=>'Назад',
 ];
 ?>

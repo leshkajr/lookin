@@ -318,8 +318,12 @@ class MainController extends Controller
         $verification=User::all();
         $categoriesListing = CategoryListing::all();
         $ameniti =Amenity::all();
+        $essentials = Amenity::where('categoryAmenityId', 1)->get();
+        $features= Amenity::where('categoryAmenityId', 2)->get();
+        $location= Amenity::where('categoryAmenityId', 3)->get();
+        $safety= Amenity::where('categoryAmenityId', 4)->get();
         return view('profile.house_amenities',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification,'ameniti'=>$ameniti]);
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification,'ameniti'=>$ameniti,'essentials'=>$essentials,'features'=>$features,'location'=>$location,'safety'=>$safety]);
     }
 
 
