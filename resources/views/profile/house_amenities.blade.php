@@ -19,7 +19,7 @@
                          <label class="checkbox-label">
                              <input type="checkbox" class="real_checkbox">
                              <span class="custom_checkbox"></span>
-                             @lang('amenities.'.$value->nameAmenity);
+                             @lang('amenities.'.$value->nameAmenity)
                          </label>
                      @endforeach
                  </div>
@@ -29,7 +29,7 @@
                         <label class="checkbox-label">
                             <input type="checkbox" class="real_checkbox">
                             <span class="custom_checkbox"></span>
-                            @lang('amenities.'.$features->nameAmenity);
+                            @lang('amenities.'.$features->nameAmenity)
                         </label>
                     @endforeach
                 </div>
@@ -39,7 +39,7 @@
                         <label class="checkbox-label">
                             <input type="checkbox" class="real_checkbox">
                             <span class="custom_checkbox"></span>
-                            @lang('amenities.'.$locations->nameAmenity);
+                            @lang('amenities.'.$locations->nameAmenity)
                         </label>
                     @endforeach
                 </div>
@@ -49,7 +49,7 @@
                         <label class="checkbox-label">
                             <input type="checkbox" class="real_checkbox">
                             <span class="custom_checkbox"></span>
-                            @lang('amenities.'.$safetys->nameAmenity);
+                            @lang('amenities.'.$safetys->nameAmenity)
                         </label>
                     @endforeach
                 </div>

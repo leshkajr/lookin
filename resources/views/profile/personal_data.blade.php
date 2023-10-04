@@ -10,8 +10,8 @@
        <div class="d-flex flex-column" style="margin-top: 3%; width: 90%">
           <div class="text-header" style="margin-left: 2%">Особисті дані</div>
            <div class="d-flex flex-row gap-1" style="margin-left: 2%" >
-               <div class="account-text">Шишова Ольга,</div>
-               <div>ivan.pashko1996@gmail.com</div>
+               <div class="account-text">{{$user->name}},</div>
+               <div>{{$user->email}}</div>
                <div style="text-decoration: underline"><a href="#" >Перейти до профылю</a></div>
            </div>
            <div style="margin-top: 3%">

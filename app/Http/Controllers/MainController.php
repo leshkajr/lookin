@@ -19,6 +19,7 @@ use App\Models\TypeListing;
 use App\Models\User;
 use Illuminate\Http\Request;
 use DateTime;
+use Illuminate\Support\Facades\Auth;
 use MongoDB\Driver\Session;
 
 class MainController extends Controller
@@ -288,8 +289,10 @@ class MainController extends Controller
 
         $categoriesListing = CategoryListing::all();
 
+        $user=User::find(Auth::id());
+
         return view('profile.personal_data',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,]);
+            'categoriesListing'=>$categoriesListing,'user'=>$user]);
     }
     public function personal_verification()
     {
