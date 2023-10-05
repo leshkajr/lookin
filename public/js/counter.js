@@ -88,3 +88,5 @@ incrementbathrooms.addEventListener('click',function (){
     countBathrooms++;
     updatebathrooms();
 });
+
+
