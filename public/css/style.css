@@ -267,14 +267,18 @@ a{
     border-bottom-left-radius: 8px;
 
 }
-
-.button-header-active{
+.button-header-active-where{
     background-color: var(--background-color-active-button);
     box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.20) inset, -1px -0.5px 4px 0px rgba(0, 0, 0, 0.20) inset;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-
+.button-header-active-when{
+    background-color: var(--background-color-active-button);
+    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.20) inset, -1px -0.5px 4px 0px rgba(0, 0, 0, 0.20) inset;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
 *:focus-visible{
     outline: 0;
 }
@@ -790,10 +794,10 @@ main{
     background-color: var(--background-color-active-button);
     box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.20) inset, -1px -0.5px 4px 0px rgba(0, 0, 0, 0.20) inset;
 }
-.active{
-    background-color: var(--background-color-active-button);
-    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.20) inset, -1px -0.5px 4px 0px rgba(0, 0, 0, 0.20) inset;
-}
+/*.active{*/
+/*    background-color: var(--background-color-active-button);*/
+/*    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.20) inset, -1px -0.5px 4px 0px rgba(0, 0, 0, 0.20) inset;*/
+/*}*/
 .filters-property_type-blocks{
     column-gap: 1.5rem;
     margin-top: 10px;
@@ -1552,6 +1556,10 @@ font-size: 12px;
     width: 260px;
     margin-top: 20px;
 }
+.calendar-container-main{
+    width: 100%;
+    margin-top: 20px;
+}
 .calendar {
     display: flex;
     justify-content: left;
@@ -1561,6 +1569,15 @@ font-size: 12px;
     margin-top: 7px;
 
     gap: 2px;
+}
+.calendar-main{
+    width: 260px;
+}
+.currentMonth{
+    width:100%;
+    margin: 0 10px;
+    text-align: center;
+    font-weight: 500;
 }
 .calendar .day {
     width: 35px;
@@ -1574,8 +1591,28 @@ font-size: 12px;
 
     transition: 0.3s ease;
 }
-.calendar .day:not(.selected):hover{
+.calendar .dayOfWeek {
+    width: 35px;
+    height: 35px;
+    /*border: 1px solid #ccc;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 100%;
+    font-weight: 500;
+    font-size: 13px;
+    transition: 0.3s ease;
+}
+.calendar .dayDisabled{
+    opacity: 0.6;
+    cursor: default;
+}
+.calendar .day:not(.selected,.cannot-selected,.dayDisabled):hover{
     background-color: var(--background-color-dark-1);
+}
+.calendar .cannot-selected{
+    cursor: auto;
 }
 .selected, .selected:hover {
     background-color: var(--button-background-color);
@@ -1698,6 +1735,9 @@ input::-webkit-inner-spin-button {
 .show{
     display: block;
 }
+.show-flex{
+    display: flex;
+}
 
 @keyframes slide-bottom {
     0% {
@@ -1732,7 +1772,8 @@ input::-webkit-inner-spin-button {
 }
 
 .m-s-h-container{
-    padding: 9px 20px;
+    width: 100%;
+    padding: 10px 15px 10px 20px;
     border-radius: 15px;
 
     cursor: pointer;
@@ -1741,7 +1782,7 @@ input::-webkit-inner-spin-button {
 .m-s-h-container:not(.active):hover{
     background-color: var(--background-color--1);
 }
-.m-s-h-container .active{
+.m-s-h-container-active{
     border-radius: 15px;
     background: linear-gradient(180deg, #FFF 0%, rgba(243, 245, 255, 0.00) 100%);
     box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.25) inset;
@@ -1758,18 +1799,21 @@ input::-webkit-inner-spin-button {
 
 .m-s-body{
     margin-top: 2%;
+    width: 100%;
+}
+.m-s-b-where{
+    height: 405px;
+    width: 100%;
+    display: none;
+
 
     padding: 30px 25px;
     background-color: var(--background-color);
 
-    width: 100%;
 
     border-radius: 15px;
     border: 4px solid var(--background-color);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.25), -3px -3px 15px -2px rgba(255, 255, 255, 0.90);
-}
-.m-s-b-where{
-
 }
 .m-s-b-header-text{
     font-size: 22px;
@@ -1857,4 +1901,20 @@ input::-webkit-inner-spin-button {
 .icon-location:active, .icon-clock:focus{
     background: linear-gradient(180deg, #FFF 0%, rgba(243, 245, 255, 0.00) 100%);
     box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+.m-s-b-when{
+    height: 380px;
+    width: 75%;
+    display: none;
+
+
+    padding: 25px 25px;
+    background-color: var(--background-color);
+
+
+    border-radius: 15px;
+    border: 4px solid var(--background-color);
+    box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.25), -3px -3px 15px -2px rgba(255, 255, 255, 0.90);
 }

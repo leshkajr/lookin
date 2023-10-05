@@ -213,3 +213,12 @@
     @include('layouts.dialog-window-search')
 </div>
 @stop
+
+
+@section('scripts')
+    <script src="{{ URL::asset('js/calendar-main.js')}}"></script>
+    <script>
+        startCalendar('{{ App::getLocale() }}');
+        firstShowLocation();
+    </script>
+@stop

@@ -63,6 +63,7 @@ function createCalendar(year, month) {
     for (let i = 0; i < firstDayIndex; i++) {
         const dayDiv = document.createElement('div');
         dayDiv.classList.add('day');
+        dayDiv.classList.add('cannot-selected');
         calendar.appendChild(dayDiv);
 
     }

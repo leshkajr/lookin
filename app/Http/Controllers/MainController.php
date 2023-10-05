@@ -32,10 +32,31 @@ class MainController extends Controller
         $types_listings = TypeListing::all();
         $amenities = Amenity::all();
         $categoriesAmenities = CategoryAmenity::all();
+
+
+
+//        $ip_api_url = 'https://api.ipify.org?format=json';
+//        $response = file_get_contents($ip_api_url);
+//        $data = json_decode($response, true);
+//        $user_ip = $data['ip'];
+//        $ip_info_api_url = 'http://ip-api.com/json/'.$user_ip;
+//        $response = file_get_contents($ip_info_api_url);
+//        $data = json_decode($response, true);
+//        $location = $data['city'];
+
+        $searchInfo = [
+            "city" => null,
+            "dateArrival" => null,
+            "dateDeparture" => null,
+            "countGuests" => null,
+        ];
+
+
 //        dd($amenities->where('categoryAmenityId','1'));
         return view('main.main',
             ['languages'=>$languages, 'currencies'=>$currencies, 'categoriesListing'=>$categoriesListing,
-            'types_listings' => $types_listings,'amenities' => $amenities, 'categoriesAmenities'=>$categoriesAmenities]);
+            'types_listings' => $types_listings,'amenities' => $amenities, 'categoriesAmenities'=>$categoriesAmenities,
+            'searchInfo' => $searchInfo]);
     }
 
     public function start($countryName = null) {

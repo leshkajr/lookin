@@ -5,11 +5,13 @@
         </div>
         <div class="col-md d-flex justify-content-center align-items-center">
             <div class="search-buttons row rounded-3">
-                <button class="col button-where text-center" onclick="openSearch('where','dialog-window-search')">@lang("main.somewhere")</button>
+                <button class="col button-where text-center"
+                        onclick="openSearch('where','dialog-window-search')">@lang("main.somewhere")</button>
                 <div class="col" style="flex: 0">
                     <div style="height: 100%; background-color: #cccccc; width: 1px;"></div>
                 </div>
-                <button class="col button-when text-center">@lang("main.whenever")</button>
+                <button class="col button-when text-center"
+                        onclick="openSearch('when','dialog-window-search')">@lang("main.whenever")</button>
             </div>
         </div>
         <div class="col d-flex justify-content-center align-items-center">

@@ -4,37 +4,40 @@
         @include('layouts.header-for-search')
         <div class="m-search-container">
             <div class="m-search-header">
-                <div class="d-flex flex-row gap-5 w-100">
-                    <div class="m-s-h-container active">
+                <div class="d-flex flex-row gap-4 w-100">
+                    <div class="m-s-h-container" id="m-s-h-container-where"
+                         onclick="openSearch('where','dialog-window-search')">
                         <div class="m-s-h-c-header">@lang('main.where')</div>
-                        <div class="m-s-h-c-description">@lang('main.search_directions')</div>
+                        <div class="m-s-h-c-description" id="main-where-description">@lang('main.search_directions')</div>
                     </div>
 
-                    <div class="m-s-h-container">
+                    <div class="m-s-h-container" id="m-s-h-container-when-arrival"
+                         onclick="openSearch('when','dialog-window-search')">
                         <div class="m-s-h-c-header">@lang('main.arrival')</div>
                         <div class="m-s-h-c-description">@lang('main.add_date')</div>
                     </div>
 
-                    <div class="m-s-h-container">
+                    <div class="m-s-h-container" id="m-s-h-container-when-departure">
                         <div class="m-s-h-c-header">@lang('main.departure')</div>
                         <div class="m-s-h-c-description">@lang('main.add_date')</div>
                     </div>
 
-                    <div class="m-s-h-container">
+                    <div class="m-s-h-container" id="m-s-h-container-guests"
+                         onclick="openSearch('guests','dialog-window-search')">
                         <div class="m-s-h-c-header">@lang('main.who')</div>
                         <div class="m-s-h-c-description">@lang('main.add_guests')</div>
                     </div>
 
                     <div class="d-flex justify-content-end align-items-center" style="width: 20%;">
-                        <button class="button button-wide"
+                        <button class="button button-wide" onclick="buttonSearch();"
                         style="padding: 15px 50px; font-size: 19px;  border-radius: 12px;">
                             @lang('main.search')</button>
                     </div>
                 </div>
             </div>
 
-            <div class="m-s-body">
-                <div class="m-s-b-where d-flex flex-row w-100">
+            <div class="m-s-body d-flex flex-column justify-content-center align-items-center">
+                <div class="m-s-b-where flex-row" id="m-s-b-where">
                     <div style="width: 39%;">
                         <div class="m-s-b-header-text" style="margin-left: 15px;">
                             @lang('main.recent_searches')
@@ -91,37 +94,63 @@
                             <input type="text" class="input"
                                    style=" font-size: 15px;"
                                    placeholder="{{ Lang::get('main.entry_region') }}"
-                                    onkeyup="showLocation(this.value, 'Not found');"/>
+                                   onkeyup="showLocation(this.value, 'Not found');"
+                                   id="input-location-search"/>
 
                             <div class="m-s-b-values" id="cities_countries_list">
-                                <div class="value d-flex flex-row align-items-center">
-                                    <div class="icon-location">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+{{--                                <div class="value d-flex flex-row align-items-center">--}}
+{{--                                    <div class="icon-location">--}}
+{{--                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">--}}
+{{--                                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>--}}
+{{--                                        </svg>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="ms-3">Kryvyi Rih, Ukraine</div>--}}
+{{--                                </div>--}}
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="m-s-b-when" id="m-s-b-when">
+                    <div class="calendar-container-main">
+                        <div class="d-flex flex-row justify-content-center" style="column-gap: 60px;">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex flex-row" style="width: 100%;">
+                                    <button id="prevMonth-main" style="float: left; margin-left: 10px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                         </svg>
+                                    </button>
+                                    <div id="currentMonth-main-1" class="currentMonth">
                                     </div>
-                                    <div class="ms-3">Kryvyi Rih, Ukraine</div>
                                 </div>
-                                <div class="value d-flex flex-row align-items-center">
-                                    <div class="icon-location">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                        </svg>
+                                <div class="calendar calendar-main" id="calendar-main-1"></div>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex flex-row" style="width: 100%">
+                                    <div id="currentMonth-main-2" class="currentMonth">
                                     </div>
-                                    <div class="ms-3">Kryvyi Rih, Ukraine</div>
+                                    <button id="nextMonth-main" style="float: right; margin-right: 10px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="calendar calendar-main" id="calendar-main-2">
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
 
+                <div class="m-s-b-guests" id="m-s-b-guests">
 
-
-
-
-
-
-
+                </div>
 
 
 

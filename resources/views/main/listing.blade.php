@@ -545,6 +545,7 @@
 @stop
 
 @section('scripts')
+    <script src="{{ URL::asset('js/calendar.js')}}"></script>
     <script>
         startCalendar('{{ __('listing.nights') }}');
     </script>
