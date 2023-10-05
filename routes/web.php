@@ -39,15 +39,17 @@ Route::middleware('auth')->group(function () {
     Route::get('/favorite',[ProfileController::class,'favorite'])->name('profile.favorite');
 
     Route::get('/account',[MainController::class,'account'])->name('profile.account');
-    Route::get('/house_type',[MainController::class,'house_type'])->name('profile.house_type');
-    Route::get('/house_type1',[MainController::class,'house_type1'])->name('profile.house_type1');
-    Route::get('/notification',[MainController::class,'notification'])->name('profile.notification');
-    Route::get('/location',[MainController::class,'house_location'])->name('profile.house_location');
-    Route::get('/information',[MainController::class,'house_information'])->name('profile.house_information');
-    Route::get('/personal_data',[MainController::class,'personal_data'])->name('personal_data');
-    Route::get('/verification',[MainController::class,'personal_verification'])->name('personal_verification');
-    Route::get('/profils',[MainController::class,'profils'])->name('profile.profils');
-    Route::get('/amenities',[MainController::class,'house_amenities'])->name('house_amenities');
+    Route::get('/house_type',[ProfileController::class,'house_type'])->name('profile.house_type');
+    Route::get('/house_type1',[ProfileController::class,'house_type1'])->name('profile.house_type1');
+    Route::get('/notification',[ProfileController::class,'notification'])->name('profile.notification');
+    Route::get('/location',[ProfileController::class,'house_location'])->name('profile.house_location');
+    Route::get('/information',[ProfileController::class,'house_information'])->name('profile.house_information');
+    Route::get('/personal_data',[ProfileController::class,'personal_data'])->name('personal_data');
+    Route::get('/verification',[ProfileController::class,'personal_verification'])->name('personal_verification');
+    Route::get('/profils',[ProfileController::class,'profils'])->name('profile.profils');
+    Route::get('/amenities',[ProfileController::class,'house_amenities'])->name('house_amenities');
+    Route::get('/photo_house',[ProfileController::class,'photo_house'])->name('profile.photo_house');
+    Route::get('/opisaniye',[ProfileController::class,'opisaniye'])->name('profile.house_opisaniye');
 
 });
 
