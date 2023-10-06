@@ -127,6 +127,9 @@ function createCalendar(year, month, id) {
                     } else if (selectedDates.length < 2) {
                         dayDiv.classList.add('selected');
                         selectedDates.push(selectedDate);
+                        if(selectedDates.length === 1){
+                            
+                        }
                     }
 
                     updateSelectedDates();

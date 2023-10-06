@@ -158,11 +158,14 @@ function chooseLocation(id,name, name_country,type){
     url.searchParams.set('location_id',id);
     url.searchParams.set('location_type',type);
 
+    main_where_description.children[0].style.display = 'none';
+    main_where_description.children[1].style.display = 'block';
+    main_where_description.children[2].style.display = 'flex';
     if(name_country == null){
-        main_where_description.textContent = name;
+        main_where_description.children[1].textContent = name;
     }
     else{
-        main_where_description.textContent = name + ', ' + name_country;
+        main_where_description.children[1].textContent = name + ', ' + name_country;
     }
 
     input_location_search.value = name;

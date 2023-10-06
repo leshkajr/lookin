@@ -13,7 +13,7 @@
     --background-color-darker-1: #8589a9;
     --background-color-dark-2: #a5aac7;
     --background-color-dark-1: #c1c7dc;
-    --background-color--2: #c1c3dc;
+    --background-color--2: #c5c7df;
     --background-color--1: #d9dced;
     --background-color: #E2E5F4;
     --background-color-light: #eeeffb;
@@ -1554,12 +1554,12 @@ font-size: 12px;
 }
 
 .calendar-container{
-    width: 260px;
+    width: 240px;
     margin-top: 20px;
 }
 .calendar-container-main{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .calendar {
     display: flex;
@@ -1795,8 +1795,35 @@ input::-webkit-inner-spin-button {
 .m-s-h-c-description{
     font-weight: 400;
     font-size: 15px;
-}
 
+    display: flex;
+    flex-direction: row;
+}
+.m-s-h-c-description > :nth-child(1){
+    width: 100%;
+}
+.m-s-h-c-description > :nth-child(1), .m-s-h-c-description > :nth-child(2){
+    overflow: hidden;
+    white-space: nowrap;
+}
+.m-s-h-c-description > :nth-child(2){
+    width: 85%;
+    display: none;
+}
+.m-s-h-c-description > :nth-child(3){
+    height: 23px;
+    width: 23px;
+    margin-left: 4px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    background-color: var(--background-color--1);
+}
+.m-s-h-c-description > :nth-child(3):hover{
+    background-color: var(--background-color--2);
+}
 
 .m-s-body{
     margin-top: 2%;
@@ -1906,7 +1933,7 @@ input::-webkit-inner-spin-button {
 
 
 .m-s-b-when{
-    height: 380px;
+    height: 360px;
     width: 75%;
     display: none;
 

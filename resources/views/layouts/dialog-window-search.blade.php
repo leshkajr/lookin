@@ -8,24 +8,38 @@
                     <div class="m-s-h-container" id="m-s-h-container-where"
                          onclick="openSearch('where','dialog-window-search')">
                         <div class="m-s-h-c-header">@lang('main.where')</div>
-                        <div class="m-s-h-c-description" id="main-where-description">@lang('main.search_directions')</div>
+                        <div class="m-s-h-c-description"
+                             id="main-where-description">
+                            <div>@lang('main.search_directions')</div>
+                            <div></div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="m-s-h-container" id="m-s-h-container-when-arrival"
                          onclick="openSearch('when','dialog-window-search')">
                         <div class="m-s-h-c-header">@lang('main.arrival')</div>
-                        <div class="m-s-h-c-description">@lang('main.add_date')</div>
+                        <div class="m-s-h-c-description"
+                             id="main-when-arrival-description">
+                            <div>@lang('main.add_date')</div><div></div></div>
                     </div>
 
                     <div class="m-s-h-container" id="m-s-h-container-when-departure">
                         <div class="m-s-h-c-header">@lang('main.departure')</div>
-                        <div class="m-s-h-c-description">@lang('main.add_date')</div>
+                        <div class="m-s-h-c-description"
+                             id="main-when-departure-description">
+                            <div>@lang('main.add_date')</div><div></div></div>
                     </div>
 
                     <div class="m-s-h-container" id="m-s-h-container-guests"
                          onclick="openSearch('guests','dialog-window-search')">
                         <div class="m-s-h-c-header">@lang('main.who')</div>
-                        <div class="m-s-h-c-description">@lang('main.add_guests')</div>
+                        <div class="m-s-h-c-description">
+                            <div>@lang('main.add_guests')</div><div></div></div>
                     </div>
 
                     <div class="d-flex justify-content-end align-items-center" style="width: 20%;">
