@@ -214,4 +214,14 @@ class ProfileController extends Controller
         return view('profile.first_stay',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
     }
+    public function house_price()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+        $verification=User::all();
+        $categoriesListing = CategoryListing::all();
+
+        return view('profile.house_price',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+    }
 }
