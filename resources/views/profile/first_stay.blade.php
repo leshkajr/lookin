@@ -15,7 +15,7 @@
               <form>
                   <div class="div_first">
                       <label class="lable_radio" for="radio1">
-                          <input type="radio" class="radiobutton" id="radio1">
+                          <input type="checkbox" class="radiobutton" id="radio1">
                           <span class="radioFace"></span>
                           <div class="radio_text">
                               <div style=";margin-left: 10px;font-size: 28px;font-weight:600">Будь-який гість з Look`in</div>
@@ -27,7 +27,7 @@
                   </div>
                   <div class="div_first" style="margin-top: 2%">
                       <label class="lable_radio" for="radio2">
-                          <input type="radio" class="radiobutton" id="radio2">
+                          <input type="checkbox" class="radiobutton" id="radio2">
                           <span class="radioFace"></span>
                           <div class="radio_text">
                               <div style=";margin-left: 10px;font-size: 28px;font-weight:600">Досвідченій гість</div>
