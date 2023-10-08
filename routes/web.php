@@ -50,6 +50,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/amenities',[ProfileController::class,'house_amenities'])->name('house_amenities');
     Route::get('/photo_house',[ProfileController::class,'photo_house'])->name('profile.photo_house');
     Route::get('/opisaniye',[ProfileController::class,'opisaniye'])->name('profile.house_opisaniye');
+    Route::get('/first_stay',[ProfileController::class,'first_stay'])->name('profile.first_stay');
 
 });
 

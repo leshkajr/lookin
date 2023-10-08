@@ -25,7 +25,7 @@
                     </div>
                     <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
                         <button style="font-size: 20px;font-weight: 500" >Скасувати</button>
-                        <button class="button button_right" >Зберегти</button>
+                        <button class="button button_right" >Редагувати</button>
                     </div>
                 </form>
             </div>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
                         <button style="font-size: 20px;font-weight: 500" >Скасувати</button>
-                        <button class="button button_right" >Зберегти</button>
+                        <button class="button button_right" >Редагувати</button>
                     </div>
                 </form>
             </div>
@@ -59,7 +59,7 @@
                 @include('layouts.selection-leng')
                 <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
                     <button style="font-size: 20px;font-weight: 500" id="clean" >Скасувати</button>
-                    <button class="button button_right" id="button_lang" >Зберегти</button>
+                    <button class="button button_right" id="button_lang" >Редагувати</button>
                 </div>
 
 
@@ -73,7 +73,7 @@
                     </div>
                     <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
                         <button style="font-size: 20px;font-weight: 500" >Скасувати</button>
-                        <button class="button button_right" >Зберегти</button>
+                        <button class="button button_right" >Редагувати</button>
                     </div>
                 </form>
             </div>
@@ -86,7 +86,7 @@
                     </div>
                     <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
                         <button style="font-size: 20px;font-weight: 500" >Скасувати</button>
-                        <button class="button button_right" >Зберегти</button>
+                        <button class="button button_right" >Редагувати</button>
                     </div>
                 </form>
             </div>

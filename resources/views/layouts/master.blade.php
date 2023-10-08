@@ -41,6 +41,7 @@
     <script src="{{ URL::asset('js/search.js')}}"></script>
     <script src="{{ URL::asset('js/selection-lengs.js')}}"></script>
     <script src="{{ URL::asset('js/opisanie.js')}}"></script>
+    <script src="{{ URL::asset('js/radio_checked.js')}}"></script>
 
 
     @yield('scripts')

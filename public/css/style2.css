@@ -415,8 +415,9 @@ width: 0;
      display: flex;
     flex-direction: column;
 
+
   margin-left: 16%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .div_photo_house{
     width: 82%;
@@ -470,4 +471,63 @@ textarea{
     outline: none;
     width: 100%;
     height: 100%;
+}
+.first_counter{
+    display: inline-block;
+    flex-direction: column;
+
+}
+.div_first{
+    background: #E2E5F4;
+    box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2), inset 2px 2px 3px rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+
+    width: 80%;
+    height: 200px;
+    margin-top: 3%;
+
+    padding-top: 5%;
+}
+.radiobutton{
+display: none;
+}
+.radioFace{
+display: inline-block;
+    width: 50px;
+    height: 50px;
+position: relative;
+    margin-left: 2%;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #F9F9FB 0%, rgba(249.69, 249.69, 249.69, 0) 100%);
+    box-shadow: 1.5px 1.5px 4px 2px rgba(0, 0, 0, 0.25) inset;
+
+}
+.lable_radio{
+    display: flex;
+    align-items: center;
+
+}
+.radio_text{
+    width: 100%;
+
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+
+}
+.radioFace::before{
+    background: #E2E5F4;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    content: " ";
+    margin-bottom: 1px;
+    margin-right: 1px;
+    opacity: 0;
+}
+.radiobutton:checked + .radioFace::before{
+    opacity: 1;
 }
