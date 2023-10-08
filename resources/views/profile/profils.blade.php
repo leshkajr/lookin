@@ -9,9 +9,10 @@
     <main class="d-flex flex-row" style="margin-top: 5%;margin-left: 10%">
         <div>
             <div class="retangle_div1 d-flex flex-row justify-content-center align-items-center">
-               <img class="photo_profils" src="{{ asset('images/start-large-photos/photo1.jpg') }}">
+               <img class="photo_profils" src="{{'images/start-large-photos/photo1.jpg'}}" >
             </div>
-             <button class="button" style="margin-left: 8%; margin-top: -10px;" >Додати фото</button>
+            <input type="file" id="fileInput" style="display: none">
+            <label for="fileInput" class="button" style="margin-left: 8%; margin-top: -10px;" >Додати фото</label>
         </div>
         <div class="d-flex flex-column" style="margin-left: 13%;padding-top: 2%;width: 70%">
             <div style="font-size: 24px;font-weight: 600">@lang('profils.profiles')</div>
@@ -52,9 +53,7 @@
                            <div class="div_languages">
                                <div class="languages_text" >Англійська</div>
                            </div>
-                           <div class="div_languages">
-                               <div class="languages_text" >Англійська</div>
-                           </div>
+
                        </div>
                 @include('layouts.selection-leng')
                 <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
