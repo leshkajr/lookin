@@ -51,5 +51,9 @@ return [
     'options_apartments' => 'Options apartments',
     'entry_region' => 'Entry region',
     'back'=>'back',
+    'guests'=>'Guests',
+    'any_age'=>'Any age',
+    'pets'=>'Pets',
+    'traveling_with_animal' => 'Traveling with an animal helper?'
 ];
 ?>
