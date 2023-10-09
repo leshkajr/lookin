@@ -8,8 +8,8 @@
 @section('content')
     <main >
         <div class="house_photo_container">
-            <div class="text-header">Додайте кілька фотографій свого помешкання (будинок)</div>
-            <div class="location-text-description" style="margin-top: 2%">Щоб розпочати, потрібно зробити 5 фотографій. Згодом можна додати більше фото або внести необхідні зміни.</div>
+            <div class="text-header">@lang('photo_house.add_photo')</div>
+            <div class="location-text-description" style="margin-top: 2%">@lang('photo_house.take_photo')</div>
             <div class="div_photo_house">
                 <div class="buuton_photo_house">
                     <svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -24,9 +24,9 @@
 
                 </div>
                 <div style="margin-bottom: 3%">
-                    <div class="text_photo">Перетягніть фотографії сюди</div>
-                    <div style="text-align: center; font-size: 20px; margin-top: 2%" >Виберіть щонайменше 5 фотографій</div>
-                    <div style="text-align: center; font-size: 20px; margin-top: 2%;font-weight: 500;text-decoration: underline" >Завантажити зі свого пристрою</div>
+                    <div class="text_photo">@lang('photo_house.Drag_photos')</div>
+                    <div style="text-align: center; font-size: 20px; margin-top: 2%" >@lang('photo_house.Choose')</div>
+                    <div style="text-align: center; font-size: 20px; margin-top: 2%;font-weight: 500;text-decoration: underline" >@lang('photo_house.Download')</div>
                 </div>
             </div>
             <div class="div_button">

@@ -12,7 +12,7 @@
                <img class="photo_profils" src="{{'images/start-large-photos/photo1.jpg'}}" >
             </div>
             <input type="file" id="fileInput" style="display: none">
-            <label for="fileInput" class="button" style="margin-left: 8%; margin-top: -10px;" >Додати фото</label>
+            <label for="fileInput" class="button" style="margin-left: 8%; margin-top: -10px;" >@lang('personal_data.add_photo')</label>
         </div>
         <div class="d-flex flex-column" style="margin-left: 13%;padding-top: 2%;width: 70%">
             <div style="font-size: 24px;font-weight: 600">@lang('profils.profiles')</div>
@@ -25,8 +25,8 @@
                         <input type="text" placeholder="@lang('profils.where did you study')" class="input_text">
                     </div>
                     <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
-                        <button style="font-size: 20px;font-weight: 500" >Скасувати</button>
-                        <button class="button button_right" >Редагувати</button>
+                        <button style="font-size: 20px;font-weight: 500" >@lang('personal_data.Cancel')</button>
+                        <button class="button button_right" >@lang('verification.edit')</button>
                     </div>
                 </form>
             </div>
@@ -38,8 +38,8 @@
                         <input type="text" placeholder="@lang('profils.Whats your job')" class="input_text" style="font-size: 20px;font-weight: 200">
                     </div>
                     <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
-                        <button style="font-size: 20px;font-weight: 500" >Скасувати</button>
-                        <button class="button button_right" >Редагувати</button>
+                        <button style="font-size: 20px;font-weight: 500" >@lang('personal_data.Cancel')</button>
+                        <button class="button button_right" >@lang('verification.edit')</button>
                     </div>
                 </form>
             </div>
@@ -71,8 +71,8 @@
                         <input type="text" placeholder="@lang('profils.when you were born')" class="input_text" style="font-size: 20px;font-weight: 200">
                     </div>
                     <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
-                        <button style="font-size: 20px;font-weight: 500" >Скасувати</button>
-                        <button class="button button_right" >Редагувати</button>
+                        <button style="font-size: 20px;font-weight: 500" >@lang('personal_data.Cancel')</button>
+                        <button class="button button_right" >@lang('verification.edit')</button>
                     </div>
                 </form>
             </div>
@@ -84,8 +84,8 @@
                         <input type="text" placeholder="@lang('profils.The greatest admiration')" class="input_text" style="font-size: 20px;font-weight: 200">
                     </div>
                     <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
-                        <button style="font-size: 20px;font-weight: 500" >Скасувати</button>
-                        <button class="button button_right" >Редагувати</button>
+                        <button style="font-size: 20px;font-weight: 500" >@lang('personal_data.Cancel')</button>
+                        <button class="button button_right" >@lang('verification.edit')</button>
                     </div>
                 </form>
             </div>

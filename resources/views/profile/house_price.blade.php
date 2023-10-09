@@ -24,7 +24,7 @@
                 </div>
                 <hr style="width: 95%;margin-left: 3%;font-weight: 600">
                 <div class="div_button" style="margin-bottom: 2%">
-                    <div style="margin-left: 3%;font-size: 20px;font-weight: 600">Ви заробите</div>
+                    <div style="margin-left: 3%;font-size: 20px;font-weight: 600">Вартість послуги</div>
                     <span style="margin-right: 3%;font-size: 20px" id="earnings"></span>
                 </div>
             </div>

@@ -224,4 +224,15 @@ class ProfileController extends Controller
         return view('profile.house_price',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
     }
+
+    public function house_quest()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+        $verification=User::all();
+        $categoriesListing = CategoryListing::all();
+
+        return view('profile.house_quest',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+    }
 }

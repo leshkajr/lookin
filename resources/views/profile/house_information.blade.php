@@ -8,10 +8,10 @@
 @section('content')
 <main>
     <div class="d-flex flex-column" style="margin-left: 17%;margin-top: 5%">
-     <div class="text-header">Зазначте основні відомості про своє помешкання</div>
-        <div class="location-text-description">Докладнішу інформацію, як-от тип ліжок, ви додасте згодом.</div>
+     <div class="text-header">@lang('information.accommodation')</div>
+        <div class="location-text-description">@lang('information.more_details')</div>
         <div class="counter_info">
-            <div class="text_information">Гості</div>
+            <div class="text_information">@lang('information.guests')</div>
             <div style="margin-right: 7%">
                 <button id="decrement_guests" style="font-size: 30px;padding-right: 10px">-</button>
                 <span id="count_guests" style="font-size: 21px">0</span>
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="counter_info">
-            <div class="text_information">Спальні</div>
+            <div class="text_information">@lang('information.Bedrooms')</div>
             <div style="margin-right: 7%">
                 <button id="decrement_bedrooms" style="font-size: 30px;padding-right: 10px">-</button>
                 <span id="count_bedrooms" style="font-size: 21px">0</span>
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="counter_info">
-            <div class="text_information">Ліжка</div>
+            <div class="text_information">@lang('information.Beds')</div>
             <div style="margin-right: 7%">
                 <button id="decrement_beds" style="font-size: 30px;padding-right: 10px">-</button>
                 <span id="count_beds" style="font-size: 21px">0</span>
@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="counter_info">
-            <div class="text_information">Ванні кімнати</div>
+            <div class="text_information">@lang('information.Bathrooms')</div>
             <div style="margin-right: 7%">
                 <button id="decrement_bathrooms" style="font-size: 30px;padding-right: 10px">-</button>
                 <span id="count_bathrooms" style="font-size: 21px">0</span>

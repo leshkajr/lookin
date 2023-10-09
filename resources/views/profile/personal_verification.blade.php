@@ -14,11 +14,11 @@
              <div class="text_reg">O</div>
          </div>
          <div class="text_info">Ольга</div>
-         <div class="text_info1">Гість</div>
+         <div class="text_info1">@lang('verification.Guest')</div>
      </div>
      </div>
         <div class="div_information" style="margin-top: 6%;">
-            <div style="font-size: 18px;margin-left: 10%;font-weight: 600">Підтверджена інформація про користувача</div>
+            <div style="font-size: 18px;margin-left: 10%;font-weight: 600">@lang('verification.Verified')</div>
             <div class="informati" style="margin-top: 3%">
                 <form style="margin: 0;">
                     <input class="input_text" style="margin-left: 5%;margin-top: 2%;margin-bottom: 2%" type="email" placeholder="Shishova123@gmail.com">
@@ -26,17 +26,17 @@
             </div>
         </div>
         <div class="div_information" style="margin-top: 4%">
-            <div style="font-size: 18px;margin-left: 10%;font-weight: 600">Верифікація особистості</div>
-            <div style="width: 80%;margin-left: 10%;font-size: 14px;margin-top: 3%">Перш ніж бронювати або приймати гостей на Look'in, необхідно виконати цей крок.</div>
+            <div style="font-size: 18px;margin-left: 10%;font-weight: 600">@lang('verification.verification')</div>
+            <div style="width: 80%;margin-left: 10%;font-size: 14px;margin-top: 3%">@lang('verification.Before booking')</div>
             <div class="informati" style="margin-top: 3%">
-                <button style=" all: unset;margin-top: 2%;margin-bottom: 2%;margin-left: 35%;font-weight: 600">Верифікація</button>
+                <button style=" all: unset;margin-top: 2%;margin-bottom: 2%;margin-left: 35%;font-weight: 600">@lang('verification.Verification')</button>
             </div>
         </div>
         <div class="div_information" style="margin-top: 4%">
-            <div style="font-size: 18px;margin-left: 10%;font-weight: 600">Час створити свій профіль</div>
-            <div style="width: 80%;margin-left: 10%;font-size: 14px;margin-top: 3%">Ваш профіль на Look'in є важливою складовою кожного бронювання. </div>
-            <div style="width: 65%;margin-left: 10%;font-size: 14px;margin-top: 3%">Створіть профіль, щоб інші господарі та гості могли більше про вас дізнатися. </div>
-            <button class="button " style="margin-left: 30%;margin-top: 3%">Створити профіль</button>
+            <div style="font-size: 18px;margin-left: 10%;font-weight: 600">@lang('verification.your_profile')</div>
+            <div style="width: 80%;margin-left: 10%;font-size: 14px;margin-top: 3%">@lang('verification.Lookin_profile')</div>
+            <div style="width: 65%;margin-left: 10%;font-size: 14px;margin-top: 3%">@lang('verification.Create_profile') </div>
+            <button class="button " style="margin-left: 30%;margin-top: 3%">@lang('verification.Create')</button>
     </div>
     </div>
     </main>
