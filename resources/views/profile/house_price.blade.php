@@ -6,7 +6,7 @@
     </header>
 @stop
 @section('content')
-    <main >
+    <main class="d-flex align-items-center justify-content-center">
         <div class="house_photo_container">
             <div class="text-header">Тепер установіть ціну</div>
             <div class="location-text-description" style="margin-top: 2%">Ви зможете будь-коли її змінити.</div>
