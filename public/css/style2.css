@@ -402,7 +402,7 @@ width: 0;
     /* Назад */
 
    color:var(--button-background-color);
-    font-size: 24px;
+    font-size: 21px;
     margin-left: 2%;
     font-weight: 600;
     text-decoration: underline;
@@ -412,13 +412,16 @@ width: 0;
 .house_photo_container{
     width: 70%;
 
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 
+    margin-top: 3%;
+}
+.house_price_container{
+    width: 100%;
 
-
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .div_photo_house{
     width: 82%;
@@ -483,11 +486,9 @@ textarea{
     box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2), inset 2px 2px 3px rgba(255, 255, 255, 0.9);
     border-radius: 15px;
 
-    width: 80%;
-    height: 200px;
+    width: 100%;
     margin-top: 3%;
 
-    padding-top: 5%;
 }
 .radiobutton{
 display: none;
@@ -497,7 +498,7 @@ display: inline-block;
     width: 50px;
     height: 50px;
 position: relative;
-    margin-left: 2%;
+    margin-left: 3%;
     border-radius: 50%;
     background: linear-gradient(180deg, #F9F9FB 0%, rgba(249.69, 249.69, 249.69, 0) 100%);
     box-shadow: 1.5px 1.5px 4px 2px rgba(0, 0, 0, 0.25) inset;
@@ -507,6 +508,8 @@ position: relative;
     display: flex;
     align-items: center;
 
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .radio_text{
     width: 100%;
@@ -514,6 +517,7 @@ position: relative;
     margin-left: 20px;
     margin-bottom: 10px;
 
+    padding-right: 20px;
 
 }
 .radioFace::before{
@@ -536,11 +540,11 @@ position: relative;
 }
 .price{
     width: 200px;
+margin-top: -20px;
 
-
-  margin-left: 30%;
+  /*margin-left: 30%;*/
     text-align: center;
-    font-size: 100px;
+    font-size: 135px;
     font-weight: 600;
 }
 .price_input{
@@ -553,13 +557,17 @@ position: relative;
     color: inherit;
     text-align: left;
 }
+.price_container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 .div_price{
     background: #E2E5F4;
     box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2), inset 2px 2px 3px rgba(255, 255, 255, 0.9);
     border-radius: 15px;
-   width: 70%;
-
-    margin-left: 5%;
+    width: 85%;
 }
 .text_price{
     display: flex;

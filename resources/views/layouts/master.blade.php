@@ -18,7 +18,8 @@
     <script src="{{ URL::asset('js/chooseFilters.js')}}"></script>
 
 </head>
-<body onresize="changeSizes()" onload="changeSizes();" onscroll="onScroll('sticky-main-header','dialog-window-search');">
+<body onresize="changeSizes()" onload="changeSizes();" onscroll="onScroll('sticky-main-header','dialog-window-search');"
+>
 
     @yield('header')
 

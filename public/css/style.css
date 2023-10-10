@@ -1197,14 +1197,17 @@ ul{
     font-weight: 600;
 }
 .account-block{
-    width: 30%;
-    margin: 1%;
+    width: 45%;
+    margin: 2%;
 
     background: #E2E5F4;
     border: 7px solid #E2E5F4;
     box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 17px 2px rgba(0, 0, 0, 0.17);
     border-radius: 15px;
-    float: left;
+    /*float: left;*/
+
+    padding: 15px 0;
+
 }
 .text-account{
     margin-top: 5%;
@@ -1249,8 +1252,9 @@ ul{
     text-align: center;
 }
 .text{
-margin-left: 6%;
-font-size: 12px;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 16px;
 }
 
 
@@ -1284,7 +1288,7 @@ font-size: 12px;
 }
 .button_house{
     padding: 15px 90px;
-    font-size: 23px;
+    font-size: 21px;
 }
 .image_type_house{
 
