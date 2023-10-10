@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Look`in - @yield('title')</title>
     <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet"/>
     <link href="{{ URL::asset('css/style2.css') }}" rel="stylesheet"/>
@@ -15,6 +16,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
             crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="{{ URL::asset('js/chooseFilters.js')}}"></script>
 
 </head>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\City;
 use App\Models\Country;
+use App\Models\User;
 use Illuminate\Http\Request;
 use JsonException;
 
@@ -61,6 +62,32 @@ class ApiController extends Controller
             $longitude = $_POST['longitude'];
 
             return ['latitude' => $latitude,'longitude' => $longitude];
+        } else {
+            return "Не удалось получить координаты.";
+        }
+    }
+
+    function changePropertyUser(){
+        if (isset($_POST['userId'], $_POST['propertyName'], $_POST['propertyText'])) {
+            $userId = $_POST['userId'];
+            $propertyName = $_POST['propertyName'];
+            $propertyText = $_POST['propertyText'];
+            $user = User::find($userId);
+            if($propertyName === 'name'){
+                $names = explode(';',$propertyText);
+                $user->name = $names[0];
+                $user->lastName = $names[1];
+            }
+            else if($propertyName === 'email'){
+                $user->email = $_POST['propertyText'];
+            }
+            else if($propertyName === 'numberPhone'){
+                $user->numberPhone = $_POST['propertyText'];
+            }
+
+            $user->update();
+
+            return "ok";
         } else {
             return "Не удалось получить координаты.";
         }

@@ -38,16 +38,17 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/favorite',[ProfileController::class,'favorite'])->name('profile.favorite');
 
-    Route::get('/account',[MainController::class,'account'])->name('profile.account');
+    Route::get('/account',[MainController::class,'account'])->name('account');
+    Route::get('/account/personal_data',[ProfileController::class,'personal_data'])->name('account.personal_data');
+    Route::get('/account/verification',[ProfileController::class,'personal_verification'])->name('account.verification');
+    Route::get('/account/profile',[ProfileController::class,'profils'])->name('account.profile');
+    Route::get('/account/notification',[ProfileController::class,'notification'])->name('account.notification');
+
     Route::get('/house_type',[ProfileController::class,'house_type'])->name('profile.house_type');
     Route::get('/house_type1',[ProfileController::class,'house_type1'])->name('profile.house_type1');
-    Route::get('/notification',[ProfileController::class,'notification'])->name('profile.notification');
     Route::get('/location',[ProfileController::class,'house_location'])->name('profile.house_location');
     Route::get('/information',[ProfileController::class,'house_information'])->name('profile.house_information');
-    Route::get('/personal_data',[ProfileController::class,'personal_data'])->name('personal_data');
-    Route::get('/verification',[ProfileController::class,'personal_verification'])->name('personal_verification');
-    Route::get('/profils',[ProfileController::class,'profils'])->name('profile.profils');
-    Route::get('/amenities',[ProfileController::class,'house_amenities'])->name('house_amenities');
+     Route::get('/amenities',[ProfileController::class,'house_amenities'])->name('house_amenities');
     Route::get('/photo_house',[ProfileController::class,'photo_house'])->name('profile.photo_house');
     Route::get('/opisaniye',[ProfileController::class,'opisaniye'])->name('profile.house_opisaniye');
     Route::get('/first_stay',[ProfileController::class,'first_stay'])->name('profile.first_stay');
@@ -59,7 +60,6 @@ Route::middleware('auth')->group(function () {
 // Localization
 
 Route::get('locale/{lange}',[LocalizationController::class,'setLang']);
-Route::get('/account',[MainController::class,'account'])->name('profile.account');
 
 
 
@@ -68,4 +68,5 @@ require __DIR__.'/auth.php';
 Route::controller(\App\Http\Controllers\ApiController::class)->group(function () {
     Route::get('/api/location', 'getLocation');
     Route::get('/api/cityfromip', 'getCityFromIp');
+    Route::post('/api/changepropertyuser', 'changePropertyUser');
 });

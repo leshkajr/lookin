@@ -1,11 +1,11 @@
 <ul class="header-menu flex-column justify-content-center align-items-left" id="header-menu">
-    <li class="header-menu-main-item"><a href="{{ route('profile.notification') }}">@lang("main.notification")</a></li>
+    <li class="header-menu-main-item"><a href="{{ route('account.notification') }}">@lang("main.notification")</a></li>
     <li class="header-menu-main-item">@lang("main.travels")</li>
     <li class="header-menu-main-item"><a href="{{ route('profile.favorite') }}">@lang("main.favorites")</a></li>
     <hr class="header-menu-hr-item">
     <li class="header-menu-secondary-item">@lang("main.offer_your_listing")
     </li>
-    <li class="header-menu-secondary-item"><a href="{{ route('profile.account') }}">@lang("main.account")</a></li>
+    <li class="header-menu-secondary-item"><a href="{{ route('account') }}">@lang("main.account")</a></li>
     <hr class="header-menu-hr-item">
     <li class="header-menu-secondary-item">
         <svg xmlns="http://www.w3.org/2000/svg" style="margin:-2px 2px 0 3px;" width="13"

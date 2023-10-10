@@ -147,7 +147,7 @@ async function showLocation(str, notFound) {
                 // }
             }
         };
-        xmlhttp.open("GET", "api/location?text=" + str, true);
+        xmlhttp.open("GET", "api/changepropertyuser?text=" + str, true);
         xmlhttp.send();
     }
 }

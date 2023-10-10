@@ -8,14 +8,14 @@
 @section('content')
     <main>
         <div class="p-account">@lang('account.account')</div>
-        <div class="d-flex flex-row gap-1" style="margin-left: 12%">
-            <div class="account-text">Шишова Ольга,</div>
-            <div>ivan.pashko1996@gmail.com</div>
+        <div class="d-flex flex-row gap-1" style="margin-left: 12%; font-size: 19px;">
+            <div class="account-text">{{$user->name}}@if(!isset($user->lastName)), @else {{$user->lastName}}, @endif</div>
+            <div>{{$user->email}}</div>
             <div style="text-decoration: underline"><a href="#" >Перейти до профилю</a></div>
         </div>
         <div class="div-account">
             <div class="account-block">
-                <a href="#">
+                <a href="{{ route('account.personal_data') }}">
                     <div style="margin-left: 5%" >
 {{--                        <img src="{{ asset('images/account-svg/preferences.svg') }}"/>--}}
                         <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
@@ -30,7 +30,7 @@
                 </a>
             </div>
                <div class="account-block">
-                   <a href="#">
+                   <a href="{{ route('account.profile') }}">
                        <div style="margin-left: 5%" >
                            <img src="{{ asset('images/account-svg/preferences.svg') }}"/>
                        </div>
@@ -42,7 +42,7 @@
                </div>
 
             <div class="account-block">
-                <a href="#">
+                <a href="{{ route('account.verification') }}">
                     <div style="margin-left: 5%" >
                         <img src="{{ asset('images/account-svg/security.svg') }}"/>
                     </div>
@@ -53,7 +53,7 @@
                 </a>
             </div>
             <div class="account-block">
-               <a href="#">
+               <a href="{{ route('account.notification') }}">
                    <div style="margin-left: 5%" >
                        <img src="{{ asset('images/account-svg/spam-alert.svg') }}"/>
                    </div>
@@ -64,7 +64,7 @@
                </a>
             </div>
             <div class="account-block">
-                <a href="#">
+                <a href="">
                     <div style="margin-left: 5%" >
                         <img src="{{ asset('images/account-svg/credit-card.svg') }}"/>
                     </div>
