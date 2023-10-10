@@ -127,9 +127,10 @@ function createCalendar(year, month, id) {
                     } else if (selectedDates.length < 2) {
                         dayDiv.classList.add('selected');
                         selectedDates.push(selectedDate);
-                        if(selectedDates.length === 1){
-                            
-                        }
+                        if(selectedDates.length === 1)
+                            dayDiv.classList.add('date-arrival');
+                        else if(selectedDates.length === 2)
+                            dayDiv.classList.add('date-departure');
                     }
 
                     updateSelectedDates();
@@ -144,17 +145,73 @@ function createCalendar(year, month, id) {
 }
 
 function updateSelectedDates() {
-    if (selectedDates.length === 1) {
+    if(selectedDates.length === 0){
+        if(!url.searchParams.has('arrivalDate')){
+            url.searchParams.delete('arrivalDate');
+        }
 
-    } else if (selectedDates.length === 2) {
+        main_when_arrival_description.children[0].style.display = 'block';
+        main_when_arrival_description.children[1].style.display = 'none';
+        main_when_arrival_description.children[2].style.display = 'none';
+
+
+        main_when_departure_description.children[0].style.display = 'block';
+        main_when_departure_description.children[1].style.display = 'none';
+        main_when_departure_description.children[2].style.display = 'none';
+
+        main_when_arrival_description.children[1].textContent = "";
+        if(!header_text_container_when_arrival.classList.contains('m-s-h-container-active')) {
+            header_text_container_where.classList.remove('m-s-h-container-active');
+            header_text_container_when_arrival.classList.add('m-s-h-container-active');
+            header_text_container_when_departure.classList.remove('m-s-h-container-active');
+            header_text_container_guests.classList.remove('m-s-h-container-active');
+        }
+    }
+    else if (selectedDates.length === 1) {
         if(!url.searchParams.has('arrivalDate')){
             url.searchParams.append('arrivalDate', selectedDates[0].getTime());
-            url.searchParams.append('departureDate', selectedDates[1].getTime());
         }
         else{
             url.searchParams.set('arrivalDate', selectedDates[0].getTime());
+        }
+        main_when_arrival_description.children[0].style.display = 'none';
+        main_when_arrival_description.children[1].style.display = 'block';
+        main_when_arrival_description.children[2].style.display = 'flex';
+
+        main_when_departure_description.children[0].style.display = 'block';
+        main_when_departure_description.children[1].style.display = 'none';
+        main_when_departure_description.children[2].style.display = 'none';
+
+        main_when_arrival_description.children[1].textContent =
+            monthNamesEng[selectedDates[0].getMonth()].substring(0,3) + " " + selectedDates[0].getDate();
+
+        header_text_container_where.classList.remove('m-s-h-container-active');
+        header_text_container_when_arrival.classList.remove('m-s-h-container-active');
+        header_text_container_when_departure.classList.add('m-s-h-container-active');
+        header_text_container_guests.classList.remove('m-s-h-container-active');
+    } else if (selectedDates.length === 2) {
+        if(!url.searchParams.has('departureDate')){
+            url.searchParams.append('departureDate', selectedDates[1].getTime());
+        }
+        else{
             url.searchParams.set('departureDate', selectedDates[1].getTime());
         }
+
+        main_when_departure_description.children[0].style.display = 'none';
+        main_when_departure_description.children[1].style.display = 'block';
+        main_when_departure_description.children[2].style.display = 'flex';
+
+        main_when_departure_description.children[1].textContent =
+            monthNamesEng[selectedDates[1].getMonth()].substring(0,3) + " " + selectedDates[1].getDate();
+
+        header_text_container_where.classList.remove('m-s-h-container-active');
+        header_text_container_when_arrival.classList.remove('m-s-h-container-active');
+        header_text_container_when_departure.classList.remove('m-s-h-container-active');
+        header_text_container_guests.classList.add('m-s-h-container-active');
+
+        block_where.style.display = "none";
+        block_when.style.display = "none";
+        block_guests.style.display = "flex";
     }
 }
 function isSameDate(date1, date2) {
@@ -195,8 +252,4 @@ document.getElementById('nextMonth-main').addEventListener('click', () => {
     createCalendars(today.getFullYear(), today.getMonth());
 });
 
-function buttonSearch(){
-    if(selectedDates.length === 2){
-        window.location.href = url.href;
-    }
-}
+

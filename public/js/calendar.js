@@ -161,8 +161,33 @@ async function check(e) {
     if(isNaN(v)) e.value = 1;
 }
 
+async function check(e) {
+    await sleep(1);
+    let v = parseInt(e.value);
+    if (v < 1) e.value = 1;
+    if (v > 9) e.value = 9;
+    if(isNaN(v)) e.value = 1;
+}
 function number_counter(idInput,action){
-    let input = document.getElementById(idInput);
+    if(idInput === 'main_search_counter_guests'){
+        let input = document.getElementById(idInput);
+        if(action === "plus"){
+            let value = parseInt(input.textContent) + 1;
+            input.textContent = value.toString();
+        }
+        else if(action === "minus"){
+            let value = parseInt(input.textContent) - 1;
+            input.textContent = value.toString();
+        }
+
+        checkMain(input);
+
+        url.searchParams.set('guests', input.value);
+        window.location.href = url;
+    }
+    else{
+
+        let input = document.getElementById(idInput);
         if(action === "plus"){
             input.value = parseInt(input.value) + 1;
         }
@@ -170,9 +195,10 @@ function number_counter(idInput,action){
             input.value = parseInt(input.value) - 1;
         }
 
-    check(input);
+        check(input);
 
-    let url = new URL(window.location.href);
-    url.searchParams.set('guests', input.value);
-    window.location.href = url;
+        let url = new URL(window.location.href);
+        url.searchParams.set('guests', input.value);
+        window.location.href = url;
+    }
 }

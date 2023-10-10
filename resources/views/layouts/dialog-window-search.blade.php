@@ -12,11 +12,11 @@
                              id="main-where-description">
                             <div>@lang('main.search_directions')</div>
                             <div></div>
-                            <div>
+                            <button onclick="removeChoose('location');">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                                 </svg>
-                            </div>
+                            </button>
                         </div>
                     </div>
 
@@ -25,21 +25,44 @@
                         <div class="m-s-h-c-header">@lang('main.arrival')</div>
                         <div class="m-s-h-c-description"
                              id="main-when-arrival-description">
-                            <div>@lang('main.add_date')</div><div></div></div>
+                            <div>@lang('main.add_date')</div>
+                            <div></div>
+                            <button onclick="removeChoose('date-arrival');">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
 
-                    <div class="m-s-h-container" id="m-s-h-container-when-departure">
+                    <div class="m-s-h-container" id="m-s-h-container-when-departure"
+                         onclick="openSearch('when-departure','dialog-window-search')">
                         <div class="m-s-h-c-header">@lang('main.departure')</div>
                         <div class="m-s-h-c-description"
                              id="main-when-departure-description">
-                            <div>@lang('main.add_date')</div><div></div></div>
+                            <div>@lang('main.add_date')</div>
+                            <div></div>
+                            <button onclick="removeChoose('date-departure');">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
 
                     <div class="m-s-h-container" id="m-s-h-container-guests"
                          onclick="openSearch('guests','dialog-window-search')">
                         <div class="m-s-h-c-header">@lang('main.who')</div>
-                        <div class="m-s-h-c-description">
-                            <div>@lang('main.add_guests')</div><div></div></div>
+                        <div class="m-s-h-c-description"
+                             id="main-guests-description">
+                            <div>@lang('main.add_guests')</div>
+                            <div></div>
+                            <button onclick="removeChoose('guests');">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
 
                     <div class="d-flex justify-content-end align-items-center" style="width: 20%;">
@@ -162,8 +185,47 @@
                     </div>
                 </div>
 
-                <div class="m-s-b-guests" id="m-s-b-guests">
+                <div class="m-s-b-guests-container" id="m-s-b-guests">
+                    <div class="m-s-b-guests">
+                        <div class="m-s-b-g-counters w-100">
+                            <div class="m-s-b-g-counter d-flex flex-row w-100" style="margin-top: 0;" id="counter_guests">
+                                <div style="width: 60%">
+                                    <div class="m-s-b-g-c-header">@lang('main.guests')</div>
+                                    <div class="m-s-b-g-c-description">@lang('main.any_age')</div>
+                                </div>
+                                <div style="width: 40%" class="d-flex align-items-center justify-content-end">
+                                    <div class="m-s-b-g-counter-container d-flex flex-row gap-3">
+                                        <button onclick="number_counter('main_search_counter_guests','minus','guests')">
+                                            <div>-</div>
+                                        </button>
+                                        <div class="m-s-b-g-c-number" id="main_search_counter_guests">0</div>
+                                        <button onclick="number_counter('main_search_counter_guests','plus','guests')">
+                                            <div>+</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="m-s-b-g-counter d-flex flex-row w-100" id="counter_guests">
+                                <div style="width: 60%">
+                                    <div class="m-s-b-g-c-header">@lang('main.pets')</div>
+                                    <div class="m-s-b-g-c-description">@lang('main.traveling_with_animal')</div>
+                                </div>
+                                <div style="width: 40%" class="d-flex align-items-center justify-content-end">
+                                    <div class="m-s-b-g-counter-container d-flex flex-row gap-3">
+                                        <button onclick="number_counter('main_search_counter_animals','minus','animals')">
+                                            <div>-</div>
+                                        </button>
+                                        <div class="m-s-b-g-c-number" id="main_search_counter_animals">0</div>
+                                        <button onclick="number_counter('main_search_counter_animals','plus','animals')">
+                                            <div>+</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
 

@@ -75,6 +75,7 @@ a{
 }
 .clear-input{
     all: unset;
+    overflow: hidden;
 }
 
 /* width */
@@ -811,6 +812,15 @@ main{
     padding: 15px 20px;
     width: 32%;
     height: 120px;
+
+    transition: 0.3s ease;
+}
+.filters-property_type-blocks>button:hover{
+    transform: scale(1.03);
+}
+.filters-property_type-blocks>.active{
+    background-color: var(--background-color-active-button);
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.20) inset, -1px -0.5px 4px 0px rgba(0, 0, 0, 0.20) inset;
 }
 .filters-property_type-blocks>button>img{
     color: var(--text-color);
@@ -1945,4 +1955,74 @@ input::-webkit-inner-spin-button {
     border-radius: 15px;
     border: 4px solid var(--background-color);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.25), -3px -3px 15px -2px rgba(255, 255, 255, 0.90);
+}
+.m-s-b-guests-container{
+    width: 100%;
+    /*height: 260px;*/
+    display: none;
+    justify-content: end;
+}
+.m-s-b-guests{
+    /*height: 260px;*/
+    width: 58%;
+    display: flex;
+
+
+    padding: 25px 25px;
+    background-color: var(--background-color);
+
+
+    border-radius: 15px;
+    border: 4px solid var(--background-color);
+    box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.25), -3px -3px 15px -2px rgba(255, 255, 255, 0.90);
+}
+
+.m-s-b-g-counter{
+    padding: 11px 15px;
+    background-color: var(--background-color);
+
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.25), -3px -3px 15px -2px rgba(255, 255, 255, 0.90);
+
+    margin-top: 20px;
+}
+.m-s-b-g-c-header{
+    font-weight: 600;
+    font-size: 18px;
+}
+.m-s-b-g-c-description{
+    margin-top: -2px;
+    font-weight: 300;
+    font-size: 17px;
+}
+.m-s-b-g-c-number{
+    font-size: 25px;
+}
+.m-s-b-g-counter-container{
+    float:right;
+    margin-right: 10px;
+}
+
+.m-s-b-g-counter-container > button{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 100%;
+
+    box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.25), -3px -3px 15px -2px rgba(255, 255, 255, 0.90);
+    color: var(--text-color);
+
+    transition: 0.3s ease;
+}
+.m-s-b-g-counter-container > button:not(:disabled):hover{
+    background-color: var(--background-color--1);
+    transform: scale(1.05);
+}
+.m-s-b-g-counter-container > button:disabled{
+    cursor: inherit;
+    opacity: 0.7;
 }
