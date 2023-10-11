@@ -8,11 +8,12 @@
 @section('content')
     <main class="d-flex flex-row" style="margin-top: 5%;margin-left: 10%">
         <div>
-            <div class="retangle_div1 d-flex flex-row justify-content-center align-items-center">
-               <img class="photo_profils" src="{{'images/start-large-photos/photo1.jpg'}}" >
+            <div class="retangle_div1 d-flex flex-row justify-content-center align-items-center" id="account">
+{{--                <img class="photos" src="{{ asset('images/start-large-photos/photo1.jpg') }}">--}}
             </div>
-            <input type="file" id="fileInput" style="display: none">
-            <label for="fileInput" class="button" style="margin-left: 8%; margin-top: -10px;" >@lang('personal_data.add_photo')</label>
+
+            <input type="file" id="fileInput" style="display: none" name="account_photo" onchange="donwloan(this)">
+            <label for="fileInput" class="button"  style="margin-left: 8%; margin-top: -10px;" >@lang('personal_data.add_photo')</label>
         </div>
         <div class="d-flex flex-column" style="margin-left: 13%;padding-top: 2%;width: 70%">
             <div style="font-size: 24px;font-weight: 600">@lang('profils.profiles')</div>

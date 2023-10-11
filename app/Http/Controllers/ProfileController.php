@@ -243,7 +243,9 @@ class ProfileController extends Controller
         $verification=User::all();
         $categoriesListing = CategoryListing::all();
 
+
         return view('profile.house_name',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
     }
+
 }
