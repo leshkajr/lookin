@@ -16,34 +16,38 @@
             </div>
             <div style="margin-top: 3%">
                 <div class="personal_block">
-                    <form>
                         <div class="personal_text_header">@lang('personal_data.Name_according')</div>
                         <div class="personal_text_description">@lang('personal_data.name_passport')</div>
                         <div class="personal_div">
                             {{--                            {{ Lang::get('personal_date.name') }}--}}
-                            <input type="text" placeholder="@lang('personal_data.name')" class="input_text">
+                            <input type="text" placeholder="@lang('personal_data.name')" class="input_text"
+                                   @if(isset($user->name)) value="{{$user->name}}" @endif id="name">
                         </div>
                         <div class="personal_div">
-                            <input type="text" placeholder="@lang('personal_data.last_name')" class="input_text">
+                            <input type="text" placeholder="@lang('personal_data.last_name')" class="input_text"
+                                   @if(isset($user->lastName)) value="{{$user->lastName}}" @endif id="lastname">
                         </div>
                         <div class="div_button">
                             <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right">@lang('personal_data.save')</button>
+                            <button class="button button_right"
+                                    onclick="changePropertyUser({{$user->id}},
+                                    'name',document.getElementById('name').value + ';' + document.getElementById('lastname').value);"
+                            >@lang('personal_data.save')</button>
                         </div>
-                    </form>
                 </div>
                 <div class="personal_block">
-                    <form>
                         <div class="personal_text_header">@lang('personal_data.email')</div>
                         <div class="personal_text_description">@lang('personal_data.use_address')</div>
                         <div class="personal_div">
-                            <input type="email" placeholder="@lang('personal_data.Your_email')" class="input_text">
+                            <input type="email" placeholder="@lang('personal_data.Your_email')" class="input_text" id="email"
+                                   @if(isset($user->email)) value="{{$user->email}}" @endif>
                         </div>
                         <div class="div_button">
                             <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right">@lang('personal_data.save')</button>
+                            <button class="button button_right"
+                                    onclick="changePropertyUser({{$user->id}},
+                                    'email',document.getElementById('email').value);">@lang('personal_data.save')</button>
                         </div>
-                    </form>
                 </div>
 
                 <div class="personal_block">
@@ -51,10 +55,11 @@
                         <div class="personal_text_header">@lang('personal_data.phone')</div>
                         <div class="personal_text_description">@lang('personal_data.add_phone')</div>
                         <div class="personal_divs">
-                            <input type="text" placeholder="(+380)" class="input_text">
+                            <input type="text" placeholder="(+380)" class="input_text"
+                                   @if(isset($user->numberPhone)) value="{{$user->numberPhone}}" @endif>
                         </div>
-                        <div class="personal_text_description"
-                             style="margin-top: 1%">@lang('personal_data.will_send')</div>
+{{--                        <div class="personal_text_description"--}}
+{{--                             style="margin-top: 1%">@lang('personal_data.will_send')</div>--}}
                         <div class="div_button">
                             <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>
                             <button class="button button_right">@lang('personal_data.save')</button>
@@ -128,28 +133,28 @@
                         </div>
                     </form>
                 </div>
-                <div class="personal_block">
-                    <form>
-                        <div class="personal_text_header">@lang('personal_data.Contact')</div>
-                        <div class="personal_text_description">@lang('personal_data.reliable_contact')</div>
-                        <div class="d-flex flex-column">
-                            <div class="personal_divs">
-                                <input type="number" placeholder="(+380)" class="input_text">
-                            </div>
-                            <div class="personal_divs">
-                                <input type="text" placeholder="@lang('personal_data.First')" class="input_text">
-                            </div>
-                            <div class="personal_divs">
-                                <input type="email" placeholder="@lang('personal_data.email')" class="input_text">
-                            </div>
+{{--                <div class="personal_block">--}}
+{{--                    <form>--}}
+{{--                        <div class="personal_text_header">@lang('personal_data.Contact')</div>--}}
+{{--                        <div class="personal_text_description">@lang('personal_data.reliable_contact')</div>--}}
+{{--                        <div class="d-flex flex-column">--}}
+{{--                            <div class="personal_divs">--}}
+{{--                                <input type="number" placeholder="(+380)" class="input_text">--}}
+{{--                            </div>--}}
+{{--                            <div class="personal_divs">--}}
+{{--                                <input type="text" placeholder="@lang('personal_data.First')" class="input_text">--}}
+{{--                            </div>--}}
+{{--                            <div class="personal_divs">--}}
+{{--                                <input type="email" placeholder="@lang('personal_data.email')" class="input_text">--}}
+{{--                            </div>--}}
 
-                        </div>
-                        <div class="div_button">
-                            <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right">@lang('personal_data.save')</button>
-                        </div>
-                    </form>
-                </div>
+{{--                        </div>--}}
+{{--                        <div class="div_button">--}}
+{{--                            <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>--}}
+{{--                            <button class="button button_right">@lang('personal_data.save')</button>--}}
+{{--                        </div>--}}
+{{--                    </form>--}}
+{{--                </div>--}}
             </div>
         </div>
     </main>
@@ -166,4 +171,8 @@
         @include('layouts.dialog-window-language')
         @include('layouts.dialog-window-currency')
     </div>
+@stop
+
+@section('scripts')
+    <script type="text/javascript" src="{{ asset('js/changePropertyUser.js') }}"></script>
 @stop

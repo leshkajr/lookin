@@ -6,7 +6,7 @@
     </header>
 @stop
 @section('content')
-    <main >
+    <main class="d-flex align-items-center justify-content-center">
         <div class="house_photo_container">
             <div class="text-header">Зазначте, кого ви готові прийняти для першого перебування</div>
             <div class="location-text-description" style="margin-top: 2%">Після першого гостя будь-хто може бронювати ваше помешкання.</div>
@@ -15,7 +15,7 @@
               <form>
                   <div class="div_first">
                       <label class="lable_radio" for="radio1">
-                          <input type="checkbox" class="radiobutton" id="radio1">
+                          <input type="radio" class="radiobutton" name="first_stay" id="radio1">
                           <span class="radioFace"></span>
                           <div class="radio_text">
                               <div style=";margin-left: 10px;font-size: 28px;font-weight:600">Будь-який гість з Look`in</div>
@@ -27,7 +27,7 @@
                   </div>
                   <div class="div_first" style="margin-top: 2%">
                       <label class="lable_radio" for="radio2">
-                          <input type="checkbox" class="radiobutton" id="radio2">
+                          <input type="radio" class="radiobutton" name="first_stay" id="radio2">
                           <span class="radioFace"></span>
                           <div class="radio_text">
                               <div style=";margin-left: 10px;font-size: 28px;font-weight:600">Досвідченій гість</div>

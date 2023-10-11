@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('lastName')->nullable();
             $table->string('profilePhoto',256)->nullable();
             $table->string('numberPhone')->nullable()->unique();
-            $table->string('address')->nullable();
+            $table->foreignId("addressId")->nullable()->constrained("addresses");
             $table->string('facebookAccLink')->nullable();
             $table->string('instagramAccLink')->nullable();
             $table->string('languageView')->default("en");

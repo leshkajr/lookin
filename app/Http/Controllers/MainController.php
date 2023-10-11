@@ -241,10 +241,9 @@ class MainController extends Controller
 
         $categoriesListing = CategoryListing::all();
 
+        $user=User::find(Auth::id());
+
         return view('profile.account',['languages'=>$languages, 'currencies'=>$currencies,
-        'categoriesListing'=>$categoriesListing,]);
+        'categoriesListing'=>$categoriesListing,'user'=> $user,]);
     }
-
-
-
 }
