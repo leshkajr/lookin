@@ -13,6 +13,6 @@ return [
     "city" => "In the city",
     "futurism" => "Futurism",
     "insta-location" => "Insta-location",
-    "airport" => "Near the airport",
+    "airport" => "Near airport",
     "header"=>"Which of the following options best describes the home?",
 ];

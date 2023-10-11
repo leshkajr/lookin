@@ -163,9 +163,10 @@ class ProfileController extends Controller
         $currencies = Currency::all();
         $verification=User::all();
         $categoriesListing = CategoryListing::all();
+        $user = Auth::user();
 
         return view('profile.profils',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification,'user'=>$user]);
     }
     public function house_amenities()
     {

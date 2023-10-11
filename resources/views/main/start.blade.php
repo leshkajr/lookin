@@ -18,12 +18,16 @@
                 </div>
                 <div class="d-flex justify-content-start">
                     <div class="start-large-block d-flex flex-column">
-                        <div style="font-size: 28px; font-weight: 500; line-height: 33px; margin-bottom: 10px;">Україна: @lang("start.accommodation_for_recreation")</div>
+                        <div style="font-size: 28px; font-weight: 500; line-height: 33px; margin-bottom: 10px;">{{ $location['country']->name }}: @lang("start.accommodation_for_recreation")</div>
                         <div style="font-size: 15px; font-weight: 300; margin-bottom: 12px;">@lang('start.find_and_book_unique_rooms')</div>
                         <div class="start-table-block mb-3">
                             <div class="start-table-label">
                                 <div>@lang('start.location')</div>
-                                <x-clear-input required value="Україна" class="start-table-input"/>
+{{--                                <x-clear-input required value="Україна" class="start-table-input"/>--}}
+                                <select class="clear-input start-table-input w-100" style="margin-left: -10px;">
+                                    <option value="1">&nbsp;&nbsp;&nbsp;First</option>
+                                    <option value="2">&nbsp;&nbsp;&nbsp;Double</option>
+                                </select>
                             </div>
                             <div style="width: 100%; background-color: var(--hr); height: 1px;"></div>
                             <div class="row">

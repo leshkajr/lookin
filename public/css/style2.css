@@ -103,7 +103,7 @@
 
 }
 .personal_text_description{
-    color: #6B6B6B;
+    color: var(--text-color);
     font-size: 18px;
 
     font-weight: 300;
@@ -258,6 +258,11 @@
     width: 170px;
     height: 170px;
     border-radius: 9999px;
+    transition: 0.3s ease;
+}
+.photo_profils:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 .button_profils{
     background: #0FB8CF;

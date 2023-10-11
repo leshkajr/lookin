@@ -4,8 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Models\City;
 use App\Models\Country;
+use App\Models\Image;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 use JsonException;
 
 class ApiController extends Controller
@@ -91,5 +94,38 @@ class ApiController extends Controller
         } else {
             return "Не удалось получить координаты.";
         }
+    }
+
+    function loadImage(){
+
+        $uploadDirectory = asset("images/photos")."/";
+
+        $response = array();
+
+        if (isset($_FILES["file"])) {
+            $file = request()->file('file');
+            $generatedName = $file->hashName();
+
+
+            if(isset($_GET['listingId'])){
+                Image::create([
+                    'listingId' => $_GET['listingId'],
+                    'urlImage' => $generatedName,
+                ]);
+            }
+            else{
+                $user = User::find(Auth::id());
+                $user->profilePhoto = $generatedName;
+                $user->save();
+            }
+            $response["success"] = true;
+
+            Storage::putFile('public/images/photos/',$file,$generatedName);
+
+        } else {
+            $response["success"] = false;
+        }
+        header("Content-Type: application/json");
+        echo json_encode($response);
     }
 }

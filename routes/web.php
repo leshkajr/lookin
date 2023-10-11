@@ -69,4 +69,5 @@ Route::controller(\App\Http\Controllers\ApiController::class)->group(function ()
     Route::get('/api/location', 'getLocation');
     Route::get('/api/cityfromip', 'getCityFromIp');
     Route::post('/api/changepropertyuser', 'changePropertyUser');
+    Route::post('/api/loadImage', 'loadImage');
 });

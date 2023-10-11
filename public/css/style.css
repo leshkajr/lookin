@@ -51,6 +51,7 @@ button{
     border-radius: 10px;
 
     padding: 5px 20px;
+    cursor: pointer;
 
     transition: 0.3s ease;
 
@@ -986,6 +987,9 @@ main{
 .start-table-input{
     font-weight: 300;
     font-size: 15px;
+}
+.start-table-input>option{
+    background-color: var(--background-color);
 }
 .start-listings{
     width: 100%;

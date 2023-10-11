@@ -74,14 +74,17 @@ class MainController extends Controller
         $ip_info_api_url = 'http://ip-api.com/json/'.$user_ip;
         $response = file_get_contents($ip_info_api_url);
         $data = json_decode($response, true);
-        $location = $data['city']." Wallpapers HD 1920 1080";
-        $location = str_replace(" ","%20",$location);
-        $dataImages = json_decode(file_get_contents("https://app.zenserp.com/api/v2/search?apikey=386dafc0-5eb1-11ee-8845-8d1e917a38e1&q=".$location."&tbm=isch"));
-        dd($dataImages->image_results);
+        $location = [
+            'city' => City::where('name',$data['city'])->first(),
+        ];
+        $location += [
+            'country' => Country::find($location['city']->countryId),
+        ];
+
 
         return view('main.start',
             ['languages'=>$languages, 'currencies'=>$currencies, 'types_listings' => $types_listings,
-                'amenities' => $amenities]);
+                'amenities' => $amenities, 'location'=>$location]);
     }
 
     public function rooms(){

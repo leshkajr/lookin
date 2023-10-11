@@ -9,14 +9,21 @@
     <main class="d-flex flex-row" style="margin-top: 5%;margin-left: 10%">
         <div>
             <div class="retangle_div1 d-flex flex-row justify-content-center align-items-center">
-               <img class="photo_profils" src="{{'images/start-large-photos/photo1.jpg'}}" >
+               <img class="photo_profils"
+                    @if($user->profilePhoto === null) src="{{ asset("images/upload_file.png") }}"
+                    @else src="{{ asset("storage/images/photos/".$user->profilePhoto) }}"
+                    @endif
+                    id="imageProfile" />
+{{--               <img class="photo_profils" src="{{ asset('storage/images/photos/Tq80tfh1v4LZf2fQOAcNWvhFgnVM6qCtEPZpTxt8.jpg') }}" id="imageProfile" >--}}
             </div>
-            <input type="file" id="fileInput" style="display: none">
-            <label for="fileInput" class="button" style="margin-left: 8%; margin-top: -10px;" >@lang('personal_data.add_photo')</label>
+            <form enctype="multipart/form-data" style="margin: 0; padding:0;">
+                <input type="file" id="fileInputImage" style="display: none" accept="image" name="files[]" size=1>
+                <label for="fileInputImage" class="button" style="margin-left: 11%; margin-top: -10px;" >@lang('personal_data.add_photo')</label>
+            </form>
         </div>
         <div class="d-flex flex-column" style="margin-left: 13%;padding-top: 2%;width: 70%">
             <div style="font-size: 24px;font-weight: 600">@lang('profils.profiles')</div>
-            <div style="margin-top: 3%;font-size: 14px; width: 65%; margin-bottom: 4%">@lang('profils.information')</div>
+            <div style="margin-top: 2%;font-size: 16px; width: 65%; margin-bottom: 4%">@lang('profils.information')</div>
             <div class="personal_block">
                 <form>
                     <div class="personal_text_header">@lang('profils.School')</div>
@@ -105,4 +112,9 @@
         @include('layouts.dialog-window-language')
         @include('layouts.dialog-window-currency')
     </div>
+@stop
+
+@section('scripts')
+
+    <script src="{{ URL::asset('js/loadImage.js')}}"></script>
 @stop
