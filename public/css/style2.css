@@ -146,6 +146,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 1.5%;
+    padding-right: 50%;
 }
 .button_right{
     background: #0FB8CF;

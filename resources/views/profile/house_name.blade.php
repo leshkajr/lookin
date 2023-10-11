@@ -7,41 +7,24 @@
 @stop
 @section('content')
     <main >
-        <div class="house_photo_container">
-            <div class="text-header">Зазначте, кого ви готові прийняти для першого перебування</div>
-            <div class="location-text-description" style="margin-top: 2%">Після першого гостя будь-хто може бронювати ваше помешкання.</div>
-            <div style="font-weight: 500"><a href="#" style="text-decoration: underline">Докладніше</a></div>
-            <div class="first_counter">
-                <form>
-                    <div class="div_first">
-                        <label class="lable_radio" for="radio1">
-                            <input type="checkbox" class="radiobutton" id="radio1">
-                            <span class="radioFace"></span>
-                            <div class="radio_text">
-                                <div style=";margin-left: 10px;font-size: 28px;font-weight:600">Будь-який гість з Look`in</div>
-                                <div style="margin-left: 10px;margin-top: 2%">Якщо ви готові прийняти будь-якого учасника спільноти Look`in ,ви швидше отримаєте бронювання.</div>
-                            </div>
+        <div class="house_photo_container" style="margin-left: 17%">
+            <div class="text-header">Додайте назву вашого помешкання (будинку)</div>
+            <div class="location-text-description" style="margin-top: 2%">Лаконічні назви – найкращі. Зауважте: назву можна будь-коли змінити.</div>
+            <div class="div_photo_house" style="height: 300px">
+               <textarea id="textarea">
 
-                        </label>
-
-                    </div>
-                    <div class="div_first" style="margin-top: 2%">
-                        <label class="lable_radio" for="radio2">
-                            <input type="checkbox" class="radiobutton" id="radio2">
-                            <span class="radioFace"></span>
-                            <div class="radio_text">
-                                <div style=";margin-left: 10px;font-size: 28px;font-weight:600">Досвідченій гість</div>
-                                <div style="margin-left: 10px;margin-top: 2%">Перше бронювання може зробити лише гість із високим рейтингом на Look`in, який може дати поради, як стати чудовим господарем.</div>
-                            </div>
-
-                        </label>
-                    </div>
-                </form>
+               </textarea>
 
             </div>
+            <div style="margin-top: 2%" class="d-flex flex-row">
+                <span id="textcounter">0</span>
+                <div>/32</div>
+            </div>
+
             <div class="div_button">
-                <button class="button_back">@lang('main.back')</button>
-                <button class="button button_house">@lang('main.next')</button>
+                <button class="button_back" style="margin-right: 20%">@lang('main.back')</button>
+                <button class="button button_house" id="next"style="margin-left: 120%">@lang('main.next')</button>
+
             </div>
         </div>
 
