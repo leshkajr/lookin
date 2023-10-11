@@ -54,6 +54,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/first_stay',[ProfileController::class,'first_stay'])->name('profile.first_stay');
     Route::get('/house_price',[ProfileController::class,'house_price'])->name('profile.house_price');
     Route::get('/house_quest',[ProfileController::class,'house_quest'])->name('profile.house_quest');
+    Route::get('/house_name',[ProfileController::class,'house_name'])->name('profile.house_name');
+    Route::get('/personal_data',[ProfileController::class,'personal_data'])->name('profile.personal_data');
+    Route::get('/profils',[ProfileController::class,'profils'])->name('profile.profils');
 
 });
 

@@ -23,7 +23,7 @@
         </div>
         <div class="d-flex flex-column" style="margin-left: 13%;padding-top: 2%;width: 70%">
             <div style="font-size: 24px;font-weight: 600">@lang('profils.profiles')</div>
-            <div style="margin-top: 2%;font-size: 16px; width: 65%; margin-bottom: 4%">@lang('profils.information')</div>
+            <div style="margin-top: 3%;font-size: 14px; width: 65%; margin-bottom: 4%">@lang('profils.information')</div>
             <div class="personal_block">
                 <form>
                     <div class="personal_text_header">@lang('profils.School')</div>
@@ -112,9 +112,4 @@
         @include('layouts.dialog-window-language')
         @include('layouts.dialog-window-currency')
     </div>
-@stop
-
-@section('scripts')
-
-    <script src="{{ URL::asset('js/loadImage.js')}}"></script>
 @stop

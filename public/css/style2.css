@@ -495,6 +495,7 @@ textarea{
     width: 100%;
     margin-top: 3%;
 
+    padding-top: 5%;
 }
 .radiobutton{
 display: none;
@@ -504,7 +505,7 @@ display: inline-block;
     width: 50px;
     height: 50px;
 position: relative;
-    margin-left: 3%;
+    margin-left: 2%;
     border-radius: 50%;
     background: linear-gradient(180deg, #F9F9FB 0%, rgba(249.69, 249.69, 249.69, 0) 100%);
     box-shadow: 1.5px 1.5px 4px 2px rgba(0, 0, 0, 0.25) inset;
@@ -514,8 +515,6 @@ position: relative;
     display: flex;
     align-items: center;
 
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 .radio_text{
     width: 100%;
@@ -523,7 +522,6 @@ position: relative;
     margin-left: 20px;
     margin-bottom: 10px;
 
-    padding-right: 20px;
 
 }
 .radioFace::before{
@@ -546,11 +544,11 @@ position: relative;
 }
 .price{
     width: 200px;
-margin-top: -20px;
 
-  /*margin-left: 30%;*/
+
+  margin-left: 30%;
     text-align: center;
-    font-size: 135px;
+    font-size: 100px;
     font-weight: 600;
 }
 .price_input{
@@ -582,5 +580,26 @@ margin-top: -20px;
     margin-top: 2%;
     font-size: 18px;
 
+
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    height: 160px;
+    padding-left: 10px;
+}
+.image_photo{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+
+}
+.photos{
+    width: 170px;
+    height: 170px;
+
+}
+.photoCountainer{
 
 }
