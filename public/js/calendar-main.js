@@ -108,8 +108,14 @@ function createCalendar(year, month, id) {
         dayDiv.textContent = i;
         for (let j = 0; j < selectedDates.length; j++) {
             let currentIDate = new Date(selectedDates[j].getFullYear(), month, i);
-            if (selectedDates[j].getTime() === currentIDate.getTime()) {
+            if (selectedDates[j].getMonth() === currentIDate.getMonth() && selectedDates[j].getDate() === currentIDate.getDate()) {
                 dayDiv.classList.add('selected');
+                if(j === 0)
+                    dayDiv.classList.add('date-arrival');
+                else if(j === 1)
+                    dayDiv.classList.add('date-departure');
+
+                updateSelectedDates();
             }
         }
 
@@ -196,6 +202,11 @@ function updateSelectedDates() {
         else{
             url.searchParams.set('departureDate', selectedDates[1].getTime());
         }
+        main_when_arrival_description.children[0].style.display = 'none';
+        main_when_arrival_description.children[1].style.display = 'block';
+        main_when_arrival_description.children[2].style.display = 'flex';
+        main_when_arrival_description.children[1].textContent =
+            monthNamesEng[selectedDates[0].getMonth()].substring(0,3) + " " + selectedDates[0].getDate();
 
         main_when_departure_description.children[0].style.display = 'none';
         main_when_departure_description.children[1].style.display = 'block';
@@ -236,6 +247,14 @@ function startCalendar(t_language){
 function createCalendars(year, month){
     createCalendar(year, month,1);
     createCalendar(year, month + 1,2);
+
+    let listings_dates = document.getElementsByClassName("listing-date");
+    for (let listing_date of listings_dates) {
+        if(selectedDates[0].getMonth() === selectedDates[1].getMonth())
+            listing_date.textContent = selectedDates[0].getDate() + "-" + selectedDates[1].getDate() + " " + (monthNamesUkr[selectedDates[0].getMonth()]).toLowerCase().substring(0,4);
+        else
+            listing_date.textContent = selectedDates[0].getDate() + "-" + selectedDates[1].getDate() + " " + (monthNamesUkr[selectedDates[0].getMonth()]).toLowerCase().substring(0,4) + "-" + (monthNamesUkr[selectedDates[1].getMonth()]).toLowerCase().substring(0,4);
+    }
 }
 
 // Вызываем createCalendar с предыдущим месяцем

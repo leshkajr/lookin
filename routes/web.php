@@ -18,6 +18,7 @@ use App\Http\Controllers\SetupController;
 */
 
 Route::get('/setup', [SetupController::class, 'index'])->name('setup');
+Route::get('/loadListings', [SetupController::class, 'loadListings'])->name('loadListings');
 
 
 Route::get('/', [MainController::class, 'index'])->name('main');
@@ -62,8 +63,7 @@ Route::middleware('auth')->group(function () {
 
 // Localization
 
-Route::get('locale/{lange}',[LocalizationController::class,'setLang']);
-
+Route::get('locale/{lange}',[LocalizationController::class,'setLang'])->name('locale.setLocale');
 
 
 require __DIR__.'/auth.php';

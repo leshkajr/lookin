@@ -17,10 +17,12 @@ class Address extends Model
 
             $addresses = array(
                 array(
-                    "firstLine" => "Ukrainska 2",
-                    "secondLine" => "14",
-                    "index" => "50000",
-                    "city" => "Kryvyi Rih",
+                    "firstLine" => "Modlyńska 2",
+                    "secondLine" => "44",
+                    "index" => "03-456",
+                    "city" => "Warsaw",
+                    "lat" => "52.237049",
+                    "lon" => "21.017532",
                 )
             );
 

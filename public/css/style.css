@@ -77,6 +77,16 @@ a{
 .clear-input{
     all: unset;
     overflow: hidden;
+    font-weight: 400;
+}
+.clear-input:focus, .clear-input:focus-visible{
+    all: unset;
+    overflow: hidden;
+    font-weight: 400;
+}
+.clear-input::placeholder{
+    font-weight: 400;
+    opacity: 0.8;
 }
 
 /* width */
@@ -536,9 +546,10 @@ main{
     font-size: 14px;
 }
 .listing-img{
-    width: 18rem;
-    height: 18rem;
+    width: 16.7rem;
+    height: 16.7rem;
     object-fit: cover;
+    cursor: pointer;
 
     border-radius: 15px;
     border: 7px solid var(--background-color);
@@ -547,8 +558,8 @@ main{
 
 .listing-like{
     position: absolute;
-    margin-top: -18.5%;
-    margin-left: 16%;
+    margin-top: -16.5%;
+    margin-left: 14.7%;
 
 }
 /*@media (max-width: 2000px) {*/
@@ -765,7 +776,7 @@ main{
 
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25), -4px -4px 15px 0px rgba(255, 255, 255, 0.85), 2px 2px 4px 0px rgba(255, 255, 255, 0.85) inset;
 }
-.input:focus-visible{
+.input:focus-visible, .input:focus{
     outline:0;
 }
 .filters-blocks{
@@ -991,6 +1002,32 @@ main{
 .start-table-input>option{
     background-color: var(--background-color);
 }
+
+.cities-countries-values{
+    margin: 10px 0 10px -5px;
+    height: 230px;
+    width: 325px;
+    position: absolute;
+    display: none;
+    overflow: auto;
+    z-index: 1;
+
+    background-color: var(--background-color);
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.4), -7px -7px 20px 0px rgba(255, 255, 255, 1);
+}
+
+.cities-countries-values>.value{
+    margin: 2px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.cities-countries-values>.value:hover{
+    background-color: var(--background-color--1);
+}
 .start-listings{
     width: 100%;
 }
@@ -1033,6 +1070,7 @@ main{
 .start-amenities-block{
     width: 18%;
     padding: 1.2% 2% 1.2% 1.1%;
+    cursor: pointer;
 
     border-radius: 15px;
     /*border: 4px solid #D6D9EB;*/
@@ -1915,8 +1953,8 @@ input::-webkit-inner-spin-button {
 
 .m-s-b-values{
     margin: 10px 0;
-
     height: 230px;
+
     overflow: auto;
 }
 

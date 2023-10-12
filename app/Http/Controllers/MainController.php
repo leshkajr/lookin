@@ -49,15 +49,22 @@ class MainController extends Controller
             "city" => null,
             "dateArrival" => null,
             "dateDeparture" => null,
-            "countGuests" => null,
+            "guests" => 1,
         ];
-
+        $location = null;
+        if(isset($_GET['location_id'])){
+            $city = City::find($_GET['location_id']);
+            $location = [
+                'city' => $city,
+                'country' => Country::find($city->countryId),
+            ];
+        }
 
 //        dd($amenities->where('categoryAmenityId','1'));
         return view('main.main',
             ['languages'=>$languages, 'currencies'=>$currencies, 'categoriesListing'=>$categoriesListing,
             'types_listings' => $types_listings,'amenities' => $amenities, 'categoriesAmenities'=>$categoriesAmenities,
-            'searchInfo' => $searchInfo]);
+            'searchInfo' => $searchInfo,'location'=>$location]);
     }
 
     public function start($countryName = null) {
@@ -66,19 +73,22 @@ class MainController extends Controller
         $types_listings = TypeListing::all();
         $amenities = Amenity::all();
 
-        $ip_api_url = 'https://api.ipify.org?format=json';
-        $response = file_get_contents($ip_api_url);
-        $data = json_decode($response, true);
-        $user_ip = $data['ip'];
+        if(!isset($_GET['cityId'])){
+            $ip_api_url = 'https://api.ipify.org?format=json';
+            $response = file_get_contents($ip_api_url);
+            $data = json_decode($response, true);
+            $user_ip = $data['ip'];
 
-        $ip_info_api_url = 'http://ip-api.com/json/'.$user_ip;
-        $response = file_get_contents($ip_info_api_url);
-        $data = json_decode($response, true);
+            $ip_info_api_url = 'http://ip-api.com/json/'.$user_ip;
+            $response = file_get_contents($ip_info_api_url);
+            $data = json_decode($response, true);
+            $city = City::where('name',$data['city'])->first();
+            return redirect()->route('main.country',['cityId'=>$city->id]);
+        }
+        $city = City::find($_GET['cityId']);
         $location = [
-            'city' => City::where('name',$data['city'])->first(),
-        ];
-        $location += [
-            'country' => Country::find($location['city']->countryId),
+            'city' => $city,
+            'country' => Country::find($city->countryId),
         ];
 
 
@@ -192,24 +202,36 @@ class MainController extends Controller
 
         // coordinates
 //        $dataLocation = json_decode(file_get_contents("https://nominatim.openstreetmap.org/search?q=Ukrainska%202%20Kryvyi%20Rih%20Ukraine&format=json", false, $context));
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HEADER, false);
+//        $ch = curl_init();
+//        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//        curl_setopt($ch, CURLOPT_HEADER, false);
+//        $address = Address::find($listing_db->addressId);
+//        $data = [
+//            "q" => $address->firstLine." ".$address->index." ".$address->city,
+//            "tbm" => "lcl",
+//        ];
+//        curl_setopt($ch, CURLOPT_URL, "https://app.zenserp.com/api/v2/search?" . http_build_query($data));
+//        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+//            "Content-Type: application/json",
+//            "apikey: 386dafc0-5eb1-11ee-8845-8d1e917a38e1",
+//        ));
+//
+//        $response = curl_exec($ch);
+//        curl_close($ch);
+//        $dataLocation = json_decode($response);
+//        $listing += [
+//            "address" => [
+//                "firstLine" => $address->firstLine,
+//                "secondLine" => $address->secondLine,
+//                "index" => $address->index,
+//                "city" => $address->city,
+//            ],
+//            "coordinates" => [
+//                'lat' => $dataLocation->maps_results[0]->coordinates->latitude,
+//                'lon' => $dataLocation->maps_results[0]->coordinates->longitude,
+//            ],
+//        ];
         $address = Address::find($listing_db->addressId);
-        $data = [
-            "q" => $address->firstLine." ".$address->index." ".$address->city,
-            "tbm" => "lcl",
-        ];
-        curl_setopt($ch, CURLOPT_URL, "https://app.zenserp.com/api/v2/search?" . http_build_query($data));
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            "Content-Type: application/json",
-            "apikey: 386dafc0-5eb1-11ee-8845-8d1e917a38e1",
-        ));
-
-        $response = curl_exec($ch);
-        curl_close($ch);
-        $dataLocation = json_decode($response);
-
         $listing += [
             "address" => [
                 "firstLine" => $address->firstLine,
@@ -218,8 +240,8 @@ class MainController extends Controller
                 "city" => $address->city,
             ],
             "coordinates" => [
-                'lat' => $dataLocation->maps_results[0]->coordinates->latitude,
-                'lon' => $dataLocation->maps_results[0]->coordinates->longitude,
+                'lat' => $address->lat,
+                'lon' => $address->lon,
             ],
         ];
 

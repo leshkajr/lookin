@@ -198,7 +198,9 @@
                                         <button onclick="number_counter('main_search_counter_guests','minus','guests')">
                                             <div>-</div>
                                         </button>
-                                        <div class="m-s-b-g-c-number" id="main_search_counter_guests">0</div>
+                                        <div class="m-s-b-g-c-number" id="main_search_counter_guests">
+                                            {{ $searchInfo['guests'] }}
+                                        </div>
                                         <button onclick="number_counter('main_search_counter_guests','plus','guests')">
                                             <div>+</div>
                                         </button>

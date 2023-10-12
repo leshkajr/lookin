@@ -29,6 +29,10 @@ class SetupController extends Controller
         ObjectType::fillValues();
 
 
+        return redirect()->route('main');
+    }
+
+    public function loadListings(){
         Address::addItem();
         SleepingPlace::addItem();
         Listing::addItem();

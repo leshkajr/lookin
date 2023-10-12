@@ -10,7 +10,7 @@
                     @foreach ($languages->take(2) as $language)
                         @if(App::getLocale() === $language->languageCode)
                             <div class="modal-dialog-window">
-                                <a href="locale/{{ $language->languageCode }}">
+                                <a href="{{ route('locale.setLocale',$language->languageCode) }}">
                                     <div class="d-flex flex-column">
                                         <div style="color:var(--text-color-dark); font-size:15px;">{{ $language->languageNameNative }}</div>
                                         <div style="font-size:13px;">{{ $language->countryNameNative }}</div>
@@ -25,7 +25,7 @@
                     @foreach ($languages->take(2) as $language)
                         @if($language->languageCode !== null)
                         <div class="modal-dialog-window">
-                            <a href="locale/{{ $language->languageCode }}">
+                            <a href="{{ route('locale.setLocale',$language->languageCode) }}">
                                 <div class="d-flex flex-column">
                                     <div style="color:var(--text-color-dark); font-size:15px;">{{ $language->languageNameNative }}</div>
                                     <div style="font-size:13px;">{{ $language->countryNameNative }}</div>

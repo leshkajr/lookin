@@ -14,7 +14,7 @@
     </header>
 @stop
 @section('content')
-    <main style="padding: 0 7% 5% 7%;">
+    <main style="padding: 1% 7% 5% 7%;">
         <div class="listing-header d-flex flex-column"
              id="photos">
             <div class="listing-header-title">{{ $listing['title'] }}</div>
@@ -135,7 +135,7 @@
                         </div>
                         <div class="d-flex flex-row align-items-center justify-content-end" style="width: 15%;">
                             <div class="listing-host-img">
-                                <img src="https://a0.muscache.com/im/pictures/user/349e298e-7c0c-402b-b38f-9569673f4f03.jpg?im_w=240"/>
+                                <img src="https://a0.muscache.com/im/pictures/user/05b7ac31-6564-4554-8309-6f22a9499d89.jpg?im_w=240"/>
                             </div>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                 <div class="d-flex flex-column justify-content-center align-items-end"
                      style="width: 40%; padding-top: 40px;">
                     <div class="listing-reservation-container">
-                        <div class="listing-reservation-price">$175 @lang('listing.night')</div>
+                        <div class="listing-reservation-price">$50 @lang('listing.night')</div>
 
                         <div class="start-table-block mb-3">
                             <div class="row">

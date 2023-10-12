@@ -75,35 +75,42 @@ function createCalendar(year, month) {
         dayDiv.textContent = i;
         for (let j = 0; j < selectedDates.length; j++) {
             let currentIDate = new Date(selectedDates[j].getFullYear(), month, i);
-            if (selectedDates[j].getTime() === currentIDate.getTime()) {
+            if (selectedDates[j].getDate() + 1 === currentIDate.getDate()) {
                 dayDiv.classList.add('selected');
-            }
-        }
-
-        dayDiv.addEventListener('click', () => {
-            if (selectedDates.length <= 2) {
-                const selectedDate = new Date(year, month, i);
-
-                // Проверяем, есть ли уже класс 'selected' на элементе
-                if (dayDiv.classList.contains('selected')) {
-                    dayDiv.classList.remove('selected'); // Удаляем класс 'selected'
-                    selectedDates = selectedDates.filter(date => !isSameDate(date, selectedDate));
-                    console.log('remove selectedDates',selectedDates);
-                } else if (selectedDates.length < 2) {
-                    dayDiv.classList.add('selected'); // Добавляем класс 'selected'
-                    selectedDates.push(selectedDate);
-                }
+                if(j === 0)
+                    dayDiv.classList.add('date-arrival');
+                else if(j === 1)
+                    dayDiv.classList.add('date-departure');
 
                 updateSelectedDates();
             }
-        });
+        }
+        if(new Date(year,month,i).getTime() >= new Date().getTime()){
+            dayDiv.addEventListener('click', () => {
+                if (selectedDates.length <= 2) {
+                    const selectedDate = new Date(year, month, i);
 
+                    // Проверяем, есть ли уже класс 'selected' на элементе
+                    if (dayDiv.classList.contains('selected')) {
+                        dayDiv.classList.remove('selected'); // Удаляем класс 'selected'
+                        selectedDates = selectedDates.filter(date => !isSameDate(date, selectedDate));
+                        console.log('remove selectedDates',selectedDates);
+                    } else if (selectedDates.length < 2) {
+                        dayDiv.classList.add('selected'); // Добавляем класс 'selected'
+                        selectedDates.push(selectedDate);
+                    }
+
+                    updateSelectedDates();
+                }
+            });
+        }else{
+            dayDiv.classList.add('dayDisabled')
+        }
         calendar.appendChild(dayDiv);
     }
 
     if(!url.searchParams.has('guests')){
         url.searchParams.append('guests', "1");
-        window.location.href = url;
     }
 }
 
@@ -120,7 +127,6 @@ function updateSelectedDates() {
             url.searchParams.set('arrivalDate', selectedDates[0].getTime());
             url.searchParams.set('departureDate', selectedDates[1].getTime());
         }
-        window.location.href = url;
     }
 }
 function isSameDate(date1, date2) {

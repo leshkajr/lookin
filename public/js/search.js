@@ -147,7 +147,7 @@ async function showLocation(str, notFound) {
                 // }
             }
         };
-        xmlhttp.open("GET", "api/changepropertyuser?text=" + str, true);
+        xmlhttp.open("GET", "api/location?text=" + str, true);
         xmlhttp.send();
     }
 }
@@ -300,3 +300,4 @@ function number_counter(idInput,action,params){
     if(!url.searchParams.has(params)){url.searchParams.append(params, input.textContent);}
     else{url.searchParams.set(params, input.textContent);}
 }
+
