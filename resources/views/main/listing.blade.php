@@ -457,7 +457,7 @@
                         </div>
                         <div>
                             <div class="listing-review-name">Marek</div>
-                            <div class="listing-review-date">march 18</div>
+                            <div class="listing-review-date">october 11</div>
                         </div>
                     </div>
                     <div class="listing-review-text">Чудовий відпочинок у тихому місці посеред природи. Котедж добре обладнаний, чистий, а також є можливість</div>
@@ -468,15 +468,15 @@
                     <div class="d-flex flex-row" style="width: 100%;">
                         <div style="width: 85px;">
                             <div class="listing-review-img-container">
-                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/c5f89e86-3ce6-4fec-abd1-dd69f44a90fb.jpg?im_w=240" />
+                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/19a76d78-9008-4e7f-90c3-fa7685f5cb95.jpg?im_w=240" />
                             </div>
                         </div>
                         <div>
-                            <div class="listing-review-name">Marek</div>
-                            <div class="listing-review-date">march 18</div>
+                            <div class="listing-review-name">Estere</div>
+                            <div class="listing-review-date">october 10</div>
                         </div>
                     </div>
-                    <div class="listing-review-text">Чудовий відпочинок у тихому місці посеред природи. Котедж добре обладнаний, чистий, а також є можливість</div>
+                    <div class="listing-review-text">Один із найцікавіших моментів моєї подорожі! Яке чудове розташування та неймовірний господар! Дуже рекомендую!</div>
                 </div>
 
                 <div class="d-flex flex-column align-items-start"
@@ -484,15 +484,15 @@
                     <div class="d-flex flex-row" style="width: 100%;">
                         <div style="width: 85px;">
                             <div class="listing-review-img-container">
-                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/c5f89e86-3ce6-4fec-abd1-dd69f44a90fb.jpg?im_w=240" />
+                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/35562e59-64f7-4c5e-9246-76017f35c155.jpg?im_w=240" />
                             </div>
                         </div>
                         <div>
-                            <div class="listing-review-name">Marek</div>
-                            <div class="listing-review-date">march 18</div>
+                            <div class="listing-review-name">Spencer</div>
+                            <div class="listing-review-date">october 10</div>
                         </div>
                     </div>
-                    <div class="listing-review-text">Чудовий відпочинок у тихому місці посеред природи. Котедж добре обладнаний, чистий, а також є можливість</div>
+                    <div class="listing-review-text">Таке гарне чарівне місце. Ми були тут у відпустці три дні, але хотіли б залишитися набагато довше. Гори навколо дивовижні, дуже гарна для довгих прогулянок. Власник був дуже доброзичливим</div>
                 </div>
 
                 <div class="d-flex flex-column align-items-start"
@@ -500,15 +500,15 @@
                     <div class="d-flex flex-row" style="width: 100%;">
                         <div style="width: 85px;">
                             <div class="listing-review-img-container">
-                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/c5f89e86-3ce6-4fec-abd1-dd69f44a90fb.jpg?im_w=240" />
+                                <img class="listing-review-img" src="https://a0.muscache.com/im/pictures/user/2a37d435-c3e6-48bc-8ccd-0590497c3093.jpg?im_w=240" />
                             </div>
                         </div>
                         <div>
-                            <div class="listing-review-name">Marek</div>
-                            <div class="listing-review-date">march 18</div>
+                            <div class="listing-review-name">Patrycja</div>
+                            <div class="listing-review-date">october 10</div>
                         </div>
                     </div>
-                    <div class="listing-review-text">Чудовий відпочинок у тихому місці посеред природи. Котедж добре обладнаний, чистий, а також є можливість</div>
+                    <div class="listing-review-text">Чудове розташування, дуже дружній персонал і помешкання було добре обладнане. Великий плюс за дружнє ставлення до собак.</div>
                 </div>
             </div>
 
