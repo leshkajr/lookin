@@ -49,13 +49,13 @@ Route::middleware('auth')->group(function () {
     Route::get('/house_type1',[ProfileController::class,'house_type1'])->name('profile.house_type1');
     Route::get('/location',[ProfileController::class,'house_location'])->name('profile.house_location');
     Route::get('/information',[ProfileController::class,'house_information'])->name('profile.house_information');
-     Route::get('/amenities',[ProfileController::class,'house_amenities'])->name('house_amenities');
+    Route::get('/amenities',[ProfileController::class,'house_amenities'])->name('house_amenities');
     Route::get('/photo_house',[ProfileController::class,'photo_house'])->name('profile.photo_house');
-    Route::get('/opisaniye',[ProfileController::class,'opisaniye'])->name('profile.house_opisaniye');
+    Route::get('/house_name',[ProfileController::class,'house_name'])->name('profile.house_name');
+    Route::get('/description',[ProfileController::class,'opisaniye'])->name('profile.house_opisaniye');
     Route::get('/first_stay',[ProfileController::class,'first_stay'])->name('profile.first_stay');
     Route::get('/house_price',[ProfileController::class,'house_price'])->name('profile.house_price');
     Route::get('/house_quest',[ProfileController::class,'house_quest'])->name('profile.house_quest');
-    Route::get('/house_name',[ProfileController::class,'house_name'])->name('profile.house_name');
     Route::get('/personal_data',[ProfileController::class,'personal_data'])->name('profile.personal_data');
     Route::get('/profils',[ProfileController::class,'profils'])->name('profile.profils');
 

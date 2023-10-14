@@ -6,11 +6,11 @@
     </header>
 @stop
 @section('content')
-    <main >
+    <main style="display: flex; justify-content: center; align-items: center;">
         <div class="house_photo_container">
             <div class="text-header">@lang('photo_house.Create_description')</div>
             <div class="location-text-description" style="margin-top: 2%">@lang('photo_house.property_special')</div>
-            <div class="div_photo_house" style="height: 300px">
+            <div class="div_photo_house" style="height: 300px; width: 100%;">
                <textarea id="textarea">
 
                </textarea>

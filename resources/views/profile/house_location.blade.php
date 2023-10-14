@@ -11,7 +11,7 @@
        <div class="text-header">Де розташоване ваше помешкання?</div>
          <div class="location-text-description">Вашу адресу буде повідомлено гостям лише після бронювання.</div>
          <div>
-             <div class="select_adress">
+             <div class="select_address">
                  <form method="get" id="form_country">
                      <div class="d-flex flex-column text_chouse" style="width: 100%;">
                          <div style="font-size: 15px; color: var(--text-color-light)" >Країна/регіон</div>
@@ -27,7 +27,7 @@
                      </div>
                  </form>
              </div>
-             <div class="select_adress">
+             <div class="select_address">
                  <form method="get" id="form_citi">
                      <div class="d-flex flex-column text_chouse" style="width: 100%;">
                          <div style="font-size: 15px; color: var(--text-color-light)" >Місто/село</div>
@@ -43,10 +43,10 @@
                  </form>
 
              </div>
-             <div class="select_adress">
+             <div class="select_address">
                  <input type="text" class="input_adress" placeholder="Поштовий індекс">
              </div>
-             <div class="select_adress">
+             <div class="select_address">
                  <input type="text" class="input_adress" placeholder="Адреса">
              </div>
          </div>
