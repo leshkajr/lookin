@@ -13,7 +13,7 @@
                     <div class="text-header">Тепер установіть ціну</div>
                     <div class="location-text-description" style="margin-top: 1.5%">Ви зможете будь-коли її змінити.</div>
                     <div class="price d-flex align-items-center justify-content-center w-100">
-                        <input type="text" value="$" class="clear-input" id="price">
+                        <input type="text" value="$" class="clear-input" id="price" style="margin-right: 60%">
                     </div>
                     <div class="price_container">
                         <div class="div_price">

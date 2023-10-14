@@ -9,12 +9,12 @@
     <main class="d-flex flex-row" style="margin-top: 5%;margin-left: 10%">
         <div>
             <div class="retangle_div1 d-flex flex-row justify-content-center align-items-center">
-               <img class="photo_profils"
-                    @if($user->profilePhoto === null) src="{{ asset("images/upload_file.png") }}"
-                    @else src="{{ asset("storage/images/photos/".$user->profilePhoto) }}"
-                    @endif
-                    id="imageProfile" />
-{{--               <img class="photo_profils" src="{{ asset('storage/images/photos/Tq80tfh1v4LZf2fQOAcNWvhFgnVM6qCtEPZpTxt8.jpg') }}" id="imageProfile" >--}}
+                <img class="photo_profils"
+                     @if($user->profilePhoto === null) src="{{ asset("images/upload_file.png") }}"
+                     @else src="{{ asset("storage/images/photos/".$user->profilePhoto) }}"
+                     @endif
+                     id="imageProfile" />
+                {{--               <img class="photo_profils" src="{{ asset('storage/images/photos/Tq80tfh1v4LZf2fQOAcNWvhFgnVM6qCtEPZpTxt8.jpg') }}" id="imageProfile" >--}}
             </div>
             <form enctype="multipart/form-data" style="margin: 0; padding:0;">
                 <input type="file" id="fileInputImage" style="display: none" accept="image" name="files[]" size=1>
@@ -23,7 +23,7 @@
         </div>
         <div class="d-flex flex-column" style="margin-left: 13%;padding-top: 2%;width: 70%">
             <div style="font-size: 24px;font-weight: 600">@lang('profils.profiles')</div>
-            <div style="margin-top: 3%;font-size: 14px; width: 65%; margin-bottom: 4%">@lang('profils.information')</div>
+            <div style="margin-top: 2%;font-size: 16px; width: 65%; margin-bottom: 4%">@lang('profils.information')</div>
             <div class="personal_block">
                 <form>
                     <div class="personal_text_header">@lang('profils.School')</div>
@@ -52,16 +52,16 @@
             </div>
             <div class="personal_block">
 
-                    <div class="personal_text_header">@lang('profils.you speak')</div>
-                       <div class="d-flex flex-wrap grid-container" id="div_languages">
-                           <div class="div_languages" id="launges">
-                               <div class="languages_text">Українська</div>
-                           </div>
-                           <div class="div_languages">
-                               <div class="languages_text" >Англійська</div>
-                           </div>
+                <div class="personal_text_header">@lang('profils.you speak')</div>
+                <div class="d-flex flex-wrap grid-container" id="div_languages">
+                    <div class="div_languages" id="launges">
+                        <div class="languages_text">Українська</div>
+                    </div>
+                    <div class="div_languages">
+                        <div class="languages_text" >Англійська</div>
+                    </div>
 
-                       </div>
+                </div>
                 @include('layouts.selection-leng')
                 <div class="div_button" style="margin-top: 4%;padding-left: 1%;margin-bottom: 3%">
                     <button style="font-size: 20px;font-weight: 500" id="clean" >Скасувати</button>
@@ -112,4 +112,9 @@
         @include('layouts.dialog-window-language')
         @include('layouts.dialog-window-currency')
     </div>
+@stop
+
+@section('scripts')
+
+    <script src="{{ URL::asset('js/loadImage.js')}}"></script>
 @stop

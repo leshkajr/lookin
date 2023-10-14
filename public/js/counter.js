@@ -1,92 +1,71 @@
 const decrementguests=document.getElementById('decrement_guests');
 const countGuest=document.getElementById('count_guests');
 const incrementguests = document.getElementById('increment_guests');
-//--------------------------------------------------------------------------------------
-let countguest=0;
-
-function updatecountguest(){
-    countGuest.textContent=countguest;
+let countquest=0;
+function updatequest()
+{
+    countGuest.textContent=countquest;
 }
-decrementguests.addEventListener('click',function (){
-    countguest--;
-    if(countguest<0)
-    {
-        countguest=0;
-    }
-    updatecountguest();
+incrementguests.addEventListener('click',()=>{
+  countquest++;
+  updatequest();
+
 });
-incrementguests.addEventListener('click',function (){
-   countguest++;
-   updatecountguest();
-});
-//----------------------------------
+ decrementguests.addEventListener('click',()=>{
+     countquest--;
+     if( countquest<0)
+     {
+         countquest=0;
+     }
+     updatequest();
+ });
+
 const decrementbedrooms=document.getElementById('decrement_bedrooms');
 const countbedrooms=document.getElementById('count_bedrooms');
 const incrementbedrooms = document.getElementById('increment_bedrooms');
 
 let count=0;
-function updatacount()
+
+function updatabedrums()
 {
     countbedrooms.textContent=count;
 }
-incrementbedrooms.addEventListener('click',function (){
+decrementbedrooms.addEventListener('click',()=>{
+   count--;
+   count=(count<0)?0:count;
+   updatabedrums();
+});
+incrementbedrooms.addEventListener("click",()=>{
     count++;
-    updatacount();
-});
-decrementbedrooms.addEventListener('click',function (){
-    count--;
-    if(count<0)
-    {
-        count=0;
-    }
-    updatacount();
-})
-//-------------------
-const decrementbeds=document.getElementById('decrement_beds');
-const countbeds=document.getElementById('count_beds');
-const incrementbeds = document.getElementById('increment_beds');
-let countBeds=0;
-
-function updatebeds()
-{
-    countbeds.textContent=countBeds;
-}
-decrementbeds.addEventListener('click',function (){
-    countBeds--;
-   if(countBeds<0)
-   {
-       countBeds=0;
-   }
-
-   updatebeds();
-});
-incrementbeds.addEventListener('click',function (){
-    countBeds++;
-    updatebeds();
-});
-//--------------------------------------------
-const decrementbathrooms=document.getElementById('decrement_bathrooms');
-const countbathrooms=document.getElementById('count_bathrooms');
-const incrementbathrooms = document.getElementById('increment_bathrooms');
-
-let countBathrooms=0;
-
-function updatebathrooms()
-{
-    countbathrooms.textContent=countBathrooms;
-}
-decrementbathrooms.addEventListener('click',function (){
-    countBathrooms--;
-    if(countBathrooms<0)
-    {
-        countBathrooms=0;
-    }
-
-    updatebathrooms();
-});
-incrementbathrooms.addEventListener('click',function (){
-    countBathrooms++;
-    updatebathrooms();
+    updatabedrums();
 });
 
+ const decrement_beds=document.getElementById("decrement_beds");
+ const beds=document.getElementById("count_beds");
+ const increment_beds=document.getElementById("increment_beds");
+ let coutbeds=0;
+ decrement_beds.addEventListener('click',()=>{
+    coutbeds--;
+    coutbeds=(coutbeds<0)?0:coutbeds;
 
+     beds.textContent=coutbeds;
+ });
+ increment_beds.addEventListener('click',()=>{
+     coutbeds++;
+     beds.textContent=coutbeds;
+ });
+ const decrement_bathrooms=document.getElementById("decrement_bathrooms");
+ const count_bathrooms=document.getElementById("count_bathrooms");
+ const increment_bathrooms=document.getElementById("increment_bathrooms");
+
+ let countbat=0;
+ decrement_bathrooms.addEventListener('click',()=>{
+     countbat=0;
+     countbat=(countbat<0)?0:coutbeds;
+     count_bathrooms.textContent=countbat;
+ });
+ increment_bathrooms.addEventListener('click',()=>{
+     countbat++;
+     count_bathrooms.textContent=countbat;
+
+ });

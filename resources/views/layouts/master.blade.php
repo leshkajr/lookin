@@ -41,7 +41,6 @@
     <script src="{{ URL::asset('js/showCheckboxes.js')}}"></script>
     <script src="{{ URL::asset('js/copyToClipboard.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/date-fns@2.24.0/"></script>
-    <script src="{{ URL::asset('js/counter.js')}}"></script>
     <script src="{{ URL::asset('js/dialogWindowSwal.js')}}"></script>
     <script src="{{ URL::asset('js/search.js')}}"></script>
     <script src="{{ URL::asset('js/selection-lengs.js')}}"></script>
@@ -50,6 +49,8 @@
     <script src="{{ URL::asset('js/radio_checked.js')}}"></script>
     <script src="{{ URL::asset('js/profils.js')}}"></script>
     <script src="{{ URL::asset('js/price.js')}}"></script>
+    <script src="{{ URL::asset('js/counter.js')}}"></script>
+
 
 
     @yield('scripts')

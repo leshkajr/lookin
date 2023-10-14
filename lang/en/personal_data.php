@@ -25,7 +25,8 @@ return[
     "reliable_contact"=>"A reliable contact person for alerting in an emergency.",
     "First"=>"First and last name",
     "Cancel"=>"Cancel",
-    "save"=>"Save"
+    "save"=>"Save",
+    "edit"=>"Edit"
 
 
 ];

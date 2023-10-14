@@ -64,3 +64,4 @@
         @include('layouts.dialog-window-currency')
     </div>
 @stop
+
