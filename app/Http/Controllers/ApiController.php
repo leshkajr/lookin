@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Address;
 use App\Models\City;
 use App\Models\Country;
 use App\Models\Image;
@@ -87,7 +88,12 @@ class ApiController extends Controller
             else if($propertyName === 'numberPhone'){
                 $user->numberPhone = $_POST['propertyText'];
             }
-
+            else if($propertyName === 'address'){
+                $values = explode(';',$propertyText);
+                Address::create([
+                    "firstLine" => $values[2],
+                ]);
+            }
             $user->update();
 
             return "ok";
