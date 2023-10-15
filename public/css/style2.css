@@ -3,19 +3,18 @@ form{
 }
 .select_address{
     width: 50%;
-    margin-top: 3%;
-    padding: 0.7% 3%;
+    margin-top: 2.2%;
+    padding: 0.4% 1.5%;
     background: linear-gradient(180deg, #F8F8FA 0%, rgba(226, 229, 244, 0.37) 100%);
     box-shadow: 1.5px 1.5px 4px 2px rgba(0, 0, 0, 0.25) inset;
-    border-radius: 15px; border: 1px solid;
+    border-radius: 15px;
     display: flex;
-
 
 }
 .sel_location{
     border: none;
     background-color: transparent;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 1%;
     width: 100%;
 
@@ -29,7 +28,7 @@ form{
 }
 .location_container{
     margin-left: 17%;
-    margin-top: 7%;
+    margin-top: 4%;
     height: 80%;
 }
 .adres_bloks{
@@ -163,6 +162,9 @@ form{
     font-size: 18px;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+.input_adress::placeholder {
+    color: var(--text-color);
 }
 .personal_divs{
     background: linear-gradient(180deg, #E2E5F4 0%, rgba(226, 229, 244, 0.37) 100%);
@@ -422,7 +424,7 @@ width: 0;
     flex-direction: column;
     justify-content: center;
 
-    margin-top: 3%;
+    margin-top: 1.5%;
 }
 .house_price_container{
     width: 100%;
@@ -431,7 +433,7 @@ width: 0;
 }
 .div_photo_house{
     width: 900px;
-    margin-top: 3%;
+    margin-top: 2%;
     background:   var(--background-color);
     box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 17px 2px rgba(0, 0, 0, 0.17);
     border-radius: 15px;

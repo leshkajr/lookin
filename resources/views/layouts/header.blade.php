@@ -16,15 +16,16 @@
         </div>
         <div class="col d-flex justify-content-center align-items-center">
             <div class="d-flex flex-row gap-3 justify-content-center align-items-center">
-                <button class="header-offer">@lang("main.offer_an_apartment")</button>
-                <button class="language-globe">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 27 27" fill="none">
-                        <circle cx="13.5" cy="13.5" r="12.75" stroke="#8B8B8B" stroke-width="1.5"/>
-                        <path d="M13.4996 0.40918C4.49956 8.70009 5.31774 18.5619 13.4996 26.591" stroke="#8B8B8B"/>
-                        <path d="M13.9094 0.818359C21.9049 8.85018 21.1781 18.4038 13.9094 26.182"
-                              stroke="#8B8B8B"/>
-                        <line x1="0.818359" y1="13.4092" x2="26.182" y2="13.4092" stroke="#8B8B8B"/>
-                    </svg>
+                <a class="header-offer" href="{{ route("create-listing.start") }}">@lang("main.offer_an_apartment")</a>
+                <button class="language-globe button-languages" type="button" data-bs-toggle="modal" data-bs-target="#languageModal">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 27 27" fill="none"
+                             style="margin: -3px 0 0 5px;">
+                            <circle cx="13.5" cy="13.5" r="12.75" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M13.4996 0.40918C4.49956 8.70009 5.31774 18.5619 13.4996 26.591" stroke="currentColor"/>
+                            <path d="M13.9094 0.818359C21.9049 8.85018 21.1781 18.4038 13.9094 26.182"
+                                  stroke="currentColor"/>
+                            <line x1="0.818359" y1="13.4092" x2="26.182" y2="13.4092" stroke="currentColor"/>
+                        </svg>
                 </button>
                 <div class="corner-menu rounded-4" onclick="openMenu('header-menu')">
                     <div class="rounded-4">

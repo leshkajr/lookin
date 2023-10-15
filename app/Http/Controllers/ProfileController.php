@@ -86,55 +86,7 @@ class ProfileController extends Controller
         return view('profile.notification',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,]);
     }
-    public function house_type()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
 
-
-        $categoriesListing = CategoryListing::all();
-
-        return view('profile.house_type',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,]);
-    }
-    public function house_type1()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
-
-        $typesListing = TypeListing::all();
-
-        return view('profile.house_type1',['languages'=>$languages, 'currencies'=>$currencies,
-            'typesListing'=>$typesListing,]);
-    }
-    public function house_location()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
-        $countries = Country::all();
-
-        $categoriesListing = CategoryListing::all();
-        $cities = null;
-        $choose_country_id = null;
-        if(isset($_GET['countryId'])){
-            $cities = City::where('countryId',$_GET['countryId'])->get();
-            $choose_country_id = $_GET['countryId'];
-        }
-
-        return view('profile.house_location',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing, 'cities'=>$cities,'countries'=>$countries,
-            'choose_country_id'=>$choose_country_id]);
-    }
-    public function house_information()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
-
-        $categoriesListing = CategoryListing::all();
-
-        return view('profile.house_information',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,]);
-    }
     public function personal_data()
     {
         $languages = Language::all();
@@ -167,86 +119,6 @@ class ProfileController extends Controller
 
         return view('profile.profils',['languages'=>$languages, 'currencies'=>$currencies,
             'categoriesListing'=>$categoriesListing,'verification'=>$verification,'user'=>$user]);
-    }
-    public function house_amenities()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
-        $verification=User::all();
-        $categoriesListing = CategoryListing::all();
-        $ameniti =Amenity::all();
-        $essentials = Amenity::where('categoryAmenityId', 1)->get();
-        $features= Amenity::where('categoryAmenityId', 2)->get();
-        $location= Amenity::where('categoryAmenityId', 3)->get();
-        $safety= Amenity::where('categoryAmenityId', 4)->get();
-        return view('profile.house_amenities',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification,'ameniti'=>$ameniti,'essentials'=>$essentials,'features'=>$features,'location'=>$location,'safety'=>$safety]);
-    }
-
-    public function photo_house()
-    {
-
-        $languages = Language::all();
-        $currencies = Currency::all();
-        $verification=User::all();
-        $categoriesListing = CategoryListing::all();
-
-        return view('profile.photo_house',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
-    }
-
-    public function opisaniye()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
-        $verification=User::all();
-        $categoriesListing = CategoryListing::all();
-
-        return view('profile.house_opisaniye',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
-    }
-    public function first_stay()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
-        $verification=User::all();
-        $categoriesListing = CategoryListing::all();
-
-        return view('profile.first_stay',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
-    }
-    public function house_price()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
-        $verification=User::all();
-        $categoriesListing = CategoryListing::all();
-
-        return view('profile.house_price',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
-    }
-
-    public function house_quest()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
-        $verification=User::all();
-        $categoriesListing = CategoryListing::all();
-
-        return view('profile.house_quest',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
-    }
-
-    public function house_name()
-    {
-        $languages = Language::all();
-        $currencies = Currency::all();
-        $verification=User::all();
-        $categoriesListing = CategoryListing::all();
-
-
-        return view('profile.house_name',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
     }
 
 }

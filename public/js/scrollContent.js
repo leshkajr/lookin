@@ -50,7 +50,9 @@
   function onScroll(scrollHeaderHeader,search_dialog_window_id){
       scrollHeader(scrollHeaderHeader);
       showListingHeaderInfo();
-      scrollOnSearch(search_dialog_window_id);
+      if(search_dialog_window_id !== null){
+          scrollOnSearch(search_dialog_window_id);
+      }
   }
 
     function scrollHeader(header){

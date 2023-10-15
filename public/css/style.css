@@ -21,6 +21,7 @@
     --background-color-active-button: #F6F7FC;
 
     --button-background-color: #0FB8CF;
+    --button-background-color-light-light: #b3e8ea;
 
     --border-bottom: #cdcfdc;
 
@@ -70,9 +71,46 @@ button{
 .button-wide{
     padding: 6px 30px;
 }
+.button-big{
+    padding: 20px 90px;
+    font-size: 40px;
+}
+.button-pulser::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--button-background-color);
+    border-radius: 10px;
+    z-index: -1;
+
+    animation: pulse 2000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+}
+@keyframes pulse {
+    0% {
+        opacity: 0.3;
+        filter: blur(5px);
+    }
+    50% {
+        transform: scaleY(1.20) scaleX(1.07);
+        opacity: 0.3;
+        filter: blur(10px);
+    }
+    100% {
+        opacity: 0.3;
+        filter: blur(5px);
+    }
+
+}
 a{
     color: var(--text-color);
     text-decoration: none;
+    cursor: pointer;
+}
+textarea{
+    color: var(--text-color-dark);
 }
 .clear-input{
     all: unset;
@@ -305,6 +343,9 @@ a{
 }
 .header-offer:hover{
     color: var(--text-color-hover);
+}
+.language-globe{
+    margin-top: 5px;
 }
 .language-globe:hover{
     color: var(--text-color-hover);
@@ -1163,6 +1204,14 @@ main{
 .link-route:hover{
     color: var(--button-background-color);
 }
+.link{
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+.link:hover{
+    color: var(--text-color-light);
+    text-decoration: var(--text-color-light) underline;
+}
 .password_eyes{
     display: flex;
     justify-content: flex-end;
@@ -1314,19 +1363,96 @@ ul{
 
     width: 65%;
 
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 10%;
 
+}
+.house_start_container{
+    width: 100%;
+    animation: slow_down 1s ease;
+}
+@keyframes slow_down {
+    0%{
+        opacity: 0.7;
+        margin-top: -40px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+.house_start_value{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+.house_start_value_number{
+    width: 4%;
+
+    font-size: 22px;
+    font-weight: 500;
+}
+.house_start_value_text{
+    width: 70%;
+}
+.house_start_value_title{
+    font-size: 22px;
+    font-weight: 500;
+}
+.house_start_value_description{
+    font-size: 15px;
+    color: var(--text-color-light);
+}
+.house_start_value_img{
+    width: 26%; margin-top: -20px;
+}
+
+.footer-start{
+    background-color: var(--background-color);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+.footer-start-progress_container{
+    height: 6px;
+    width: 100%;
+    background-color: var(--background-color-dark-1);
+}
+.footer-start-progress{
+    height: 6px;
+    background-color: var(--background-color-darker-1);
+}
+.button-start_next-container{
+    padding: 15px 30px;
+}
+.button-start_next{
+    padding: 10px 45px;
+    font-size: 18px;
+    float: right;
+    margin-bottom: 15px;
 }
 .house_block{
     /* Rectangle 23 */
 
-    width: 31%;
-    margin: 1%;
+    width: 29.9%;
+    margin: 1.7%;
 
-    background: #E2E5F4;
+    background: var(--background-color);
     box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 15px 2px rgba(0, 0, 0, 0.2), inset 2px 2px 3px rgba(255, 255, 255, 0.7);
     border-radius: 15px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.house_block:not(.house_block_active):hover{
+    background: var(--background-color--1);
+}
+.house_block_active{
+    background-color: var(--background-color-active-button);
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.20) inset, -1px -0.5px 4px 0px rgba(0, 0, 0, 0.20) inset;
 }
 .button_house{
     padding: 15px 90px;
@@ -1377,14 +1503,10 @@ ul{
 
 }
 .message-text-header{
-    /* Розмістіть свій будинок, готель або інше помешкання на Look’ in та заробляйте. */
-
     margin-top: 5px;
-
-    font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 24px;
     color: #8B8B8B;
 
@@ -1392,14 +1514,10 @@ ul{
 }
 
 .message-text-description{
-    /* Розмістіть свій будинок, готель або інше помешкання на Look’ in та заробляйте. */
+    margin-top: 3%;
 
-    margin-top: 4%;
-
-
-    font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #8B8B8B;
@@ -1465,20 +1583,20 @@ ul{
 .text_house_hed{
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 21px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
 .img_categoris{
     float: right;
-    margin-top: 20px;
+    margin-top: 10px;
 
 
 }
 .type_container{
     width: 65%;
 
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 10%;
 }
 .house_block1{
@@ -1486,16 +1604,22 @@ ul{
 
     /* Rectangle 23 */
     width: 100%;
-    height: 130px;
 
     background: #E2E5F4;
-    border: 7px solid #E2E5F4;
     box-shadow: -6px -4px 20px 2px rgba(255, 255, 255, 0.85), 3px 3px 17px 2px rgba(0, 0, 0, 0.17);
     border-radius: 15px;
     margin-bottom: 35px;
 
-    padding: 1.2% 2%;
-
+    padding: 2.5% 3%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.house_block1:not(.house_block1_active):hover{
+    background-color: var(--background-color--1);
+}
+.house_block1_active{
+    background-color: var(--background-color-active-button);
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.20) inset, -1px -0.5px 4px 0px rgba(0, 0, 0, 0.20) inset;
 }
 .house-type-container{
 

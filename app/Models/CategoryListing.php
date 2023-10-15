@@ -27,16 +27,20 @@ class CategoryListing extends Model
                     'iconPath' => 'images/categories-svg/mountains.svg',
                 ),
                 array(
+                    'nameCategoryListing' => 'city',
+                    'iconPath' => 'images/categories-svg/city.svg',
+                ),
+                array(
                     'nameCategoryListing' => 'lake',
                     'iconPath' => 'images/categories-svg/lake.svg',
                 ),
                 array(
-                    'nameCategoryListing' => 'farm',
-                    'iconPath' => 'images/categories-svg/farm.svg',
-                ),
-                array(
                     'nameCategoryListing' => 'hotel',
                     'iconPath' => 'images/categories-svg/hotel.svg',
+                ),
+                array(
+                    'nameCategoryListing' => 'farm',
+                    'iconPath' => 'images/categories-svg/farm.svg',
                 ),
                 array(
                     'nameCategoryListing' => 'camping',
@@ -53,10 +57,6 @@ class CategoryListing extends Model
                 array(
                     'nameCategoryListing' => 'history',
                     'iconPath' => 'images/categories-svg/history.svg',
-                ),
-                array(
-                    'nameCategoryListing' => 'city',
-                    'iconPath' => 'images/categories-svg/city.svg',
                 ),
                 array(
                     'nameCategoryListing' => 'futurism',

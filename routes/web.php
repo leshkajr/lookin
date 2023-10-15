@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CreateListingController;
 use App\Http\Controllers\LocalizationController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
@@ -45,19 +46,19 @@ Route::middleware('auth')->group(function () {
     Route::get('/account/profile',[ProfileController::class,'profils'])->name('account.profile');
     Route::get('/account/notification',[ProfileController::class,'notification'])->name('account.notification');
 
-    Route::get('/house_type',[ProfileController::class,'house_type'])->name('profile.house_type');
-    Route::get('/house_type1',[ProfileController::class,'house_type1'])->name('profile.house_type1');
-    Route::get('/location',[ProfileController::class,'house_location'])->name('profile.house_location');
-    Route::get('/information',[ProfileController::class,'house_information'])->name('profile.house_information');
-    Route::get('/amenities',[ProfileController::class,'house_amenities'])->name('house_amenities');
-    Route::get('/photo_house',[ProfileController::class,'photo_house'])->name('profile.photo_house');
-    Route::get('/house_name',[ProfileController::class,'house_name'])->name('profile.house_name');
-    Route::get('/description',[ProfileController::class,'opisaniye'])->name('profile.house_opisaniye');
-    Route::get('/first_stay',[ProfileController::class,'first_stay'])->name('profile.first_stay');
-    Route::get('/house_price',[ProfileController::class,'house_price'])->name('profile.house_price');
-    Route::get('/house_quest',[ProfileController::class,'house_quest'])->name('profile.house_quest');
-    Route::get('/personal_data',[ProfileController::class,'personal_data'])->name('profile.personal_data');
-    Route::get('/profils',[ProfileController::class,'profils'])->name('profile.profils');
+    Route::prefix('become-a-host')->group(function () {
+        Route::get('',[CreateListingController::class,'start'])->name('create-listing.start');
+        Route::post('/category',[CreateListingController::class,'category'])->name('create-listing.category');
+        Route::post('/type',[CreateListingController::class,'type'])->name('create-listing.type');
+        Route::post('/name',[CreateListingController::class,'name'])->name('create-listing.name');
+        Route::post('/description',[CreateListingController::class,'description'])->name('create-listing.description');
+        Route::post('/location',[CreateListingController::class,'location'])->name('create-listing.location');
+        Route::post('/information',[CreateListingController::class,'information'])->name('create-listing.information');
+        Route::post('/amenities',[CreateListingController::class,'amenities'])->name('create-listing.amenities');
+        Route::post('/photos',[CreateListingController::class,'photos'])->name('create-listing.photos');
+       Route::post('/confirmation',[CreateListingController::class,'confirmation'])->name('create-listing.confirmation');
+        Route::post('/price',[CreateListingController::class,'price'])->name('create-listing.price');
+    });
 
 });
 
@@ -70,7 +71,9 @@ require __DIR__.'/auth.php';
 
 Route::controller(\App\Http\Controllers\ApiController::class)->group(function () {
     Route::get('/api/location', 'getLocation');
+    Route::get('/api/getCities', 'getCities');
     Route::get('/api/cityfromip', 'getCityFromIp');
     Route::post('/api/changepropertyuser', 'changePropertyUser');
+    Route::post('/api/changepropertylisting', 'changePropertyListing');
     Route::post('/api/loadImage', 'loadImage');
 });

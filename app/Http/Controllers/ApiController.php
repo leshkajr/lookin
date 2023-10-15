@@ -6,6 +6,7 @@ use App\Models\Address;
 use App\Models\City;
 use App\Models\Country;
 use App\Models\Image;
+use App\Models\Listing;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -19,8 +20,6 @@ class ApiController extends Controller
      */
     public function getLocation()
     {
-
-
 
         $location = array();
         if(isset($_GET['text'])){
@@ -60,6 +59,16 @@ class ApiController extends Controller
         return $json !== false ? $json : "not found";
     }
 
+    function getCities(){
+        if(isset($_GET['countryId'])){
+            $cities = City::where('countryId',$_GET['countryId'])->get();
+            $json = json_encode($cities, JSON_THROW_ON_ERROR);
+            return $json;
+        } else {
+            return "Couldn't get countryId.";
+        }
+    }
+
     function getCityFromIp(){
         if (isset($_POST['latitude']) && isset($_POST['longitude'])) {
             $latitude = $_POST['latitude'];
@@ -67,7 +76,7 @@ class ApiController extends Controller
 
             return ['latitude' => $latitude,'longitude' => $longitude];
         } else {
-            return "Не удалось получить координаты.";
+            return "Couldn't get coordinates.";
         }
     }
 
@@ -95,6 +104,69 @@ class ApiController extends Controller
                 ]);
             }
             $user->update();
+
+            return "ok";
+        } else {
+            return "Не удалось получить координаты.";
+        }
+    }
+
+    function changePropertyListing(){
+        if (isset($_POST['listingId'], $_POST['propertyName'], $_POST['propertyValue'])) {
+            $listingId = $_POST['listingId'];
+            $propertyName = $_POST['propertyName'];
+            $propertyValue = $_POST['propertyValue'];
+            $listing = Listing::find($listingId);
+            if($propertyName === 'title'){
+                $listing->title = $propertyValue;
+            }
+            else if($propertyName === 'description'){
+                $listing->description = $propertyValue;
+            }
+            else if($propertyName === 'categoryId'){
+                $listing->categoryId = $propertyValue;
+            }
+            else if($propertyName === 'typeId'){
+                $listing->typeId = $propertyValue;
+            }
+            else if($propertyName === 'location'){
+                $values = explode(';',$propertyValue);
+                $countryId = $values[0];
+                $cityId = $values[1];
+                $cityName = City::find($cityId)->name;
+                $post_index = $values[2];
+                $firstLine = $values[3];
+                $secondLine = $values[4];
+
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_HEADER, false);
+                $data = [
+                    "q" => $firstLine." ".$post_index." ".$cityName,
+                    "tbm" => "lcl",
+                ];
+                curl_setopt($ch, CURLOPT_URL, "https://app.zenserp.com/api/v2/search?" . http_build_query($data));
+                curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+                    "Content-Type: application/json",
+                    "apikey: 386dafc0-5eb1-11ee-8845-8d1e917a38e1",
+                ));
+
+                $response = curl_exec($ch);
+                curl_close($ch);
+                $dataLocation = json_decode($response);
+                $address = [
+                    "firstLine" => $firstLine,
+                    "secondLine" => $secondLine,
+                    "index" => $post_index,
+                    "city" => $cityName,
+                    "lat" => $dataLocation->maps_results[0]->coordinates->latitude,
+                    "lon" => $dataLocation->maps_results[0]->coordinates->longitude,
+                ];
+                $listing->addressId = Address::create($address)->id;
+                $listing->cityId = $cityId;
+                $listing->countryId = $countryId;
+            }
+            $listing->update();
 
             return "ok";
         } else {
