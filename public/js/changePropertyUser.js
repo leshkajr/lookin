@@ -3,10 +3,10 @@ const lastname=document.getElementById("lastname");
 const cancel=document.getElementById("cancel");
 const button=document.getElementById("button");
 const save="Зберегти";
+const buttons= document.querySelectorAll('.button');
+//const divbitton=document.querySelectorAll('.div_button');
 function changePropertyUser(userId,type,text){
 
-    if(button.innerHTML===save)
-    {
         $.ajax({
             type: 'POST',
             headers: {
@@ -29,15 +29,32 @@ function changePropertyUser(userId,type,text){
                 openSwal('Вдалось!','Ви успішно змінили свої дані.');
             }
         });
-    }
-
-
-
 
 }
-button.addEventListener("click",()=>{
-    button.innerHTML=save;
-    cancel.style.display="flex";
-    name.removeAttribute("readonly");
-    lastname.removeAttribute("readonly");
+// button.addEventListener("click",()=>{
+//     button.innerHTML=save;
+//     cancel.style.display="flex";
+//     name.removeAttribute("readonly");
+//     lastname.removeAttribute("readonly");
+// });
+//let count=0;
+buttons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      var action = button.getAttribute('name');
+
+      switch (action) {
+          case 'names':
+              cancel.style.display="flex";
+         name.removeAttribute("readonly");
+         lastname.removeAttribute("readonly");
+              console.log("name");
+              break;
+          case 'email':
+              console.log("email");
+              break;
+          case 'phone':
+              console.log("phone");
+              break;
+      }
+    });
 });

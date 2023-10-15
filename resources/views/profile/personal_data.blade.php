@@ -29,22 +29,22 @@
                         </div>
                         <div class="div_button">
                             <button style="font-size: 20px;font-weight: 500;display: none" id="cancel">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right" id="button"
+                            <button class="button button_right"  id="button" name="names"
                                     onclick="changePropertyUser({{$user->id}},
                                     'name',document.getElementById('name').value + ';' + document.getElementById('lastname').value);"
-                            >Редагувати</button>
+                            >@lang('personal_data.edit')</button>
                         </div>
                 </div>
                 <div class="personal_block">
                         <div class="personal_text_header">@lang('personal_data.email')</div>
                         <div class="personal_text_description">@lang('personal_data.use_address')</div>
                         <div class="personal_div">
-                            <input type="email" placeholder="@lang('personal_data.Your_email')" class="input_text" id="email"
+                            <input type="email" placeholder="@lang('personal_data.Your_email')" readonly class="input_text" id="email"
                                    @if(isset($user->email)) value="{{$user->email}}" @endif>
                         </div>
                         <div class="div_button">
-                            <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right"
+                            <button style="font-size: 20px;font-weight: 500; display: none" >@lang('personal_data.Cancel')</button>
+                            <button class="button button_right" name="email"
                                     onclick="changePropertyUser({{$user->id}},
                                     'email',document.getElementById('email').value);">@lang('personal_data.save')</button>
                         </div>
@@ -62,7 +62,7 @@
 {{--                             style="margin-top: 1%">@lang('personal_data.will_send')</div>--}}
                         <div class="div_button">
                             <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right">@lang('personal_data.save')</button>
+                            <button class="button button_right" name="phone">@lang('personal_data.save')</button>
                         </div>
                     </form>
                 </div>
