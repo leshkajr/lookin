@@ -249,4 +249,18 @@ class ProfileController extends Controller
             'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
     }
 
+    public function advertisement()
+    {
+
+        $languages = Language::all();
+        $currencies = Currency::all();
+        $verification=User::all();
+        $categoriesListing = CategoryListing::all();
+        $user = Auth::user();
+        return view('profile.house_advertisement',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification,'user'=>$user]);
+    }
+
+
+
 }

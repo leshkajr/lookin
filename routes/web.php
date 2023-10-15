@@ -58,6 +58,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/house_quest',[ProfileController::class,'house_quest'])->name('profile.house_quest');
     Route::get('/personal_data',[ProfileController::class,'personal_data'])->name('profile.personal_data');
     Route::get('/profils',[ProfileController::class,'profils'])->name('profile.profils');
+    Route::get('/advertisement',[ProfileController::class,'advertisement'])->name('profile.house_advertisement');
 
 });
 
