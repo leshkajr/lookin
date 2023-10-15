@@ -47,6 +47,9 @@ buttons.forEach(function(button) {
               cancel.style.display="flex";
          name.removeAttribute("readonly");
          lastname.removeAttribute("readonly");
+         button.style.display="none";
+         var sevaname=document.getElementById('names');
+         sevaname.style.display="flex";
               console.log("name");
               break;
           case 'email':
