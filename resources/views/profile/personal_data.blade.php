@@ -40,32 +40,37 @@
                         <div class="personal_text_header">@lang('personal_data.email')</div>
                         <div class="personal_text_description">@lang('personal_data.use_address')</div>
                         <div class="personal_div">
-                            <input type="email" placeholder="@lang('personal_data.Your_email')" readonly class="input_text" id="email"
+                            <input type="email" placeholder="@lang('personal_data.Your_email')" readonly class="input_text" id="email_input"
                                    @if(isset($user->email)) value="{{$user->email}}" @endif>
                         </div>
                         <div class="div_button">
-                            <button style="font-size: 20px;font-weight: 500; display: none" >@lang('personal_data.Cancel')</button>
-                            <button class="button button_right" name="email"
+                            <button style="font-size: 20px;font-weight: 500; display: none" id="email_cancel" >@lang('personal_data.Cancel')</button>
+                            <button class="button button_right" style="display: none" id="email"
                                     onclick="changePropertyUser({{$user->id}},
-                                    'email',document.getElementById('email').value);">@lang('personal_data.save')</button>
+                                    'email',document.getElementById('email_input').value);">@lang('personal_data.save')</button>
+                            <button class=" button button_right" name="email" >@lang('personal_data.edit')</button>
                         </div>
+
                 </div>
 
                 <div class="personal_block">
-                    <form>
+
                         <div class="personal_text_header">@lang('personal_data.phone')</div>
                         <div class="personal_text_description">@lang('personal_data.add_phone')</div>
                         <div class="personal_divs">
-                            <input type="text" placeholder="(+380)" class="input_text"
+                            <input type="text" placeholder="(+380)" class="input_text" id="input_phone" readonly
                                    @if(isset($user->numberPhone)) value="{{$user->numberPhone}}" @endif>
                         </div>
 {{--                        <div class="personal_text_description"--}}
 {{--                             style="margin-top: 1%">@lang('personal_data.will_send')</div>--}}
                         <div class="div_button">
-                            <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right" name="phone">@lang('personal_data.save')</button>
+                            <button style="font-size: 20px;font-weight: 500;display: none" id="cansel_phone">@lang('personal_data.Cancel')</button>
+                            <button class="button button_right" style="display: none" id="phone"
+                            onclick="changePropertyUser({{$user->id}},
+                            'phone',document.getElementById('input_phone').value);"
+                            >@lang('personal_data.save')</button>
+                            <button class="button button_right" name="phone">@lang('personal_data.edit')</button>
                         </div>
-                    </form>
                 </div>
 
                 <div class="personal_block">
@@ -108,31 +113,30 @@
                     </form>
                 </div>
                 <div class="personal_block">
-                    <form>
                         <div class="personal_text_header">@lang('personal_data.Address')</div>
                         <div class="personal_text_description">@lang('personal_data.permanent_address')</div>
                         <div class="d-flex flex-column">
                             <div class="personal_divs">
-                                <input type="text" placeholder="@lang('personal_data.Country')" class="input_text">
+                                <input type="text" readonly placeholder="@lang('personal_data.Country')" class="input_text">
                             </div>
                             <div class="personal_divs">
-                                <input type="text" placeholder="@lang('personal_data.City')" class="input_text">
+                                <input type="text" readonly placeholder="@lang('personal_data.City')" class="input_text">
                             </div>
                             <div class="personal_divs">
-                                <input type="text" placeholder="@lang('personal_data.Street')" class="input_text">
+                                <input type="text" readonly placeholder="@lang('personal_data.Street')" class="input_text">
                             </div>
                             <div class="personal_divs">
-                                <input type="text" placeholder="@lang('personal_data.index')" class="input_text">
+                                <input type="text" readonly  placeholder="@lang('personal_data.index')" class="input_text">
                             </div>
                             <div class="personal_divs">
-                                <input type="text" placeholder="@lang('personal_data.State')" class="input_text">
+                                <input type="text" readonly placeholder="@lang('personal_data.State')" class="input_text">
                             </div>
                         </div>
                         <div class="div_button">
                             <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right">@lang('personal_data.save')</button>
+                            <button class="button button_right" style="display: none">@lang('personal_data.save')</button>
+                            <button class="button button_right" name="address">@lang('personal_data.edit')</button>
                         </div>
-                    </form>
                 </div>
 {{--                <div class="personal_block">--}}
 {{--                    <form>--}}

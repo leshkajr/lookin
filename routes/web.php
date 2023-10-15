@@ -56,9 +56,11 @@ Route::middleware('auth')->group(function () {
         Route::post('/information',[CreateListingController::class,'information'])->name('create-listing.information');
         Route::post('/amenities',[CreateListingController::class,'amenities'])->name('create-listing.amenities');
         Route::post('/photos',[CreateListingController::class,'photos'])->name('create-listing.photos');
-       Route::post('/confirmation',[CreateListingController::class,'confirmation'])->name('create-listing.confirmation');
+        Route::post('/confirmation',[CreateListingController::class,'confirmation'])->name('create-listing.confirmation');
         Route::post('/price',[CreateListingController::class,'price'])->name('create-listing.price');
     });
+
+    Route::get('/advertisement',[ProfileController::class,'advertisement'])->name('profile.house_advertisement');
 
 });
 
