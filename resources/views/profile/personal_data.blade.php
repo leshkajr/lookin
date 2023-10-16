@@ -28,12 +28,17 @@
                                    @if(isset($user->lastName)) value="{{$user->lastName}}" @endif id="lastname" readonly>
                         </div>
                         <div class="div_button">
-                            <button style="font-size: 20px;font-weight: 500;display: none" id="cancel">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right" style="display: none" id="names"
+                            <button style="font-size: 20px;font-weight: 500;display: none" onclick="hideButtons('name',this)"
+                            >@lang('personal_data.Cancel')</button>
+                            <button class="button button_right" style="display: none"
                                     onclick="changePropertyUser({{$user->id}},
-                                    'name',document.getElementById('name').value + ';' + document.getElementById('lastname').value);"
+                                    'name',document.getElementById('name').value + ';' + document.getElementById('lastname').value,
+                                     this);"
                             >@lang('personal_data.save')</button>
-                            <button class=" button button_right" name="names" >@lang('personal_data.edit')</button>
+                            <button style="font-size: 20px;font-weight: 500"></button>
+                            <button class="button button_right"
+                            onclick="showSave('name',this)"
+                            >@lang('personal_data.edit')</button>
                         </div>
                 </div>
                 <div class="personal_block">

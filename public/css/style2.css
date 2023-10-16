@@ -144,7 +144,7 @@ form{
 .div_button{
     display: flex;
     justify-content: space-between;
-    margin-top: 2.5%;
+    margin-top: 2%;
     margin-bottom: 1.5%;
 }
 .button_right{
@@ -159,9 +159,9 @@ form{
 }
 .input_adress{
     all: unset;
-    font-size: 18px;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    font-size: 17px;
+    padding-top: 0.7%;
+    padding-bottom: 0.5%;
 }
 .input_adress::placeholder {
     color: var(--text-color);
