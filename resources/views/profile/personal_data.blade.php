@@ -116,25 +116,27 @@
                         <div class="personal_text_header">@lang('personal_data.Address')</div>
                         <div class="personal_text_description">@lang('personal_data.permanent_address')</div>
                         <div class="d-flex flex-column">
-                            <div class="personal_divs">
-                                <input type="text" readonly placeholder="@lang('personal_data.Country')" class="input_text">
-                            </div>
-                            <div class="personal_divs">
-                                <input type="text" readonly placeholder="@lang('personal_data.City')" class="input_text">
-                            </div>
-                            <div class="personal_divs">
-                                <input type="text" readonly placeholder="@lang('personal_data.Street')" class="input_text">
-                            </div>
-                            <div class="personal_divs">
-                                <input type="text" readonly  placeholder="@lang('personal_data.index')" class="input_text">
-                            </div>
-                            <div class="personal_divs">
-                                <input type="text" readonly placeholder="@lang('personal_data.State')" class="input_text">
-                            </div>
+                          <div class="input_city">
+                              <div class="personal_divs">
+                                  <input type="text" readonly placeholder="@lang('personal_data.Country')" class="input_text">
+                              </div>
+                              <div class="personal_divs">
+                                  <input type="text" readonly placeholder="@lang('personal_data.City')" class="input_text">
+                              </div>
+                              <div class="personal_divs">
+                                  <input type="text" readonly placeholder="@lang('personal_data.Street')" class="input_text">
+                              </div>
+                              <div class="personal_divs">
+                                  <input type="text" readonly  placeholder="@lang('personal_data.index')" class="input_text">
+                              </div>
+                              <div class="personal_divs">
+                                  <input type="text" readonly placeholder="@lang('personal_data.State')" class="input_text">
+                              </div>
+                          </div>
                         </div>
                         <div class="div_button">
-                            <button style="font-size: 20px;font-weight: 500">@lang('personal_data.Cancel')</button>
-                            <button class="button button_right" style="display: none">@lang('personal_data.save')</button>
+                            <button style="font-size: 20px;font-weight: 500;display: none;" id="cansel_city">@lang('personal_data.Cancel')</button>
+                            <button class="button button_right" style="display: none" id="save_city">@lang('personal_data.save')</button>
                             <button class="button button_right" name="address">@lang('personal_data.edit')</button>
                         </div>
                 </div>

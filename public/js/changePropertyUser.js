@@ -8,7 +8,7 @@ const buttons= document.querySelectorAll('.button');
 const email=document.getElementById('email_input');
 const input_phone=document.getElementById('input_phone');
 const cancel_photo=document.getElementById('cansel_phone');
-const input_address=document.querySelectorAll('.personal_divs input');
+const input_address=document.querySelectorAll('.input_city input');
 
 //const divbitton=document.querySelectorAll('.div_button');
 function changePropertyUser(userId,type,text){
@@ -45,6 +45,13 @@ function changePropertyUser(userId,type,text){
 //     lastname.removeAttribute("readonly");
 // });
 //let count=0;
+function chencname(){
+    cancel.style.display="none";
+    name.attributes="readonly";
+    lastname.attributes="readonly";
+    let sevaname=document.getElementById('names');
+    sevaname.style.display="none";
+}
 buttons.forEach(function(button) {
     button.addEventListener('click', function() {
       var action = button.getAttribute('name');
@@ -79,7 +86,12 @@ buttons.forEach(function(button) {
               break;
           case 'address':
             console.log("address");
-             //input_address.removeAttribute('readonly');
+            var cansel_city=document.getElementById('cansel_city');
+            var save_city= document.getElementById('save_city');
+            button.style.display="none";
+            cansel_city.style.display="flex";
+            save_city.style.display="flex";
+
             break;
       }
     });

@@ -20,7 +20,7 @@
                       <div style="font-size: 20px;font-weight: 600">Вілла під Києвом</div>
                       <div class="price_adver">65$</div>
                       <div class="text_arend">Помешкання для оренди цілком</div>
-                      <div class="review">Переглянути</div>
+                      <div class="review"><a href="#">Переглянути</a></div>
                   </div>
               </div>
           </div>
