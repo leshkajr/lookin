@@ -1,6 +1,6 @@
 ﻿async function scrollContentRight() {
     const container = document.querySelector('.scroll-container');
-    const content = document.querySelector('.content');
+    const content = document.querySelector('.content-header-categories');
     for (let index = 0; index < 10; index++) {
         // if (container.scrollLeft < content.scrollWidth - container.clientWidth) {
           content.scrollLeft += 2;
@@ -25,7 +25,7 @@
 
  async function scrollContentLeft() {
     const container = document.querySelector('.scroll-container');
-    const content = document.querySelector('.content');
+    const content = document.querySelector('.content-header-categories');
     for (let index = 0; index < 10; index++) {
       // if (container.scrollLeft < content.scrollWidth - container.clientWidth) {
         content.scrollLeft -= 2;

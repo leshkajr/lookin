@@ -19,7 +19,7 @@ function chooseType(idType,e){
 }
 
 
-async function clickButtonNext(nameProperty, value){
+function clickButtonNext(nameProperty, value){
     $.ajax({
         type: 'POST',
         headers: {
@@ -42,7 +42,9 @@ async function clickButtonNext(nameProperty, value){
             // openSwal('Вдалось!','Ви успішно змінили свої дані.');
         }
     });
-
+    // if(nameProperty === 'location'){
+    //     setTimeout(function () { document.getElementById("form").submit(); }, 30000);
+    // }
     document.getElementById("form").submit();
 }
 

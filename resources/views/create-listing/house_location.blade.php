@@ -80,7 +80,7 @@
             }
         }
     </style>
-
+    @include('layouts.geolocation-loading-animation')
 @stop
 
 @section('footer')
