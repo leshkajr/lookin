@@ -17,12 +17,12 @@
                 <div class="text-header">@lang('create-listing.add_the_name')</div>
                 <div class="location-text-description" style="margin-top: 2%">@lang('create-listing.concise_names')</div>
                 <div class="div_photo_house" style="width: 100%; padding: 20px 25px;">
-                    <textarea id="textarea" style="height: 70px;" maxlength="32" minlength="3" name="title"
+                    <textarea id="textarea" style="height: 70px;" maxlength="64" minlength="3" name="title"
                     required></textarea>
                 </div>
                 <div style="margin-top: 2%" class="d-flex flex-row">
                     <span id="textcounter">0</span>
-                    <div>/32</div>
+                    <div>/64</div>
                 </div>
 
                 <div class="footer-start">

@@ -13,5 +13,8 @@ return [
     "add_the_name" => "Add the name of your home (house)",
     "concise_names" => "Concise names are the best. Please note: the name can be changed at any time.",
     "listing_located" => "Where is your listing located?",
+    "looking_for_coordinates" => "We are looking for coordinates for your listing!",
+    "successfully_found" => "Successfully found!",
+
 ];
 ?>

@@ -29,6 +29,8 @@
 
 
     --text-size-sm: 0.85rem;
+
+
 }
 *{
     font-family: Inter;
@@ -2198,12 +2200,24 @@ input::-webkit-inner-spin-button {
 }
 
 
+.remove_button{
+    cursor: pointer;
+}
+
 .geolocation-loading{
     background-color: var(--background-color);
     position: absolute;
     top: 42%;
-    right: 7%;
-    width: 300px;
+    right: 11%;
+    width: 250px;
     height: 400px;
     transform: scale(1.4);
+
+    display: none;
+}
+.geolocation-loading > div{
+    text-align: center;
+    font-size: 9px;
+    margin-top: -30px;
+    width: 90%;
 }

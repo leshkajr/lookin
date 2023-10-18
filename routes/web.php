@@ -77,5 +77,6 @@ Route::controller(\App\Http\Controllers\ApiController::class)->group(function ()
     Route::get('/api/cityfromip', 'getCityFromIp');
     Route::post('/api/changepropertyuser', 'changePropertyUser');
     Route::post('/api/changepropertylisting', 'changePropertyListing');
+    Route::post('/api/loadPhotosListing', 'loadPhotosListing');
     Route::post('/api/loadImage', 'loadImage');
 });

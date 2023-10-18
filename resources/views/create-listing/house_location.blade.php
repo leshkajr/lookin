@@ -39,7 +39,7 @@
                      </div>
                  </div>
                  <div class="select_address">
-                     <input type="text" class="input_adress" id="post_index" maxlength="5" placeholder="Поштовий індекс">
+                     <input type="text" class="input_adress" id="post_index" maxlength="6" placeholder="Поштовий індекс">
                  </div>
                  <div class="select_address">
                      <input type="text" class="input_adress" id="firstLine" placeholder="Адреса" required>

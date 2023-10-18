@@ -103,61 +103,81 @@ class CreateListingController extends Controller
     }
     public function information()
     {
+        $listingId = $_POST['listingId'];
         $languages = Language::all();
         $currencies = Currency::all();
 
         $categoriesListing = CategoryListing::all();
 
         return view('create-listing.house_information',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,]);
+            'categoriesListing'=>$categoriesListing,'listingId'=>$listingId]);
     }
 
     public function amenities()
     {
+        $listingId = $_POST['listingId'];
+
         $languages = Language::all();
         $currencies = Currency::all();
-        $verification=User::all();
         $categoriesListing = CategoryListing::all();
         $ameniti =Amenity::all();
-        $essentials = Amenity::where('categoryAmenityId', 1)->get();
-        $features= Amenity::where('categoryAmenityId', 2)->get();
-        $location= Amenity::where('categoryAmenityId', 3)->get();
-        $safety= Amenity::where('categoryAmenityId', 4)->get();
+        $essentials = [
+            "id" => 1,
+            "values" => Amenity::where('categoryAmenityId', 1)->get()
+        ];
+        $features = [
+            "id" => 2,
+            "values" => Amenity::where('categoryAmenityId', 2)->get()
+        ];
+        $location = [
+            "id" => 3,
+            "values" => Amenity::where('categoryAmenityId', 3)->get()
+        ];
+        $safety = [
+            "id" => 4,
+            "values" => Amenity::where('categoryAmenityId', 4)->get()
+        ];
         return view('create-listing.house_amenities',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification,'ameniti'=>$ameniti,'essentials'=>$essentials,'features'=>$features,'location'=>$location,'safety'=>$safety]);
+            'categoriesListing'=>$categoriesListing,'ameniti'=>$ameniti,
+            'essentials'=>$essentials,'features'=>$features,'location'=>$location,'safety'=>$safety,
+            'listingId'=>$listingId]);
     }
 
     public function photos()
     {
+        $listingId = $_POST['listingId'];
 
         $languages = Language::all();
         $currencies = Currency::all();
-        $verification=User::all();
         $categoriesListing = CategoryListing::all();
 
         return view('create-listing.house_photos',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+            'categoriesListing'=>$categoriesListing, 'listingId'=>$listingId]);
     }
 
     public function confirmation()
     {
+        $listingId = $_POST['listingId'];
+
         $languages = Language::all();
         $currencies = Currency::all();
         $verification=User::all();
         $categoriesListing = CategoryListing::all();
 
-        return view('create-listing.confirmation',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+        return view('create-listing.house_confirmation',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification, 'listingId'=>$listingId]);
     }
     public function price()
     {
+        $listingId = $_POST['listingId'];
+
         $languages = Language::all();
         $currencies = Currency::all();
         $verification=User::all();
         $categoriesListing = CategoryListing::all();
 
         return view('create-listing.house_price',['languages'=>$languages, 'currencies'=>$currencies,
-            'categoriesListing'=>$categoriesListing,'verification'=>$verification]);
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification, 'listingId'=>$listingId]);
     }
 
 }

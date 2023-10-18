@@ -1,6 +1,6 @@
 <?php
 return[
-  "guests"=>"Guests",
+  "guests"=>"Max count guests",
   "Bedrooms"=>"Bedrooms",
   "Beds"=>"Beds",
   "Bathrooms"=>"Bathrooms",

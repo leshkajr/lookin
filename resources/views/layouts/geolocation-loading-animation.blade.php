@@ -42,4 +42,7 @@
         </circle>
     </svg>
 
+    <div>@lang('create-listing.looking_for_coordinates')</div>
+    <div style="display: none;">@lang('create-listing.successfully_found')</div>
+
 </div>
