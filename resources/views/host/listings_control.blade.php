@@ -14,7 +14,7 @@
                 @foreach($hostListings as $listing)
                     <div class="listing-control d-flex flex-row align-items-center">
                         <div class="listing-control-img-container">
-                            <img src="{{ asset('storage/images/photos_listings/'.$listing['photos'][0]->path.'.jpg')}}">
+                            <img src="{{ asset('storage/images/photos_listings/'.$listing['photos'][0]->path)}}">
                         </div>
                         <div class="listing-control-title">
                             {{ $listing['title'] }}

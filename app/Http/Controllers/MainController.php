@@ -20,6 +20,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use DateTime;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Date;
 use MongoDB\Driver\Session;
 
 class MainController extends Controller
@@ -31,25 +32,108 @@ class MainController extends Controller
         $currencies = Currency::all();
         $categoriesListing = CategoryListing::all();
         $types_listings = TypeListing::all();
-        $amenities = Amenity::all();
+        $amenitiesFilters = Amenity::all();
         $categoriesAmenities = CategoryAmenity::all();
+//        dd($amenities->where('categoryAmenityId',1));
+
+        $listings_db = Listing::all();
+
+        $listings = array();
+        foreach ($listings_db as $listing_db){
+            $listing = [
+                'id'=>$listing_db->id,'title' => $listing_db->title, 'description' => $listing_db->description, 'hostId' => $listing_db->hostId, 'categoryId' => $listing_db->categoryId, 'typeId' => $listing_db->typeId, 'rating' => $listing_db->rating, 'countReviews' => $listing_db->countReviews, 'countRooms' => $listing_db->countRooms, 'countBathrooms' => $listing_db->countBathrooms, 'countLikes' => $listing_db->countLikes, 'priceForNight' => $listing_db->priceForNight, 'priceCleaning' => $listing_db->priceCleaning, 'discountWeek' => $listing_db->discountWeek, 'discountMonth' => $listing_db->discountMonth, 'mixRent' => $listing_db->mixRent, 'maxRent' => $listing_db->maxRent, 'needsConfirmFromHost' => $listing_db->needsConfirmFromHost, 'sleepingPlacesId' => $listing_db->sleepingPlacesId, 'isAvailable' => $listing_db->isAvailable, 'isPublic' => $listing_db->isPublic, 'isAlone' => $listing_db->isAlone, 'isAnimals' => $listing_db->isAnimals, 'countryId' => $listing_db->countryId, 'cityId' => $listing_db->cityId, 'addressId' => $listing_db->addressId, 'created_at' => $listing_db->created_at, 'updated_at' => $listing_db->updated_at,
+            ];
+
+            //diff day
+            $start_datetime = new DateTime($listing_db->created_at);
+            $diff = $start_datetime->diff(new DateTime());
+            $listing += [
+                'diffDay' => $diff->d,
+            ];
+
+            //country and city
+            $country = [
+                'id' => $listing_db->countryId,
+                'name' => Country::find($listing_db->countryId)->name,
+            ];
+            $city = [
+                'id' => $listing_db->cityId,
+                'name' => City::find($listing_db->cityId)->name,
+            ];
+            $listing += [
+                'country' => $country,
+                'city' => $city,
+            ];
+
+            //photos
+            $photos = PhotosPath::where('objectId',$listing_db->id)->get();
+            $listing += [
+                'photos' => $photos
+            ];
+
+            //isLike
+            $likesListing = LikesListing::where(['listingId' => $listing_db->id, 'userId' => Auth::id()])->get();
+            if(count($likesListing) === 0){
+                $listing += [
+                    'isLike' => false
+                ];
+            }
+            else{
+                $listing += [
+                    'isLike' => true
+                ];
+            }
+
+            //typeListing
+            $typeListing = TypeListing::find($listing_db->typeId);
+            $listing += [
+                'type' => $typeListing,
+            ];
+
+            //categoryListing
+            $categoryListing = CategoryListing::find($listing_db->categoryId);
+            $listing += [
+                'category' => $categoryListing,
+            ];
+
+            // host
+            $listing += [
+                'user' => User::find($listing_db->hostId),
+            ];
+
+            // amenities
+            $amenitiesListing = AmenitiesListings::where('listingId', $listing_db->id)->get();
+            $amenities = array();
+            foreach ($amenitiesListing as $amenityListing){
+                array_push($amenities,Amenity::find($amenityListing->amenityId));
+            }
+            $listing += [
+                'amenities' => $amenities,
+            ];
+
+            array_push($listings,$listing);
+        }
 
 
-
-//        $ip_api_url = 'https://api.ipify.org?format=json';
-//        $response = file_get_contents($ip_api_url);
-//        $data = json_decode($response, true);
-//        $user_ip = $data['ip'];
-//        $ip_info_api_url = 'http://ip-api.com/json/'.$user_ip;
-//        $response = file_get_contents($ip_info_api_url);
-//        $data = json_decode($response, true);
-//        $location = $data['city'];
+        if(isset($_GET['guests'],$_GET['arrivalDate'],$_GET['departureDate'])){
+            $guests = $_GET['guests'];
+            $arrivalDate = $_GET['arrivalDate'];
+            $departureDate = $_GET['departureDate'];
+        }
+        else{
+            $guests = 1;
+            $arrivalDate = time();
+            $departureDate = time() + 604800;
+        }
 
         $searchInfo = [
-            "city" => null,
-            "dateArrival" => null,
-            "dateDeparture" => null,
-            "guests" => 1,
+            "arrivalDateTimestamp" => $arrivalDate,
+            "arrivalDateDay" => date('j',$arrivalDate),
+            "arrivalDateMonth" => strtolower(substr(date('F',$arrivalDate),0,4)),
+            "departureDateTimestamp" => $departureDate,
+            "departureDateDay" => date('j',$departureDate),
+            "departureDateMonth" => strtolower(substr(date('F',$departureDate),0,4)),
+            "guests" => $guests,
         ];
         $location = null;
         if(isset($_GET['location_id'])){
@@ -60,11 +144,11 @@ class MainController extends Controller
             ];
         }
 
-//        dd($amenities->where('categoryAmenityId','1'));
+
         return view('main.main',
             ['languages'=>$languages, 'currencies'=>$currencies, 'categoriesListing'=>$categoriesListing,
-            'types_listings' => $types_listings,'amenities' => $amenities, 'categoriesAmenities'=>$categoriesAmenities,
-            'searchInfo' => $searchInfo,'location'=>$location]);
+            'types_listings' => $types_listings,'amenities' => $amenitiesFilters, 'categoriesAmenities'=>$categoriesAmenities,
+            'searchInfo' => $searchInfo,'location'=>$location, 'listings' => $listings]);
     }
 
     public function start($countryName = null) {
@@ -99,7 +183,7 @@ class MainController extends Controller
 
     public function rooms(){
 
-        $listing_db = Listing::find(1);
+        $listing_db = Listing::find($_GET['listingId']);
 
         $listing = [
             'title' => $listing_db->title, 'description' => $listing_db->description, 'hostId' => $listing_db->hostId, 'categoryId' => $listing_db->categoryId, 'typeId' => $listing_db->typeId, 'rating' => $listing_db->rating, 'countReviews' => $listing_db->countReviews, 'countRooms' => $listing_db->countRooms, 'countBathrooms' => $listing_db->countBathrooms, 'countLikes' => $listing_db->countLikes, 'priceForNight' => $listing_db->priceForNight, 'priceCleaning' => $listing_db->priceCleaning, 'discountWeek' => $listing_db->discountWeek, 'discountMonth' => $listing_db->discountMonth, 'mixRent' => $listing_db->mixRent, 'maxRent' => $listing_db->maxRent, 'needsConfirmFromHost' => $listing_db->needsConfirmFromHost, 'sleepingPlacesId' => $listing_db->sleepingPlacesId, 'isAvailable' => $listing_db->isAvailable, 'isPublic' => $listing_db->isPublic, 'isAlone' => $listing_db->isAlone, 'isAnimals' => $listing_db->isAnimals, 'countryId' => $listing_db->countryId, 'cityId' => $listing_db->cityId, 'addressId' => $listing_db->addressId, 'created_at' => $listing_db->created_at, 'updated_at' => $listing_db->updated_at,
@@ -174,6 +258,11 @@ class MainController extends Controller
             $guests = $_GET['guests'];
             $arrivalDate = $_GET['arrivalDate'];
             $departureDate = $_GET['departureDate'];
+        }
+        else{
+            $guests = 1;
+            $arrivalDate = time();
+            $departureDate = time() + 604800000;
         }
         $datediff = $departureDate - $arrivalDate;
         $days = ($datediff / (60 * 60 * 24)) / 1000;

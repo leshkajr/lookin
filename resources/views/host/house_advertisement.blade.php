@@ -17,7 +17,7 @@
             </div>
             <div class="container-div_adverti">
                 @foreach($hostListings as $listing)
-                    @if($listing['diffDay'] < 1)
+                    @if($listing['diffDay'] <= 1)
                         <div class="div_adverti">
                             <div class="header_text">Оголошення створено</div>
                             <div class="content">
