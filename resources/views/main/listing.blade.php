@@ -93,19 +93,19 @@
             <div class="listing-photos row" style="width: 100%; height: 500px; margin-top: 35px;">
                 <div class="col">
                     <div class="listing-photo">
-                        <img class="listing-photo-img" src="{{ asset($listing['photos'][0]['path']) }}"/>
+                        <img class="listing-photo-img" src="{{ asset('storage/images/photos_listings/'.$listing['photos'][0]['path']) }}"/>
                     </div>
                 </div>
                 <div class="col" style="padding-left: 20px;">
                     <div class="row">
                         <div class="col">
                             <div class="listing-photo listing-photo-img-sm">
-                                <img class="listing-photo-img" src="{{ asset($listing['photos'][1]['path']) }}"/>
+                                <img class="listing-photo-img" src="{{ asset('storage/images/photos_listings/'.$listing['photos'][1]['path']) }}"/>
                             </div>
                         </div>
                         <div class="col" style="margin-left: 15px;">
                             <div class="listing-photo listing-photo-img-sm">
-                                <img class="listing-photo-img" src="{{ asset($listing['photos'][2]['path']) }}"/>
+                                <img class="listing-photo-img" src="{{ asset('storage/images/photos_listings/'.$listing['photos'][2]['path']) }}"/>
                             </div>
                         </div>
                     </div>
@@ -113,12 +113,12 @@
                     <div class="row" style="margin-top: 15px;">
                         <div class="col">
                             <div class="listing-photo listing-photo-img-sm">
-                                <img class="listing-photo-img" src="{{ asset($listing['photos'][3]['path']) }}"/>
+                                <img class="listing-photo-img" src="{{ asset('storage/images/photos_listings/'.$listing['photos'][3]['path']) }}"/>
                             </div>
                         </div>
                         <div class="col" style="margin-left: 15px;">
                             <div class="listing-photo listing-photo-img-sm">
-                                <img class="listing-photo-img" src="{{ asset($listing['photos'][4]['path']) }}"/>
+                                <img class="listing-photo-img" src="{{ asset('storage/images/photos_listings/'.$listing['photos'][4]['path']) }}"/>
                             </div>
                         </div>
                     </div>

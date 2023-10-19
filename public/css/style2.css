@@ -650,6 +650,8 @@ position: relative;
 
     display: flex;
     flex-direction: row;
+
+    gap: 30px;
 }
 .div_adverti{
     background: #E2E5F4;
