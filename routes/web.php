@@ -7,6 +7,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\SetupController;
 use App\Http\Controllers\HostController;
+use App\Http\Controllers\GoogleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -61,8 +62,7 @@ Route::middleware('auth')->group(function () {
         Route::post('/price',[CreateListingController::class,'price'])->name('create-listing.price');
     });
 
-   // Route::get('/advertisement',[ProfileController::class,'advertisement'])->name('profile.house_advertisement');
-    Route::prefix('host')->group(function (){
+   Route::prefix('host')->group(function (){
         Route::get('',[HostController::class,'index'])->name('host');
         Route::get('/listings/control',[HostController::class,'listings'])->name('host.listings');
     });
@@ -82,5 +82,10 @@ Route::controller(\App\Http\Controllers\ApiController::class)->group(function ()
     Route::get('/api/cityfromip', 'getCityFromIp');
     Route::post('/api/changepropertyuser', 'changePropertyUser');
     Route::post('/api/changepropertylisting', 'changePropertyListing');
+    Route::post('/api/loadPhotosListing', 'loadPhotosListing');
     Route::post('/api/loadImage', 'loadImage');
 });
+
+
+Route::get('auth/google',[GoogleController::class,'googlepage']);
+Route::get('auth/google/callback',[GoogleController::class,'googlecallback']);

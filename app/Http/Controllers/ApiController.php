@@ -224,7 +224,7 @@ class ApiController extends Controller
         $file = $request->file('propertyValue');
         $destinationPath = public_path('storage/images/photos_listings');
         $typeObjectId = 1;
-        $generatedName = hash('sha256', $file->getClientOriginalName(),);
+        $generatedName = hash('sha256', $file->getClientOriginalName());
         $listingId = $_POST['listingId'];
         $file->move($destinationPath, $generatedName.".jpg");
         PhotosPath::create([
