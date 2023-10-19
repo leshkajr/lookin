@@ -19,6 +19,7 @@ use App\Models\TypeListing;
 class SetupController extends Controller
 {
     public function index(){
+        set_time_limit(120);
         Country::fillValues();
         Language::fillValues();
         Currency::fillValues();
