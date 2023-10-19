@@ -3,13 +3,19 @@
 namespace App\Http\Controllers;
 
 use App\Models\Address;
+use App\Models\AmenitiesListings;
 use App\Models\City;
 use App\Models\Country;
 use App\Models\Image;
 use App\Models\Listing;
+use App\Models\PhotosPath;
+use App\Models\SleepingPlace;
 use App\Models\User;
+use Illuminate\Http\File;
 use Illuminate\Http\Request;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use JsonException;
 
@@ -113,6 +119,7 @@ class ApiController extends Controller
 
     function changePropertyListing(){
         if (isset($_POST['listingId'], $_POST['propertyName'], $_POST['propertyValue'])) {
+            set_time_limit(120);
             $listingId = $_POST['listingId'];
             $propertyName = $_POST['propertyName'];
             $propertyValue = $_POST['propertyValue'];
@@ -148,7 +155,7 @@ class ApiController extends Controller
                 curl_setopt($ch, CURLOPT_URL, "https://app.zenserp.com/api/v2/search?" . http_build_query($data));
                 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
                     "Content-Type: application/json",
-                    "apikey: 386dafc0-5eb1-11ee-8845-8d1e917a38e1",
+                    "apikey: 07cd7540-6cd3-11ee-bfb2-1747a10ff0c3",
                 ));
 
                 $response = curl_exec($ch);
@@ -166,12 +173,82 @@ class ApiController extends Controller
                 $listing->cityId = $cityId;
                 $listing->countryId = $countryId;
             }
+            else if($propertyName === 'information'){
+                $values = explode(';',$propertyValue);
+                $max_count_guests = $values[0];
+                $count_rooms = $values[1];
+                $count_beds= $values[2];
+                $count_bathrooms= $values[3];
+
+                $listing->countRooms = $count_rooms;
+                $listing->countBathrooms = $count_bathrooms;
+                $listing->sleepingPlacesId = SleepingPlace::create([
+                    "countSingleBeds" => $count_beds,
+                    "countDoubleBeds" => 0,
+                    "countMattresses" => 0,
+                ])->id;
+            }
+            else if($propertyName === 'amenities'){
+                $values = explode(';',$propertyValue);
+                foreach($values as $value) {
+                    if(AmenitiesListings::all()->where("listingId",$listingId)
+                        ->where("amenityId",$value)->count() === 0){
+                        AmenitiesListings::create([
+                            'listingId' => $listingId,
+                            'amenityId' => $value,
+                        ]);
+                    }
+                }
+            }
+            else if($propertyName === 'confirmation'){
+                if($propertyValue === 'yes'){
+                    $listing->needsConfirmFromHost = true;
+                }
+                else{
+                    $listing->needsConfirmFromHost = false;
+                }
+            }
+            else if($propertyName === 'price'){
+                $listing->priceForNight = (double)$propertyValue;
+            }
+
             $listing->update();
 
             return "ok";
         } else {
             return "Не удалось получить координаты.";
         }
+    }
+
+    function loadPhotosListing(Request $request){
+        $file = $request->file('propertyValue');
+        $destinationPath = public_path('storage/images/photos_listings');
+        $typeObjectId = 1;
+        $generatedName = hash('sha256', $file->getClientOriginalName(),);
+        $listingId = $_POST['listingId'];
+        $file->move($destinationPath, $generatedName.".jpg");
+        PhotosPath::create([
+                'titlePhoto' => $file->getClientOriginalName(),
+                'typeObjectId' => $typeObjectId,
+                'objectId' => $listingId,
+                'path' => $generatedName.".jpg",
+        ]);
+
+//        foreach($_FILES as $file){
+////            Log::debug($file);
+//            $uploadFile = new UploadedFile("public/images/photos_listings/",$file['name']);
+//            $typeObjectId = 1;
+//            $generatedName = hash('sha256', $file['name']);
+//            $listingId = $_POST['listingId'];
+//            $uploadFile->move(public_path('images/photos_listings'), $generatedName);
+//            Storage::putFile('public/images/photos_listings/',$file,$generatedName);
+//            PhotosPath::create([
+//                'titlePhoto' => $file['name'],
+//                'typeObjectId' => $typeObjectId,
+//                'objectId' => $listingId,
+//                'path' => $generatedName,
+//            ]);
+//        }
     }
 
     function loadImage(){

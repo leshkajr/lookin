@@ -16,7 +16,11 @@
         </div>
         <div class="col d-flex justify-content-center align-items-center">
             <div class="d-flex flex-row gap-3 justify-content-center align-items-center">
-                <a class="header-offer" href="{{ route("create-listing.start") }}">@lang("main.offer_an_apartment")</a>
+                @if(App\Models\Listing::where('hostId',Auth::id())->count() === 0)
+                    <a class="header-offer" href="{{ route("create-listing.start") }}">@lang("main.offer_an_apartment")</a>
+                @else
+                    <a class="header-offer" style="font-size: 14px;" href="{{ route("host") }}">@lang("main.host_mode")</a>
+                @endif
                 <button class="language-globe button-languages" type="button" data-bs-toggle="modal" data-bs-target="#languageModal">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 27 27" fill="none"
                              style="margin: -3px 0 0 5px;">

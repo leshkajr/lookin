@@ -61,7 +61,6 @@ Route::middleware('auth')->group(function () {
     });
 
     Route::get('/advertisement',[ProfileController::class,'advertisement'])->name('profile.house_advertisement');
-    Route::get('/availability',[ProfileController::class,'availability'])->name('profile.availability');
 
 });
 

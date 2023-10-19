@@ -11,6 +11,8 @@ return [
     "offer_your_listing" => "Запропонувати помешкання",
     "on_the_lookin" => "на Look ' in",
     "account" => "Акаунт",
+    "manage_listings" => "Керувати оголошеннями",
+    "host_mode" => "Режим господаря",
     "help_center" => "Довідковий центр",
     "log_out" => "Вийти",
     "filters" => "Фільтри",

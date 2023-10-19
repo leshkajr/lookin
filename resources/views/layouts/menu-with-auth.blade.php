@@ -3,8 +3,16 @@
     <li class="header-menu-main-item">@lang("main.travels")</li>
     <li class="header-menu-main-item"><a href="{{ route('profile.favorite') }}">@lang("main.favorites")</a></li>
     <hr class="header-menu-hr-item">
-    <li class="header-menu-secondary-item">@lang("main.offer_your_listing")
-    </li>
+    @if(App\Models\Listing::where('hostId',Auth::id())->count() === 0)
+        <li class="header-menu-secondary-item">
+            <a href="{{ route('create-listing.start') }}">@lang("main.offer_your_listing")</a>
+        </li>
+    @else
+        <li class="header-menu-secondary-item">
+            <a href="{{ route('host') }}">@lang("main.manage_listings")</a>
+        </li>
+    @endif
+
     <li class="header-menu-secondary-item"><a href="{{ route('account') }}">@lang("main.account")</a></li>
     <hr class="header-menu-hr-item">
     <li class="header-menu-secondary-item">

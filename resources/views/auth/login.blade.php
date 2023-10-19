@@ -89,6 +89,14 @@
                 </x-primary-button>
             </div>
         </div>
+        <div class="d-flex items-center justify-center mt-2">
+            <a href="{{ url('auth/google') }}">
+                <button type="button" class="login-with-google-btn" >
+                    Sign in with Google
+                </button>
+            </a>
+
+        </div>
     </form>
 
     @include('layouts.languages-list')

@@ -54,3 +54,34 @@ function remove_photos(){
     document.getElementById("icon_download_photo").style.display = "flex";
     fileList = [];
 }
+
+async function clickPhotoButtonNext(nameProperty){
+    for (let file of fileList) {
+        let fd = new FormData();
+        fd.append('listingId',document.getElementById('listingId').value);
+        fd.append('propertyName',nameProperty);
+        fd.append('propertyValue',file);
+        $.ajax({
+            type: 'POST',
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data: fd,
+            url: '../api/loadPhotosListing',
+            contentType: false,
+            processData: false,
+            dataType: 'json',
+            async: true,
+
+            success: function(result){
+                console.log(result);
+            },
+
+            error: function(result){
+                console.log(result);
+            }
+        });
+    }
+
+    document.getElementById("form").submit();
+}
