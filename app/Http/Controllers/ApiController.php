@@ -231,7 +231,7 @@ class ApiController extends Controller
                 'titlePhoto' => $file->getClientOriginalName(),
                 'typeObjectId' => $typeObjectId,
                 'objectId' => $listingId,
-                'path' => $generatedName,
+                'path' => $generatedName.".jpg",
         ]);
 
 //        foreach($_FILES as $file){

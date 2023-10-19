@@ -11,6 +11,8 @@ return [
     "offer_your_listing" => "Offer your listing",
     "on_the_lookin" => "on the Look ' in",
     "account" => "Account",
+    "manage_listings" => "Manage your listings",
+    "host_mode" => "Host mode",
     "help_center" => "Help center",
     "log_out" => "Log out",
     "filters" => "Filters",
