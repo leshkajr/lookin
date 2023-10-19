@@ -8,7 +8,7 @@
 @section('content')
     <main class="d-flex align-items-center justify-content-center">
         <div class="house_price_container">
-            <form method="post" action="{{ route("create-listing.price") }}" id="form">
+            <form method="post" action="{{ route("host") }}" id="form">
                 @csrf
                 <input type="hidden" name="listingId" id="listingId" value="{{ $listingId }}"/>
 
@@ -83,6 +83,6 @@
 
 @section('scripts')
     <script type="application/javascript">
-        {{--let routeListingHost = {{ route() }}--}}
+        let routeListingHost = {{ route('host') }}
     </script>
 @stop

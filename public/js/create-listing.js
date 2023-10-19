@@ -77,7 +77,7 @@ async function clickButtonNext(nameProperty, value){
         }
     }
     else if(nameProperty === 'price'){
-        // window.location.href = routeListingHost;
+        window.location.href = '../host';
     }
     else{
         document.getElementById("form").submit();

@@ -20,6 +20,7 @@
 
     --background-color-active-button: #F6F7FC;
 
+    --button-like: #00e1ff;
     --button-background-color: #0FB8CF;
     --button-background-color-light-light: #b3e8ea;
 
@@ -605,6 +606,23 @@ main{
     margin-left: 14.7%;
 
 }
+.like-active > button > svg > path{
+    fill: var(--button-like);
+}
+.like-active > button > svg > path:last-child{
+    fill-opacity: 0.9;
+}
+.like-active{
+    animation: first-pulse 0.5s ease;
+}
+@keyframes first-pulse {
+    0% {
+        filter: blur(5px);
+    }
+    100%{
+        filter: blur(0);
+    }
+}
 /*@media (max-width: 2000px) {*/
 /*    .listing-img{*/
 /*        width: 26rem;*/
@@ -672,7 +690,7 @@ main{
     transition: 0.3s ease;
 
 }
-.listing-like:hover>button>svg>path.fill{
+.listing-like:not(.like-active):hover>button>svg>path.fill{
     opacity: 1;
 }
 .listing-localization{

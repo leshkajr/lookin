@@ -10,16 +10,24 @@
     <main>
         <div class="d-flex flex-wrap align-items-center justify-content-left listings">
             @foreach($listings as $listing)
-                <div class="listing-block"
-                     onclick="routeToRoom('{{ route('main.rooms') }}',
+                <div class="listing-block">
+                    <img class="listing-img"
+                         src="{{ asset('storage/images/photos_listings/'.$listing['photos'][0]->path) }}"
+
+                         onclick="routeToRoom('{{ route('main.rooms') }}',
                      {{ $listing['id'] }},
                      {{ $searchInfo['arrivalDateTimestamp'] }},
                      {{ $searchInfo['departureDateTimestamp'] }},
-                     {{ $searchInfo['guests'] }});">
-                    <img class="listing-img"
-                         src="{{ asset('storage/images/photos_listings/'.$listing['photos'][0]->path) }}"/>
+                     {{ $searchInfo['guests'] }});"/>
                     <div class="listing-like">
-                        <button>
+                        <button onclick="
+                            if(!this.parentElement.classList.contains('like-active')){
+                                this.parentElement.classList.add('like-active');
+                            }
+                            else{
+                                this.parentElement.classList.remove('like-active');
+                            }
+                        ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 33 28" fill="none">
                                 <path
                                     d="M16.641 27.7833C15.4432 26.6033 14.2689 25.453 13.1025 24.2962C9.77867 20.9963 6.4449 17.707 3.14466 14.3844C2.0032 13.2376 1.1414 11.886 0.808948 10.2886C0.351651 8.09243 0.920953 6.08125 2.17941 4.26639C4.62356 0.740473 9.21579 -0.408468 13.2366 1.46501C14.5093 2.05748 15.6158 2.87735 16.631 3.89565C16.7487 3.78407 16.8579 3.6838 16.9656 3.57999C18.5672 2.06172 20.4271 1.05401 22.6343 0.684686C27.3999 -0.121056 32.0371 3.35613 32.5636 8.10514C32.8183 10.408 31.9765 12.3076 30.509 13.984C29.7242 14.8809 28.841 15.6923 27.9942 16.534C24.294 20.2075 20.5918 23.8815 16.8878 27.5559C16.8136 27.6266 16.7344 27.6972 16.641 27.7833ZM16.6788 24.6105C16.7965 24.4693 16.8793 24.3513 16.9798 24.2518C20.6178 20.6484 24.2562 17.0453 27.895 13.4424C28.6659 12.6709 29.3118 11.7863 29.8098 10.8197C30.1123 10.2427 30.337 9.63824 30.3328 8.97091C30.3049 4.92384 26.302 1.94873 22.3818 3.08779C20.4056 3.6612 18.7876 4.82003 17.3651 6.26556C17.119 6.51484 16.8935 6.7846 16.6353 7.0706C16.4426 6.85875 16.2786 6.67514 16.1131 6.49366C14.9001 5.14382 13.3996 4.07728 11.7199 3.37096C8.42248 1.98899 4.74983 3.467 3.40648 6.71681C3.03765 7.6087 2.82077 8.54085 2.98985 9.50689C3.24596 10.9673 4.06567 12.1331 5.09441 13.1557C8.84268 16.8833 12.6 20.6025 16.3663 24.3132C16.4455 24.3986 16.5332 24.4749 16.6788 24.6105Z"
