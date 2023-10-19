@@ -49,11 +49,12 @@
                                    @if(isset($user->email)) value="{{$user->email}}" @endif>
                         </div>
                         <div class="div_button">
-                            <button style="font-size: 20px;font-weight: 500; display: none" id="email_cancel" >@lang('personal_data.Cancel')</button>
+                            <button style="font-size: 20px;font-weight: 500; display: none" id="email_cancel" onclick="hideButtons('email',this)" >@lang('personal_data.Cancel')</button>
                             <button class="button button_right" style="display: none" id="email"
                                     onclick="changePropertyUser({{$user->id}},
-                                    'email',document.getElementById('email_input').value);">@lang('personal_data.save')</button>
-                            <button class=" button button_right" name="email" >@lang('personal_data.edit')</button>
+                                    'email',document.getElementById('email_input').value,this);">@lang('personal_data.save')</button>
+                            <button style="font-size: 20px;font-weight: 500"></button>
+                            <button class=" button button_right" style="float: right" name="email" onclick="showSave('email',this)" >@lang('personal_data.edit')</button>
                         </div>
 
                 </div>
@@ -69,12 +70,13 @@
 {{--                        <div class="personal_text_description"--}}
 {{--                             style="margin-top: 1%">@lang('personal_data.will_send')</div>--}}
                         <div class="div_button">
-                            <button style="font-size: 20px;font-weight: 500;display: none" id="cansel_phone">@lang('personal_data.Cancel')</button>
+                            <button style="font-size: 20px;font-weight: 500;display: none" id="cansel_phone" onclick="hideButtons('phone',this)">@lang('personal_data.Cancel')</button>
                             <button class="button button_right" style="display: none" id="phone"
                             onclick="changePropertyUser({{$user->id}},
-                            'phone',document.getElementById('input_phone').value);"
+                            'phone',document.getElementById('input_phone').value,this);"
                             >@lang('personal_data.save')</button>
-                            <button class="button button_right" name="phone">@lang('personal_data.edit')</button>
+                            <button style="font-size: 20px;font-weight: 500"></button>
+                            <button class="button button_right" onclick="showSave('phone',this)" name="phone">@lang('personal_data.edit')</button>
                         </div>
                 </div>
 
@@ -113,7 +115,7 @@
 
                         <div class="d-flex flex-row justify-content-end"
                              style="margin-top: 2%">
-                            <button class="button button_right">@lang('personal_data.save')</button>
+                            <button class="button button_right" style="margin-bottom: 1%">@lang('personal_data.save')</button>
                         </div>
                     </form>
                 </div>
@@ -142,6 +144,7 @@
                         <div class="div_button">
                             <button style="font-size: 20px;font-weight: 500;display: none;" id="cansel_city">@lang('personal_data.Cancel')</button>
                             <button class="button button_right" style="display: none" id="save_city">@lang('personal_data.save')</button>
+                            <button style="font-size: 20px;font-weight: 500"></button>
                             <button class="button button_right" name="address">@lang('personal_data.edit')</button>
                         </div>
                 </div>

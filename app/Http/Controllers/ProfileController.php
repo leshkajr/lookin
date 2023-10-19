@@ -133,6 +133,16 @@ class ProfileController extends Controller
             'categoriesListing'=>$categoriesListing,'verification'=>$verification,'user'=>$user]);
     }
 
+    public function availability()
+    {
+        $languages = Language::all();
+        $currencies = Currency::all();
+        $verification=User::all();
+        $categoriesListing = CategoryListing::all();
+        $user = Auth::user();
+        return view('profile.availability',['languages'=>$languages, 'currencies'=>$currencies,
+            'categoriesListing'=>$categoriesListing,'verification'=>$verification,'user'=>$user]);
+    }
 
 
 }

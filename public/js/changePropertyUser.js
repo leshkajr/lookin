@@ -5,7 +5,7 @@ const lastname=document.getElementById("lastname");
 // const email_cancel=document.getElementById('email_cancel');
 // const save="Зберегти";
 // const buttons= document.querySelectorAll('.button');
-// const email=document.getElementById('email_input');
+ const email=document.getElementById('email_input');
 // const input_phone=document.getElementById('input_phone');
 // const cancel_photo=document.getElementById('cansel_phone');
 // const input_address=document.querySelectorAll('.personal_divs input');
@@ -49,6 +49,10 @@ function showSave(type,e){
             name.removeAttribute("readonly");
             lastname.removeAttribute("readonly");
             break;
+        case 'email':
+            email.removeAttribute("readonly");
+            break;
+
     }
 
     // switch (type) {
@@ -95,7 +99,10 @@ function hideButtons(type,e){
             name.setAttribute("readonly", "true");
             lastname.setAttribute("readonly","true");
             break;
+        case 'email':
+            email.setAttribute("readonly","true");
     }
+
 }
 
 // button.addEventListener("click",()=>{

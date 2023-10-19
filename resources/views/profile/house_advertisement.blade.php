@@ -6,7 +6,7 @@
     </header>
 @stop
 @section('content')
-  <main>
+  <main style="display: flex">
       <div class="adverticounter">
         <div class="count_text">
             <div style="font-size: 24px; font-weight: 600">Вітаемо,{{$user->name}}</div>
