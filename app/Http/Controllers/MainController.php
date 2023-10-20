@@ -37,7 +37,14 @@ class MainController extends Controller
 //        dd($amenities->where('categoryAmenityId',1));
 
         $listings_db = Listing::all();
-
+        if(isset($_GET['location_id'],$_GET['location_type'])){
+            if($_GET['location_type'] === "country"){
+                $listings_db = $listings_db->where('countryId',$_GET['location_id']);
+            }
+            else if($_GET['location_type'] === "city"){
+                $listings_db = $listings_db->where('cityId',$_GET['location_id']);
+            }
+        }
         $listings = array();
         foreach ($listings_db as $listing_db){
             $listing = [
@@ -261,8 +268,8 @@ class MainController extends Controller
         }
         else{
             $guests = 1;
-            $arrivalDate = time();
-            $departureDate = time() + 604800000;
+            $arrivalDate = time() * 1000;
+            $departureDate = time() + 604800000 * 1000;
         }
         $datediff = $departureDate - $arrivalDate;
         $days = ($datediff / (60 * 60 * 24)) / 1000;

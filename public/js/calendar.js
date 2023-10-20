@@ -15,8 +15,6 @@ function createCalendar(year, month) {
     const getArrivalDate = new Date(parseInt(url.searchParams.get('arrivalDate')));
     const getDepartureDate = new Date(parseInt(url.searchParams.get('departureDate')));
 
-    console.log(getArrivalDate);
-
     let startDate;
     let endDate;
 
@@ -45,11 +43,11 @@ function createCalendar(year, month) {
         document.getElementById("night").textContent = ": " + diffDays + " " + night;
     }
 
-    $tmp_date = new Date(new Date().setDate(getArrivalDate.getDate() + 1));
-    document.getElementById("dateArrivalInput").value = $tmp_date.toISOString().substring(0,10);
+    let tmp_date = new Date(new Date().setTime(getArrivalDate.getTime()));
+    document.getElementById("dateArrivalInput").value = tmp_date.toISOString().substring(0,10);
     document.getElementById("dateArrivalInput").setAttribute("min", today.toISOString().substring(0,10));
-    $tmp_date = new Date(new Date().setDate(getDepartureDate.getDate() + 1));
-    document.getElementById("dateDepartureInput").value = $tmp_date.toISOString().substring(0,10);
+    let tmp_date2 = new Date(new Date().setTime(getDepartureDate.getTime()));
+    document.getElementById("dateDepartureInput").value = tmp_date2.toISOString().substring(0,10);
 
 
     currentMonth.textContent = monthNames[month];
